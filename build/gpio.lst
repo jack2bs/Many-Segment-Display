@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s 			page 1
   28:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   29:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   30:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s 			page 2
 
 
   31:Core/Src/gpio.c **** 
@@ -111,16 +111,16 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s 			page 1
   64              	.LFE132:
   66              		.text
   67              	.Letext0:
-  68              		.file 2 "c:\\msys2\\mingw64\\arm-none-eabi\\include\\machine\\_default_types.h"
-  69              		.file 3 "c:\\msys2\\mingw64\\arm-none-eabi\\include\\sys\\_stdint.h"
+  68              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
+  69              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
   70              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s 			page 3
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gpio.c
-C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s:18     .text.MX_GPIO_Init:0000000000000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s:26     .text.MX_GPIO_Init:0000000000000000 MX_GPIO_Init
-C:\Users\jack2\AppData\Local\Temp\ccBGDRLe.s:62     .text.MX_GPIO_Init:000000000000001c $d
+                            *ABS*:00000000 gpio.c
+C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s:18     .text.MX_GPIO_Init:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\Jack2bs\AppData\Local\Temp\ccNCguJu.s:62     .text.MX_GPIO_Init:0000001c $d
 
 NO UNDEFINED SYMBOLS

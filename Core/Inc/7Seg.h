@@ -5,7 +5,7 @@
 #define TOP_RIGHT	0b00001000
 #define DEC_POINT	0b00010000
 #define BOT_RIGHT	0b00100000
-#define BOTTOM		0b01000000
+#define BOTTOM		0b01v000000
 #define BOT_LEFT	0b10000000
 
 #define NONE		0b00000000
@@ -25,82 +25,10 @@
 #define B_R_CORNER	BOTTOM | BOT_RIGHT
 #define B_L_CORNER	BOTTOM | BOT_LEFT
 
-const int oneDraw[4][4]
-{
-	{NONE, D_SHAPE , ALL_SEVEN, NONE	},
-	{NONE, NONE	   , ALL_SEVEN, NONE	},
-	{NONE, NONE	   , ALL_SEVEN, NONE	},
-	{NONE, BOTTOM_O, ALL_SEVEN, BOTTOM_O}
-};
 
-const int twoDraw[4][4]
-{
-	{BOTTOM_O, TOP_O   , TOP_O	 , BOTTOM_O},
-	{NONE	 , NONE	   , D_SHAPE , P_SHAPE },
-	{NONE	 , D_SHAPE , P_SHAPE , NONE	   },
-	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
-};
 
-const int threeDraw[4][4]
-{
-	{D_SHAPE, TOP_O		, TOP_O	  , B_SHAPE},
-	{NONE	, B_R_CORNER, BOTTOM_O, P_SHAPE},
-	{NONE	, T_R_CORNER, TOP_O	  , B_SHAPE},
-	{Q_SHAPE, BOTTOM_O	, BOTTOM_O, P_SHAPE}
-};
 
-const int fourDraw[4][4]
-{
-	{NONE	, NONE	  , D_SHAPE	, ALL_SEVEN},
-	{NONE	, D_SHAPE , NONE	, ALL_SEVEN},
-	{D_SHAPE, BOTTOM_O, BOTTOM_O, ALL_SEVEN},
-	{NONE	, NONE	  , NONE	, ALL_SEVEN}
-};
-
-const int fiveDraw[4][4]
-{
-	{ALL_SEVEN,	TOP_O	, TOP_O	  , TOP_O	  },
-	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
-	{BOTTOM_O ,	NONE	, NONE	  , TOP_O	  },
-	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE   }
-};
-
-const int sixDraw[4][4]
-{
-	{D_SHAPE  ,	P_SHAPE	, Q_SHAPE , B_SHAPE	  },
-	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
-	{ALL_SEVEN,	NONE	, NONE	  , ALL_SEVEN },
-	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE	  }
-};
-
-const int sevenDraw[4][4]
-{
-	{TOP_O, TOP_O	 , TOP_O  , ALL_SEVEN},
-	{NONE ,	NONE	 , D_SHAPE, NONE	 },
-	{NONE ,	ALL_SEVEN, NONE   , NONE	 },
-	{NONE ,	ALL_SEVEN, NONE   , NONE	 }
-};
-
-const int eightDraw[4][4]
-{
-	{D_SHAPE , TOP_O   , TOP_O   , B_SHAPE },
-	{TOP_O 	 , BOTTOM_O, BOTTOM_O, TOP_O   },
-	{BOTTOM_O, TOP_O   , TOP_O   , BOTTOM_O},
-	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
-};
-
-const int nineDraw[4][4]
-{
-	{D_SHAPE   , TOP_O  , TOP_O  , B_SHAPE  },
-	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
-	{T_R_CORNER, TOP_O  , TOP_O  , ALL_SEVEN},
-	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
-};
-
-const int zeroDraw[4][4]
-{
-	{D_SHAPE   , TOP_O  , TOP_O  , B_SHAPE  },
-	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
-	{ALL_SEVEN , NONE   , NONE   , ALL_SEVEN},
-	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
-};
+void updateDisplayCell(int data, int row, int col);
+void updateDisplayWithTime(int hr, int min);
+void setDisplayCell(int row, int col);
+void setDisplay();

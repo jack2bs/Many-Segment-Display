@@ -3,6 +3,7 @@
 #include "Lcd.h"
 #include "usb_device.h"
 #include "usbd_cdc_if.h"
+#include "7Seg.h"
 
 USBD_HandleTypeDef* usbHandler;
 uint8_t rxBuf[32];
@@ -105,7 +106,7 @@ void rtcInit(void)
 	RTC->CR |= (1<<RTC_CR_FMT_Pos);
 
 	RTC->TR = 0x0;
-	RTC->TR = (0b1<<RTC_TR_PM_Pos) | (0<<RTC_TR_HT_Pos) | (3<<RTC_TR_HU_Pos) | (2<<RTC_TR_MNT_Pos) | (7<<RTC_TR_MNU_Pos);
+	RTC->TR = (0b1<<RTC_TR_PM_Pos) | (0<<RTC_TR_HT_Pos) | (1<<RTC_TR_HU_Pos) | (4<<RTC_TR_MNT_Pos) | (4<<RTC_TR_MNU_Pos);
 
 	//RTC->DR |= ();
 
@@ -154,30 +155,25 @@ int main(void)
 
 	while (1)
 	{
-		for (int i = 0; i < 32; i++)
-		{
-			txBuf[i] = rxBuf[i];
-		}
-		txBuf[31] = '\n';
-		while (CDC_Transmit_FS(txBuf, 32) != USBD_OK);
-
-		if(rxBuf[0] == '!')
-		{
-			uint16_t pOut = (rxBuf[1] << 8) | rxBuf[2];
-			uint16_t pA = pOut & (0b1110011111101111);
-			uint16_t pB = pOut & ~(0b1110011111101111);
-			GPIOA->ODR = pA;
-			GPIOB->ODR = pB;
-		}
+		// for (int i = 0; i < 32; i++)
+		// {
+		// 	txBuf[i] = rxBuf[i];
+		// }
+		// txBuf[31] = '\n';
+		// while (CDC_Transmit_FS(txBuf, 32) != USBD_OK);
 
 
 
 
 
-		HAL_Delay(500);
+		HAL_Delay(250);
 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_Pos)) >> RTC_TR_ST_Pos) * 10;
 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_MNT_Pos)) >> RTC_TR_MNT_Pos) * 10;
 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_Pos)) >> RTC_TR_HT_Pos) * 10;
+
+		updateDisplayWithTime(hour, min);
+		setDisplay();
+
 		lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
 		returnHome();
 	}
