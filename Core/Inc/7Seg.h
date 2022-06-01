@@ -1,0 +1,106 @@
+
+#define TOP_LEFT	0b00000001
+#define CENTER 		0b00000010
+#define TOP 		0b00000100
+#define TOP_RIGHT	0b00001000
+#define DEC_POINT	0b00010000
+#define BOT_RIGHT	0b00100000
+#define BOTTOM		0b01000000
+#define BOT_LEFT	0b10000000
+
+#define NONE		0b00000000
+#define ALL_EIGHT	TOP | TOP_LEFT | TOP_RIGHT | CENTER | BOT_LEFT | BOT_RIGHT | BOTTOM | DEC_POINT
+#define ALL_SEVEN	TOP | TOP_LEFT | TOP_RIGHT | CENTER | BOT_LEFT | BOT_RIGHT | BOTTOM
+
+#define P_SHAPE		TOP | TOP_LEFT | TOP_RIGHT | CENTER | BOT_LEFT
+#define Q_SHAPE		TOP | TOP_LEFT | TOP_RIGHT | CENTER | BOT_RIGHT
+#define D_SHAPE		TOP_RIGHT | CENTER | BOT_LEFT | BOT_RIGHT | BOTTOM
+#define B_SHAPE		TOP_LEFT | CENTER | BOT_LEFT | BOT_RIGHT | BOTTOM
+
+#define TOP_O		TOP | TOP_LEFT | TOP_RIGHT | CENTER
+#define BOTTOM_O	CENTER | BOT_LEFT | BOT_RIGHT | BOTTOM
+
+#define T_R_CORNER	TOP | TOP_RIGHT
+#define T_L_CORNER	TOP | TOP_LEFT
+#define B_R_CORNER	BOTTOM | BOT_RIGHT
+#define B_L_CORNER	BOTTOM | BOT_LEFT
+
+const int oneDraw[4][4]
+{
+	{NONE, D_SHAPE , ALL_SEVEN, NONE	},
+	{NONE, NONE	   , ALL_SEVEN, NONE	},
+	{NONE, NONE	   , ALL_SEVEN, NONE	},
+	{NONE, BOTTOM_O, ALL_SEVEN, BOTTOM_O}
+};
+
+const int twoDraw[4][4]
+{
+	{BOTTOM_O, TOP_O   , TOP_O	 , BOTTOM_O},
+	{NONE	 , NONE	   , D_SHAPE , P_SHAPE },
+	{NONE	 , D_SHAPE , P_SHAPE , NONE	   },
+	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
+};
+
+const int threeDraw[4][4]
+{
+	{D_SHAPE, TOP_O		, TOP_O	  , B_SHAPE},
+	{NONE	, B_R_CORNER, BOTTOM_O, P_SHAPE},
+	{NONE	, T_R_CORNER, TOP_O	  , B_SHAPE},
+	{Q_SHAPE, BOTTOM_O	, BOTTOM_O, P_SHAPE}
+};
+
+const int fourDraw[4][4]
+{
+	{NONE	, NONE	  , D_SHAPE	, ALL_SEVEN},
+	{NONE	, D_SHAPE , NONE	, ALL_SEVEN},
+	{D_SHAPE, BOTTOM_O, BOTTOM_O, ALL_SEVEN},
+	{NONE	, NONE	  , NONE	, ALL_SEVEN}
+};
+
+const int fiveDraw[4][4]
+{
+	{ALL_SEVEN,	TOP_O	, TOP_O	  , TOP_O	  },
+	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
+	{BOTTOM_O ,	NONE	, NONE	  , TOP_O	  },
+	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE   }
+};
+
+const int sixDraw[4][4]
+{
+	{D_SHAPE  ,	P_SHAPE	, Q_SHAPE , B_SHAPE	  },
+	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
+	{ALL_SEVEN,	NONE	, NONE	  , ALL_SEVEN },
+	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE	  }
+};
+
+const int sevenDraw[4][4]
+{
+	{TOP_O, TOP_O	 , TOP_O  , ALL_SEVEN},
+	{NONE ,	NONE	 , D_SHAPE, NONE	 },
+	{NONE ,	ALL_SEVEN, NONE   , NONE	 },
+	{NONE ,	ALL_SEVEN, NONE   , NONE	 }
+};
+
+const int eightDraw[4][4]
+{
+	{D_SHAPE , TOP_O   , TOP_O   , B_SHAPE },
+	{TOP_O 	 , BOTTOM_O, BOTTOM_O, TOP_O   },
+	{BOTTOM_O, TOP_O   , TOP_O   , BOTTOM_O},
+	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
+};
+
+const int nineDraw[4][4]
+{
+	{D_SHAPE   , TOP_O  , TOP_O  , B_SHAPE  },
+	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
+	{T_R_CORNER, TOP_O  , TOP_O  , ALL_SEVEN},
+	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
+};
+
+const int zeroDraw[4][4]
+{
+	{D_SHAPE   , TOP_O  , TOP_O  , B_SHAPE  },
+	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
+	{ALL_SEVEN , NONE   , NONE   , ALL_SEVEN},
+	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
+};
