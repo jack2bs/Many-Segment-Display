@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /** @addtogroup STM32G4xx_HAL_Driver
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @{
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 2
 
 
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /* Exported functions --------------------------------------------------------*/
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** /** @defgroup PWREx_Exported_Functions PWR Extended Exported Functions
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 3
 
 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  122:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   {
  123:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     return PWR_REGULATOR_VOLTAGE_SCALE1_BOOST;
  124:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 4
 
 
  125:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
   73              		.loc 1 155 1 is_stmt 1 view -0
   74              		.cfi_startproc
   75              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 5
 
 
   76              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  189:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   else if (VoltageScaling == PWR_REGULATOR_VOLTAGE_SCALE1)
  190:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   {
  191:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     /* If current range is range 2 */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 6
 
 
  192:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     if (READ_BIT(PWR->CR1, PWR_CR1_VOS) == PWR_REGULATOR_VOLTAGE_SCALE2)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       while ((HAL_IS_BIT_SET(PWR->SR2, PWR_SR2_VOSF)) && (wait_loop_index != 0U))
  114              		.loc 1 172 7 view .LVU22
  172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       while ((HAL_IS_BIT_SET(PWR->SR2, PWR_SR2_VOSF)) && (wait_loop_index != 0U))
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 7
 
 
  115              		.loc 1 172 53 is_stmt 0 view .LVU23
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  155 006c 44D1     		bne	.L18
  156              		.loc 1 226 10 view .LVU38
  157 006e 0020     		movs	r0, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 8
 
 
  158              	.LVL6:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  204 00b4 C2F88030 		str	r3, [r2, #128]
  198:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  205              		.loc 1 198 7 view .LVU52
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 9
 
 
  206 00b8 1368     		ldr	r3, [r2]
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  246              	.LVL14:
  206:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       {
  247              		.loc 1 206 11 view .LVU67
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 10
 
 
  248 00ec 5B69     		ldr	r3, [r3, #20]
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  236:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *            @arg @ref PWR_BATTERY_CHARGING_RESISTOR_1_5 1.5 kOhms resistor
  237:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval None
  238:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 11
 
 
  239:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_EnableBatteryCharging(uint32_t ResistorSelection)
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  329              		@ frame_needed = 0, uses_anonymous_args = 0
  330              		@ link register save eliminated.
  257:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   CLEAR_BIT(PWR->CR4, PWR_CR4_VBE);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 12
 
 
  331              		.loc 1 257 3 view .LVU81
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  377              		.syntax unified
  378              		.thumb
  379              		.thumb_func
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 13
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 13
 
 
  380              		.fpu fpv4-sp-d16
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  292:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @note  Even if a PUy bit to set is reserved, the other PUy bits entered as input
  293:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *        parameter at the same time are set.
  294:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @param  GPIO: Specify the IO port. This parameter can be PWR_GPIO_A, ..., PWR_GPIO_G
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 14
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 14
 
 
  295:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *         (or PWR_GPIO_I depending on the devices) to select the GPIO peripheral.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  448              		.loc 1 314 8 is_stmt 0 view .LVU97
  449 0022 22EA0101 		bic	r1, r2, r1
  450 0026 5962     		str	r1, [r3, #36]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 15
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 15
 
 
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  493              		.loc 1 323 8 view .LVU112
  494 0056 7047     		bx	lr
  495              	.LVL30:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 16
 
 
  496              	.L43:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  538 0084 21F4FC71 		bic	r1, r1, #504
  539              	.LVL37:
  540              		.loc 1 333 8 is_stmt 0 view .LVU126
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 17
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 17
 
 
  541 0088 4905     		lsls	r1, r1, #21
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  346:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** }
  580              		.loc 1 346 1 is_stmt 0 view .LVU139
  581 00b2 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 18
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 18
 
 
  582              	.L49:
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  613 0008 04       		.byte	(.L59-.L53)/2
  614 0009 0D       		.byte	(.L58-.L53)/2
  615 000a 14       		.byte	(.L57-.L53)/2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 19
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 19
 
 
  616 000b 1B       		.byte	(.L56-.L53)/2
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  659 0038 1163     		str	r1, [r2, #48]
  381:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
  660              		.loc 1 381 8 is_stmt 1 view .LVU157
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 20
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 20
 
 
  366:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  704 0062 4905     		lsls	r1, r1, #21
  705 0064 490D     		lsrs	r1, r1, #21
  706 0066 23EA0101 		bic	r1, r3, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 21
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 21
 
 
  707 006a 9164     		str	r1, [r2, #72]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  748              		.syntax unified
  749              		.thumb
  750              		.thumb_func
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 22
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 22
 
 
  751              		.fpu fpv4-sp-d16
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  774 000d 3C       		.byte	(.L67-.L66)/2
  775 000e 4A       		.byte	(.L65-.L66)/2
  776 000f 00       		.p2align 1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 23
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 23
 
 
  777              	.L72:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  820              	.L70:
  442:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     case PWR_GPIO_C:
  443:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        SET_BIT(PWR->PDCRC, GPIONumber);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 24
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 24
 
 
  821              		.loc 1 443 8 is_stmt 1 view .LVU202
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  864              		.loc 1 452 8 view .LVU215
  865 0074 1A6C     		ldr	r2, [r3, #64]
  866 0076 22EA0101 		bic	r1, r2, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 25
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 25
 
 
  867              	.LVL80:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  461:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****        break;
  911              		.loc 1 461 8 is_stmt 1 view .LVU229
  427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 26
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 26
 
 
  912              		.loc 1 427 21 is_stmt 0 view .LVU230
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** HAL_StatusTypeDef HAL_PWREx_DisableGPIOPullDown(uint32_t GPIO, uint32_t GPIONumber)
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
  943              		.loc 1 487 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 27
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 27
 
 
  944              		.cfi_startproc
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  985              	.LVL94:
  986              		.loc 1 499 8 is_stmt 0 view .LVU246
  987 002a 23EA0101 		bic	r1, r3, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 28
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 28
 
 
  988 002e D162     		str	r1, [r2, #44]
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1030 0054 23EA0101 		bic	r1, r3, r1
  1031              	.LVL103:
  1032              		.loc 1 508 8 is_stmt 0 view .LVU261
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 29
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 29
 
 
  1033 0058 5164     		str	r1, [r2, #68]
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  517:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       status = HAL_ERROR;
  518:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       break;
  519:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 30
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 30
 
 
  520:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1111              		.cfi_endproc
  1112              	.LFE142:
  1114              		.section	.text.HAL_PWREx_DisablePullUpPullDownConfig,"ax",%progbits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 31
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 31
 
 
  1115              		.align	1
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  559:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval None
  560:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
  561:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_EnableSRAM2ContentRetention(void)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 32
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 32
 
 
  562:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1194              	.L100:
  1195              		.align	2
  1196              	.L99:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 33
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 33
 
 
  1197 000c 00700040 		.word	1073770496
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  592:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @brief Disable the Power Voltage Monitoring 1: VDDA versus FASTCOMP minimum voltage.
  593:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval None
  594:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 34
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 34
 
 
  595:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_DisablePVM1(void)
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1280 000a 7047     		bx	lr
  1281              	.L109:
  1282              		.align	2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 35
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 35
 
 
  1283              	.L108:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  625:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval None
  626:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
  627:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_EnablePVM3(void)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 36
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 36
 
 
  628:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1371 000c 00700040 		.word	1073770496
  1372              		.cfi_endproc
  1373              	.LFE151:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 37
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 37
 
 
  1375              		.section	.text.HAL_PWREx_EnablePVM4,"ax",%progbits
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1415              		.cfi_startproc
  1416              		@ args = 0, pretend = 0, frame = 0
  1417              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 38
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 38
 
 
  1418              		@ link register save eliminated.
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1450              		.loc 1 680 3 view .LVU315
  681:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   assert_param(IS_PWR_PVM_MODE(sConfigPVM->Mode));
  1451              		.loc 1 681 3 view .LVU316
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 39
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 39
 
 
  682:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  725:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       __HAL_PWR_PVM2_EXTI_DISABLE_EVENT();
  1463              		.loc 1 725 7 is_stmt 1 view .LVU320
  1464 0012 754B     		ldr	r3, .L150
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 40
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 40
 
 
  1465 0014 5A6A     		ldr	r2, [r3, #36]
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  741:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  742:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Configure the edge */
  743:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       if((sConfigPVM->Mode & PVM_RISING_EDGE) == PVM_RISING_EDGE)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 41
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 41
 
 
  1504              		.loc 1 743 7 view .LVU332
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  753:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** #endif /* PWR_CR2_PVME2 */
  754:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  755:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     case PWR_PVM_3:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 42
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 42
 
 
  756:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Clear any previous config. Keep it clear if no event or IT mode is selected */
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  793:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       /* Configure interrupt mode */
  794:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       if((sConfigPVM->Mode & PVM_MODE_IT) == PVM_MODE_IT)
  1561              		.loc 1 794 7 view .LVU349
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 43
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 43
 
 
  1562              		.loc 1 794 21 is_stmt 0 view .LVU350
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1599 00e2 4368     		ldr	r3, [r0, #4]
  1600              		.loc 1 811 9 view .LVU363
  1601 00e4 13F0020F 		tst	r3, #2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 44
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 44
 
 
  1602 00e8 7CD0     		beq	.L147
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1643 0120 13F4803F 		tst	r3, #65536
  1644 0124 04D0     		beq	.L132
  700:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 45
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 45
 
 
  1645              		.loc 1 700 9 is_stmt 1 view .LVU376
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1686              		.loc 1 677 21 is_stmt 0 view .LVU389
  1687 0166 0020     		movs	r0, #0
  1688              	.LVL121:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 46
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 46
 
 
  677:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1730 01a8 536A     		ldr	r3, [r2, #36]
  1731 01aa 43F02003 		orr	r3, r3, #32
  1732 01ae 5362     		str	r3, [r2, #36]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 47
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 47
 
 
  1733              	.L139:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  677:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
  1774              		.loc 1 677 21 view .LVU416
  1775 01de 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 48
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 48
 
 
  1776              	.LVL128:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  835:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
  836:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_EnableLowPowerRunMode(void)
  837:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 49
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 49
 
 
  1808              		.loc 1 837 1 is_stmt 1 view -0
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1845 0002 1368     		ldr	r3, [r2]
  1846 0004 23F48043 		bic	r3, r3, #16384
  1847 0008 1360     		str	r3, [r2]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 50
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 50
 
 
  857:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  865:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   {
  866:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     return HAL_TIMEOUT;
  867:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 51
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 51
 
 
  868:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  896:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** {
  1917              		.loc 1 896 1 is_stmt 1 view -0
  1918              		.cfi_startproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 52
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 52
 
 
  1919              		@ args = 0, pretend = 0, frame = 0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  1952              	.L165:
  918:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
  919:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 53
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 53
 
 
  920:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   /* Reset SLEEPDEEP bit of Cortex System Control Register */
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  940:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @param STOPEntry  specifies if Stop mode in entered with WFI or WFE instruction.
  941:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *          This parameter can be one of the following values:
  942:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *            @arg @ref PWR_STOPENTRY_WFI  Enter Stop mode with WFI instruction
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 54
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 54
 
 
  943:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   *            @arg @ref PWR_STOPENTRY_WFE  Enter Stop mode with WFE instruction
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2017              	@ 0 "" 2
  968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     __WFE();
  2018              		.loc 1 968 5 view .LVU466
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 55
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 55
 
 
  2019              	@ 968 "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" 1
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  984:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @note  The I/Os can be configured either with a pull-up or pull-down or can be kept in analog s
  985:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   * @retval None
  986:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 56
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 56
 
 
  987:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** void HAL_PWREx_EnterSHUTDOWNMode(void)
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2098              		.fpu fpv4-sp-d16
  2100              	HAL_PWREx_PVM1Callback:
  2101              	.LFB161:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 57
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 57
 
 
 1003:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
 1057:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     /* Clear PVM4 exti pending bit */
 1058:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****     __HAL_PWR_PVM4_EXTI_CLEAR_FLAG();
 1059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 58
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 58
 
 
 1060:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** }
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2132              		.section	.text.HAL_PWREx_PVM3Callback,"ax",%progbits
  2133              		.align	1
  2134              		.weak	HAL_PWREx_PVM3Callback
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 59
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 59
 
 
  2135              		.syntax unified
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2169              		.cfi_endproc
  2170              	.LFE164:
  2172              		.section	.text.HAL_PWREx_PVD_PVM_IRQHandler,"ax",%progbits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 60
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 60
 
 
  2173              		.align	1
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2216              		.loc 1 1044 6 is_stmt 0 view .LVU494
  2217 0020 144B     		ldr	r3, .L194
  2218 0022 5B6B     		ldr	r3, [r3, #52]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 61
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 61
 
 
 1044:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   {
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2261              		.loc 1 1047 5 view .LVU506
  2262 005c FFF7FEFF 		bl	HAL_PWREx_PVM3Callback
  2263              	.LVL140:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 62
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 62
 
 
 1050:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   }
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
 1120:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** }
  2306              		.loc 1 1120 1 is_stmt 0 view .LVU513
  2307 000a 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 63
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 63
 
 
  2308              	.L198:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2353              	.LFB167:
 1134:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** #endif /* PWR_CR3_UCPD_STDBY */
 1135:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 64
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 64
 
 
 1136:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c **** #if defined(PWR_CR3_UCPD_DBDIS)
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2386              		@ frame_needed = 0, uses_anonymous_args = 0
  2387              		@ link register save eliminated.
 1160:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   /* Write 1 to disable the USB Type-C dead battery pull-down behavior */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 65
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 65
 
 
 1161:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c ****   SET_BIT(PWR->CR3, PWR_CR3_UCPD_DBDIS);
@@ -3866,136 +3866,136 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 1
  2409              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
  2410              		.file 8 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h"
  2411              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 66
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 66
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_pwr_ex.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:18     .text.HAL_PWREx_GetVoltageRange:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:26     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:58     .text.HAL_PWREx_GetVoltageRange:00000020 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:63     .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:70     .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:274    .text.HAL_PWREx_ControlVoltageScaling:00000100 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:281    .text.HAL_PWREx_EnableBatteryCharging:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:288    .text.HAL_PWREx_EnableBatteryCharging:00000000 HAL_PWREx_EnableBatteryCharging
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:312    .text.HAL_PWREx_EnableBatteryCharging:00000018 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:317    .text.HAL_PWREx_DisableBatteryCharging:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:324    .text.HAL_PWREx_DisableBatteryCharging:00000000 HAL_PWREx_DisableBatteryCharging
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:341    .text.HAL_PWREx_DisableBatteryCharging:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:346    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:353    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 HAL_PWREx_EnableInternalWakeUpLine
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:370    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:375    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:382    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 HAL_PWREx_DisableInternalWakeUpLine
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:399    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:404    .text.HAL_PWREx_EnableGPIOPullUp:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:411    .text.HAL_PWREx_EnableGPIOPullUp:00000000 HAL_PWREx_EnableGPIOPullUp
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:427    .text.HAL_PWREx_EnableGPIOPullUp:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:585    .text.HAL_PWREx_EnableGPIOPullUp:000000b4 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:590    .text.HAL_PWREx_DisableGPIOPullUp:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:597    .text.HAL_PWREx_DisableGPIOPullUp:00000000 HAL_PWREx_DisableGPIOPullUp
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:613    .text.HAL_PWREx_DisableGPIOPullUp:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:741    .text.HAL_PWREx_DisableGPIOPullUp:00000088 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:746    .text.HAL_PWREx_EnableGPIOPullDown:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:753    .text.HAL_PWREx_EnableGPIOPullDown:00000000 HAL_PWREx_EnableGPIOPullDown
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:769    .text.HAL_PWREx_EnableGPIOPullDown:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:928    .text.HAL_PWREx_EnableGPIOPullDown:000000b8 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:933    .text.HAL_PWREx_DisableGPIOPullDown:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:940    .text.HAL_PWREx_DisableGPIOPullDown:00000000 HAL_PWREx_DisableGPIOPullDown
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:956    .text.HAL_PWREx_DisableGPIOPullDown:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1081   .text.HAL_PWREx_DisableGPIOPullDown:00000084 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1086   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1093   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 HAL_PWREx_EnablePullUpPullDownConfig
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1110   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1115   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1122   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 HAL_PWREx_DisablePullUpPullDownConfig
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1139   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1144   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1151   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 HAL_PWREx_EnableSRAM2ContentRetention
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1168   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1173   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1180   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 HAL_PWREx_DisableSRAM2ContentRetention
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1197   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1202   .text.HAL_PWREx_EnablePVM1:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1209   .text.HAL_PWREx_EnablePVM1:00000000 HAL_PWREx_EnablePVM1
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1226   .text.HAL_PWREx_EnablePVM1:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1231   .text.HAL_PWREx_DisablePVM1:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1238   .text.HAL_PWREx_DisablePVM1:00000000 HAL_PWREx_DisablePVM1
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1255   .text.HAL_PWREx_DisablePVM1:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1260   .text.HAL_PWREx_EnablePVM2:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1267   .text.HAL_PWREx_EnablePVM2:00000000 HAL_PWREx_EnablePVM2
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1284   .text.HAL_PWREx_EnablePVM2:0000000c $d
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 67
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:18     .text.HAL_PWREx_GetVoltageRange:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:26     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:58     .text.HAL_PWREx_GetVoltageRange:00000020 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:63     .text.HAL_PWREx_ControlVoltageScaling:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:70     .text.HAL_PWREx_ControlVoltageScaling:00000000 HAL_PWREx_ControlVoltageScaling
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:274    .text.HAL_PWREx_ControlVoltageScaling:00000100 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:281    .text.HAL_PWREx_EnableBatteryCharging:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:288    .text.HAL_PWREx_EnableBatteryCharging:00000000 HAL_PWREx_EnableBatteryCharging
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:312    .text.HAL_PWREx_EnableBatteryCharging:00000018 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:317    .text.HAL_PWREx_DisableBatteryCharging:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:324    .text.HAL_PWREx_DisableBatteryCharging:00000000 HAL_PWREx_DisableBatteryCharging
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:341    .text.HAL_PWREx_DisableBatteryCharging:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:346    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:353    .text.HAL_PWREx_EnableInternalWakeUpLine:00000000 HAL_PWREx_EnableInternalWakeUpLine
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:370    .text.HAL_PWREx_EnableInternalWakeUpLine:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:375    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:382    .text.HAL_PWREx_DisableInternalWakeUpLine:00000000 HAL_PWREx_DisableInternalWakeUpLine
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:399    .text.HAL_PWREx_DisableInternalWakeUpLine:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:404    .text.HAL_PWREx_EnableGPIOPullUp:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:411    .text.HAL_PWREx_EnableGPIOPullUp:00000000 HAL_PWREx_EnableGPIOPullUp
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:427    .text.HAL_PWREx_EnableGPIOPullUp:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:585    .text.HAL_PWREx_EnableGPIOPullUp:000000b4 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:590    .text.HAL_PWREx_DisableGPIOPullUp:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:597    .text.HAL_PWREx_DisableGPIOPullUp:00000000 HAL_PWREx_DisableGPIOPullUp
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:613    .text.HAL_PWREx_DisableGPIOPullUp:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:741    .text.HAL_PWREx_DisableGPIOPullUp:00000088 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:746    .text.HAL_PWREx_EnableGPIOPullDown:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:753    .text.HAL_PWREx_EnableGPIOPullDown:00000000 HAL_PWREx_EnableGPIOPullDown
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:769    .text.HAL_PWREx_EnableGPIOPullDown:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:928    .text.HAL_PWREx_EnableGPIOPullDown:000000b8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:933    .text.HAL_PWREx_DisableGPIOPullDown:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:940    .text.HAL_PWREx_DisableGPIOPullDown:00000000 HAL_PWREx_DisableGPIOPullDown
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:956    .text.HAL_PWREx_DisableGPIOPullDown:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1081   .text.HAL_PWREx_DisableGPIOPullDown:00000084 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1086   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1093   .text.HAL_PWREx_EnablePullUpPullDownConfig:00000000 HAL_PWREx_EnablePullUpPullDownConfig
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1110   .text.HAL_PWREx_EnablePullUpPullDownConfig:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1115   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1122   .text.HAL_PWREx_DisablePullUpPullDownConfig:00000000 HAL_PWREx_DisablePullUpPullDownConfig
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1139   .text.HAL_PWREx_DisablePullUpPullDownConfig:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1144   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1151   .text.HAL_PWREx_EnableSRAM2ContentRetention:00000000 HAL_PWREx_EnableSRAM2ContentRetention
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1168   .text.HAL_PWREx_EnableSRAM2ContentRetention:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1173   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1180   .text.HAL_PWREx_DisableSRAM2ContentRetention:00000000 HAL_PWREx_DisableSRAM2ContentRetention
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1197   .text.HAL_PWREx_DisableSRAM2ContentRetention:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1202   .text.HAL_PWREx_EnablePVM1:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1209   .text.HAL_PWREx_EnablePVM1:00000000 HAL_PWREx_EnablePVM1
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1226   .text.HAL_PWREx_EnablePVM1:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1231   .text.HAL_PWREx_DisablePVM1:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1238   .text.HAL_PWREx_DisablePVM1:00000000 HAL_PWREx_DisablePVM1
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1255   .text.HAL_PWREx_DisablePVM1:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1260   .text.HAL_PWREx_EnablePVM2:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1267   .text.HAL_PWREx_EnablePVM2:00000000 HAL_PWREx_EnablePVM2
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1284   .text.HAL_PWREx_EnablePVM2:0000000c $d
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 67
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1289   .text.HAL_PWREx_DisablePVM2:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1296   .text.HAL_PWREx_DisablePVM2:00000000 HAL_PWREx_DisablePVM2
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1313   .text.HAL_PWREx_DisablePVM2:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1318   .text.HAL_PWREx_EnablePVM3:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1325   .text.HAL_PWREx_EnablePVM3:00000000 HAL_PWREx_EnablePVM3
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1342   .text.HAL_PWREx_EnablePVM3:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1347   .text.HAL_PWREx_DisablePVM3:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1354   .text.HAL_PWREx_DisablePVM3:00000000 HAL_PWREx_DisablePVM3
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1371   .text.HAL_PWREx_DisablePVM3:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1376   .text.HAL_PWREx_EnablePVM4:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1383   .text.HAL_PWREx_EnablePVM4:00000000 HAL_PWREx_EnablePVM4
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1400   .text.HAL_PWREx_EnablePVM4:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1405   .text.HAL_PWREx_DisablePVM4:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1412   .text.HAL_PWREx_DisablePVM4:00000000 HAL_PWREx_DisablePVM4
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1429   .text.HAL_PWREx_DisablePVM4:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1434   .text.HAL_PWREx_ConfigPVM:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1441   .text.HAL_PWREx_ConfigPVM:00000000 HAL_PWREx_ConfigPVM
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1794   .text.HAL_PWREx_ConfigPVM:000001e8 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1799   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1806   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1823   .text.HAL_PWREx_EnableLowPowerRunMode:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1828   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1835   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1901   .text.HAL_PWREx_DisableLowPowerRunMode:0000004c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1907   .text.HAL_PWREx_EnterSTOP0Mode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1914   .text.HAL_PWREx_EnterSTOP0Mode:00000000 HAL_PWREx_EnterSTOP0Mode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1972   .text.HAL_PWREx_EnterSTOP0Mode:00000030 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1978   .text.HAL_PWREx_EnterSTOP1Mode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:1985   .text.HAL_PWREx_EnterSTOP1Mode:00000000 HAL_PWREx_EnterSTOP1Mode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2044   .text.HAL_PWREx_EnterSTOP1Mode:00000034 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2050   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2057   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 HAL_PWREx_EnterSHUTDOWNMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2087   .text.HAL_PWREx_EnterSHUTDOWNMode:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2093   .text.HAL_PWREx_PVM1Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2100   .text.HAL_PWREx_PVM1Callback:00000000 HAL_PWREx_PVM1Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2113   .text.HAL_PWREx_PVM2Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2120   .text.HAL_PWREx_PVM2Callback:00000000 HAL_PWREx_PVM2Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2133   .text.HAL_PWREx_PVM3Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2140   .text.HAL_PWREx_PVM3Callback:00000000 HAL_PWREx_PVM3Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2153   .text.HAL_PWREx_PVM4Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2160   .text.HAL_PWREx_PVM4Callback:00000000 HAL_PWREx_PVM4Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2173   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2180   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 HAL_PWREx_PVD_PVM_IRQHandler
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2282   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000074 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2287   .text.HAL_PWREx_EnableUCPDStandbyMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2294   .text.HAL_PWREx_EnableUCPDStandbyMode:00000000 HAL_PWREx_EnableUCPDStandbyMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2311   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2316   .text.HAL_PWREx_DisableUCPDStandbyMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2323   .text.HAL_PWREx_DisableUCPDStandbyMode:00000000 HAL_PWREx_DisableUCPDStandbyMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2340   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2345   .text.HAL_PWREx_EnableUCPDDeadBattery:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2352   .text.HAL_PWREx_EnableUCPDDeadBattery:00000000 HAL_PWREx_EnableUCPDDeadBattery
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2369   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2374   .text.HAL_PWREx_DisableUCPDDeadBattery:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2381   .text.HAL_PWREx_DisableUCPDDeadBattery:00000000 HAL_PWREx_DisableUCPDDeadBattery
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:2398   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:434    .text.HAL_PWREx_EnableGPIOPullUp:0000000f $d
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s 			page 68
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1289   .text.HAL_PWREx_DisablePVM2:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1296   .text.HAL_PWREx_DisablePVM2:00000000 HAL_PWREx_DisablePVM2
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1313   .text.HAL_PWREx_DisablePVM2:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1318   .text.HAL_PWREx_EnablePVM3:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1325   .text.HAL_PWREx_EnablePVM3:00000000 HAL_PWREx_EnablePVM3
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1342   .text.HAL_PWREx_EnablePVM3:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1347   .text.HAL_PWREx_DisablePVM3:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1354   .text.HAL_PWREx_DisablePVM3:00000000 HAL_PWREx_DisablePVM3
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1371   .text.HAL_PWREx_DisablePVM3:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1376   .text.HAL_PWREx_EnablePVM4:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1383   .text.HAL_PWREx_EnablePVM4:00000000 HAL_PWREx_EnablePVM4
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1400   .text.HAL_PWREx_EnablePVM4:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1405   .text.HAL_PWREx_DisablePVM4:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1412   .text.HAL_PWREx_DisablePVM4:00000000 HAL_PWREx_DisablePVM4
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1429   .text.HAL_PWREx_DisablePVM4:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1434   .text.HAL_PWREx_ConfigPVM:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1441   .text.HAL_PWREx_ConfigPVM:00000000 HAL_PWREx_ConfigPVM
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1794   .text.HAL_PWREx_ConfigPVM:000001e8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1799   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1806   .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1823   .text.HAL_PWREx_EnableLowPowerRunMode:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1828   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1835   .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1901   .text.HAL_PWREx_DisableLowPowerRunMode:0000004c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1907   .text.HAL_PWREx_EnterSTOP0Mode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1914   .text.HAL_PWREx_EnterSTOP0Mode:00000000 HAL_PWREx_EnterSTOP0Mode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1972   .text.HAL_PWREx_EnterSTOP0Mode:00000030 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1978   .text.HAL_PWREx_EnterSTOP1Mode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:1985   .text.HAL_PWREx_EnterSTOP1Mode:00000000 HAL_PWREx_EnterSTOP1Mode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2044   .text.HAL_PWREx_EnterSTOP1Mode:00000034 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2050   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2057   .text.HAL_PWREx_EnterSHUTDOWNMode:00000000 HAL_PWREx_EnterSHUTDOWNMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2087   .text.HAL_PWREx_EnterSHUTDOWNMode:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2093   .text.HAL_PWREx_PVM1Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2100   .text.HAL_PWREx_PVM1Callback:00000000 HAL_PWREx_PVM1Callback
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2113   .text.HAL_PWREx_PVM2Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2120   .text.HAL_PWREx_PVM2Callback:00000000 HAL_PWREx_PVM2Callback
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2133   .text.HAL_PWREx_PVM3Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2140   .text.HAL_PWREx_PVM3Callback:00000000 HAL_PWREx_PVM3Callback
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2153   .text.HAL_PWREx_PVM4Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2160   .text.HAL_PWREx_PVM4Callback:00000000 HAL_PWREx_PVM4Callback
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2173   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2180   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000000 HAL_PWREx_PVD_PVM_IRQHandler
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2282   .text.HAL_PWREx_PVD_PVM_IRQHandler:00000074 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2287   .text.HAL_PWREx_EnableUCPDStandbyMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2294   .text.HAL_PWREx_EnableUCPDStandbyMode:00000000 HAL_PWREx_EnableUCPDStandbyMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2311   .text.HAL_PWREx_EnableUCPDStandbyMode:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2316   .text.HAL_PWREx_DisableUCPDStandbyMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2323   .text.HAL_PWREx_DisableUCPDStandbyMode:00000000 HAL_PWREx_DisableUCPDStandbyMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2340   .text.HAL_PWREx_DisableUCPDStandbyMode:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2345   .text.HAL_PWREx_EnableUCPDDeadBattery:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2352   .text.HAL_PWREx_EnableUCPDDeadBattery:00000000 HAL_PWREx_EnableUCPDDeadBattery
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2369   .text.HAL_PWREx_EnableUCPDDeadBattery:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2374   .text.HAL_PWREx_DisableUCPDDeadBattery:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2381   .text.HAL_PWREx_DisableUCPDDeadBattery:00000000 HAL_PWREx_DisableUCPDDeadBattery
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:2398   .text.HAL_PWREx_DisableUCPDDeadBattery:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:434    .text.HAL_PWREx_EnableGPIOPullUp:0000000f $d
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s 			page 68
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:434    .text.HAL_PWREx_EnableGPIOPullUp:00000010 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:620    .text.HAL_PWREx_DisableGPIOPullUp:0000000f $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:620    .text.HAL_PWREx_DisableGPIOPullUp:00000010 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:776    .text.HAL_PWREx_EnableGPIOPullDown:0000000f $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:776    .text.HAL_PWREx_EnableGPIOPullDown:00000010 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:963    .text.HAL_PWREx_DisableGPIOPullDown:0000000f $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccMsWtnc.s:963    .text.HAL_PWREx_DisableGPIOPullDown:00000010 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:434    .text.HAL_PWREx_EnableGPIOPullUp:00000010 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:620    .text.HAL_PWREx_DisableGPIOPullUp:0000000f $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:620    .text.HAL_PWREx_DisableGPIOPullUp:00000010 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:776    .text.HAL_PWREx_EnableGPIOPullDown:0000000f $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:776    .text.HAL_PWREx_EnableGPIOPullDown:00000010 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:963    .text.HAL_PWREx_DisableGPIOPullDown:0000000f $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccnfgJBA.s:963    .text.HAL_PWREx_DisableGPIOPullDown:00000010 $t
 
 UNDEFINED SYMBOLS
 SystemCoreClock

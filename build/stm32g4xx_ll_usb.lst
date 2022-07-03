@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
   27:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * @attention
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   *
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * <h2><center>&copy; Copyright (c) 2019 STMicroelectronics.
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 2
 
 
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * All rights reserved.</center></h2>
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
   71:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****               only by USB OTG FS peripheral.
   72:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             - This function is added to ensure compatibility across platforms.
   73:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****    */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 3
 
 
   74:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
   80              		.loc 1 92 3 is_stmt 1 view .LVU13
   81              	.LVL4:
   93:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****                    USB_CNTR_SUSPM | USB_CNTR_ERRM |
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 4
 
 
   94:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****                    USB_CNTR_SOFM | USB_CNTR_ESOFM |
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  111              		.loc 1 120 14 is_stmt 0 view .LVU22
  112 0000 B0F84030 		ldrh	r3, [r0, #64]
  113 0004 23F47E53 		bic	r3, r3, #16256
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 5
 
 
  114 0008 5B04     		lsls	r3, r3, #17
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  146 0000 0020     		movs	r0, #0
  147              	.LVL8:
  148              		.loc 1 144 1 view .LVU31
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 6
 
 
  149 0002 7047     		bx	lr
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  185              		.loc 1 164 14 view .LVU39
  186 0012 ACF84000 		strh	r0, [ip, #64]	@ movhi
  165:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 7
 
 
  166:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   /* Clear pending interrupts */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  224              		.loc 1 184 3 is_stmt 1 view .LVU48
  225              	.LVL12:
  185:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   uint16_t wEpRegVal;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 8
 
 
  226              		.loc 1 185 3 view .LVU49
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  210:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       break;
  211:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   }
  212:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 9
 
 
  213:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   PCD_SET_ENDPOINT(USBx, ep->num, (wEpRegVal | USB_EP_CTR_RX | USB_EP_CTR_TX));
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  300 0068 13FA82F2 		uxtah	r2, r3, r2
  301              	.LVL20:
  302              		.loc 1 222 7 view .LVU75
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 10
 
 
  303 006c 0C78     		ldrb	r4, [r1]	@ zero_extendqisi2
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****         /* Configure NAK status for the Endpoint */
  228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****         PCD_SET_EP_TX_STATUS(USBx, ep->num, USB_EP_TX_NAK);
  353              		.loc 1 228 9 is_stmt 1 view .LVU95
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 11
 
 
  354              	.LBB6:
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  205:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       break;
  399              		.loc 1 205 17 is_stmt 0 view .LVU114
  400 00de 4CF4806C 		orr	ip, ip, #1024
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 12
 
 
  401              	.LVL33:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  440              		.loc 1 239 7 view .LVU129
  441              		.loc 1 239 7 view .LVU130
  442              		.loc 1 239 7 view .LVU131
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 13
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 13
 
 
  443 0108 B3F85020 		ldrh	r2, [r3, #80]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  494              	.LBE10:
  495              		.loc 1 242 7 discriminator 13 view .LVU149
  496              	.LBE9:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 14
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 14
 
 
  497              		.loc 1 242 7 discriminator 13 view .LVU150
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  547 0196 82F44052 		eor	r2, r2, #12288
  548              	.LVL51:
  549              		.loc 1 246 7 discriminator 3 view .LVU172
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 15
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 15
 
 
  550 019a 42F40042 		orr	r2, r2, #32768
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  561 01a6 10BD     		pop	{r4, pc}
  562              	.LVL53:
  563              	.L20:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 16
 
 
  564              	.LBB15:
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  605 01e4 BCE7     		b	.L21
  606              	.LVL59:
  607              	.L15:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 17
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 17
 
 
  242:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_RX_DTOG(USBx, ep->num);
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  646 0214 B1F808C0 		ldrh	ip, [r1, #8]
  647 0218 4FEA5C0C 		lsr	ip, ip, #1
  648 021c 4FEA4C0C 		lsl	ip, ip, #1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 18
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 18
 
 
  649 0220 A2F800C4 		strh	ip, [r2, #1024]	@ movhi
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  686              	.LBB19:
  261:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  687              		.loc 1 261 7 view .LVU224
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 19
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 19
 
 
  261:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  727 027a 0CD0     		beq	.L28
  262:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  728              		.loc 1 262 7 discriminator 1 view .LVU240
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 20
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 20
 
 
  729              	.LBB22:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  767              		.loc 1 264 7 discriminator 3 view .LVU256
  768 02ac 48F28004 		movw	r4, #32896
  769 02b0 2243     		orrs	r2, r2, r4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 21
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 21
 
 
  770              	.LVL80:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  270:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  809              		.loc 1 270 7 discriminator 1 view .LVU272
  810              	.LBB26:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 22
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 22
 
 
  270:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  849 0304 92B2     		uxth	r2, r2
  850 0306 22F4E042 		bic	r2, r2, #28672
  851 030a 22F07002 		bic	r2, r2, #112
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 23
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 23
 
 
  852              	.LVL91:
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  890 0338 42F08002 		orr	r2, r2, #128
  891 033c 23F82420 		strh	r2, [r3, r4, lsl #2]	@ movhi
  892              	.LBE29:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 24
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 24
 
 
  276:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  281:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
  932              		.loc 1 281 9 view .LVU320
  281:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 25
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 25
 
 
  933              		.loc 1 281 9 view .LVU321
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  974              		.loc 1 303 7 view .LVU332
  975 000a 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
  976 000c 30F82230 		ldrh	r3, [r0, r2, lsl #2]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 26
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 26
 
 
  977              	.LVL103:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_RX_DTOG(USBx, ep->num);
  311:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  312:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       /* Configure DISABLE status for the Endpoint*/
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 27
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 27
 
 
  313:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_SET_EP_RX_STATUS(USBx, ep->num, USB_EP_RX_DIS);
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1042 0056 13F4804F 		tst	r3, #16384
  1043 005a 0CD0     		beq	.L40
  310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 28
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 28
 
 
  1044              		.loc 1 310 7 discriminator 1 view .LVU359
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1083 008a 43F08003 		orr	r3, r3, #128
  1084 008e 20F82230 		strh	r3, [r0, r2, lsl #2]	@ movhi
  1085 0092 DBE7     		b	.L39
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 29
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 29
 
 
  1086              	.L36:
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  322:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
  1125              		.loc 1 322 7 is_stmt 1 discriminator 3 view .LVU390
  1126              	.LBE38:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 30
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 30
 
 
  322:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1164              		.loc 1 326 7 discriminator 3 view .LVU407
  1165 00e6 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
  1166 00e8 30F82230 		ldrh	r3, [r0, r2, lsl #2]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 31
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 31
 
 
  1167 00ec 9BB2     		uxth	r3, r3
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1207 012a 23F04003 		bic	r3, r3, #64
  1208              	.LVL129:
  329:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 32
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 32
 
 
  1209              		.loc 1 329 7 discriminator 3 view .LVU422
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1248              		.loc 1 334 7 discriminator 1 view .LVU437
  1249              	.LBE46:
  334:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_CLEAR_TX_DTOG(USBx, ep->num);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 33
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 33
 
 
  1250              		.loc 1 334 7 is_stmt 1 discriminator 3 view .LVU438
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1288              		.loc 1 336 7 discriminator 3 view .LVU454
  336:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  1289              		.loc 1 336 7 discriminator 3 view .LVU455
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 34
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 34
 
 
  1290 0184 0A78     		ldrb	r2, [r1]	@ zero_extendqisi2
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1330 01c2 9BB2     		uxth	r3, r3
  1331 01c4 23F48043 		bic	r3, r3, #16384
  1332 01c8 23F07003 		bic	r3, r3, #112
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 35
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 35
 
 
  1333              	.LVL143:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  374:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     {
  375:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       USB_WritePMA(USBx, ep->xfer_buff, ep->pmaadress, (uint16_t)len);
  376:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_SET_EP_TX_CNT(USBx, ep->num, len);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 36
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 36
 
 
  377:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     }
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  431:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****               ep->xfer_len_db -= len;
  432:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             }
  433:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             else
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 37
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 37
 
 
  434:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             {
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           else
  489:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           {
  490:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             len = ep->xfer_len_db;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 38
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 38
 
 
  491:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             ep->xfer_len_db = 0U;
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  545:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       {
  546:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****         len = ep->maxpacket;
  547:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****         ep->xfer_len -= len;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 39
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 39
 
 
  548:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  602:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   }
  603:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  604:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   return HAL_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 40
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 40
 
 
  605:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** }
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  624:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  625:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   return HAL_OK;
  1392              		.loc 1 625 3 discriminator 7 view .LVU488
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 41
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 41
 
 
  626:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  630:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * @param  USBx Selected device
  631:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * @param  ep pointer to endpoint structure
  632:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * @retval HAL status
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 42
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 42
 
 
  633:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   */
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1483              		.loc 1 640 7 is_stmt 1 discriminator 3 view .LVU517
  1484              	.LBE54:
  1485              		.loc 1 640 7 discriminator 3 view .LVU518
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 43
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 43
 
 
  641:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1530              		.loc 1 650 7 discriminator 1 view .LVU537
  1531 0064 30F82230 		ldrh	r3, [r0, r2, lsl #2]
  1532              	.LVL163:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 44
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 44
 
 
  1533              		.loc 1 650 7 is_stmt 0 discriminator 1 view .LVU538
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1579              	.LVL169:
  1580              		.loc 1 658 1 discriminator 7 view .LVU557
  1581 00a0 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 45
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 45
 
 
  1582              		.cfi_endproc
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1618              		.loc 1 678 1 is_stmt 0 view .LVU568
  1619 0014 7047     		bx	lr
  1620              		.cfi_endproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 46
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 46
 
 
  1621              	.LFE142:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1660              		.thumb
  1661              		.thumb_func
  1662              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 47
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 47
 
 
  1664              	USB_DevConnect:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1699              		.loc 1 717 1 is_stmt 1 view -0
  1700              		.cfi_startproc
  1701              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 48
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 48
 
 
  1702              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1740              		.loc 1 735 1 is_stmt 0 view .LVU594
  1741 0004 80B2     		uxth	r0, r0
  1742              	.LVL180:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 49
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 49
 
 
  1743              		.loc 1 735 1 view .LVU595
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1789              	.LFB148:
  748:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  749:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** /**
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 50
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 50
 
 
  750:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   * @brief  USB_DeActivateRemoteWakeup de-active remote wakeup signalling
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1825              		@ frame_needed = 0, uses_anonymous_args = 0
  1826              		@ link register save eliminated.
  1827              		.loc 1 770 1 is_stmt 0 view .LVU609
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 51
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 51
 
 
  1828 0000 10B4     		push	{r4}
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1868 0016 22F8023B 		strh	r3, [r2], #2	@ movhi
  1869              	.LVL193:
  785:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     pdwVal++;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 52
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 52
 
 
  1870              		.loc 1 785 5 is_stmt 1 discriminator 3 view .LVU630
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1912              	.LCFI7:
  1913              		.cfi_def_cfa_offset 16
  1914              		.cfi_offset 4, -16
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 53
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 53
 
 
  1915              		.cfi_offset 5, -12
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     }
  1952              		.loc 1 555 7 view .LVU658
  1953              	.LVL199:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 54
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 54
 
 
  555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     }
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  1994 0058 2278     		ldrb	r2, [r4]	@ zero_extendqisi2
  1995 005a 35F82230 		ldrh	r3, [r5, r2, lsl #2]
  1996 005e 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 55
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 55
 
 
  1997 0060 23F48043 		bic	r3, r3, #16384
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2035              		.loc 1 373 8 view .LVU688
  2036 0088 002B     		cmp	r3, #0
  2037 008a 39D0     		beq	.L166
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 56
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 56
 
 
  381:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       {
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2076              		.loc 1 477 11 view .LVU704
  2077              	.LVL212:
  477:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 57
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 57
 
 
  2078              		.loc 1 477 11 view .LVU705
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2119              	.LBE67:
  2120              	.LBE66:
  2121              	.LBE65:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 58
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 58
 
 
  375:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       PCD_SET_EP_TX_CNT(USBx, ep->num, len);
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2162 012c 23F04003 		bic	r3, r3, #64
  2163              	.LVL225:
  537:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 59
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 59
 
 
  2164              		.loc 1 537 5 view .LVU733
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2203 0160 43F08003 		orr	r3, r3, #128
  2204 0164 25F82230 		strh	r3, [r5, r2, lsl #2]	@ movhi
  2205              	.LBE72:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 60
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 60
 
 
  386:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2242              		.loc 1 395 13 discriminator 1 view .LVU766
  2243 018c 8EB9     		cbnz	r6, .L75
  395:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 61
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 61
 
 
  2244              		.loc 1 395 13 discriminator 3 view .LVU767
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2286              		.loc 1 395 13 discriminator 7 view .LVU779
  2287 01ca 7209     		lsrs	r2, r6, #5
  2288              	.LVL241:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 62
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 62
 
 
  395:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  2330              		.loc 1 400 27 is_stmt 0 discriminator 18 view .LVU793
  2331 01f4 6369     		ldr	r3, [r4, #20]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 63
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 63
 
 
  2332 01f6 3344     		add	r3, r3, r6
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  413:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2370              		.loc 1 413 13 discriminator 3 view .LVU810
  2371 021c B3F80224 		ldrh	r2, [r3, #1026]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 64
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 64
 
 
  2372 0220 92B2     		uxth	r2, r2
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2415              	.L83:
  2416              	.LBB80:
  2417              	.LBB78:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 65
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 65
 
 
  413:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2458 0288 A3F80224 		strh	r2, [r3, #1026]	@ movhi
  2459 028c 01E0     		b	.L84
  2460              	.LVL264:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 66
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 66
 
 
  2461              	.L82:
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  413:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2502              		.loc 1 413 13 is_stmt 0 discriminator 16 view .LVU849
  2503              	.LBE81:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 67
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 67
 
 
  422:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2544 02ee 09D8     		bhi	.L91
  422:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2545              		.loc 1 422 13 discriminator 6 view .LVU864
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 68
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 68
 
 
  422:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2587              		.loc 1 422 13 discriminator 14 view .LVU877
  2588              	.LBE83:
  2589              	.LBE82:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 69
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 69
 
 
  422:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2628              	.LBB84:
  440:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2629              		.loc 1 440 13 view .LVU894
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 70
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 70
 
 
  2630              	.LVL288:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2671              	.LBE85:
  2672              	.LBE84:
  422:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 71
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 71
 
 
  2673              		.loc 1 422 13 is_stmt 1 discriminator 16 view .LVU908
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2713              	.LVL298:
  440:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  2714              		.loc 1 440 13 discriminator 6 view .LVU923
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 72
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 72
 
 
  2715 039c 16F0010F 		tst	r6, #1
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2757              	.LVL305:
  2758              	.L98:
  440:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 73
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 73
 
 
  2759              		.loc 1 440 13 is_stmt 0 discriminator 2 view .LVU936
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2800 03f6 92B2     		uxth	r2, r2
  2801 03f8 22F4E242 		bic	r2, r2, #28928
  2802 03fc 22F07002 		bic	r2, r2, #112
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 74
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 74
 
 
  2803              	.LVL312:
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  460:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****         }
  2842              		.loc 1 460 11 view .LVU965
  2843 0426 FFF7FEFF 		bl	USB_WritePMA
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 75
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 75
 
 
  2844              	.LVL321:
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  2885              	.LVL328:
  2886              	.L108:
  477:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 76
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 76
 
 
  2887              		.loc 1 477 11 discriminator 14 view .LVU979
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           {
  2928              		.loc 1 484 35 discriminator 18 view .LVU993
  2929 0476 2269     		ldr	r2, [r4, #16]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 77
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 77
 
 
  484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           {
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  497:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr0;
  2967              		.loc 1 497 13 discriminator 6 view .LVU1011
  2968 049c 7208     		lsrs	r2, r6, #1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 78
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 78
 
 
  2969              	.LVL338:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  491:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           }
  3010              		.loc 1 491 29 is_stmt 0 view .LVU1025
  3011 04c4 0022     		movs	r2, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 79
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 79
 
 
  3012 04c6 2262     		str	r2, [r4, #32]
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3053 04ea B3B2     		uxth	r3, r6
  3054 04ec 2289     		ldrh	r2, [r4, #8]
  3055 04ee 6169     		ldr	r1, [r4, #20]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 80
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 80
 
 
  3056 04f0 2846     		mov	r0, r5
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  507:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
  3096              		.loc 1 507 11 discriminator 1 view .LVU1053
  3097 051a 02EBC303 		add	r3, r2, r3, lsl #3
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 81
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 81
 
 
  3098              	.LVL359:
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3139 0554 92B2     		uxth	r2, r2
  3140 0556 A3F80224 		strh	r2, [r3, #1026]	@ movhi
  507:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 82
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 82
 
 
  3141              		.loc 1 507 11 is_stmt 1 discriminator 10 view .LVU1067
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3182              		.loc 1 511 11 is_stmt 0 discriminator 18 view .LVU1080
  3183 0580 2846     		mov	r0, r5
  3184              	.LVL372:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 83
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 83
 
 
  511:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           ep->xfer_buff += len;
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  527:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
  3222              		.loc 1 527 13 discriminator 1 view .LVU1098
  527:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 84
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 84
 
 
  3223              		.loc 1 527 13 discriminator 1 view .LVU1099
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3263              		.loc 1 507 11 is_stmt 1 discriminator 16 view .LVU1113
  3264              	.LBB108:
  507:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           pmabuffer = ep->pmaaddr0;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 85
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 85
 
 
  3265              		.loc 1 507 11 discriminator 16 view .LVU1114
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3305 05ec 013A     		subs	r2, r2, #1
  3306              	.LVL388:
  3307              	.L128:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 86
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 86
 
 
  527:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****             pmabuffer = ep->pmaaddr1;
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3350              		.loc 1 527 13 discriminator 16 view .LVU1140
  3351 061e B2B2     		uxth	r2, r6
  3352 0620 A3F80624 		strh	r2, [r3, #1030]	@ movhi
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 87
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 87
 
 
  3353 0624 EDE7     		b	.L127
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3393              		.loc 1 555 7 discriminator 5 view .LVU1154
  555:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****     }
  3394              		.loc 1 555 7 discriminator 5 view .LVU1155
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 88
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 88
 
 
  3395 0646 5109     		lsrs	r1, r2, #5
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3435 0672 40F2D480 		bls	.L151
  585:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****           ep->xfer_len -= len;
  3436              		.loc 1 585 11 is_stmt 1 view .LVU1170
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 89
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 89
 
 
  3437              	.LVL406:
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3476 06ac 89B2     		uxth	r1, r1
  3477 06ae A3F80214 		strh	r1, [r3, #1026]	@ movhi
  3478              	.LVL410:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 90
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 90
 
 
  3479              	.L153:
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3516 06d2 92B2     		uxth	r2, r2
  3517 06d4 22F4F842 		bic	r2, r2, #31744
  3518 06d8 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 91
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 91
 
 
  3519 06da A3F80624 		strh	r2, [r3, #1030]	@ movhi
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3559 070c 22F4F842 		bic	r2, r2, #31744
  3560 0710 92B2     		uxth	r2, r2
  3561 0712 A3F80224 		strh	r2, [r3, #1026]	@ movhi
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 92
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 92
 
 
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3600 073c 2269     		ldr	r2, [r4, #16]
  3601 073e 52BB     		cbnz	r2, .L145
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 93
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 93
 
 
  3602              		.loc 1 563 9 discriminator 21 view .LVU1233
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  3646              		.loc 1 563 9 discriminator 7 view .LVU1244
  3647 077c 5109     		lsrs	r1, r2, #5
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 94
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 94
 
 
  3648              	.LVL427:
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3691              	.L147:
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  3692              		.loc 1 563 9 discriminator 25 view .LVU1256
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 95
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 95
 
 
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3732              		.loc 1 569 18 view .LVU1271
  3733 07d6 35F82210 		ldrh	r1, [r5, r2, lsl #2]
  3734              	.LVL437:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 96
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 96
 
 
  572:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****               (((wEPVal & USB_EP_DTOG_RX) == 0U) && ((wEPVal & USB_EP_DTOG_TX) == 0U)))
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3776              	.LVL443:
  563:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c **** 
  3777              		.loc 1 563 9 discriminator 34 view .LVU1285
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 97
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 97
 
 
  3778 0816 228A     		ldrh	r2, [r4, #16]
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3819              	.L155:
  593:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
  3820              		.loc 1 593 9 discriminator 7 view .LVU1299
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 98
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 98
 
 
  593:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3863              	.LVL455:
  593:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
  3864              		.loc 1 593 9 is_stmt 0 discriminator 28 view .LVU1312
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 99
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 99
 
 
  3865 0868 92B2     		uxth	r2, r2
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3907 08a2 92B2     		uxth	r2, r2
  3908              	.LVL463:
  593:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 100
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 100
 
 
  3909              		.loc 1 593 9 is_stmt 0 discriminator 34 view .LVU1325
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  3949              		.loc 1 806 3 is_stmt 1 view .LVU1333
  807:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   uint32_t i, temp;
  3950              		.loc 1 807 3 view .LVU1334
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 101
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 101
 
 
  808:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   __IO uint16_t *pdwVal;
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  813:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   {
  3990              		.loc 1 813 15 is_stmt 1 discriminator 1 view .LVU1355
  813:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c ****   {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 102
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 102
 
 
  3991              		.loc 1 813 3 is_stmt 0 discriminator 1 view .LVU1356
@@ -6106,50 +6106,50 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 1
  4022              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
  4023              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
  4024              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usb.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s 			page 103
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s 			page 103
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_ll_usb.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:18     .text.USB_CoreInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:26     .text.USB_CoreInit:00000000 USB_CoreInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:56     .text.USB_EnableGlobalInt:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:63     .text.USB_EnableGlobalInt:00000000 USB_EnableGlobalInt
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:93     .text.USB_DisableGlobalInt:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:100    .text.USB_DisableGlobalInt:00000000 USB_DisableGlobalInt
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:127    .text.USB_SetCurrentMode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:134    .text.USB_SetCurrentMode:00000000 USB_SetCurrentMode
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:154    .text.USB_DevInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:161    .text.USB_DevInit:00000000 USB_DevInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:203    .text.USB_ActivateEndpoint:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:210    .text.USB_ActivateEndpoint:00000000 USB_ActivateEndpoint
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:247    .text.USB_ActivateEndpoint:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:251    .text.USB_ActivateEndpoint:00000028 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:945    .text.USB_DeactivateEndpoint:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:952    .text.USB_DeactivateEndpoint:00000000 USB_DeactivateEndpoint
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1347   .text.USB_EPSetStall:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1354   .text.USB_EPSetStall:00000000 USB_EPSetStall
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1427   .text.USB_EPClearStall:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1434   .text.USB_EPClearStall:00000000 USB_EPClearStall
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1586   .text.USB_StopDevice:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1593   .text.USB_StopDevice:00000000 USB_StopDevice
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1624   .text.USB_SetDevAddress:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1631   .text.USB_SetDevAddress:00000000 USB_SetDevAddress
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1657   .text.USB_DevConnect:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1664   .text.USB_DevConnect:00000000 USB_DevConnect
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1689   .text.USB_DevDisconnect:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1696   .text.USB_DevDisconnect:00000000 USB_DevDisconnect
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1719   .text.USB_ReadInterrupts:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1726   .text.USB_ReadInterrupts:00000000 USB_ReadInterrupts
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1749   .text.USB_ActivateRemoteWakeup:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1756   .text.USB_ActivateRemoteWakeup:00000000 USB_ActivateRemoteWakeup
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1780   .text.USB_DeActivateRemoteWakeup:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1787   .text.USB_DeActivateRemoteWakeup:00000000 USB_DeActivateRemoteWakeup
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1812   .text.USB_WritePMA:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1819   .text.USB_WritePMA:00000000 USB_WritePMA
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1896   .text.USB_EPStartXfer:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:1903   .text.USB_EPStartXfer:00000000 USB_EPStartXfer
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:3925   .text.USB_ReadPMA:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccBBPckb.s:3932   .text.USB_ReadPMA:00000000 USB_ReadPMA
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:18     .text.USB_CoreInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:26     .text.USB_CoreInit:00000000 USB_CoreInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:56     .text.USB_EnableGlobalInt:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:63     .text.USB_EnableGlobalInt:00000000 USB_EnableGlobalInt
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:93     .text.USB_DisableGlobalInt:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:100    .text.USB_DisableGlobalInt:00000000 USB_DisableGlobalInt
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:127    .text.USB_SetCurrentMode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:134    .text.USB_SetCurrentMode:00000000 USB_SetCurrentMode
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:154    .text.USB_DevInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:161    .text.USB_DevInit:00000000 USB_DevInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:203    .text.USB_ActivateEndpoint:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:210    .text.USB_ActivateEndpoint:00000000 USB_ActivateEndpoint
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:247    .text.USB_ActivateEndpoint:00000024 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:251    .text.USB_ActivateEndpoint:00000028 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:945    .text.USB_DeactivateEndpoint:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:952    .text.USB_DeactivateEndpoint:00000000 USB_DeactivateEndpoint
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1347   .text.USB_EPSetStall:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1354   .text.USB_EPSetStall:00000000 USB_EPSetStall
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1427   .text.USB_EPClearStall:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1434   .text.USB_EPClearStall:00000000 USB_EPClearStall
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1586   .text.USB_StopDevice:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1593   .text.USB_StopDevice:00000000 USB_StopDevice
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1624   .text.USB_SetDevAddress:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1631   .text.USB_SetDevAddress:00000000 USB_SetDevAddress
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1657   .text.USB_DevConnect:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1664   .text.USB_DevConnect:00000000 USB_DevConnect
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1689   .text.USB_DevDisconnect:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1696   .text.USB_DevDisconnect:00000000 USB_DevDisconnect
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1719   .text.USB_ReadInterrupts:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1726   .text.USB_ReadInterrupts:00000000 USB_ReadInterrupts
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1749   .text.USB_ActivateRemoteWakeup:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1756   .text.USB_ActivateRemoteWakeup:00000000 USB_ActivateRemoteWakeup
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1780   .text.USB_DeActivateRemoteWakeup:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1787   .text.USB_DeActivateRemoteWakeup:00000000 USB_DeActivateRemoteWakeup
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1812   .text.USB_WritePMA:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1819   .text.USB_WritePMA:00000000 USB_WritePMA
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1896   .text.USB_EPStartXfer:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:1903   .text.USB_EPStartXfer:00000000 USB_EPStartXfer
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:3925   .text.USB_ReadPMA:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccny2Rr7.s:3932   .text.USB_ReadPMA:00000000 USB_ReadPMA
 
 NO UNDEFINED SYMBOLS

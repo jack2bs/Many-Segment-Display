@@ -166,7 +166,7 @@ int main(void)
 
 
 
-		HAL_Delay(250);
+		//HAL_Delay(250);
 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_Pos)) >> RTC_TR_ST_Pos) * 10;
 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_MNT_Pos)) >> RTC_TR_MNT_Pos) * 10;
 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_Pos)) >> RTC_TR_HT_Pos) * 10;

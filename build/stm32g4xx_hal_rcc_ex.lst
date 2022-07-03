@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
   27:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** #include "stm32g4xx_hal.h"
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** /** @addtogroup STM32G4xx_HAL_Driver
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 2
 
 
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   * @{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
   84:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     frequencies.
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     [..]
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     (@) Important note: Care must be taken when HAL_RCCEx_PeriphCLKConfig() is used to
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 3
 
 
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         select the RTC clock source; in this case the Backup domain will be reset in
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
   44              	.LCFI1:
   45              		.cfi_def_cfa_offset 32
   46 0004 0446     		mov	r4, r0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 4
 
 
  127:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   uint32_t tmpregister;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
   81 0028 0193     		str	r3, [sp, #4]
   82              		.loc 1 146 7 view .LVU19
   83 002a 019B     		ldr	r3, [sp, #4]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 5
 
 
   84              	.LBE3:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  124              	.LVL8:
  125              		.loc 1 160 13 view .LVU36
  126 0054 02E0     		b	.L5
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 6
 
 
  127              	.LVL9:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  165              		.loc 1 173 21 view .LVU51
  166 0076 23F44073 		bic	r3, r3, #768
  167              	.LVL15:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 7
 
 
  174:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         /* RTC Clock selection can be changed only if the Backup Domain is reset */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  194 00aa 0B43     		orrs	r3, r3, r1
  195 00ac C2F89030 		str	r3, [r2, #144]
  196              	.L7:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 8
 
 
  197              	.LVL17:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  190:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           {
  226              		.loc 1 190 15 is_stmt 0 view .LVU72
  227 00d0 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 9
 
 
  228              	.LVL21:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  232:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /*-------------------------- USART2 clock source configuration -------------------*/
  233:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_USART2) == RCC_PERIPHCLK_USART2)
  263              		.loc 1 233 3 view .LVU84
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 10
 
 
  264              		.loc 1 233 21 is_stmt 0 view .LVU85
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  297 0134 13F0080F 		tst	r3, #8
  298 0138 08D0     		beq	.L15
  255:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 11
 
 
  256:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     /* Check the parameters */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   }
  287:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  288:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /*-------------------------- I2C1 clock source configuration ---------------------*/
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 12
 
 
  289:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_I2C1) == RCC_PERIPHCLK_I2C1)
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  356              		.loc 1 309 5 view .LVU116
  357 019c 13F4807F 		tst	r3, #256
  358 01a0 08D0     		beq	.L19
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 13
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 13
 
 
  310:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   {
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  340:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   }
  341:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  342:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /*-------------------------- SAI1 clock source configuration ---------------------*/
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 14
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 14
 
 
  343:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   if(((PeriphClkInit->PeriphClockSelection) & RCC_PERIPHCLK_SAI1) == RCC_PERIPHCLK_SAI1)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  414 01fe 23F44003 		bic	r3, r3, #12582912
  415 0202 E16A     		ldr	r1, [r4, #44]
  416 0204 0B43     		orrs	r3, r3, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 15
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 15
 
 
  417 0206 C2F88830 		str	r3, [r2, #136]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  391:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  392:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** #if defined(USB)
  393:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 16
 
 
  394:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /*-------------------------- USB clock source configuration ----------------------*/
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  480 026c C2F88830 		str	r3, [r2, #136]
  414:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  415:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     if(PeriphClkInit->RngClockSelection == RCC_RNGCLKSOURCE_PLL)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 17
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 17
 
 
  481              		.loc 1 415 5 view .LVU161
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  442:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     /* Check the parameters */
  443:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     assert_param(IS_RCC_ADC345CLKSOURCE(PeriphClkInit->Adc345ClockSelection));
  444:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 18
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 18
 
 
  445:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     /* Configure the ADC345 interface clock source */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  528              		.loc 1 370 7 view .LVU175
  529 02aa D368     		ldr	r3, [r2, #12]
  530 02ac 43F48013 		orr	r3, r3, #1048576
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 19
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 19
 
 
  531 02b0 D360     		str	r3, [r2, #12]
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   * @retval None
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   */
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** void HAL_RCCEx_GetPeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 20
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 20
 
 
  488:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  584 0002 0360     		str	r3, [r0]
  534:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****                                         RCC_PERIPHCLK_LPUART1 | RCC_PERIPHCLK_I2C1   | RCC_PERIPHCL
  535:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****                                         RCC_PERIPHCLK_LPTIM1  | RCC_PERIPHCLK_SAI1   | RCC_PERIPHCL
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 21
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 21
 
 
  536:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****                                         RCC_PERIPHCLK_RNG     | RCC_PERIPHCLK_USB    | RCC_PERIPHCL
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  565:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   
  566:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Get the LPUART1 clock source --------------------------------------------*/
  567:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   PeriphClkInit->Lpuart1ClockSelection = __HAL_RCC_GET_LPUART1_SOURCE();
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 22
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 22
 
 
  610              		.loc 1 567 3 is_stmt 1 view .LVU195
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  644              		.loc 1 587 40 view .LVU212
  645 0068 8262     		str	r2, [r0, #40]
  588:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 23
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 23
 
 
  589:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Get the I2S clock source -----------------------------------------------*/
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  613:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** #if defined(QUADSPI)
  614:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Get the QuadSPIclock source --------------------------------------------*/
  615:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   PeriphClkInit->QspiClockSelection = __HAL_RCC_GET_QSPI_SOURCE();
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 24
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 24
 
 
  616:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** #endif /* QUADSPI */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  645:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_ADC345  ADC3, ADC4 and ADC5 peripheral clock (only for devic
  646:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_QSPI  QSPI peripheral clock (only for devices with QSPI)
  647:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   *            @arg @ref RCC_PERIPHCLK_RTC  RTC peripheral clock
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 25
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 25
 
 
  648:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   * @retval Frequency in Hz
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  683:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     }
  684:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   }
  685:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   else
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 26
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 26
 
 
  686:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   {
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  743              		.loc 1 718 26 is_stmt 0 view .LVU248
  744 0022 964B     		ldr	r3, .L173
  745 0024 DB68     		ldr	r3, [r3, #12]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 27
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 27
 
 
  746              		.loc 1 718 67 view .LVU249
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  798 008a B402     		.2byte	(.L109-.L56)/2
  799 008c B402     		.2byte	(.L109-.L56)/2
  800 008e 8201     		.2byte	(.L55-.L56)/2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 28
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 28
 
 
  801              		.p2align 1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  840 00cc B3F5407F 		cmp	r3, #768
  841 00d0 00F06E82 		beq	.L106
  652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   uint32_t srcclk;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 29
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 29
 
 
  842              		.loc 1 652 12 view .LVU269
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  734:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  735:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       else if((HAL_IS_BIT_SET(RCC->CR, RCC_CR_HSIRDY)) && (srcclk == RCC_USART1CLKSOURCE_HSI) )
  736:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 30
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 30
 
 
  737:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         frequency = HSI_VALUE;
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  791:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         frequency = HSI_VALUE;
  792:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  793:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       else if((HAL_IS_BIT_SET(RCC->BDCR, RCC_BDCR_LSERDY)) && (srcclk == RCC_USART3CLKSOURCE_LSE))
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 31
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 31
 
 
  794:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  848:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         frequency = HSI_VALUE;
  849:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  850:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       else if((HAL_IS_BIT_SET(RCC->BDCR, RCC_BDCR_LSERDY)) && (srcclk == RCC_UART5CLKSOURCE_LSE))
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 32
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 32
 
 
  851:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  905:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       /* Clock not enabled for I2C1 */
  906:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       else
  907:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 33
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 33
 
 
  908:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         /* nothing to do: frequency already initialized to 0 */
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  910 012c 0020     		movs	r0, #0
  911              	.LVL42:
  720:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 34
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 34
 
 
  912              		.loc 1 720 5 view .LVU294
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  966:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         frequency = HAL_RCC_GetPCLK1Freq();
  967:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  968:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       else if(srcclk == RCC_I2C4CLKSOURCE_SYSCLK)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 35
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 35
 
 
  969:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1023:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         {
 1024:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           /* f(PLLQ) = f(VCO input) * PLLN / PLLQ */
 1025:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           plln = READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 36
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 36
 
 
 1026:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           frequency = (pllvco * plln) / (((READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLQ) >> RCC_PLLCFGR_
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1080:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       /* Get the current FDCANx source */
 1081:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       srcclk = __HAL_RCC_GET_FDCAN_SOURCE();
 1082:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 37
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 37
 
 
 1083:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       if(srcclk == RCC_FDCANCLKSOURCE_PCLK1)
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1137:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
 1138:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         /* f(PLLQ) = f(VCO input) * PLLN / PLLQ */
 1139:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         plln = READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 38
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 38
 
 
 1140:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         frequency = (pllvco * plln) / (((READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLQ) >> RCC_PLLCFGR_PL
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  939              		.loc 1 652 12 view .LVU303
  940 0162 0020     		movs	r0, #0
  941              	.LVL45:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 39
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 39
 
 
 1178:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1232:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       if(srcclk == RCC_QSPICLKSOURCE_PLL)  /* PLL ? */
 1233:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
 1234:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         /* f(PLLQ) = f(VCO input) * PLLN / PLLQ */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 40
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 40
 
 
 1235:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         plln = READ_BIT(RCC->PLLCFGR, RCC_PLLCFGR_PLLN) >> RCC_PLLCFGR_PLLN_Pos;
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1053:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
  964              		.loc 1 1053 14 is_stmt 0 view .LVU313
  965 0182 B2F5800F 		cmp	r2, #4194304
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 41
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 41
 
 
  966 0186 00F07F81 		beq	.L149
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  993:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
  1005              		.loc 1 993 12 is_stmt 1 view .LVU329
  993:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 42
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 42
 
 
  1006              		.loc 1 993 16 is_stmt 0 view .LVU330
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  720:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     {
  1047              		.loc 1 720 5 view .LVU344
  1048 0200 DBE1     		b	.L45
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 43
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 43
 
 
  1049              	.LVL58:
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1089              	.L60:
  725:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  1090              		.loc 1 725 7 is_stmt 1 view .LVU359
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 44
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 44
 
 
  725:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1129 026a 0020     		movs	r0, #0
  1130 026c A5E1     		b	.L45
  1131              	.L154:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 45
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 45
 
 
  729:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1171 0298 AB4A     		ldr	r2, .L175
  762:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
  1172              		.loc 1 762 16 view .LVU391
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 46
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 46
 
 
  1173 029a 1268     		ldr	r2, [r2]
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1212              		.loc 1 779 16 is_stmt 0 view .LVU406
  1213 02cc 9E4B     		ldr	r3, .L175
  1214 02ce D3F88830 		ldr	r3, [r3, #136]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 47
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 47
 
 
  1215              	.LVL78:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  783:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1253              		.loc 1 783 21 is_stmt 0 view .LVU423
  1254 0304 FFF7FEFF 		bl	HAL_RCC_GetPCLK1Freq
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 48
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 48
 
 
  1255              	.LVL80:
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1293 032c 00F05581 		beq	.L116
  1294              	.L82:
  821:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 49
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 49
 
 
  1295              		.loc 1 821 12 is_stmt 1 view .LVU440
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1334              		.loc 1 866 9 view .LVU455
  1335 035e 18D0     		beq	.L162
  870:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 50
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 50
 
 
  1336              		.loc 1 870 12 is_stmt 1 view .LVU456
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  872:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1375              		.loc 1 872 21 is_stmt 0 view .LVU472
  1376 0398 FFF7FEFF 		bl	HAL_RCC_GetSysClockFreq
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 51
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 51
 
 
  1377              	.LVL94:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  895:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1416              		.loc 1 895 9 is_stmt 1 view .LVU488
  895:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 52
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 52
 
 
  1417              		.loc 1 895 21 is_stmt 0 view .LVU489
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1456              		.loc 1 939 9 is_stmt 0 view .LVU504
  1457 03e6 13F44033 		ands	r3, r3, #196608
  1458              	.LVL111:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 53
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 53
 
 
  939:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       {
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  991:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1498              		.loc 1 991 9 is_stmt 1 view .LVU520
  991:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 54
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 54
 
 
  1499              		.loc 1 991 21 is_stmt 0 view .LVU521
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   uint32_t srcclk;
  1538              		.loc 1 652 12 view .LVU537
  1539 044a 0020     		movs	r0, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 55
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 55
 
 
  1540 044c B5E0     		b	.L45
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1579              		.loc 1 1026 85 view .LVU552
  1580 0474 C3F34153 		ubfx	r3, r3, #21, #2
 1026:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 56
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 56
 
 
  1581              		.loc 1 1026 110 view .LVU553
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         }
  1621              		.loc 1 1059 11 is_stmt 1 view .LVU568
 1059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 57
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 57
 
 
  1622              		.loc 1 1059 31 is_stmt 0 view .LVU569
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1660              		.loc 1 652 12 view .LVU585
  1661 04d2 0020     		movs	r0, #0
  1662              	.LVL148:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 58
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 58
 
 
  652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   uint32_t srcclk;
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1702              	.LVL158:
 1097:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****         }
  1703              		.loc 1 1097 85 view .LVU601
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 59
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 59
 
 
  1704 04fa C3F34153 		ubfx	r3, r3, #21, #2
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1743              	.L68:
 1134:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
  1744              		.loc 1 1134 7 is_stmt 1 view .LVU617
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 60
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 60
 
 
 1134:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1785              		.loc 1 1140 9 is_stmt 1 view .LVU631
 1140:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1786              		.loc 1 1140 29 is_stmt 0 view .LVU632
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 61
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 61
 
 
  1787 0554 03FB02F2 		mul	r2, r3, r2
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1825              		.loc 1 1162 18 is_stmt 0 view .LVU648
  1826 057e D268     		ldr	r2, [r2, #12]
  1827              	.LVL181:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 62
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 62
 
 
 1163:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           {
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1179:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
  1867              		.loc 1 1179 21 view .LVU664
  1868 05a2 0AE0     		b	.L45
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 63
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 63
 
 
  1869              	.LVL190:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1911 05c0 4FF40040 		mov	r0, #32768
  1912 05c4 F9E7     		b	.L45
  1913              	.L112:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 64
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 64
 
 
  764:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  1957              	.LVL200:
  1958              	.L123:
  995:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 65
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 65
 
 
  1959              		.loc 1 995 19 view .LVU688
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2002 061a 0748     		ldr	r0, .L177+16
  2003              	.LVL211:
 1089:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 66
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 66
 
 
  2004              		.loc 1 1089 19 view .LVU700
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1282:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   * @brief  Enable the LSE Clock Security System.
 1283:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   * @note   Prior to enable the LSE Clock Security System, LSE oscillator is to be enabled
 1284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   *         with HAL_RCC_OscConfig() and the LSE oscillator clock is to be selected as RTC
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 67
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 67
 
 
 1285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   *         clock with HAL_RCCEx_PeriphCLKConfig().
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1302:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Disable LSE CSS IT if any */
 1303:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   __HAL_RCC_DISABLE_IT(RCC_IT_LSECSS);
  2076              		.loc 1 1303 3 view .LVU708
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 68
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 68
 
 
  2077 000e 9A69     		ldr	r2, [r3, #24]
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2116 001c 42F40022 		orr	r2, r2, #524288
  2117 0020 1A60     		str	r2, [r3]
 1321:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   __HAL_RCC_LSECSS_EXTI_ENABLE_RISING_EDGE();
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 69
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 69
 
 
  2118              		.loc 1 1321 3 view .LVU714
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1350:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** }
  2146              		.loc 1 1350 1 view .LVU717
  2147 0000 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 70
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 70
 
 
  2148              		.cfi_endproc
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2197              		.section	.text.HAL_RCCEx_EnableLSCO,"ax",%progbits
  2198              		.align	1
  2199              		.global	HAL_RCCEx_EnableLSCO
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 71
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 71
 
 
  2200              		.syntax unified
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2235 000e E364     		str	r3, [r4, #76]
  2236              		.loc 1 1370 3 view .LVU735
  2237 0010 E36C     		ldr	r3, [r4, #76]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 72
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 72
 
 
  2238 0012 03F00103 		and	r3, r3, #1
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2280              		.loc 1 1382 5 view .LVU754
  2281 0044 A36D     		ldr	r3, [r4, #88]
  2282 0046 03F08053 		and	r3, r3, #268435456
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 73
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 73
 
 
  2283 004a 0293     		str	r3, [sp, #8]
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   {
 1399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     __HAL_RCC_PWR_CLK_DISABLE();
 1400:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 74
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 74
 
 
 1401:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** }
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2368              		.align	1
  2369              		.global	HAL_RCCEx_DisableLSCO
  2370              		.syntax unified
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 75
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 75
 
 
  2371              		.thumb
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2412 0020 019B     		ldr	r3, [sp, #4]
  2413              	.LBE7:
  2414              		.loc 1 1415 5 view .LVU788
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 76
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 76
 
 
 1416:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     pwrclkchanged = SET;
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2446              		.loc 1 1437 1 view .LVU800
  2447 0042 02B0     		add	sp, sp, #8
  2448              	.LCFI12:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 77
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 77
 
 
  2449              		.cfi_remember_state
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2497              		.thumb_func
  2498              		.fpu fpv4-sp-d16
  2500              	HAL_RCCEx_CRSConfig:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 78
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 78
 
 
  2501              	.LVL237:
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1490:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
 1491:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       (#) In interrupt mode, user can resort to the available macros (__HAL_RCC_CRS_XXX_IT). Interr
 1492:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****           through CRS Handler (CRS_IRQn/CRS_IRQHandler)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 79
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 79
 
 
 1493:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****               (++) Call function HAL_RCCEx_CRSConfig()
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2519 0008 9A63     		str	r2, [r3, #56]
 1531:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   __HAL_RCC_CRS_RELEASE_RESET();
  2520              		.loc 1 1531 3 view .LVU818
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 80
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 80
 
 
  2521 000a 9A6B     		ldr	r2, [r3, #56]
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1547:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* START AUTOMATIC SYNCHRONIZATION*/
 1548:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
 1549:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Enable Automatic trimming & Frequency error counter */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 81
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 81
 
 
 1550:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   SET_BIT(CRS->CR, CRS_CR_AUTOTRIMEN | CRS_CR_CEN);
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2606              		.syntax unified
  2607              		.thumb
  2608              		.thumb_func
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 82
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 82
 
 
  2609              		.fpu fpv4-sp-d16
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2642              		.loc 1 1582 39 is_stmt 0 view .LVU853
  2643 0016 9B68     		ldr	r3, [r3, #8]
  2644 0018 03F40043 		and	r3, r3, #32768
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 83
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 83
 
 
  2645              		.loc 1 1582 36 view .LVU854
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2681              	.LVL245:
 1603:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   uint32_t tickstart;
  2682              		.loc 1 1603 3 view .LVU859
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 84
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 84
 
 
 1604:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1620:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     {
 1621:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       /* CRS SYNC event OK */
 1622:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****       crsstatus |= RCC_CRS_SYNCOK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 85
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 85
 
 
 1623:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2724 0024 0822     		movs	r2, #8
  2725 0026 DA60     		str	r2, [r3, #12]
  2726              	.L237:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 86
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 86
 
 
  2727              		.loc 1 1672 7 discriminator 4 view .LVU876
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2764              		.loc 1 1629 7 discriminator 4 view .LVU893
  2765 004a 13F0020F 		tst	r3, #2
  2766 004e 04D0     		beq	.L233
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 87
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 87
 
 
 1632:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2803 0072 13F4807F 		tst	r3, #256
  2804 0076 04D0     		beq	.L235
 1652:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 88
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 88
 
 
  2805              		.loc 1 1652 7 is_stmt 1 view .LVU912
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2842 009e C3D0     		beq	.L237
 1669:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     {
  2843              		.loc 1 1669 7 discriminator 4 view .LVU930
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 89
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 89
 
 
  2844 00a0 BFE7     		b	.L244
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1706:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     HAL_RCCEx_CRS_SyncWarnCallback();
 1707:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   }
 1708:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Check CRS Expected SYNC flag  */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 90
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 90
 
 
 1709:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   else if(((itflags & RCC_CRS_FLAG_ESYNC) != 0U) && ((itsources & RCC_CRS_IT_ESYNC) != 0U))
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2879              		.section	.text.HAL_RCCEx_CRS_SyncWarnCallback,"ax",%progbits
  2880              		.align	1
  2881              		.weak	HAL_RCCEx_CRS_SyncWarnCallback
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 91
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 91
 
 
  2882              		.syntax unified
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2917              	.LFE149:
  2919              		.section	.text.HAL_RCCEx_CRS_ErrorCallback,"ax",%progbits
  2920              		.align	1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 92
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 92
 
 
  2921              		.weak	HAL_RCCEx_CRS_ErrorCallback
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  2958              		.cfi_offset 3, -8
  2959              		.cfi_offset 14, -4
 1685:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****   /* Get current IT flags and IT sources values */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 93
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 93
 
 
  2960              		.loc 1 1685 3 view .LVU944
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
 1720:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c ****     {
  2999              		.loc 1 1720 45 discriminator 1 view .LVU960
  3000 0032 12F0040F 		tst	r2, #4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 94
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 94
 
 
  3001 0036 18D0     		beq	.L251
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  3039              		.loc 1 1742 1 is_stmt 0 view .LVU976
  3040 005e 04E0     		b	.L251
  3041              	.LVL272:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 95
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 95
 
 
  3042              	.L261:
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  3083              	.LVL283:
  3084 0082 F2E7     		b	.L251
  3085              	.L265:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 96
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 96
 
 
  3086              		.align	2
@@ -5718,73 +5718,73 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 1
  3101              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  3102              		.file 10 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h"
  3103              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 97
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 97
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_rcc_ex.c
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:18     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:26     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:548    .text.HAL_RCCEx_PeriphCLKConfig:000002c8 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:552    .text.HAL_RCCEx_PeriphCLKConfig:000002d0 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:566    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:573    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:687    .text.HAL_RCCEx_GetPeriphCLKConfig:000000a8 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:693    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:700    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:769    .text.HAL_RCCEx_GetPeriphCLKFreq:00000050 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:801    .text.HAL_RCCEx_GetPeriphCLKFreq:00000090 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:1149   .text.HAL_RCCEx_GetPeriphCLKFreq:0000027c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:1156   .text.HAL_RCCEx_GetPeriphCLKFreq:00000288 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:1774   .text.HAL_RCCEx_GetPeriphCLKFreq:00000548 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:1779   .text.HAL_RCCEx_GetPeriphCLKFreq:0000054c $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2018   .text.HAL_RCCEx_GetPeriphCLKFreq:00000628 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2028   .text.HAL_RCCEx_EnableLSECSS:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2035   .text.HAL_RCCEx_EnableLSECSS:00000000 HAL_RCCEx_EnableLSECSS
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2052   .text.HAL_RCCEx_EnableLSECSS:00000010 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2057   .text.HAL_RCCEx_DisableLSECSS:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2064   .text.HAL_RCCEx_DisableLSECSS:00000000 HAL_RCCEx_DisableLSECSS
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2085   .text.HAL_RCCEx_DisableLSECSS:00000018 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2090   .text.HAL_RCCEx_EnableLSECSS_IT:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2097   .text.HAL_RCCEx_EnableLSECSS_IT:00000000 HAL_RCCEx_EnableLSECSS_IT
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2127   .text.HAL_RCCEx_EnableLSECSS_IT:0000002c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2132   .text.HAL_RCCEx_LSECSS_Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2139   .text.HAL_RCCEx_LSECSS_Callback:00000000 HAL_RCCEx_LSECSS_Callback
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2152   .text.HAL_RCCEx_LSECSS_IRQHandler:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2159   .text.HAL_RCCEx_LSECSS_IRQHandler:00000000 HAL_RCCEx_LSECSS_IRQHandler
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2193   .text.HAL_RCCEx_LSECSS_IRQHandler:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2198   .text.HAL_RCCEx_EnableLSCO:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2205   .text.HAL_RCCEx_EnableLSCO:00000000 HAL_RCCEx_EnableLSCO
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2362   .text.HAL_RCCEx_EnableLSCO:00000098 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2368   .text.HAL_RCCEx_DisableLSCO:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2375   .text.HAL_RCCEx_DisableLSCO:00000000 HAL_RCCEx_DisableLSCO
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2487   .text.HAL_RCCEx_DisableLSCO:00000064 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2493   .text.HAL_RCCEx_CRSConfig:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2500   .text.HAL_RCCEx_CRSConfig:00000000 HAL_RCCEx_CRSConfig
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2569   .text.HAL_RCCEx_CRSConfig:00000044 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2575   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2582   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:00000000 HAL_RCCEx_CRSSoftwareSynchronizationGenerate
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2599   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2604   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2611   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000000 HAL_RCCEx_CRSGetSynchronizationInfo
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2652   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000020 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2657   .text.HAL_RCCEx_CRSWaitSynchronization:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2664   .text.HAL_RCCEx_CRSWaitSynchronization:00000000 HAL_RCCEx_CRSWaitSynchronization
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2855   .text.HAL_RCCEx_CRSWaitSynchronization:000000a8 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2860   .text.HAL_RCCEx_CRS_SyncOkCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2867   .text.HAL_RCCEx_CRS_SyncOkCallback:00000000 HAL_RCCEx_CRS_SyncOkCallback
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2880   .text.HAL_RCCEx_CRS_SyncWarnCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2887   .text.HAL_RCCEx_CRS_SyncWarnCallback:00000000 HAL_RCCEx_CRS_SyncWarnCallback
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2900   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2907   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:00000000 HAL_RCCEx_CRS_ExpectedSyncCallback
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2920   .text.HAL_RCCEx_CRS_ErrorCallback:00000000 $t
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s 			page 98
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:18     .text.HAL_RCCEx_PeriphCLKConfig:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:26     .text.HAL_RCCEx_PeriphCLKConfig:00000000 HAL_RCCEx_PeriphCLKConfig
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:548    .text.HAL_RCCEx_PeriphCLKConfig:000002c8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:552    .text.HAL_RCCEx_PeriphCLKConfig:000002d0 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:566    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:573    .text.HAL_RCCEx_GetPeriphCLKConfig:00000000 HAL_RCCEx_GetPeriphCLKConfig
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:687    .text.HAL_RCCEx_GetPeriphCLKConfig:000000a8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:693    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:700    .text.HAL_RCCEx_GetPeriphCLKFreq:00000000 HAL_RCCEx_GetPeriphCLKFreq
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:769    .text.HAL_RCCEx_GetPeriphCLKFreq:00000050 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:801    .text.HAL_RCCEx_GetPeriphCLKFreq:00000090 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:1149   .text.HAL_RCCEx_GetPeriphCLKFreq:0000027c $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:1156   .text.HAL_RCCEx_GetPeriphCLKFreq:00000288 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:1774   .text.HAL_RCCEx_GetPeriphCLKFreq:00000548 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:1779   .text.HAL_RCCEx_GetPeriphCLKFreq:0000054c $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2018   .text.HAL_RCCEx_GetPeriphCLKFreq:00000628 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2028   .text.HAL_RCCEx_EnableLSECSS:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2035   .text.HAL_RCCEx_EnableLSECSS:00000000 HAL_RCCEx_EnableLSECSS
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2052   .text.HAL_RCCEx_EnableLSECSS:00000010 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2057   .text.HAL_RCCEx_DisableLSECSS:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2064   .text.HAL_RCCEx_DisableLSECSS:00000000 HAL_RCCEx_DisableLSECSS
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2085   .text.HAL_RCCEx_DisableLSECSS:00000018 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2090   .text.HAL_RCCEx_EnableLSECSS_IT:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2097   .text.HAL_RCCEx_EnableLSECSS_IT:00000000 HAL_RCCEx_EnableLSECSS_IT
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2127   .text.HAL_RCCEx_EnableLSECSS_IT:0000002c $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2132   .text.HAL_RCCEx_LSECSS_Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2139   .text.HAL_RCCEx_LSECSS_Callback:00000000 HAL_RCCEx_LSECSS_Callback
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2152   .text.HAL_RCCEx_LSECSS_IRQHandler:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2159   .text.HAL_RCCEx_LSECSS_IRQHandler:00000000 HAL_RCCEx_LSECSS_IRQHandler
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2193   .text.HAL_RCCEx_LSECSS_IRQHandler:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2198   .text.HAL_RCCEx_EnableLSCO:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2205   .text.HAL_RCCEx_EnableLSCO:00000000 HAL_RCCEx_EnableLSCO
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2362   .text.HAL_RCCEx_EnableLSCO:00000098 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2368   .text.HAL_RCCEx_DisableLSCO:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2375   .text.HAL_RCCEx_DisableLSCO:00000000 HAL_RCCEx_DisableLSCO
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2487   .text.HAL_RCCEx_DisableLSCO:00000064 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2493   .text.HAL_RCCEx_CRSConfig:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2500   .text.HAL_RCCEx_CRSConfig:00000000 HAL_RCCEx_CRSConfig
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2569   .text.HAL_RCCEx_CRSConfig:00000044 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2575   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2582   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:00000000 HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2599   .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate:0000000c $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2604   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2611   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000000 HAL_RCCEx_CRSGetSynchronizationInfo
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2652   .text.HAL_RCCEx_CRSGetSynchronizationInfo:00000020 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2657   .text.HAL_RCCEx_CRSWaitSynchronization:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2664   .text.HAL_RCCEx_CRSWaitSynchronization:00000000 HAL_RCCEx_CRSWaitSynchronization
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2855   .text.HAL_RCCEx_CRSWaitSynchronization:000000a8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2860   .text.HAL_RCCEx_CRS_SyncOkCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2867   .text.HAL_RCCEx_CRS_SyncOkCallback:00000000 HAL_RCCEx_CRS_SyncOkCallback
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2880   .text.HAL_RCCEx_CRS_SyncWarnCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2887   .text.HAL_RCCEx_CRS_SyncWarnCallback:00000000 HAL_RCCEx_CRS_SyncWarnCallback
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2900   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2907   .text.HAL_RCCEx_CRS_ExpectedSyncCallback:00000000 HAL_RCCEx_CRS_ExpectedSyncCallback
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2920   .text.HAL_RCCEx_CRS_ErrorCallback:00000000 $t
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s 			page 98
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2927   .text.HAL_RCCEx_CRS_ErrorCallback:00000000 HAL_RCCEx_CRS_ErrorCallback
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2942   .text.HAL_RCCEx_CRS_IRQHandler:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:2949   .text.HAL_RCCEx_CRS_IRQHandler:00000000 HAL_RCCEx_CRS_IRQHandler
-C:\Users\Jack2bs\AppData\Local\Temp\cczBhmqj.s:3088   .text.HAL_RCCEx_CRS_IRQHandler:00000084 $d
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2927   .text.HAL_RCCEx_CRS_ErrorCallback:00000000 HAL_RCCEx_CRS_ErrorCallback
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2942   .text.HAL_RCCEx_CRS_IRQHandler:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:2949   .text.HAL_RCCEx_CRS_IRQHandler:00000000 HAL_RCCEx_CRS_IRQHandler
+C:\Users\Jack2bs\AppData\Local\Temp\cc1nmXsB.s:3088   .text.HAL_RCCEx_CRS_IRQHandler:00000084 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

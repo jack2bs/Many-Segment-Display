@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
   17:Core/Src/main.c **** 	// Set of PB9 to output
   18:Core/Src/main.c **** 	GPIOB->MODER &= ~(0b10<<GPIO_MODER_MODE9_Pos) & ~(0b10<<GPIO_MODER_MODE4_Pos) & ~(0b10<<GPIO_MODER
   40              		.loc 1 18 2 is_stmt 1 view .LVU3
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 2
 
 
   41              		.loc 1 18 15 is_stmt 0 view .LVU4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
   87 0010 1A60     		str	r2, [r3]
   29:Core/Src/main.c **** 	GPIOA->MODER = 0x55555555;
   88              		.loc 1 29 2 is_stmt 1 view .LVU13
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 3
 
 
   89              		.loc 1 29 15 is_stmt 0 view .LVU14
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  133 0016 0F4B     		ldr	r3, .L10
  134 0018 1B68     		ldr	r3, [r3]
  135              		.loc 1 41 8 discriminator 1 view .LVU25
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 4
 
 
  136 001a 13F4003F 		tst	r3, #131072
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  173              	.L11:
  174              		.align	2
  175              	.L10:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 5
 
 
  176 0054 00100240 		.word	1073876992
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
   73:Core/Src/main.c **** 
   74:Core/Src/main.c **** }
  218              		.loc 1 74 1 view .LVU49
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 6
 
 
  219 0024 7047     		bx	lr
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  261              		.loc 1 88 12 is_stmt 0 view .LVU58
  262 001c D3F89020 		ldr	r2, [r3, #144]
  263 0020 42F00102 		orr	r2, r2, #1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 7
 
 
  264 0024 C3F89020 		str	r2, [r3, #144]
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  304 006c DA60     		str	r2, [r3, #12]
  103:Core/Src/main.c **** 	while (!(RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
  305              		.loc 1 103 2 is_stmt 1 view .LVU76
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 8
 
 
  306              	.L17:
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  344              		.loc 1 119 1 view .LVU94
  345 009c 7047     		bx	lr
  346              	.L20:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 9
 
 
  347 009e 00BF     		.align	2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  388 000a FFF7FEFF 		bl	gpioB_Init
  389              	.LVL2:
  131:Core/Src/main.c **** 	gpioA_Init();
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 10
 
 
  390              		.loc 1 131 2 view .LVU99
@@ -548,19 +548,19 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  133:Core/Src/main.c **** 	RCC->APB1ENR1 |= (1<<RCC_APB1ENR1_USBEN_Pos);
  393              		.loc 1 133 2 view .LVU100
  394              		.loc 1 133 16 is_stmt 0 view .LVU101
- 395 0012 3B4A     		ldr	r2, .L24
+ 395 0012 394A     		ldr	r2, .L24
  396 0014 936D     		ldr	r3, [r2, #88]
  397 0016 43F40003 		orr	r3, r3, #8388608
  398 001a 9365     		str	r3, [r2, #88]
  134:Core/Src/main.c **** 	usbHandler = MX_USB_Device_Init(rxBuf, txBuf);
  399              		.loc 1 134 2 is_stmt 1 view .LVU102
  400              		.loc 1 134 15 is_stmt 0 view .LVU103
- 401 001c 3949     		ldr	r1, .L24+4
- 402 001e 3A48     		ldr	r0, .L24+8
+ 401 001c 3749     		ldr	r1, .L24+4
+ 402 001e 3848     		ldr	r0, .L24+8
  403 0020 FFF7FEFF 		bl	MX_USB_Device_Init
  404              	.LVL4:
  405              		.loc 1 134 13 view .LVU104
- 406 0024 394B     		ldr	r3, .L24+12
+ 406 0024 374B     		ldr	r3, .L24+12
  407 0026 1860     		str	r0, [r3]
  135:Core/Src/main.c **** 
  136:Core/Src/main.c **** 
@@ -598,13 +598,13 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  145:Core/Src/main.c **** 
  146:Core/Src/main.c **** 	//lcdPrintf("Test %d", 100);
  147:Core/Src/main.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 11
 
 
  148:Core/Src/main.c ****   	GPIOB->BSRR |= (1<<GPIO_BSRR_BR9_Pos);
  431              		.loc 1 148 4 view .LVU111
  432              		.loc 1 148 16 is_stmt 0 view .LVU112
- 433 004a 314A     		ldr	r2, .L24+16
+ 433 004a 2F4A     		ldr	r2, .L24+16
  434 004c 9369     		ldr	r3, [r2, #24]
  435 004e 43F00073 		orr	r3, r3, #33554432
  436 0052 9361     		str	r3, [r2, #24]
@@ -612,7 +612,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  150:Core/Src/main.c ****   	int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST
  437              		.loc 1 150 4 is_stmt 1 view .LVU113
  438              		.loc 1 150 19 is_stmt 0 view .LVU114
- 439 0054 2F48     		ldr	r0, .L24+20
+ 439 0054 2D48     		ldr	r0, .L24+20
  440 0056 0368     		ldr	r3, [r0]
  441              		.loc 1 150 51 view .LVU115
  442 0058 03F00F03 		and	r3, r3, #15
@@ -658,12 +658,12 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  479              	.LVL15:
  480              		.loc 1 153 2 view .LVU133
  481 008e 04EB4001 		add	r1, r4, r0, lsl #1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 12
 
 
  482              	.LVL16:
  483              		.loc 1 153 2 view .LVU134
- 484 0092 2148     		ldr	r0, .L24+24
+ 484 0092 1F48     		ldr	r0, .L24+24
  485 0094 FFF7FEFF 		bl	lcdPrintf
  486              	.LVL17:
  154:Core/Src/main.c **** 	returnHome();
@@ -687,131 +687,127 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  166:Core/Src/main.c **** 
  167:Core/Src/main.c **** 
  168:Core/Src/main.c **** 
- 169:Core/Src/main.c **** 		HAL_Delay(250);
- 493              		.loc 1 169 3 discriminator 1 view .LVU137
- 494 009c FA20     		movs	r0, #250
- 495 009e FFF7FEFF 		bl	HAL_Delay
- 496              	.LVL19:
+ 169:Core/Src/main.c **** 		//HAL_Delay(250);
  170:Core/Src/main.c **** 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_
- 497              		.loc 1 170 3 discriminator 1 view .LVU138
- 498              		.loc 1 170 18 is_stmt 0 discriminator 1 view .LVU139
- 499 00a2 1C4B     		ldr	r3, .L24+20
- 500 00a4 1E68     		ldr	r6, [r3]
- 501              		.loc 1 170 50 discriminator 1 view .LVU140
- 502 00a6 06F00F06 		and	r6, r6, #15
- 503              		.loc 1 170 75 discriminator 1 view .LVU141
- 504 00aa 1A68     		ldr	r2, [r3]
- 505              		.loc 1 170 106 discriminator 1 view .LVU142
- 506 00ac C2F30212 		ubfx	r2, r2, #4, #3
- 507              		.loc 1 170 124 discriminator 1 view .LVU143
- 508 00b0 02EB8202 		add	r2, r2, r2, lsl #2
- 509              		.loc 1 170 68 discriminator 1 view .LVU144
- 510 00b4 06EB4206 		add	r6, r6, r2, lsl #1
- 511              	.LVL20:
+ 493              		.loc 1 170 3 discriminator 1 view .LVU137
+ 494              		.loc 1 170 18 is_stmt 0 discriminator 1 view .LVU138
+ 495 009c 1B4B     		ldr	r3, .L24+20
+ 496 009e 1E68     		ldr	r6, [r3]
+ 497              		.loc 1 170 50 discriminator 1 view .LVU139
+ 498 00a0 06F00F06 		and	r6, r6, #15
+ 499              		.loc 1 170 75 discriminator 1 view .LVU140
+ 500 00a4 1A68     		ldr	r2, [r3]
+ 501              		.loc 1 170 106 discriminator 1 view .LVU141
+ 502 00a6 C2F30212 		ubfx	r2, r2, #4, #3
+ 503              		.loc 1 170 124 discriminator 1 view .LVU142
+ 504 00aa 02EB8202 		add	r2, r2, r2, lsl #2
+ 505              		.loc 1 170 68 discriminator 1 view .LVU143
+ 506 00ae 06EB4206 		add	r6, r6, r2, lsl #1
+ 507              	.LVL19:
  171:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 512              		.loc 1 171 3 is_stmt 1 discriminator 1 view .LVU145
- 513              		.loc 1 171 18 is_stmt 0 discriminator 1 view .LVU146
- 514 00b8 1D68     		ldr	r5, [r3]
- 515              		.loc 1 171 51 discriminator 1 view .LVU147
- 516 00ba C5F30325 		ubfx	r5, r5, #8, #4
- 517              		.loc 1 171 77 discriminator 1 view .LVU148
- 518 00be 1A68     		ldr	r2, [r3]
- 519              		.loc 1 171 109 discriminator 1 view .LVU149
- 520 00c0 C2F30232 		ubfx	r2, r2, #12, #3
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 13
+ 508              		.loc 1 171 3 is_stmt 1 discriminator 1 view .LVU144
+ 509              		.loc 1 171 18 is_stmt 0 discriminator 1 view .LVU145
+ 510 00b2 1D68     		ldr	r5, [r3]
+ 511              		.loc 1 171 51 discriminator 1 view .LVU146
+ 512 00b4 C5F30325 		ubfx	r5, r5, #8, #4
+ 513              		.loc 1 171 77 discriminator 1 view .LVU147
+ 514 00b8 1A68     		ldr	r2, [r3]
+ 515              		.loc 1 171 109 discriminator 1 view .LVU148
+ 516 00ba C2F30232 		ubfx	r2, r2, #12, #3
+ 517              		.loc 1 171 128 discriminator 1 view .LVU149
+ 518 00be 02EB8202 		add	r2, r2, r2, lsl #2
+ 519              		.loc 1 171 70 discriminator 1 view .LVU150
+ 520 00c2 05EB4205 		add	r5, r5, r2, lsl #1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 13
 
 
- 521              		.loc 1 171 128 discriminator 1 view .LVU150
- 522 00c4 02EB8202 		add	r2, r2, r2, lsl #2
- 523              		.loc 1 171 70 discriminator 1 view .LVU151
- 524 00c8 05EB4205 		add	r5, r5, r2, lsl #1
- 525              	.LVL21:
+ 521              	.LVL20:
  172:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 526              		.loc 1 172 3 is_stmt 1 discriminator 1 view .LVU152
- 527              		.loc 1 172 19 is_stmt 0 discriminator 1 view .LVU153
- 528 00cc 1C68     		ldr	r4, [r3]
- 529              		.loc 1 172 51 discriminator 1 view .LVU154
- 530 00ce C4F30344 		ubfx	r4, r4, #16, #4
- 531              		.loc 1 172 76 discriminator 1 view .LVU155
- 532 00d2 1A68     		ldr	r2, [r3]
- 533              		.loc 1 172 106 discriminator 1 view .LVU156
- 534 00d4 C2F30152 		ubfx	r2, r2, #20, #2
- 535              		.loc 1 172 124 discriminator 1 view .LVU157
- 536 00d8 02EB8202 		add	r2, r2, r2, lsl #2
- 537              		.loc 1 172 69 discriminator 1 view .LVU158
- 538 00dc 04EB4204 		add	r4, r4, r2, lsl #1
- 539              	.LVL22:
+ 522              		.loc 1 172 3 is_stmt 1 discriminator 1 view .LVU151
+ 523              		.loc 1 172 19 is_stmt 0 discriminator 1 view .LVU152
+ 524 00c6 1C68     		ldr	r4, [r3]
+ 525              		.loc 1 172 51 discriminator 1 view .LVU153
+ 526 00c8 C4F30344 		ubfx	r4, r4, #16, #4
+ 527              		.loc 1 172 76 discriminator 1 view .LVU154
+ 528 00cc 1A68     		ldr	r2, [r3]
+ 529              		.loc 1 172 106 discriminator 1 view .LVU155
+ 530 00ce C2F30152 		ubfx	r2, r2, #20, #2
+ 531              		.loc 1 172 124 discriminator 1 view .LVU156
+ 532 00d2 02EB8202 		add	r2, r2, r2, lsl #2
+ 533              		.loc 1 172 69 discriminator 1 view .LVU157
+ 534 00d6 04EB4204 		add	r4, r4, r2, lsl #1
+ 535              	.LVL21:
  173:Core/Src/main.c **** 
  174:Core/Src/main.c **** 		updateDisplayWithTime(hour, min);
- 540              		.loc 1 174 3 is_stmt 1 discriminator 1 view .LVU159
- 541 00e0 2946     		mov	r1, r5
- 542 00e2 2046     		mov	r0, r4
- 543 00e4 FFF7FEFF 		bl	updateDisplayWithTime
- 544              	.LVL23:
+ 536              		.loc 1 174 3 is_stmt 1 discriminator 1 view .LVU158
+ 537 00da 2946     		mov	r1, r5
+ 538 00dc 2046     		mov	r0, r4
+ 539 00de FFF7FEFF 		bl	updateDisplayWithTime
+ 540              	.LVL22:
  175:Core/Src/main.c **** 		setDisplay();
- 545              		.loc 1 175 3 discriminator 1 view .LVU160
- 546 00e8 FFF7FEFF 		bl	setDisplay
- 547              	.LVL24:
+ 541              		.loc 1 175 3 discriminator 1 view .LVU159
+ 542 00e2 FFF7FEFF 		bl	setDisplay
+ 543              	.LVL23:
  176:Core/Src/main.c **** 
  177:Core/Src/main.c **** 		lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
- 548              		.loc 1 177 3 discriminator 1 view .LVU161
- 549 00ec 3346     		mov	r3, r6
- 550 00ee 2A46     		mov	r2, r5
- 551 00f0 2146     		mov	r1, r4
- 552 00f2 0948     		ldr	r0, .L24+24
- 553 00f4 FFF7FEFF 		bl	lcdPrintf
- 554              	.LVL25:
+ 544              		.loc 1 177 3 discriminator 1 view .LVU160
+ 545 00e6 3346     		mov	r3, r6
+ 546 00e8 2A46     		mov	r2, r5
+ 547 00ea 2146     		mov	r1, r4
+ 548 00ec 0848     		ldr	r0, .L24+24
+ 549 00ee FFF7FEFF 		bl	lcdPrintf
+ 550              	.LVL24:
  178:Core/Src/main.c **** 		returnHome();
- 555              		.loc 1 178 3 discriminator 1 view .LVU162
- 556 00f8 FFF7FEFF 		bl	returnHome
- 557              	.LVL26:
- 558              	.LBE4:
+ 551              		.loc 1 178 3 discriminator 1 view .LVU161
+ 552 00f2 FFF7FEFF 		bl	returnHome
+ 553              	.LVL25:
+ 554              	.LBE4:
  156:Core/Src/main.c **** 	{
- 559              		.loc 1 156 8 discriminator 1 view .LVU163
- 560 00fc CEE7     		b	.L22
- 561              	.L25:
- 562 00fe 00BF     		.align	2
- 563              	.L24:
- 564 0100 00100240 		.word	1073876992
- 565 0104 00000000 		.word	.LANCHOR0
- 566 0108 00000000 		.word	.LANCHOR1
- 567 010c 00000000 		.word	.LANCHOR2
- 568 0110 00040048 		.word	1207960576
- 569 0114 00280040 		.word	1073752064
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 14
+ 555              		.loc 1 156 8 discriminator 1 view .LVU162
+ 556 00f6 D1E7     		b	.L22
+ 557              	.L25:
+ 558              		.align	2
+ 559              	.L24:
+ 560 00f8 00100240 		.word	1073876992
+ 561 00fc 00000000 		.word	.LANCHOR0
+ 562 0100 00000000 		.word	.LANCHOR1
+ 563 0104 00000000 		.word	.LANCHOR2
+ 564 0108 00040048 		.word	1207960576
+ 565 010c 00280040 		.word	1073752064
+ 566 0110 00000000 		.word	.LC0
+ 567              		.cfi_endproc
+ 568              	.LFE141:
+ 570              		.section	.text.Error_Handler,"ax",%progbits
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 14
 
 
- 570 0118 00000000 		.word	.LC0
- 571              		.cfi_endproc
- 572              	.LFE141:
- 574              		.section	.text.Error_Handler,"ax",%progbits
- 575              		.align	1
- 576              		.global	Error_Handler
- 577              		.syntax unified
- 578              		.thumb
- 579              		.thumb_func
- 580              		.fpu fpv4-sp-d16
- 582              	Error_Handler:
- 583              	.LFB142:
+ 571              		.align	1
+ 572              		.global	Error_Handler
+ 573              		.syntax unified
+ 574              		.thumb
+ 575              		.thumb_func
+ 576              		.fpu fpv4-sp-d16
+ 578              	Error_Handler:
+ 579              	.LFB142:
  179:Core/Src/main.c **** 	}
  180:Core/Src/main.c **** 	
  181:Core/Src/main.c **** }
  182:Core/Src/main.c **** 
  183:Core/Src/main.c **** void Error_Handler(void)
  184:Core/Src/main.c **** {
- 584              		.loc 1 184 1 view -0
- 585              		.cfi_startproc
- 586              		@ Volatile: function does not return.
- 587              		@ args = 0, pretend = 0, frame = 0
- 588              		@ frame_needed = 0, uses_anonymous_args = 0
- 589              		@ link register save eliminated.
+ 580              		.loc 1 184 1 view -0
+ 581              		.cfi_startproc
+ 582              		@ Volatile: function does not return.
+ 583              		@ args = 0, pretend = 0, frame = 0
+ 584              		@ frame_needed = 0, uses_anonymous_args = 0
+ 585              		@ link register save eliminated.
  185:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
  186:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
  187:Core/Src/main.c ****   __disable_irq();
- 590              		.loc 1 187 3 view .LVU165
- 591              	.LBB5:
- 592              	.LBI5:
- 593              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
+ 586              		.loc 1 187 3 view .LVU164
+ 587              	.LBB5:
+ 588              	.LBI5:
+ 589              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
    1:Drivers/CMSIS/Include/cmsis_gcc.h **** /**************************************************************************//**
    2:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @file     cmsis_gcc.h
    3:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @brief    CMSIS compiler GCC header file
@@ -838,13 +834,13 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
   24:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   25:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __CMSIS_GCC_H
   26:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_H
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 15
-
-
   27:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   28:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ignore some GCC warnings */
   29:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic push
   30:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wsign-conversion"
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 15
+
+
   31:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wconversion"
   32:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wunused-parameter"
   33:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -898,13 +894,13 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
   81:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
   82:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_WRITE { uint16_t v; };
   83:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 16
-
-
   84:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT16_WRITE(addr, val)    (void)((((struct T_UINT16_WRITE *)(void *)(addr))-
   85:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   86:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT16_READ
   87:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 16
+
+
   88:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
   89:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
   90:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_READ { uint16_t v; };
@@ -958,13 +954,13 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  138:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t  wlen;
  139:Drivers/CMSIS/Include/cmsis_gcc.h ****   } __copy_table_t;
  140:Drivers/CMSIS/Include/cmsis_gcc.h ****   
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 17
-
-
  141:Drivers/CMSIS/Include/cmsis_gcc.h ****   typedef struct {
  142:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t* dest;
  143:Drivers/CMSIS/Include/cmsis_gcc.h ****     uint32_t  wlen;
  144:Drivers/CMSIS/Include/cmsis_gcc.h ****   } __zero_table_t;
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 17
+
+
  145:Drivers/CMSIS/Include/cmsis_gcc.h ****   
  146:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __copy_table_t __copy_table_start__;
  147:Drivers/CMSIS/Include/cmsis_gcc.h ****   extern const __copy_table_t __copy_table_end__;
@@ -1018,117 +1014,117 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 1
  195:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  196:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __enable_irq(void)
  197:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 18
-
-
  198:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsie i" : : : "memory");
  199:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  200:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  201:Drivers/CMSIS/Include/cmsis_gcc.h **** 
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 18
+
+
  202:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  203:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Disable IRQ Interrupts
  204:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Disables IRQ interrupts by setting the I-bit in the CPSR.
  205:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
  206:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  207:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __disable_irq(void)
- 594              		.loc 2 207 27 view .LVU166
- 595              	.LBB6:
+ 590              		.loc 2 207 27 view .LVU165
+ 591              	.LBB6:
  208:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  209:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsid i" : : : "memory");
- 596              		.loc 2 209 3 view .LVU167
- 597              		.syntax unified
- 598              	@ 209 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
- 599 0000 72B6     		cpsid i
- 600              	@ 0 "" 2
- 601              		.thumb
- 602              		.syntax unified
- 603              	.L27:
- 604              	.LBE6:
- 605              	.LBE5:
+ 592              		.loc 2 209 3 view .LVU166
+ 593              		.syntax unified
+ 594              	@ 209 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
+ 595 0000 72B6     		cpsid i
+ 596              	@ 0 "" 2
+ 597              		.thumb
+ 598              		.syntax unified
+ 599              	.L27:
+ 600              	.LBE6:
+ 601              	.LBE5:
  188:Core/Src/main.c ****   while (1)
- 606              		.loc 1 188 3 discriminator 1 view .LVU168
+ 602              		.loc 1 188 3 discriminator 1 view .LVU167
  189:Core/Src/main.c ****   {
  190:Core/Src/main.c ****   }
- 607              		.loc 1 190 3 discriminator 1 view .LVU169
+ 603              		.loc 1 190 3 discriminator 1 view .LVU168
  188:Core/Src/main.c ****   while (1)
- 608              		.loc 1 188 9 discriminator 1 view .LVU170
- 609 0002 FEE7     		b	.L27
- 610              		.cfi_endproc
- 611              	.LFE142:
- 613              		.global	txBuf
- 614              		.global	rxBuf
- 615              		.global	usbHandler
- 616              		.section	.bss.rxBuf,"aw",%nobits
- 617              		.align	2
- 618              		.set	.LANCHOR1,. + 0
- 621              	rxBuf:
- 622 0000 00000000 		.space	32
- 622      00000000 
- 622      00000000 
- 622      00000000 
- 622      00000000 
- 623              		.section	.bss.usbHandler,"aw",%nobits
- 624              		.align	2
- 625              		.set	.LANCHOR2,. + 0
- 628              	usbHandler:
- 629 0000 00000000 		.space	4
- 630              		.section	.data.txBuf,"aw"
- 631              		.align	2
- 632              		.set	.LANCHOR0,. + 0
- 635              	txBuf:
- 636 0000 48454C4C 		.ascii	"HELLO THERE FRIEND\012\000"
- 636      4F205448 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 19
+ 604              		.loc 1 188 9 discriminator 1 view .LVU169
+ 605 0002 FEE7     		b	.L27
+ 606              		.cfi_endproc
+ 607              	.LFE142:
+ 609              		.global	txBuf
+ 610              		.global	rxBuf
+ 611              		.global	usbHandler
+ 612              		.section	.bss.rxBuf,"aw",%nobits
+ 613              		.align	2
+ 614              		.set	.LANCHOR1,. + 0
+ 617              	rxBuf:
+ 618 0000 00000000 		.space	32
+ 618      00000000 
+ 618      00000000 
+ 618      00000000 
+ 618      00000000 
+ 619              		.section	.bss.usbHandler,"aw",%nobits
+ 620              		.align	2
+ 621              		.set	.LANCHOR2,. + 0
+ 624              	usbHandler:
+ 625 0000 00000000 		.space	4
+ 626              		.section	.data.txBuf,"aw"
+ 627              		.align	2
+ 628              		.set	.LANCHOR0,. + 0
+ 631              	txBuf:
+ 632 0000 48454C4C 		.ascii	"HELLO THERE FRIEND\012\000"
+ 632      4F205448 
+ 632      45524520 
+ 632      46524945 
+ 632      4E440A00 
+ 633 0014 00000000 		.space	12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 19
 
 
- 636      45524520 
- 636      46524945 
- 636      4E440A00 
- 637 0014 00000000 		.space	12
- 637      00000000 
- 637      00000000 
- 638              		.text
- 639              	.Letext0:
- 640              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
- 641              		.file 4 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
- 642              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
- 643              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 644              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
- 645              		.file 8 "Core/Inc/7Seg.h"
- 646              		.file 9 "Core/Inc/Lcd.h"
- 647              		.file 10 "USB_Device/App/usb_device.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s 			page 20
+ 633      00000000 
+ 633      00000000 
+ 634              		.text
+ 635              	.Letext0:
+ 636              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 637              		.file 4 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
+ 638              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ 639              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 640              		.file 7 "Core/Inc/7Seg.h"
+ 641              		.file 8 "Core/Inc/Lcd.h"
+ 642              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ 643              		.file 10 "USB_Device/App/usb_device.h"
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:18     .text.gpioB_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:26     .text.gpioB_Init:00000000 gpioB_Init
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:57     .text.gpioB_Init:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:63     .text.gpioA_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:70     .text.gpioA_Init:00000000 gpioA_Init
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:97     .text.gpioA_Init:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:102    .text.mainRCCInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:109    .text.mainRCCInit:00000000 mainRCCInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:176    .text.mainRCCInit:00000054 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:182    .text.contrastInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:189    .text.contrastInit:00000000 contrastInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:223    .text.contrastInit:00000028 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:229    .text.rtcInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:236    .text.rtcInit:00000000 rtcInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:349    .text.rtcInit:000000a0 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:357    .rodata.main.str1.4:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:361    .text.main:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:368    .text.main:00000000 main
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:564    .text.main:00000100 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:575    .text.Error_Handler:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:582    .text.Error_Handler:00000000 Error_Handler
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:635    .data.txBuf:00000000 txBuf
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:621    .bss.rxBuf:00000000 rxBuf
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:628    .bss.usbHandler:00000000 usbHandler
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:617    .bss.rxBuf:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:624    .bss.usbHandler:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccmXqhHD.s:631    .data.txBuf:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:18     .text.gpioB_Init:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:26     .text.gpioB_Init:00000000 gpioB_Init
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:57     .text.gpioB_Init:00000024 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:63     .text.gpioA_Init:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:70     .text.gpioA_Init:00000000 gpioA_Init
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:97     .text.gpioA_Init:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:102    .text.mainRCCInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:109    .text.mainRCCInit:00000000 mainRCCInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:176    .text.mainRCCInit:00000054 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:182    .text.contrastInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:189    .text.contrastInit:00000000 contrastInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:223    .text.contrastInit:00000028 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:229    .text.rtcInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:236    .text.rtcInit:00000000 rtcInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:349    .text.rtcInit:000000a0 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:357    .rodata.main.str1.4:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:361    .text.main:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:368    .text.main:00000000 main
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:560    .text.main:000000f8 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:571    .text.Error_Handler:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:578    .text.Error_Handler:00000000 Error_Handler
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:631    .data.txBuf:00000000 txBuf
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:617    .bss.rxBuf:00000000 rxBuf
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:624    .bss.usbHandler:00000000 usbHandler
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:613    .bss.rxBuf:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:620    .bss.usbHandler:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccgh2QEb.s:627    .data.txBuf:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Init
@@ -1139,6 +1135,5 @@ displayControl
 entryModeSet
 lcdPrintf
 returnHome
-HAL_Delay
 updateDisplayWithTime
 setDisplay

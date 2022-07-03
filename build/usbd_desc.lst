@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
   27:USB_Device/App/usbd_desc.c **** /* USER CODE BEGIN INCLUDE */
   28:USB_Device/App/usbd_desc.c **** 
   29:USB_Device/App/usbd_desc.c **** /* USER CODE END INCLUDE */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 2
 
 
   30:USB_Device/App/usbd_desc.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
   84:USB_Device/App/usbd_desc.c **** /* USER CODE END 0 */
   85:USB_Device/App/usbd_desc.c **** 
   86:USB_Device/App/usbd_desc.c **** /** @defgroup USBD_DESC_Private_Macros USBD_DESC_Private_Macros
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 3
 
 
   87:USB_Device/App/usbd_desc.c ****   * @brief Private macros.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  141:USB_Device/App/usbd_desc.c ****   USBD_CDC_InterfaceStrDescriptor
  142:USB_Device/App/usbd_desc.c **** };
  143:USB_Device/App/usbd_desc.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 4
 
 
  144:USB_Device/App/usbd_desc.c **** #if defined ( __ICCARM__ ) /* IAR Compiler */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  198:USB_Device/App/usbd_desc.c **** __ALIGN_BEGIN uint8_t USBD_StrDesc[USBD_MAX_STR_DESC_SIZ] __ALIGN_END;
  199:USB_Device/App/usbd_desc.c **** 
  200:USB_Device/App/usbd_desc.c **** #if defined ( __ICCARM__ ) /*!< IAR Compiler */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 5
 
 
  201:USB_Device/App/usbd_desc.c ****   #pragma data_alignment=4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
   57              		.thumb
   58              		.thumb_func
   59              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 6
 
 
   61              	USBD_CDC_LangIDStrDescriptor:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  249:USB_Device/App/usbd_desc.c **** uint8_t * USBD_CDC_ProductStrDescriptor(USBD_SpeedTypeDef speed, uint16_t *length)
  250:USB_Device/App/usbd_desc.c **** {
  251:USB_Device/App/usbd_desc.c ****   if(speed == 0)
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 7
 
 
  252:USB_Device/App/usbd_desc.c ****   {
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  306:USB_Device/App/usbd_desc.c ****   {
  307:USB_Device/App/usbd_desc.c ****     USBD_GetString((uint8_t *)USBD_CONFIGURATION_STRING, USBD_StrDesc, length);
  308:USB_Device/App/usbd_desc.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 8
 
 
  309:USB_Device/App/usbd_desc.c ****   else
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  363:USB_Device/App/usbd_desc.c ****   */
  364:USB_Device/App/usbd_desc.c **** static void IntToUnicode(uint32_t value, uint8_t * pbuf, uint8_t len)
  365:USB_Device/App/usbd_desc.c **** {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 9
 
 
   97              		.loc 1 365 1 is_stmt 1 view -0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  134 0020 01F80CE0 		strb	lr, [r1, ip]
  368:USB_Device/App/usbd_desc.c ****   {
  135              		.loc 1 368 28 is_stmt 1 discriminator 2 view .LVU30
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 10
 
 
  368:USB_Device/App/usbd_desc.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  341:USB_Device/App/usbd_desc.c ****   uint32_t deviceserial0, deviceserial1, deviceserial2;
  180              		.loc 1 341 1 is_stmt 1 view -0
  181              		.cfi_startproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 11
 
 
  182              		@ args = 0, pretend = 0, frame = 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  223              	.LVL15:
  353:USB_Device/App/usbd_desc.c ****   }
  224              		.loc 1 353 5 view .LVU57
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 12
 
 
  225 0020 0422     		movs	r2, #4
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  272 000c 08BD     		pop	{r3, pc}
  273              	.L26:
  274 000e 00BF     		.align	2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 13
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 13
 
 
  275              	.L25:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  319              		.loc 1 259 3 is_stmt 1 view .LVU74
  260:USB_Device/App/usbd_desc.c **** 
  320              		.loc 1 260 1 is_stmt 0 view .LVU75
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 14
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 14
 
 
  321 000e 0348     		ldr	r0, .L31
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  367              		.cfi_offset 4, -8
  368              		.cfi_offset 14, -4
  369 0002 0A46     		mov	r2, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 15
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 15
 
 
  270:USB_Device/App/usbd_desc.c ****   USBD_GetString((uint8_t *)USBD_MANUFACTURER_STRING, USBD_StrDesc, length);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  416              		.cfi_offset 3, -8
  417              		.cfi_offset 14, -4
  418 0002 0A46     		mov	r2, r1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 16
 
 
  305:USB_Device/App/usbd_desc.c ****   {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  460      6500
  461              		.section	.text.USBD_CDC_InterfaceStrDescriptor,"ax",%progbits
  462              		.align	1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 17
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 17
 
 
  463              		.global	USBD_CDC_InterfaceStrDescriptor
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  507              	.LVL45:
  330:USB_Device/App/usbd_desc.c ****   }
  508              		.loc 1 330 5 view .LVU112
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 18
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 18
 
 
  509 0016 FFF7FEFF 		bl	USBD_GetString
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  566              	USBD_StringSerial:
  567 0000 1A0300   		.ascii	"\032\003\000"
  568 0003 00000000 		.space	23
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 19
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 19
 
 
  568      00000000 
@@ -1092,51 +1092,51 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 1
  573              		.file 4 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
  574              		.file 5 "USB_Device/App/usbd_desc.h"
  575              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s 			page 20
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_desc.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:18     .text.USBD_CDC_DeviceDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:26     .text.USBD_CDC_DeviceDescriptor:00000000 USBD_CDC_DeviceDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:49     .text.USBD_CDC_DeviceDescriptor:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:54     .text.USBD_CDC_LangIDStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:61     .text.USBD_CDC_LangIDStrDescriptor:00000000 USBD_CDC_LangIDStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:83     .text.USBD_CDC_LangIDStrDescriptor:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:88     .text.IntToUnicode:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:94     .text.IntToUnicode:00000000 IntToUnicode
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:172    .text.Get_SerialNum:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:178    .text.Get_SerialNum:00000000 Get_SerialNum
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:235    .text.Get_SerialNum:00000030 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:241    .text.USBD_CDC_SerialStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:248    .text.USBD_CDC_SerialStrDescriptor:00000000 USBD_CDC_SerialStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:276    .text.USBD_CDC_SerialStrDescriptor:00000010 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:281    .rodata.USBD_CDC_ProductStrDescriptor.str1.4:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:285    .text.USBD_CDC_ProductStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:292    .text.USBD_CDC_ProductStrDescriptor:00000000 USBD_CDC_ProductStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:339    .text.USBD_CDC_ProductStrDescriptor:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:345    .rodata.USBD_CDC_ManufacturerStrDescriptor.str1.4:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:349    .text.USBD_CDC_ManufacturerStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:356    .text.USBD_CDC_ManufacturerStrDescriptor:00000000 USBD_CDC_ManufacturerStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:388    .text.USBD_CDC_ManufacturerStrDescriptor:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:394    .rodata.USBD_CDC_ConfigStrDescriptor.str1.4:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:398    .text.USBD_CDC_ConfigStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:405    .text.USBD_CDC_ConfigStrDescriptor:00000000 USBD_CDC_ConfigStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:452    .text.USBD_CDC_ConfigStrDescriptor:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:458    .rodata.USBD_CDC_InterfaceStrDescriptor.str1.4:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:462    .text.USBD_CDC_InterfaceStrDescriptor:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:469    .text.USBD_CDC_InterfaceStrDescriptor:00000000 USBD_CDC_InterfaceStrDescriptor
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:516    .text.USBD_CDC_InterfaceStrDescriptor:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:566    .data.USBD_StringSerial:00000000 USBD_StringSerial
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:531    .bss.USBD_StrDesc:00000000 USBD_StrDesc
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:559    .data.USBD_LangIDDesc:00000000 USBD_LangIDDesc
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:551    .data.USBD_CDC_DeviceDesc:00000000 USBD_CDC_DeviceDesc
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:537    .data.CDC_Desc:00000000 CDC_Desc
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:527    .bss.USBD_StrDesc:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:534    .data.CDC_Desc:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:547    .data.USBD_CDC_DeviceDesc:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:555    .data.USBD_LangIDDesc:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccWkJiUH.s:562    .data.USBD_StringSerial:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:18     .text.USBD_CDC_DeviceDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:26     .text.USBD_CDC_DeviceDescriptor:00000000 USBD_CDC_DeviceDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:49     .text.USBD_CDC_DeviceDescriptor:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:54     .text.USBD_CDC_LangIDStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:61     .text.USBD_CDC_LangIDStrDescriptor:00000000 USBD_CDC_LangIDStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:83     .text.USBD_CDC_LangIDStrDescriptor:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:88     .text.IntToUnicode:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:94     .text.IntToUnicode:00000000 IntToUnicode
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:172    .text.Get_SerialNum:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:178    .text.Get_SerialNum:00000000 Get_SerialNum
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:235    .text.Get_SerialNum:00000030 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:241    .text.USBD_CDC_SerialStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:248    .text.USBD_CDC_SerialStrDescriptor:00000000 USBD_CDC_SerialStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:276    .text.USBD_CDC_SerialStrDescriptor:00000010 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:281    .rodata.USBD_CDC_ProductStrDescriptor.str1.4:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:285    .text.USBD_CDC_ProductStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:292    .text.USBD_CDC_ProductStrDescriptor:00000000 USBD_CDC_ProductStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:339    .text.USBD_CDC_ProductStrDescriptor:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:345    .rodata.USBD_CDC_ManufacturerStrDescriptor.str1.4:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:349    .text.USBD_CDC_ManufacturerStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:356    .text.USBD_CDC_ManufacturerStrDescriptor:00000000 USBD_CDC_ManufacturerStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:388    .text.USBD_CDC_ManufacturerStrDescriptor:00000014 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:394    .rodata.USBD_CDC_ConfigStrDescriptor.str1.4:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:398    .text.USBD_CDC_ConfigStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:405    .text.USBD_CDC_ConfigStrDescriptor:00000000 USBD_CDC_ConfigStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:452    .text.USBD_CDC_ConfigStrDescriptor:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:458    .rodata.USBD_CDC_InterfaceStrDescriptor.str1.4:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:462    .text.USBD_CDC_InterfaceStrDescriptor:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:469    .text.USBD_CDC_InterfaceStrDescriptor:00000000 USBD_CDC_InterfaceStrDescriptor
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:516    .text.USBD_CDC_InterfaceStrDescriptor:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:566    .data.USBD_StringSerial:00000000 USBD_StringSerial
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:531    .bss.USBD_StrDesc:00000000 USBD_StrDesc
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:559    .data.USBD_LangIDDesc:00000000 USBD_LangIDDesc
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:551    .data.USBD_CDC_DeviceDesc:00000000 USBD_CDC_DeviceDesc
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:537    .data.CDC_Desc:00000000 CDC_Desc
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:527    .bss.USBD_StrDesc:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:534    .data.CDC_Desc:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:547    .data.USBD_CDC_DeviceDesc:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:555    .data.USBD_LangIDDesc:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccdcAhMg.s:562    .data.USBD_StringSerial:00000000 $d
 
 UNDEFINED SYMBOLS
 USBD_GetString

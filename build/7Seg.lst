@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
   27:Core/Src/7Seg.c **** };
   28:Core/Src/7Seg.c **** 
   29:Core/Src/7Seg.c **** const int fourDraw[4][4] =
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 2
 
 
   30:Core/Src/7Seg.c **** {
@@ -118,13 +118,13 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
   84:Core/Src/7Seg.c **** 
   85:Core/Src/7Seg.c **** const int (* numDraws[10])[4][4] = {&zeroDraw, &oneDraw, &twoDraw, &threeDraw, &fourDraw, &fiveDraw
   86:Core/Src/7Seg.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 3
 
 
   87:Core/Src/7Seg.c **** const int displayAddresses[4][17] = {
   88:Core/Src/7Seg.c ****     {0x30, 0x28, 0x08, 0x10, 0x31, 0x29, 0x09, 0x11, 0x34, 0x32, 0x2a, 0x0a, 0x12, 0x33, 0x2b, 0x0b
-  89:Core/Src/7Seg.c ****     {0x38, 0x20, 0x18, 0x00, 0x39, 0x21, 0x19, 0x01, 0x3b, 0x3a, 0x22, 0x1a, 0x02, 0x3b, 0x23, 0x1b
-  90:Core/Src/7Seg.c ****     {0x58, 0x50, 0x68, 0x60, 0x59, 0x51, 0x69, 0x61, 0x5b, 0x5a, 0x52, 0x6a, 0x62, 0x5b, 0x53, 0x6b
+  89:Core/Src/7Seg.c ****     {0x38, 0x20, 0x18, 0x00, 0x39, 0x21, 0x19, 0x01, 0x3c, 0x3a, 0x22, 0x1a, 0x02, 0x3b, 0x23, 0x1b
+  90:Core/Src/7Seg.c ****     {0x58, 0x50, 0x68, 0x60, 0x59, 0x51, 0x69, 0x61, 0x5c, 0x5a, 0x52, 0x6a, 0x62, 0x5b, 0x53, 0x6b
   91:Core/Src/7Seg.c ****     {0x40, 0x48, 0x70, 0x78, 0x41, 0x49, 0x71, 0x79, 0x44, 0x42, 0x4a, 0x72, 0x7a, 0x43, 0x4b, 0x73
   92:Core/Src/7Seg.c **** };
   93:Core/Src/7Seg.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
   68 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
   69              	.LCFI0:
   70              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 4
 
 
   71              		.cfi_offset 3, -24
@@ -208,12 +208,12 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
  109:Core/Src/7Seg.c ****             int data = (*numDraws[hr / 10])[j][i];
   91              		.loc 1 109 13 is_stmt 1 discriminator 3 view .LVU11
   92              		.loc 1 109 38 is_stmt 0 discriminator 3 view .LVU12
-  93 000a 3C4A     		ldr	r2, .L26
+  93 000a 464A     		ldr	r2, .L26
   94 000c 82FB0632 		smull	r3, r2, r2, r6
   95 0010 F317     		asrs	r3, r6, #31
   96 0012 C3EBA203 		rsb	r3, r3, r2, asr #2
   97              		.loc 1 109 34 discriminator 3 view .LVU13
-  98 0016 3A4A     		ldr	r2, .L26+4
+  98 0016 444A     		ldr	r2, .L26+4
   99 0018 52F82330 		ldr	r3, [r2, r3, lsl #2]
  100              		.loc 1 109 17 discriminator 3 view .LVU14
  101 001c 07EB8400 		add	r0, r7, r4, lsl #2
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
  117              	.L7:
  107:Core/Src/7Seg.c ****         {
  118              		.loc 1 107 25 is_stmt 1 discriminator 1 view .LVU20
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 5
 
 
  107:Core/Src/7Seg.c ****         {
@@ -286,19 +286,19 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
  117:Core/Src/7Seg.c ****             int data = (*numDraws[hr % 10])[j][i - 4];
  149              		.loc 1 117 13 is_stmt 1 discriminator 3 view .LVU29
  150              		.loc 1 117 38 is_stmt 0 discriminator 3 view .LVU30
- 151 0040 2E4A     		ldr	r2, .L26
+ 151 0040 384A     		ldr	r2, .L26
  152 0042 82FB0632 		smull	r3, r2, r2, r6
  153 0046 F317     		asrs	r3, r6, #31
  154 0048 C3EBA203 		rsb	r3, r3, r2, asr #2
  155 004c 03EB8303 		add	r3, r3, r3, lsl #2
  156 0050 A6EB4303 		sub	r3, r6, r3, lsl #1
  157              		.loc 1 117 34 discriminator 3 view .LVU31
- 158 0054 2A4A     		ldr	r2, .L26+4
+ 158 0054 344A     		ldr	r2, .L26+4
  159 0056 52F82300 		ldr	r0, [r2, r3, lsl #2]
  160              		.loc 1 117 50 discriminator 3 view .LVU32
  161 005a 3B1F     		subs	r3, r7, #4
  162              		.loc 1 117 17 discriminator 3 view .LVU33
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 6
 
 
  163 005c 03EB8403 		add	r3, r3, r4, lsl #2
@@ -349,808 +349,845 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 1
  198              	.L23:
  199              	.LBE9:
  200              	.LBE6:
- 201              	.LBB10:
  119:Core/Src/7Seg.c ****         }
  120:Core/Src/7Seg.c ****     }
- 121:Core/Src/7Seg.c ****     for (int i = 9; i < 13; i++)
- 202              		.loc 1 121 14 view .LVU46
- 203 007c 0926     		movs	r6, #9
- 204              	.LVL17:
- 205              		.loc 1 121 14 view .LVU47
- 206 007e 16E0     		b	.L11
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 7
+ 121:Core/Src/7Seg.c ****     
+ 122:Core/Src/7Seg.c ****     updateDisplayCell(0x00, 0, 8);
+ 201              		.loc 1 122 5 is_stmt 1 view .LVU46
+ 202 007c 0822     		movs	r2, #8
+ 203 007e 0021     		movs	r1, #0
+ 204 0080 0846     		mov	r0, r1
+ 205 0082 FFF7FEFF 		bl	updateDisplayCell
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 7
 
 
- 207              	.LVL18:
- 208              	.L12:
- 209              	.LBB11:
- 210              	.LBB12:
- 122:Core/Src/7Seg.c ****     {
- 123:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
- 124:Core/Src/7Seg.c ****         {
- 125:Core/Src/7Seg.c ****             int data = (*numDraws[min / 10])[j][i - 9];
- 211              		.loc 1 125 13 is_stmt 1 discriminator 3 view .LVU48
- 212              		.loc 1 125 39 is_stmt 0 discriminator 3 view .LVU49
- 213 0080 1E4A     		ldr	r2, .L26
- 214 0082 82FB0532 		smull	r3, r2, r2, r5
- 215 0086 EB17     		asrs	r3, r5, #31
- 216 0088 C3EBA203 		rsb	r3, r3, r2, asr #2
- 217              		.loc 1 125 34 discriminator 3 view .LVU50
- 218 008c 1C4A     		ldr	r2, .L26+4
- 219 008e 52F82300 		ldr	r0, [r2, r3, lsl #2]
- 220              		.loc 1 125 51 discriminator 3 view .LVU51
- 221 0092 A6F10903 		sub	r3, r6, #9
- 222              		.loc 1 125 17 discriminator 3 view .LVU52
- 223 0096 03EB8403 		add	r3, r3, r4, lsl #2
- 224              	.LVL19:
- 126:Core/Src/7Seg.c ****             updateDisplayCell(data, j, i);
- 225              		.loc 1 126 13 is_stmt 1 discriminator 3 view .LVU53
- 226 009a 3246     		mov	r2, r6
- 227 009c 2146     		mov	r1, r4
- 228 009e 50F82300 		ldr	r0, [r0, r3, lsl #2]
- 229              	.LVL20:
- 230              		.loc 1 126 13 is_stmt 0 discriminator 3 view .LVU54
- 231 00a2 FFF7FEFF 		bl	updateDisplayCell
- 232              	.LVL21:
- 233              		.loc 1 126 13 discriminator 3 view .LVU55
- 234              	.LBE12:
- 123:Core/Src/7Seg.c ****         {
- 235              		.loc 1 123 32 is_stmt 1 discriminator 3 view .LVU56
- 123:Core/Src/7Seg.c ****         {
- 236              		.loc 1 123 33 is_stmt 0 discriminator 3 view .LVU57
- 237 00a6 0134     		adds	r4, r4, #1
- 238              	.LVL22:
- 239              	.L13:
- 123:Core/Src/7Seg.c ****         {
- 240              		.loc 1 123 25 is_stmt 1 discriminator 1 view .LVU58
- 123:Core/Src/7Seg.c ****         {
- 241              		.loc 1 123 9 is_stmt 0 discriminator 1 view .LVU59
- 242 00a8 032C     		cmp	r4, #3
- 243 00aa E9DD     		ble	.L12
- 244              	.LBE11:
- 121:Core/Src/7Seg.c ****     {
- 245              		.loc 1 121 29 is_stmt 1 discriminator 2 view .LVU60
- 121:Core/Src/7Seg.c ****     {
- 246              		.loc 1 121 30 is_stmt 0 discriminator 2 view .LVU61
- 247 00ac 0136     		adds	r6, r6, #1
- 248              	.LVL23:
- 249              	.L11:
- 121:Core/Src/7Seg.c ****     {
- 250              		.loc 1 121 21 is_stmt 1 discriminator 1 view .LVU62
- 121:Core/Src/7Seg.c ****     {
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 8
+ 206              	.LVL17:
+ 123:Core/Src/7Seg.c ****     updateDisplayCell(TOP_O, 1, 8);
+ 207              		.loc 1 123 5 view .LVU47
+ 208 0086 0822     		movs	r2, #8
+ 209 0088 0121     		movs	r1, #1
+ 210 008a 0F20     		movs	r0, #15
+ 211 008c FFF7FEFF 		bl	updateDisplayCell
+ 212              	.LVL18:
+ 124:Core/Src/7Seg.c ****     updateDisplayCell(BOTTOM_O, 2, 8);
+ 213              		.loc 1 124 5 view .LVU48
+ 214 0090 0822     		movs	r2, #8
+ 215 0092 0221     		movs	r1, #2
+ 216 0094 E220     		movs	r0, #226
+ 217 0096 FFF7FEFF 		bl	updateDisplayCell
+ 218              	.LVL19:
+ 125:Core/Src/7Seg.c ****     updateDisplayCell(0x00, 3, 8);
+ 219              		.loc 1 125 5 view .LVU49
+ 220 009a 0822     		movs	r2, #8
+ 221 009c 0321     		movs	r1, #3
+ 222 009e 0020     		movs	r0, #0
+ 223 00a0 FFF7FEFF 		bl	updateDisplayCell
+ 224              	.LVL20:
+ 126:Core/Src/7Seg.c **** 
+ 127:Core/Src/7Seg.c ****     for (int i = 9; i < 13; i++)
+ 225              		.loc 1 127 5 view .LVU50
+ 226              	.LBB10:
+ 227              		.loc 1 127 10 view .LVU51
+ 228              		.loc 1 127 14 is_stmt 0 view .LVU52
+ 229 00a4 0926     		movs	r6, #9
+ 230              	.LVL21:
+ 231              		.loc 1 127 5 view .LVU53
+ 232 00a6 16E0     		b	.L11
+ 233              	.LVL22:
+ 234              	.L12:
+ 235              	.LBB11:
+ 236              	.LBB12:
+ 128:Core/Src/7Seg.c ****     {
+ 129:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
+ 130:Core/Src/7Seg.c ****         {
+ 131:Core/Src/7Seg.c ****             int data = (*numDraws[min / 10])[j][i - 9];
+ 237              		.loc 1 131 13 is_stmt 1 discriminator 3 view .LVU54
+ 238              		.loc 1 131 39 is_stmt 0 discriminator 3 view .LVU55
+ 239 00a8 1E4A     		ldr	r2, .L26
+ 240 00aa 82FB0532 		smull	r3, r2, r2, r5
+ 241 00ae EB17     		asrs	r3, r5, #31
+ 242 00b0 C3EBA203 		rsb	r3, r3, r2, asr #2
+ 243              		.loc 1 131 34 discriminator 3 view .LVU56
+ 244 00b4 1C4A     		ldr	r2, .L26+4
+ 245 00b6 52F82300 		ldr	r0, [r2, r3, lsl #2]
+ 246              		.loc 1 131 51 discriminator 3 view .LVU57
+ 247 00ba A6F10903 		sub	r3, r6, #9
+ 248              		.loc 1 131 17 discriminator 3 view .LVU58
+ 249 00be 03EB8403 		add	r3, r3, r4, lsl #2
+ 250              	.LVL23:
+ 132:Core/Src/7Seg.c ****             updateDisplayCell(data, j, i);
+ 251              		.loc 1 132 13 is_stmt 1 discriminator 3 view .LVU59
+ 252 00c2 3246     		mov	r2, r6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 8
 
 
- 251              		.loc 1 121 5 is_stmt 0 discriminator 1 view .LVU63
- 252 00ae 0C2E     		cmp	r6, #12
- 253 00b0 01DC     		bgt	.L24
- 254              	.LBB13:
- 123:Core/Src/7Seg.c ****         {
- 255              		.loc 1 123 18 view .LVU64
- 256 00b2 0024     		movs	r4, #0
- 257 00b4 F8E7     		b	.L13
- 258              	.L24:
- 259              	.LBE13:
- 260              	.LBE10:
- 261              	.LBB14:
- 127:Core/Src/7Seg.c ****         }
- 128:Core/Src/7Seg.c ****     }
- 129:Core/Src/7Seg.c ****     for (int i = 13; i < 17; i++)
- 262              		.loc 1 129 14 view .LVU65
- 263 00b6 0D26     		movs	r6, #13
- 264              	.LVL24:
- 265              		.loc 1 129 14 view .LVU66
- 266 00b8 1AE0     		b	.L14
- 267              	.LVL25:
- 268              	.L15:
- 269              	.LBB15:
- 270              	.LBB16:
- 130:Core/Src/7Seg.c ****     {
- 131:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
- 132:Core/Src/7Seg.c ****         {
- 133:Core/Src/7Seg.c ****             int data = (*numDraws[min % 10])[j][i - 13];
- 271              		.loc 1 133 13 is_stmt 1 discriminator 3 view .LVU67
- 272              		.loc 1 133 39 is_stmt 0 discriminator 3 view .LVU68
- 273 00ba 104A     		ldr	r2, .L26
- 274 00bc 82FB0532 		smull	r3, r2, r2, r5
- 275 00c0 EB17     		asrs	r3, r5, #31
- 276 00c2 C3EBA203 		rsb	r3, r3, r2, asr #2
- 277 00c6 03EB8303 		add	r3, r3, r3, lsl #2
- 278 00ca A5EB4303 		sub	r3, r5, r3, lsl #1
- 279              		.loc 1 133 34 discriminator 3 view .LVU69
- 280 00ce 0C4A     		ldr	r2, .L26+4
- 281 00d0 52F82300 		ldr	r0, [r2, r3, lsl #2]
- 282              		.loc 1 133 51 discriminator 3 view .LVU70
- 283 00d4 A6F10D03 		sub	r3, r6, #13
- 284              		.loc 1 133 17 discriminator 3 view .LVU71
- 285 00d8 03EB8403 		add	r3, r3, r4, lsl #2
- 286              	.LVL26:
- 134:Core/Src/7Seg.c ****             updateDisplayCell(data, j, i);
- 287              		.loc 1 134 13 is_stmt 1 discriminator 3 view .LVU72
- 288 00dc 3246     		mov	r2, r6
- 289 00de 2146     		mov	r1, r4
- 290 00e0 50F82300 		ldr	r0, [r0, r3, lsl #2]
- 291              	.LVL27:
- 292              		.loc 1 134 13 is_stmt 0 discriminator 3 view .LVU73
- 293 00e4 FFF7FEFF 		bl	updateDisplayCell
- 294              	.LVL28:
- 295              		.loc 1 134 13 discriminator 3 view .LVU74
- 296              	.LBE16:
- 131:Core/Src/7Seg.c ****         {
- 297              		.loc 1 131 32 is_stmt 1 discriminator 3 view .LVU75
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 9
+ 253 00c4 2146     		mov	r1, r4
+ 254 00c6 50F82300 		ldr	r0, [r0, r3, lsl #2]
+ 255              	.LVL24:
+ 256              		.loc 1 132 13 is_stmt 0 discriminator 3 view .LVU60
+ 257 00ca FFF7FEFF 		bl	updateDisplayCell
+ 258              	.LVL25:
+ 259              		.loc 1 132 13 discriminator 3 view .LVU61
+ 260              	.LBE12:
+ 129:Core/Src/7Seg.c ****         {
+ 261              		.loc 1 129 32 is_stmt 1 discriminator 3 view .LVU62
+ 129:Core/Src/7Seg.c ****         {
+ 262              		.loc 1 129 33 is_stmt 0 discriminator 3 view .LVU63
+ 263 00ce 0134     		adds	r4, r4, #1
+ 264              	.LVL26:
+ 265              	.L13:
+ 129:Core/Src/7Seg.c ****         {
+ 266              		.loc 1 129 25 is_stmt 1 discriminator 1 view .LVU64
+ 129:Core/Src/7Seg.c ****         {
+ 267              		.loc 1 129 9 is_stmt 0 discriminator 1 view .LVU65
+ 268 00d0 032C     		cmp	r4, #3
+ 269 00d2 E9DD     		ble	.L12
+ 270              	.LBE11:
+ 127:Core/Src/7Seg.c ****     {
+ 271              		.loc 1 127 29 is_stmt 1 discriminator 2 view .LVU66
+ 127:Core/Src/7Seg.c ****     {
+ 272              		.loc 1 127 30 is_stmt 0 discriminator 2 view .LVU67
+ 273 00d4 0136     		adds	r6, r6, #1
+ 274              	.LVL27:
+ 275              	.L11:
+ 127:Core/Src/7Seg.c ****     {
+ 276              		.loc 1 127 21 is_stmt 1 discriminator 1 view .LVU68
+ 127:Core/Src/7Seg.c ****     {
+ 277              		.loc 1 127 5 is_stmt 0 discriminator 1 view .LVU69
+ 278 00d6 0C2E     		cmp	r6, #12
+ 279 00d8 01DC     		bgt	.L24
+ 280              	.LBB13:
+ 129:Core/Src/7Seg.c ****         {
+ 281              		.loc 1 129 18 view .LVU70
+ 282 00da 0024     		movs	r4, #0
+ 283 00dc F8E7     		b	.L13
+ 284              	.L24:
+ 285              	.LBE13:
+ 286              	.LBE10:
+ 287              	.LBB14:
+ 133:Core/Src/7Seg.c ****         }
+ 134:Core/Src/7Seg.c ****     }
+ 135:Core/Src/7Seg.c ****     for (int i = 13; i < 17; i++)
+ 288              		.loc 1 135 14 view .LVU71
+ 289 00de 0D26     		movs	r6, #13
+ 290              	.LVL28:
+ 291              		.loc 1 135 14 view .LVU72
+ 292 00e0 1AE0     		b	.L14
+ 293              	.LVL29:
+ 294              	.L15:
+ 295              	.LBB15:
+ 296              	.LBB16:
+ 136:Core/Src/7Seg.c ****     {
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 9
 
 
- 131:Core/Src/7Seg.c ****         {
- 298              		.loc 1 131 33 is_stmt 0 discriminator 3 view .LVU76
- 299 00e8 0134     		adds	r4, r4, #1
- 300              	.LVL29:
- 301              	.L16:
- 131:Core/Src/7Seg.c ****         {
- 302              		.loc 1 131 25 is_stmt 1 discriminator 1 view .LVU77
- 131:Core/Src/7Seg.c ****         {
- 303              		.loc 1 131 9 is_stmt 0 discriminator 1 view .LVU78
- 304 00ea 032C     		cmp	r4, #3
- 305 00ec E5DD     		ble	.L15
- 306              	.LBE15:
- 129:Core/Src/7Seg.c ****     {
- 307              		.loc 1 129 30 is_stmt 1 discriminator 2 view .LVU79
- 129:Core/Src/7Seg.c ****     {
- 308              		.loc 1 129 31 is_stmt 0 discriminator 2 view .LVU80
- 309 00ee 0136     		adds	r6, r6, #1
- 310              	.LVL30:
- 311              	.L14:
- 129:Core/Src/7Seg.c ****     {
- 312              		.loc 1 129 22 is_stmt 1 discriminator 1 view .LVU81
- 129:Core/Src/7Seg.c ****     {
- 313              		.loc 1 129 5 is_stmt 0 discriminator 1 view .LVU82
- 314 00f0 102E     		cmp	r6, #16
- 315 00f2 01DC     		bgt	.L25
- 316              	.LBB17:
- 131:Core/Src/7Seg.c ****         {
- 317              		.loc 1 131 18 view .LVU83
- 318 00f4 0024     		movs	r4, #0
- 319 00f6 F8E7     		b	.L16
- 320              	.L25:
- 321              	.LBE17:
- 322              	.LBE14:
- 135:Core/Src/7Seg.c ****         }
- 136:Core/Src/7Seg.c ****     }
- 137:Core/Src/7Seg.c **** }
- 323              		.loc 1 137 1 view .LVU84
- 324 00f8 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 325              	.LVL31:
- 326              	.L27:
- 327              		.loc 1 137 1 view .LVU85
- 328 00fa 00BF     		.align	2
- 329              	.L26:
- 330 00fc 67666666 		.word	1717986919
- 331 0100 00000000 		.word	.LANCHOR1
- 332              		.cfi_endproc
- 333              	.LFE133:
- 335              		.section	.text.setDisplayCell,"ax",%progbits
- 336              		.align	1
- 337              		.global	setDisplayCell
- 338              		.syntax unified
- 339              		.thumb
- 340              		.thumb_func
- 341              		.fpu fpv4-sp-d16
- 343              	setDisplayCell:
- 344              	.LVL32:
- 345              	.LFB134:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 10
+ 137:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
+ 138:Core/Src/7Seg.c ****         {
+ 139:Core/Src/7Seg.c ****             int data = (*numDraws[min % 10])[j][i - 13];
+ 297              		.loc 1 139 13 is_stmt 1 discriminator 3 view .LVU73
+ 298              		.loc 1 139 39 is_stmt 0 discriminator 3 view .LVU74
+ 299 00e2 104A     		ldr	r2, .L26
+ 300 00e4 82FB0532 		smull	r3, r2, r2, r5
+ 301 00e8 EB17     		asrs	r3, r5, #31
+ 302 00ea C3EBA203 		rsb	r3, r3, r2, asr #2
+ 303 00ee 03EB8303 		add	r3, r3, r3, lsl #2
+ 304 00f2 A5EB4303 		sub	r3, r5, r3, lsl #1
+ 305              		.loc 1 139 34 discriminator 3 view .LVU75
+ 306 00f6 0C4A     		ldr	r2, .L26+4
+ 307 00f8 52F82300 		ldr	r0, [r2, r3, lsl #2]
+ 308              		.loc 1 139 51 discriminator 3 view .LVU76
+ 309 00fc A6F10D03 		sub	r3, r6, #13
+ 310              		.loc 1 139 17 discriminator 3 view .LVU77
+ 311 0100 03EB8403 		add	r3, r3, r4, lsl #2
+ 312              	.LVL30:
+ 140:Core/Src/7Seg.c ****             updateDisplayCell(data, j, i);
+ 313              		.loc 1 140 13 is_stmt 1 discriminator 3 view .LVU78
+ 314 0104 3246     		mov	r2, r6
+ 315 0106 2146     		mov	r1, r4
+ 316 0108 50F82300 		ldr	r0, [r0, r3, lsl #2]
+ 317              	.LVL31:
+ 318              		.loc 1 140 13 is_stmt 0 discriminator 3 view .LVU79
+ 319 010c FFF7FEFF 		bl	updateDisplayCell
+ 320              	.LVL32:
+ 321              		.loc 1 140 13 discriminator 3 view .LVU80
+ 322              	.LBE16:
+ 137:Core/Src/7Seg.c ****         {
+ 323              		.loc 1 137 32 is_stmt 1 discriminator 3 view .LVU81
+ 137:Core/Src/7Seg.c ****         {
+ 324              		.loc 1 137 33 is_stmt 0 discriminator 3 view .LVU82
+ 325 0110 0134     		adds	r4, r4, #1
+ 326              	.LVL33:
+ 327              	.L16:
+ 137:Core/Src/7Seg.c ****         {
+ 328              		.loc 1 137 25 is_stmt 1 discriminator 1 view .LVU83
+ 137:Core/Src/7Seg.c ****         {
+ 329              		.loc 1 137 9 is_stmt 0 discriminator 1 view .LVU84
+ 330 0112 032C     		cmp	r4, #3
+ 331 0114 E5DD     		ble	.L15
+ 332              	.LBE15:
+ 135:Core/Src/7Seg.c ****     {
+ 333              		.loc 1 135 30 is_stmt 1 discriminator 2 view .LVU85
+ 135:Core/Src/7Seg.c ****     {
+ 334              		.loc 1 135 31 is_stmt 0 discriminator 2 view .LVU86
+ 335 0116 0136     		adds	r6, r6, #1
+ 336              	.LVL34:
+ 337              	.L14:
+ 135:Core/Src/7Seg.c ****     {
+ 338              		.loc 1 135 22 is_stmt 1 discriminator 1 view .LVU87
+ 135:Core/Src/7Seg.c ****     {
+ 339              		.loc 1 135 5 is_stmt 0 discriminator 1 view .LVU88
+ 340 0118 102E     		cmp	r6, #16
+ 341 011a 01DC     		bgt	.L25
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 10
 
 
- 138:Core/Src/7Seg.c **** 
- 139:Core/Src/7Seg.c **** /* This is what will change with different computing units*/
- 140:Core/Src/7Seg.c **** void setDisplayCell(int row, int col)
- 141:Core/Src/7Seg.c **** {
- 346              		.loc 1 141 1 is_stmt 1 view -0
- 347              		.cfi_startproc
- 348              		@ args = 0, pretend = 0, frame = 0
- 349              		@ frame_needed = 0, uses_anonymous_args = 0
- 350              		.loc 1 141 1 is_stmt 0 view .LVU87
- 351 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
- 352              	.LCFI1:
- 353              		.cfi_def_cfa_offset 24
- 354              		.cfi_offset 3, -24
- 355              		.cfi_offset 4, -20
- 356              		.cfi_offset 5, -16
- 357              		.cfi_offset 6, -12
- 358              		.cfi_offset 7, -8
- 359              		.cfi_offset 14, -4
- 142:Core/Src/7Seg.c ****     int pOut = (displayState[row][col] << 8) | ((displayAddresses[row][col] & 0b1110000) << 1) | (d
- 360              		.loc 1 142 5 is_stmt 1 view .LVU88
- 361              		.loc 1 142 34 is_stmt 0 view .LVU89
- 362 0002 00EB0010 		add	r0, r0, r0, lsl #4
- 363              	.LVL33:
- 364              		.loc 1 142 34 view .LVU90
- 365 0006 0144     		add	r1, r1, r0
- 366              	.LVL34:
- 367              		.loc 1 142 34 view .LVU91
- 368 0008 134B     		ldr	r3, .L30
- 369 000a 53F82120 		ldr	r2, [r3, r1, lsl #2]
- 370              		.loc 1 142 71 view .LVU92
- 371 000e 134B     		ldr	r3, .L30+4
- 372 0010 53F82130 		ldr	r3, [r3, r1, lsl #2]
- 373              		.loc 1 142 90 view .LVU93
- 374 0014 5C00     		lsls	r4, r3, #1
- 375 0016 04F0E004 		and	r4, r4, #224
- 376              		.loc 1 142 46 view .LVU94
- 377 001a 44EA0224 		orr	r4, r4, r2, lsl #8
- 378              		.loc 1 142 126 view .LVU95
- 379 001e 03F00F03 		and	r3, r3, #15
- 380              		.loc 1 142 9 view .LVU96
- 381 0022 1C43     		orrs	r4, r4, r3
- 382              	.LVL35:
- 143:Core/Src/7Seg.c ****     uint16_t pA = pOut & (0b1110011111101111);
- 383              		.loc 1 143 5 is_stmt 1 view .LVU97
- 384              		.loc 1 143 24 is_stmt 0 view .LVU98
- 385 0024 A3B2     		uxth	r3, r4
- 386              		.loc 1 143 14 view .LVU99
- 387 0026 23F4C052 		bic	r2, r3, #6144
- 388              	.LVL36:
- 144:Core/Src/7Seg.c **** 	uint16_t pB = pOut & ~(0b1110011111101111);
- 389              		.loc 1 144 2 is_stmt 1 view .LVU100
- 390              		.loc 1 144 11 is_stmt 0 view .LVU101
- 391 002a 41F61007 		movw	r7, #6160
- 392 002e 3B40     		ands	r3, r3, r7
- 393              	.LVL37:
- 145:Core/Src/7Seg.c **** 	GPIOA->ODR = pA;
- 394              		.loc 1 145 2 is_stmt 1 view .LVU102
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 11
+ 342              	.LBB17:
+ 137:Core/Src/7Seg.c ****         {
+ 343              		.loc 1 137 18 view .LVU89
+ 344 011c 0024     		movs	r4, #0
+ 345 011e F8E7     		b	.L16
+ 346              	.L25:
+ 347              	.LBE17:
+ 348              	.LBE14:
+ 141:Core/Src/7Seg.c ****         }
+ 142:Core/Src/7Seg.c ****     }
+ 143:Core/Src/7Seg.c **** }
+ 349              		.loc 1 143 1 view .LVU90
+ 350 0120 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 351              	.LVL35:
+ 352              	.L27:
+ 353              		.loc 1 143 1 view .LVU91
+ 354 0122 00BF     		.align	2
+ 355              	.L26:
+ 356 0124 67666666 		.word	1717986919
+ 357 0128 00000000 		.word	.LANCHOR1
+ 358              		.cfi_endproc
+ 359              	.LFE133:
+ 361              		.section	.text.setDisplayCell,"ax",%progbits
+ 362              		.align	1
+ 363              		.global	setDisplayCell
+ 364              		.syntax unified
+ 365              		.thumb
+ 366              		.thumb_func
+ 367              		.fpu fpv4-sp-d16
+ 369              	setDisplayCell:
+ 370              	.LVL36:
+ 371              	.LFB134:
+ 144:Core/Src/7Seg.c **** 
+ 145:Core/Src/7Seg.c **** /* This is what will change with different computing units*/
+ 146:Core/Src/7Seg.c **** void setDisplayCell(int row, int col)
+ 147:Core/Src/7Seg.c **** {
+ 372              		.loc 1 147 1 is_stmt 1 view -0
+ 373              		.cfi_startproc
+ 374              		@ args = 0, pretend = 0, frame = 0
+ 375              		@ frame_needed = 0, uses_anonymous_args = 0
+ 376              		.loc 1 147 1 is_stmt 0 view .LVU93
+ 377 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 378              	.LCFI1:
+ 379              		.cfi_def_cfa_offset 24
+ 380              		.cfi_offset 3, -24
+ 381              		.cfi_offset 4, -20
+ 382              		.cfi_offset 5, -16
+ 383              		.cfi_offset 6, -12
+ 384              		.cfi_offset 7, -8
+ 385              		.cfi_offset 14, -4
+ 148:Core/Src/7Seg.c ****     int pOut = (displayState[row][col] << 8) | ((displayAddresses[row][col] & 0b1110000) << 1) | (d
+ 386              		.loc 1 148 5 is_stmt 1 view .LVU94
+ 387              		.loc 1 148 34 is_stmt 0 view .LVU95
+ 388 0002 00EB0010 		add	r0, r0, r0, lsl #4
+ 389              	.LVL37:
+ 390              		.loc 1 148 34 view .LVU96
+ 391 0006 0144     		add	r1, r1, r0
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 11
 
 
- 395              		.loc 1 145 13 is_stmt 0 view .LVU103
- 396 0030 4FF09046 		mov	r6, #1207959552
- 397 0034 7261     		str	r2, [r6, #20]
- 146:Core/Src/7Seg.c **** 	GPIOB->ODR = pB;
- 398              		.loc 1 146 2 is_stmt 1 view .LVU104
- 399              		.loc 1 146 13 is_stmt 0 view .LVU105
- 400 0036 0A4D     		ldr	r5, .L30+8
- 401 0038 6B61     		str	r3, [r5, #20]
- 147:Core/Src/7Seg.c **** 
- 148:Core/Src/7Seg.c ****     HAL_Delay(5);
- 402              		.loc 1 148 5 is_stmt 1 view .LVU106
- 403 003a 0520     		movs	r0, #5
- 404 003c FFF7FEFF 		bl	HAL_Delay
- 405              	.LVL38:
- 149:Core/Src/7Seg.c **** 
- 150:Core/Src/7Seg.c ****     pOut |= (1<<2);
- 406              		.loc 1 150 5 view .LVU107
- 407              		.loc 1 150 10 is_stmt 0 view .LVU108
- 408 0040 44F00404 		orr	r4, r4, #4
- 409              	.LVL39:
- 151:Core/Src/7Seg.c ****     pA = pOut & (0b1110011111101111);
- 410              		.loc 1 151 5 is_stmt 1 view .LVU109
- 411              		.loc 1 151 15 is_stmt 0 view .LVU110
- 412 0044 A4B2     		uxth	r4, r4
- 413              	.LVL40:
- 414              		.loc 1 151 8 view .LVU111
- 415 0046 24F4C053 		bic	r3, r4, #6144
- 416              	.LVL41:
- 152:Core/Src/7Seg.c **** 	pB = pOut & ~(0b1110011111101111);
- 417              		.loc 1 152 2 is_stmt 1 view .LVU112
- 418              		.loc 1 152 5 is_stmt 0 view .LVU113
- 419 004a 3C40     		ands	r4, r4, r7
- 420              	.LVL42:
- 153:Core/Src/7Seg.c **** 	GPIOA->ODR = pA;
- 421              		.loc 1 153 2 is_stmt 1 view .LVU114
- 422              		.loc 1 153 13 is_stmt 0 view .LVU115
- 423 004c 7361     		str	r3, [r6, #20]
- 154:Core/Src/7Seg.c **** 	GPIOB->ODR = pB;
- 424              		.loc 1 154 2 is_stmt 1 view .LVU116
- 425              		.loc 1 154 13 is_stmt 0 view .LVU117
- 426 004e 6C61     		str	r4, [r5, #20]
+ 392              	.LVL38:
+ 393              		.loc 1 148 34 view .LVU97
+ 394 0008 154B     		ldr	r3, .L30
+ 395 000a 53F82120 		ldr	r2, [r3, r1, lsl #2]
+ 396              		.loc 1 148 71 view .LVU98
+ 397 000e 154B     		ldr	r3, .L30+4
+ 398 0010 53F82130 		ldr	r3, [r3, r1, lsl #2]
+ 399              		.loc 1 148 90 view .LVU99
+ 400 0014 5C00     		lsls	r4, r3, #1
+ 401 0016 04F0E004 		and	r4, r4, #224
+ 402              		.loc 1 148 46 view .LVU100
+ 403 001a 44EA0224 		orr	r4, r4, r2, lsl #8
+ 404              		.loc 1 148 126 view .LVU101
+ 405 001e 03F00F03 		and	r3, r3, #15
+ 406              		.loc 1 148 9 view .LVU102
+ 407 0022 1C43     		orrs	r4, r4, r3
+ 408              	.LVL39:
+ 149:Core/Src/7Seg.c ****     uint16_t pA = pOut & (0b1110011111101111);
+ 409              		.loc 1 149 5 is_stmt 1 view .LVU103
+ 410              		.loc 1 149 24 is_stmt 0 view .LVU104
+ 411 0024 A3B2     		uxth	r3, r4
+ 412              		.loc 1 149 14 view .LVU105
+ 413 0026 23F4C052 		bic	r2, r3, #6144
+ 414              	.LVL40:
+ 150:Core/Src/7Seg.c **** 	uint16_t pB = pOut & ~(0b1110011111101111);
+ 415              		.loc 1 150 2 is_stmt 1 view .LVU106
+ 416              		.loc 1 150 11 is_stmt 0 view .LVU107
+ 417 002a 41F61007 		movw	r7, #6160
+ 418 002e 3B40     		ands	r3, r3, r7
+ 419              	.LVL41:
+ 151:Core/Src/7Seg.c **** 	GPIOA->ODR = pA;
+ 420              		.loc 1 151 2 is_stmt 1 view .LVU108
+ 421              		.loc 1 151 13 is_stmt 0 view .LVU109
+ 422 0030 4FF09046 		mov	r6, #1207959552
+ 423 0034 7261     		str	r2, [r6, #20]
+ 152:Core/Src/7Seg.c **** 	GPIOB->ODR = pB;
+ 424              		.loc 1 152 2 is_stmt 1 view .LVU110
+ 425              		.loc 1 152 13 is_stmt 0 view .LVU111
+ 426 0036 0C4D     		ldr	r5, .L30+8
+ 427 0038 6B61     		str	r3, [r5, #20]
+ 153:Core/Src/7Seg.c **** 
+ 154:Core/Src/7Seg.c ****     HAL_Delay(5);
+ 428              		.loc 1 154 5 is_stmt 1 view .LVU112
+ 429 003a 0520     		movs	r0, #5
+ 430 003c FFF7FEFF 		bl	HAL_Delay
+ 431              	.LVL42:
  155:Core/Src/7Seg.c **** 
- 156:Core/Src/7Seg.c ****     HAL_Delay(5);
- 427              		.loc 1 156 5 is_stmt 1 view .LVU118
- 428 0050 0520     		movs	r0, #5
- 429 0052 FFF7FEFF 		bl	HAL_Delay
- 430              	.LVL43:
- 157:Core/Src/7Seg.c **** }
- 431              		.loc 1 157 1 is_stmt 0 view .LVU119
- 432 0056 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
- 433              	.LVL44:
- 434              	.L31:
- 435              		.loc 1 157 1 view .LVU120
- 436              		.align	2
- 437              	.L30:
- 438 0058 00000000 		.word	.LANCHOR0
- 439 005c 00000000 		.word	.LANCHOR2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 12
+ 156:Core/Src/7Seg.c ****     pOut |= (0b1111111);
+ 432              		.loc 1 156 5 view .LVU113
+ 433              		.loc 1 156 10 is_stmt 0 view .LVU114
+ 434 0040 44F07F04 		orr	r4, r4, #127
+ 435              	.LVL43:
+ 157:Core/Src/7Seg.c ****     pA = pOut & (0b1110011111101111);
+ 436              		.loc 1 157 5 is_stmt 1 view .LVU115
+ 437              		.loc 1 157 15 is_stmt 0 view .LVU116
+ 438 0044 A4B2     		uxth	r4, r4
+ 439              	.LVL44:
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 12
 
 
- 440 0060 00040048 		.word	1207960576
- 441              		.cfi_endproc
- 442              	.LFE134:
- 444              		.section	.text.setDisplay,"ax",%progbits
- 445              		.align	1
- 446              		.global	setDisplay
- 447              		.syntax unified
- 448              		.thumb
- 449              		.thumb_func
- 450              		.fpu fpv4-sp-d16
- 452              	setDisplay:
- 453              	.LFB135:
- 158:Core/Src/7Seg.c **** 
- 159:Core/Src/7Seg.c **** void setDisplay()
- 160:Core/Src/7Seg.c **** {
- 454              		.loc 1 160 1 is_stmt 1 view -0
- 455              		.cfi_startproc
- 456              		@ args = 0, pretend = 0, frame = 0
- 457              		@ frame_needed = 0, uses_anonymous_args = 0
- 458 0000 38B5     		push	{r3, r4, r5, lr}
- 459              	.LCFI2:
- 460              		.cfi_def_cfa_offset 16
- 461              		.cfi_offset 3, -16
- 462              		.cfi_offset 4, -12
- 463              		.cfi_offset 5, -8
- 464              		.cfi_offset 14, -4
- 161:Core/Src/7Seg.c ****     for (int i = 0; i < 17; i++)
- 465              		.loc 1 161 5 view .LVU122
- 466              	.LBB18:
- 467              		.loc 1 161 10 view .LVU123
- 468              	.LVL45:
- 469              		.loc 1 161 14 is_stmt 0 view .LVU124
- 470 0002 0025     		movs	r5, #0
- 471              		.loc 1 161 5 view .LVU125
- 472 0004 10E0     		b	.L33
- 473              	.LVL46:
- 474              	.L34:
- 475              	.LBB19:
- 162:Core/Src/7Seg.c ****     {
- 163:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
- 164:Core/Src/7Seg.c ****         {
- 165:Core/Src/7Seg.c ****             //if (displayState[j][i] != lastDisplayState[j][i])
- 166:Core/Src/7Seg.c ****             //{
- 167:Core/Src/7Seg.c ****                 setDisplayCell(j, i);
- 476              		.loc 1 167 17 is_stmt 1 discriminator 3 view .LVU126
- 477 0006 2946     		mov	r1, r5
- 478 0008 2046     		mov	r0, r4
- 479 000a FFF7FEFF 		bl	setDisplayCell
- 480              	.LVL47:
- 168:Core/Src/7Seg.c ****                 lastDisplayState[j][i] = displayState[j][i];
- 481              		.loc 1 168 17 discriminator 3 view .LVU127
- 482              		.loc 1 168 57 is_stmt 0 discriminator 3 view .LVU128
- 483 000e 04EB0413 		add	r3, r4, r4, lsl #4
- 484 0012 2B44     		add	r3, r3, r5
- 485 0014 074A     		ldr	r2, .L39
- 486 0016 52F82310 		ldr	r1, [r2, r3, lsl #2]
- 487              		.loc 1 168 40 discriminator 3 view .LVU129
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 13
+ 440              		.loc 1 157 8 view .LVU117
+ 441 0046 24F4C053 		bic	r3, r4, #6144
+ 442 004a 23F01003 		bic	r3, r3, #16
+ 443 004e 9BB2     		uxth	r3, r3
+ 444              	.LVL45:
+ 158:Core/Src/7Seg.c **** 	pB = pOut & ~(0b1110011111101111);
+ 445              		.loc 1 158 2 is_stmt 1 view .LVU118
+ 446              		.loc 1 158 5 is_stmt 0 view .LVU119
+ 447 0050 3C40     		ands	r4, r4, r7
+ 448              	.LVL46:
+ 159:Core/Src/7Seg.c **** 	GPIOA->ODR = pA;
+ 449              		.loc 1 159 2 is_stmt 1 view .LVU120
+ 450              		.loc 1 159 13 is_stmt 0 view .LVU121
+ 451 0052 7361     		str	r3, [r6, #20]
+ 160:Core/Src/7Seg.c **** 	GPIOB->ODR = pB;
+ 452              		.loc 1 160 2 is_stmt 1 view .LVU122
+ 453              		.loc 1 160 13 is_stmt 0 view .LVU123
+ 454 0054 6C61     		str	r4, [r5, #20]
+ 161:Core/Src/7Seg.c **** 
+ 162:Core/Src/7Seg.c ****     HAL_Delay(5);
+ 455              		.loc 1 162 5 is_stmt 1 view .LVU124
+ 456 0056 0520     		movs	r0, #5
+ 457 0058 FFF7FEFF 		bl	HAL_Delay
+ 458              	.LVL47:
+ 163:Core/Src/7Seg.c **** }
+ 459              		.loc 1 163 1 is_stmt 0 view .LVU125
+ 460 005c F8BD     		pop	{r3, r4, r5, r6, r7, pc}
+ 461              	.LVL48:
+ 462              	.L31:
+ 463              		.loc 1 163 1 view .LVU126
+ 464 005e 00BF     		.align	2
+ 465              	.L30:
+ 466 0060 00000000 		.word	.LANCHOR0
+ 467 0064 00000000 		.word	.LANCHOR2
+ 468 0068 00040048 		.word	1207960576
+ 469              		.cfi_endproc
+ 470              	.LFE134:
+ 472              		.section	.text.setDisplay,"ax",%progbits
+ 473              		.align	1
+ 474              		.global	setDisplay
+ 475              		.syntax unified
+ 476              		.thumb
+ 477              		.thumb_func
+ 478              		.fpu fpv4-sp-d16
+ 480              	setDisplay:
+ 481              	.LFB135:
+ 164:Core/Src/7Seg.c **** 
+ 165:Core/Src/7Seg.c **** void setDisplay()
+ 166:Core/Src/7Seg.c **** {
+ 482              		.loc 1 166 1 is_stmt 1 view -0
+ 483              		.cfi_startproc
+ 484              		@ args = 0, pretend = 0, frame = 0
+ 485              		@ frame_needed = 0, uses_anonymous_args = 0
+ 486 0000 38B5     		push	{r3, r4, r5, lr}
+ 487              	.LCFI2:
+ 488              		.cfi_def_cfa_offset 16
+ 489              		.cfi_offset 3, -16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 13
 
 
- 488 001a 074A     		ldr	r2, .L39+4
- 489 001c 42F82310 		str	r1, [r2, r3, lsl #2]
- 163:Core/Src/7Seg.c ****         {
- 490              		.loc 1 163 32 is_stmt 1 discriminator 3 view .LVU130
- 163:Core/Src/7Seg.c ****         {
- 491              		.loc 1 163 33 is_stmt 0 discriminator 3 view .LVU131
- 492 0020 0134     		adds	r4, r4, #1
- 493              	.LVL48:
- 494              	.L35:
- 163:Core/Src/7Seg.c ****         {
- 495              		.loc 1 163 25 is_stmt 1 discriminator 1 view .LVU132
- 163:Core/Src/7Seg.c ****         {
- 496              		.loc 1 163 9 is_stmt 0 discriminator 1 view .LVU133
- 497 0022 032C     		cmp	r4, #3
- 498 0024 EFDD     		ble	.L34
- 499              	.LBE19:
- 161:Core/Src/7Seg.c ****     {
- 500              		.loc 1 161 29 is_stmt 1 discriminator 2 view .LVU134
- 161:Core/Src/7Seg.c ****     {
- 501              		.loc 1 161 30 is_stmt 0 discriminator 2 view .LVU135
- 502 0026 0135     		adds	r5, r5, #1
- 503              	.LVL49:
- 504              	.L33:
- 161:Core/Src/7Seg.c ****     {
- 505              		.loc 1 161 21 is_stmt 1 discriminator 1 view .LVU136
- 161:Core/Src/7Seg.c ****     {
- 506              		.loc 1 161 5 is_stmt 0 discriminator 1 view .LVU137
- 507 0028 102D     		cmp	r5, #16
- 508 002a 01DC     		bgt	.L38
- 509              	.LBB20:
- 163:Core/Src/7Seg.c ****         {
- 510              		.loc 1 163 18 view .LVU138
- 511 002c 0024     		movs	r4, #0
- 512 002e F8E7     		b	.L35
- 513              	.L38:
- 514              	.LBE20:
- 515              	.LBE18:
- 169:Core/Src/7Seg.c ****             //}
- 170:Core/Src/7Seg.c ****         }
- 171:Core/Src/7Seg.c ****     }
- 172:Core/Src/7Seg.c ****     return;
- 173:Core/Src/7Seg.c **** }...
- 516              		.loc 1 173 1 view .LVU139
- 517 0030 38BD     		pop	{r3, r4, r5, pc}
- 518              	.LVL50:
- 519              	.L40:
- 520              		.loc 1 173 1 view .LVU140
- 521 0032 00BF     		.align	2
- 522              	.L39:
- 523 0034 00000000 		.word	.LANCHOR0
- 524 0038 00000000 		.word	.LANCHOR3
- 525              		.cfi_endproc
- 526              	.LFE135:
- 528              		.global	displayState
- 529              		.global	lastDisplayState
- 530              		.global	displayAddresses
- 531              		.global	numDraws
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 14
+ 490              		.cfi_offset 4, -12
+ 491              		.cfi_offset 5, -8
+ 492              		.cfi_offset 14, -4
+ 167:Core/Src/7Seg.c ****     for (int i = 0; i < 17; i++)
+ 493              		.loc 1 167 5 view .LVU128
+ 494              	.LBB18:
+ 495              		.loc 1 167 10 view .LVU129
+ 496              	.LVL49:
+ 497              		.loc 1 167 14 is_stmt 0 view .LVU130
+ 498 0002 0025     		movs	r5, #0
+ 499              		.loc 1 167 5 view .LVU131
+ 500 0004 10E0     		b	.L33
+ 501              	.LVL50:
+ 502              	.L34:
+ 503              	.LBB19:
+ 168:Core/Src/7Seg.c ****     {
+ 169:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
+ 170:Core/Src/7Seg.c ****         {
+ 171:Core/Src/7Seg.c ****             //if (displayState[j][i] != lastDisplayState[j][i])
+ 172:Core/Src/7Seg.c ****             //{
+ 173:Core/Src/7Seg.c ****                 setDisplayCell(j, i);
+ 504              		.loc 1 173 17 is_stmt 1 discriminator 3 view .LVU132
+ 505 0006 2946     		mov	r1, r5
+ 506 0008 2046     		mov	r0, r4
+ 507 000a FFF7FEFF 		bl	setDisplayCell
+ 508              	.LVL51:
+ 174:Core/Src/7Seg.c ****                 lastDisplayState[j][i] = displayState[j][i];
+ 509              		.loc 1 174 17 discriminator 3 view .LVU133
+ 510              		.loc 1 174 57 is_stmt 0 discriminator 3 view .LVU134
+ 511 000e 04EB0413 		add	r3, r4, r4, lsl #4
+ 512 0012 2B44     		add	r3, r3, r5
+ 513 0014 074A     		ldr	r2, .L39
+ 514 0016 52F82310 		ldr	r1, [r2, r3, lsl #2]
+ 515              		.loc 1 174 40 discriminator 3 view .LVU135
+ 516 001a 074A     		ldr	r2, .L39+4
+ 517 001c 42F82310 		str	r1, [r2, r3, lsl #2]
+ 169:Core/Src/7Seg.c ****         {
+ 518              		.loc 1 169 32 is_stmt 1 discriminator 3 view .LVU136
+ 169:Core/Src/7Seg.c ****         {
+ 519              		.loc 1 169 33 is_stmt 0 discriminator 3 view .LVU137
+ 520 0020 0134     		adds	r4, r4, #1
+ 521              	.LVL52:
+ 522              	.L35:
+ 169:Core/Src/7Seg.c ****         {
+ 523              		.loc 1 169 25 is_stmt 1 discriminator 1 view .LVU138
+ 169:Core/Src/7Seg.c ****         {
+ 524              		.loc 1 169 9 is_stmt 0 discriminator 1 view .LVU139
+ 525 0022 032C     		cmp	r4, #3
+ 526 0024 EFDD     		ble	.L34
+ 527              	.LBE19:
+ 167:Core/Src/7Seg.c ****     {
+ 528              		.loc 1 167 29 is_stmt 1 discriminator 2 view .LVU140
+ 167:Core/Src/7Seg.c ****     {
+ 529              		.loc 1 167 30 is_stmt 0 discriminator 2 view .LVU141
+ 530 0026 0135     		adds	r5, r5, #1
+ 531              	.LVL53:
+ 532              	.L33:
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 14
 
 
- 532              		.global	zeroDraw
- 533              		.global	nineDraw
- 534              		.global	eightDraw
- 535              		.global	sevenDraw
- 536              		.global	sixDraw
- 537              		.global	fiveDraw
- 538              		.global	fourDraw
- 539              		.global	threeDraw
- 540              		.global	twoDraw
- 541              		.global	oneDraw
- 542              		.section	.bss.displayState,"aw",%nobits
- 543              		.align	2
- 544              		.set	.LANCHOR0,. + 0
- 547              	displayState:
- 548 0000 00000000 		.space	272
- 548      00000000 
- 548      00000000 
- 548      00000000 
- 548      00000000 
- 549              		.section	.bss.lastDisplayState,"aw",%nobits
- 550              		.align	2
- 551              		.set	.LANCHOR3,. + 0
- 554              	lastDisplayState:
- 555 0000 00000000 		.space	272
- 555      00000000 
- 555      00000000 
- 555      00000000 
- 555      00000000 
- 556              		.section	.data.numDraws,"aw"
- 557              		.align	2
- 558              		.set	.LANCHOR1,. + 0
- 561              	numDraws:
- 562 0000 00000000 		.word	zeroDraw
- 563 0004 00000000 		.word	oneDraw
- 564 0008 00000000 		.word	twoDraw
- 565 000c 00000000 		.word	threeDraw
- 566 0010 00000000 		.word	fourDraw
- 567 0014 00000000 		.word	fiveDraw
- 568 0018 00000000 		.word	sixDraw
- 569 001c 00000000 		.word	sevenDraw
- 570 0020 00000000 		.word	eightDraw
- 571 0024 00000000 		.word	nineDraw
- 572              		.section	.rodata.displayAddresses,"a"
- 573              		.align	2
- 574              		.set	.LANCHOR2,. + 0
- 577              	displayAddresses:
- 578 0000 30000000 		.word	48
- 579 0004 28000000 		.word	40
- 580 0008 08000000 		.word	8
- 581 000c 10000000 		.word	16
- 582 0010 31000000 		.word	49
- 583 0014 29000000 		.word	41
- 584 0018 09000000 		.word	9
- 585 001c 11000000 		.word	17
- 586 0020 34000000 		.word	52
- 587 0024 32000000 		.word	50
- 588 0028 2A000000 		.word	42
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 15
+ 167:Core/Src/7Seg.c ****     {
+ 533              		.loc 1 167 21 is_stmt 1 discriminator 1 view .LVU142
+ 167:Core/Src/7Seg.c ****     {
+ 534              		.loc 1 167 5 is_stmt 0 discriminator 1 view .LVU143
+ 535 0028 102D     		cmp	r5, #16
+ 536 002a 01DC     		bgt	.L38
+ 537              	.LBB20:
+ 169:Core/Src/7Seg.c ****         {
+ 538              		.loc 1 169 18 view .LVU144
+ 539 002c 0024     		movs	r4, #0
+ 540 002e F8E7     		b	.L35
+ 541              	.L38:
+ 542              	.LBE20:
+ 543              	.LBE18:
+ 175:Core/Src/7Seg.c ****             //}
+ 176:Core/Src/7Seg.c ****         }
+ 177:Core/Src/7Seg.c ****     }
+ 178:Core/Src/7Seg.c ****     return;
+ 179:Core/Src/7Seg.c **** }...
+ 544              		.loc 1 179 1 view .LVU145
+ 545 0030 38BD     		pop	{r3, r4, r5, pc}
+ 546              	.LVL54:
+ 547              	.L40:
+ 548              		.loc 1 179 1 view .LVU146
+ 549 0032 00BF     		.align	2
+ 550              	.L39:
+ 551 0034 00000000 		.word	.LANCHOR0
+ 552 0038 00000000 		.word	.LANCHOR3
+ 553              		.cfi_endproc
+ 554              	.LFE135:
+ 556              		.global	displayState
+ 557              		.global	lastDisplayState
+ 558              		.global	displayAddresses
+ 559              		.global	numDraws
+ 560              		.global	zeroDraw
+ 561              		.global	nineDraw
+ 562              		.global	eightDraw
+ 563              		.global	sevenDraw
+ 564              		.global	sixDraw
+ 565              		.global	fiveDraw
+ 566              		.global	fourDraw
+ 567              		.global	threeDraw
+ 568              		.global	twoDraw
+ 569              		.global	oneDraw
+ 570              		.section	.bss.displayState,"aw",%nobits
+ 571              		.align	2
+ 572              		.set	.LANCHOR0,. + 0
+ 575              	displayState:
+ 576 0000 00000000 		.space	272
+ 576      00000000 
+ 576      00000000 
+ 576      00000000 
+ 576      00000000 
+ 577              		.section	.bss.lastDisplayState,"aw",%nobits
+ 578              		.align	2
+ 579              		.set	.LANCHOR3,. + 0
+ 582              	lastDisplayState:
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 15
 
 
- 589 002c 0A000000 		.word	10
- 590 0030 12000000 		.word	18
- 591 0034 33000000 		.word	51
- 592 0038 2B000000 		.word	43
- 593 003c 0B000000 		.word	11
- 594 0040 13000000 		.word	19
- 595 0044 38000000 		.word	56
- 596 0048 20000000 		.word	32
- 597 004c 18000000 		.word	24
- 598 0050 00000000 		.word	0
- 599 0054 39000000 		.word	57
- 600 0058 21000000 		.word	33
- 601 005c 19000000 		.word	25
- 602 0060 01000000 		.word	1
- 603 0064 3B000000 		.word	59
- 604 0068 3A000000 		.word	58
- 605 006c 22000000 		.word	34
- 606 0070 1A000000 		.word	26
- 607 0074 02000000 		.word	2
- 608 0078 3B000000 		.word	59
- 609 007c 23000000 		.word	35
- 610 0080 1B000000 		.word	27
- 611 0084 03000000 		.word	3
- 612 0088 58000000 		.word	88
- 613 008c 50000000 		.word	80
- 614 0090 68000000 		.word	104
- 615 0094 60000000 		.word	96
- 616 0098 59000000 		.word	89
- 617 009c 51000000 		.word	81
- 618 00a0 69000000 		.word	105
- 619 00a4 61000000 		.word	97
- 620 00a8 5B000000 		.word	91
- 621 00ac 5A000000 		.word	90
- 622 00b0 52000000 		.word	82
- 623 00b4 6A000000 		.word	106
- 624 00b8 62000000 		.word	98
- 625 00bc 5B000000 		.word	91
- 626 00c0 53000000 		.word	83
- 627 00c4 6B000000 		.word	107
- 628 00c8 63000000 		.word	99
- 629 00cc 40000000 		.word	64
- 630 00d0 48000000 		.word	72
- 631 00d4 70000000 		.word	112
- 632 00d8 78000000 		.word	120
- 633 00dc 41000000 		.word	65
- 634 00e0 49000000 		.word	73
- 635 00e4 71000000 		.word	113
- 636 00e8 79000000 		.word	121
- 637 00ec 44000000 		.word	68
- 638 00f0 42000000 		.word	66
- 639 00f4 4A000000 		.word	74
- 640 00f8 72000000 		.word	114
- 641 00fc 7A000000 		.word	122
- 642 0100 43000000 		.word	67
- 643 0104 4B000000 		.word	75
- 644 0108 73000000 		.word	115
- 645 010c 7B000000 		.word	123
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 16
+ 583 0000 00000000 		.space	272
+ 583      00000000 
+ 583      00000000 
+ 583      00000000 
+ 583      00000000 
+ 584              		.section	.data.numDraws,"aw"
+ 585              		.align	2
+ 586              		.set	.LANCHOR1,. + 0
+ 589              	numDraws:
+ 590 0000 00000000 		.word	zeroDraw
+ 591 0004 00000000 		.word	oneDraw
+ 592 0008 00000000 		.word	twoDraw
+ 593 000c 00000000 		.word	threeDraw
+ 594 0010 00000000 		.word	fourDraw
+ 595 0014 00000000 		.word	fiveDraw
+ 596 0018 00000000 		.word	sixDraw
+ 597 001c 00000000 		.word	sevenDraw
+ 598 0020 00000000 		.word	eightDraw
+ 599 0024 00000000 		.word	nineDraw
+ 600              		.section	.rodata.displayAddresses,"a"
+ 601              		.align	2
+ 602              		.set	.LANCHOR2,. + 0
+ 605              	displayAddresses:
+ 606 0000 30000000 		.word	48
+ 607 0004 28000000 		.word	40
+ 608 0008 08000000 		.word	8
+ 609 000c 10000000 		.word	16
+ 610 0010 31000000 		.word	49
+ 611 0014 29000000 		.word	41
+ 612 0018 09000000 		.word	9
+ 613 001c 11000000 		.word	17
+ 614 0020 34000000 		.word	52
+ 615 0024 32000000 		.word	50
+ 616 0028 2A000000 		.word	42
+ 617 002c 0A000000 		.word	10
+ 618 0030 12000000 		.word	18
+ 619 0034 33000000 		.word	51
+ 620 0038 2B000000 		.word	43
+ 621 003c 0B000000 		.word	11
+ 622 0040 13000000 		.word	19
+ 623 0044 38000000 		.word	56
+ 624 0048 20000000 		.word	32
+ 625 004c 18000000 		.word	24
+ 626 0050 00000000 		.word	0
+ 627 0054 39000000 		.word	57
+ 628 0058 21000000 		.word	33
+ 629 005c 19000000 		.word	25
+ 630 0060 01000000 		.word	1
+ 631 0064 3C000000 		.word	60
+ 632 0068 3A000000 		.word	58
+ 633 006c 22000000 		.word	34
+ 634 0070 1A000000 		.word	26
+ 635 0074 02000000 		.word	2
+ 636 0078 3B000000 		.word	59
+ 637 007c 23000000 		.word	35
+ 638 0080 1B000000 		.word	27
+ 639 0084 03000000 		.word	3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 16
 
 
- 646              		.section	.rodata.eightDraw,"a"
- 647              		.align	2
- 650              	eightDraw:
- 651 0000 EA000000 		.word	234
- 652 0004 0F000000 		.word	15
- 653 0008 0F000000 		.word	15
- 654 000c E3000000 		.word	227
- 655 0010 0F000000 		.word	15
- 656 0014 E2000000 		.word	226
- 657 0018 E2000000 		.word	226
- 658 001c 0F000000 		.word	15
- 659 0020 E2000000 		.word	226
- 660 0024 0F000000 		.word	15
- 661 0028 0F000000 		.word	15
- 662 002c E2000000 		.word	226
- 663 0030 2F000000 		.word	47
- 664 0034 E2000000 		.word	226
- 665 0038 E2000000 		.word	226
- 666 003c 8F000000 		.word	143
- 667              		.section	.rodata.fiveDraw,"a"
- 668              		.align	2
- 671              	fiveDraw:
- 672 0000 EF000000 		.word	239
- 673 0004 0F000000 		.word	15
- 674 0008 0F000000 		.word	15
- 675 000c 0F000000 		.word	15
- 676 0010 EF000000 		.word	239
- 677 0014 E2000000 		.word	226
- 678 0018 E2000000 		.word	226
- 679 001c C0000000 		.word	192
- 680 0020 E2000000 		.word	226
- 681 0024 00000000 		.word	0
- 682 0028 00000000 		.word	0
- 683 002c 0F000000 		.word	15
- 684 0030 2F000000 		.word	47
- 685 0034 E2000000 		.word	226
- 686 0038 E2000000 		.word	226
- 687 003c 8F000000 		.word	143
- 688              		.section	.rodata.fourDraw,"a"
- 689              		.align	2
- 692              	fourDraw:
- 693 0000 00000000 		.word	0
- 694 0004 00000000 		.word	0
- 695 0008 EA000000 		.word	234
- 696 000c EF000000 		.word	239
- 697 0010 00000000 		.word	0
- 698 0014 EA000000 		.word	234
- 699 0018 00000000 		.word	0
- 700 001c EF000000 		.word	239
- 701 0020 EA000000 		.word	234
- 702 0024 E2000000 		.word	226
- 703 0028 E2000000 		.word	226
- 704 002c EF000000 		.word	239
- 705 0030 00000000 		.word	0
- 706 0034 00000000 		.word	0
- 707 0038 00000000 		.word	0
- 708 003c EF000000 		.word	239
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 17
+ 640 0088 58000000 		.word	88
+ 641 008c 50000000 		.word	80
+ 642 0090 68000000 		.word	104
+ 643 0094 60000000 		.word	96
+ 644 0098 59000000 		.word	89
+ 645 009c 51000000 		.word	81
+ 646 00a0 69000000 		.word	105
+ 647 00a4 61000000 		.word	97
+ 648 00a8 5C000000 		.word	92
+ 649 00ac 5A000000 		.word	90
+ 650 00b0 52000000 		.word	82
+ 651 00b4 6A000000 		.word	106
+ 652 00b8 62000000 		.word	98
+ 653 00bc 5B000000 		.word	91
+ 654 00c0 53000000 		.word	83
+ 655 00c4 6B000000 		.word	107
+ 656 00c8 63000000 		.word	99
+ 657 00cc 40000000 		.word	64
+ 658 00d0 48000000 		.word	72
+ 659 00d4 70000000 		.word	112
+ 660 00d8 78000000 		.word	120
+ 661 00dc 41000000 		.word	65
+ 662 00e0 49000000 		.word	73
+ 663 00e4 71000000 		.word	113
+ 664 00e8 79000000 		.word	121
+ 665 00ec 44000000 		.word	68
+ 666 00f0 42000000 		.word	66
+ 667 00f4 4A000000 		.word	74
+ 668 00f8 72000000 		.word	114
+ 669 00fc 7A000000 		.word	122
+ 670 0100 43000000 		.word	67
+ 671 0104 4B000000 		.word	75
+ 672 0108 73000000 		.word	115
+ 673 010c 7B000000 		.word	123
+ 674              		.section	.rodata.eightDraw,"a"
+ 675              		.align	2
+ 678              	eightDraw:
+ 679 0000 EA000000 		.word	234
+ 680 0004 0F000000 		.word	15
+ 681 0008 0F000000 		.word	15
+ 682 000c E3000000 		.word	227
+ 683 0010 0F000000 		.word	15
+ 684 0014 E2000000 		.word	226
+ 685 0018 E2000000 		.word	226
+ 686 001c 0F000000 		.word	15
+ 687 0020 E2000000 		.word	226
+ 688 0024 0F000000 		.word	15
+ 689 0028 0F000000 		.word	15
+ 690 002c E2000000 		.word	226
+ 691 0030 2F000000 		.word	47
+ 692 0034 E2000000 		.word	226
+ 693 0038 E2000000 		.word	226
+ 694 003c 8F000000 		.word	143
+ 695              		.section	.rodata.fiveDraw,"a"
+ 696              		.align	2
+ 699              	fiveDraw:
+ 700 0000 EF000000 		.word	239
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 17
 
 
- 709              		.section	.rodata.nineDraw,"a"
- 710              		.align	2
- 713              	nineDraw:
- 714 0000 EA000000 		.word	234
- 715 0004 0F000000 		.word	15
- 716 0008 0F000000 		.word	15
- 717 000c E3000000 		.word	227
- 718 0010 EF000000 		.word	239
- 719 0014 00000000 		.word	0
- 720 0018 00000000 		.word	0
- 721 001c EF000000 		.word	239
- 722 0020 0C000000 		.word	12
- 723 0024 0F000000 		.word	15
- 724 0028 0F000000 		.word	15
- 725 002c EF000000 		.word	239
- 726 0030 2F000000 		.word	47
- 727 0034 E3000000 		.word	227
- 728 0038 EA000000 		.word	234
- 729 003c 8F000000 		.word	143
- 730              		.section	.rodata.oneDraw,"a"
- 731              		.align	2
- 734              	oneDraw:
- 735 0000 00000000 		.word	0
- 736 0004 EA000000 		.word	234
- 737 0008 EF000000 		.word	239
- 738 000c 00000000 		.word	0
- 739 0010 00000000 		.word	0
- 740 0014 00000000 		.word	0
- 741 0018 EF000000 		.word	239
- 742 001c 00000000 		.word	0
- 743 0020 00000000 		.word	0
- 744 0024 00000000 		.word	0
- 745 0028 EF000000 		.word	239
- 746 002c 00000000 		.word	0
- 747 0030 00000000 		.word	0
- 748 0034 E2000000 		.word	226
- 749 0038 EF000000 		.word	239
- 750 003c E2000000 		.word	226
- 751              		.section	.rodata.sevenDraw,"a"
- 752              		.align	2
- 755              	sevenDraw:
- 756 0000 0F000000 		.word	15
- 757 0004 0F000000 		.word	15
- 758 0008 0F000000 		.word	15
- 759 000c EF000000 		.word	239
- 760 0010 00000000 		.word	0
- 761 0014 00000000 		.word	0
- 762 0018 EA000000 		.word	234
- 763 001c 00000000 		.word	0
- 764 0020 00000000 		.word	0
- 765 0024 EF000000 		.word	239
- 766 0028 00000000 		.word	0
- 767 002c 00000000 		.word	0
- 768 0030 00000000 		.word	0
- 769 0034 EF000000 		.word	239
- 770 0038 00000000 		.word	0
- 771 003c 00000000 		.word	0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 18
+ 701 0004 0F000000 		.word	15
+ 702 0008 0F000000 		.word	15
+ 703 000c 0F000000 		.word	15
+ 704 0010 EF000000 		.word	239
+ 705 0014 E2000000 		.word	226
+ 706 0018 E2000000 		.word	226
+ 707 001c C0000000 		.word	192
+ 708 0020 E2000000 		.word	226
+ 709 0024 00000000 		.word	0
+ 710 0028 00000000 		.word	0
+ 711 002c 0F000000 		.word	15
+ 712 0030 2F000000 		.word	47
+ 713 0034 E2000000 		.word	226
+ 714 0038 E2000000 		.word	226
+ 715 003c 8F000000 		.word	143
+ 716              		.section	.rodata.fourDraw,"a"
+ 717              		.align	2
+ 720              	fourDraw:
+ 721 0000 00000000 		.word	0
+ 722 0004 00000000 		.word	0
+ 723 0008 EA000000 		.word	234
+ 724 000c EF000000 		.word	239
+ 725 0010 00000000 		.word	0
+ 726 0014 EA000000 		.word	234
+ 727 0018 00000000 		.word	0
+ 728 001c EF000000 		.word	239
+ 729 0020 EA000000 		.word	234
+ 730 0024 E2000000 		.word	226
+ 731 0028 E2000000 		.word	226
+ 732 002c EF000000 		.word	239
+ 733 0030 00000000 		.word	0
+ 734 0034 00000000 		.word	0
+ 735 0038 00000000 		.word	0
+ 736 003c EF000000 		.word	239
+ 737              		.section	.rodata.nineDraw,"a"
+ 738              		.align	2
+ 741              	nineDraw:
+ 742 0000 EA000000 		.word	234
+ 743 0004 0F000000 		.word	15
+ 744 0008 0F000000 		.word	15
+ 745 000c E3000000 		.word	227
+ 746 0010 EF000000 		.word	239
+ 747 0014 00000000 		.word	0
+ 748 0018 00000000 		.word	0
+ 749 001c EF000000 		.word	239
+ 750 0020 0C000000 		.word	12
+ 751 0024 0F000000 		.word	15
+ 752 0028 0F000000 		.word	15
+ 753 002c EF000000 		.word	239
+ 754 0030 2F000000 		.word	47
+ 755 0034 E3000000 		.word	227
+ 756 0038 EA000000 		.word	234
+ 757 003c 8F000000 		.word	143
+ 758              		.section	.rodata.oneDraw,"a"
+ 759              		.align	2
+ 762              	oneDraw:
+ 763 0000 00000000 		.word	0
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 18
 
 
- 772              		.section	.rodata.sixDraw,"a"
- 773              		.align	2
- 776              	sixDraw:
- 777 0000 EA000000 		.word	234
- 778 0004 8F000000 		.word	143
- 779 0008 2F000000 		.word	47
- 780 000c E3000000 		.word	227
- 781 0010 EF000000 		.word	239
- 782 0014 E2000000 		.word	226
- 783 0018 E2000000 		.word	226
- 784 001c C0000000 		.word	192
- 785 0020 EF000000 		.word	239
- 786 0024 00000000 		.word	0
- 787 0028 00000000 		.word	0
- 788 002c EF000000 		.word	239
- 789 0030 2F000000 		.word	47
- 790 0034 E2000000 		.word	226
- 791 0038 E2000000 		.word	226
- 792 003c 8F000000 		.word	143
- 793              		.section	.rodata.threeDraw,"a"
- 794              		.align	2
- 797              	threeDraw:
- 798 0000 EA000000 		.word	234
- 799 0004 0F000000 		.word	15
- 800 0008 0F000000 		.word	15
- 801 000c E3000000 		.word	227
- 802 0010 00000000 		.word	0
- 803 0014 60000000 		.word	96
- 804 0018 E2000000 		.word	226
- 805 001c 8F000000 		.word	143
- 806 0020 00000000 		.word	0
- 807 0024 0C000000 		.word	12
- 808 0028 0F000000 		.word	15
- 809 002c E3000000 		.word	227
- 810 0030 2F000000 		.word	47
- 811 0034 E2000000 		.word	226
- 812 0038 E2000000 		.word	226
- 813 003c 8F000000 		.word	143
- 814              		.section	.rodata.twoDraw,"a"
- 815              		.align	2
- 818              	twoDraw:
- 819 0000 E2000000 		.word	226
- 820 0004 0F000000 		.word	15
- 821 0008 0F000000 		.word	15
- 822 000c E2000000 		.word	226
- 823 0010 00000000 		.word	0
- 824 0014 00000000 		.word	0
- 825 0018 EA000000 		.word	234
- 826 001c 8F000000 		.word	143
- 827 0020 00000000 		.word	0
- 828 0024 EA000000 		.word	234
- 829 0028 8F000000 		.word	143
- 830 002c 00000000 		.word	0
- 831 0030 2F000000 		.word	47
- 832 0034 E2000000 		.word	226
- 833 0038 E2000000 		.word	226
- 834 003c 8F000000 		.word	143
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 19
+ 764 0004 EA000000 		.word	234
+ 765 0008 EF000000 		.word	239
+ 766 000c 00000000 		.word	0
+ 767 0010 00000000 		.word	0
+ 768 0014 00000000 		.word	0
+ 769 0018 EF000000 		.word	239
+ 770 001c 00000000 		.word	0
+ 771 0020 00000000 		.word	0
+ 772 0024 00000000 		.word	0
+ 773 0028 EF000000 		.word	239
+ 774 002c 00000000 		.word	0
+ 775 0030 00000000 		.word	0
+ 776 0034 E2000000 		.word	226
+ 777 0038 EF000000 		.word	239
+ 778 003c E2000000 		.word	226
+ 779              		.section	.rodata.sevenDraw,"a"
+ 780              		.align	2
+ 783              	sevenDraw:
+ 784 0000 0F000000 		.word	15
+ 785 0004 0F000000 		.word	15
+ 786 0008 0F000000 		.word	15
+ 787 000c EF000000 		.word	239
+ 788 0010 00000000 		.word	0
+ 789 0014 00000000 		.word	0
+ 790 0018 EA000000 		.word	234
+ 791 001c 00000000 		.word	0
+ 792 0020 00000000 		.word	0
+ 793 0024 EF000000 		.word	239
+ 794 0028 00000000 		.word	0
+ 795 002c 00000000 		.word	0
+ 796 0030 00000000 		.word	0
+ 797 0034 EF000000 		.word	239
+ 798 0038 00000000 		.word	0
+ 799 003c 00000000 		.word	0
+ 800              		.section	.rodata.sixDraw,"a"
+ 801              		.align	2
+ 804              	sixDraw:
+ 805 0000 EA000000 		.word	234
+ 806 0004 8F000000 		.word	143
+ 807 0008 2F000000 		.word	47
+ 808 000c E3000000 		.word	227
+ 809 0010 EF000000 		.word	239
+ 810 0014 E2000000 		.word	226
+ 811 0018 E2000000 		.word	226
+ 812 001c C0000000 		.word	192
+ 813 0020 EF000000 		.word	239
+ 814 0024 00000000 		.word	0
+ 815 0028 00000000 		.word	0
+ 816 002c EF000000 		.word	239
+ 817 0030 2F000000 		.word	47
+ 818 0034 E2000000 		.word	226
+ 819 0038 E2000000 		.word	226
+ 820 003c 8F000000 		.word	143
+ 821              		.section	.rodata.threeDraw,"a"
+ 822              		.align	2
+ 825              	threeDraw:
+ 826 0000 EA000000 		.word	234
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 19
 
 
- 835              		.section	.rodata.zeroDraw,"a"
- 836              		.align	2
- 839              	zeroDraw:
- 840 0000 EA000000 		.word	234
- 841 0004 0F000000 		.word	15
- 842 0008 0F000000 		.word	15
- 843 000c E3000000 		.word	227
- 844 0010 EF000000 		.word	239
- 845 0014 00000000 		.word	0
- 846 0018 00000000 		.word	0
- 847 001c EF000000 		.word	239
- 848 0020 EF000000 		.word	239
- 849 0024 00000000 		.word	0
- 850 0028 00000000 		.word	0
- 851 002c EF000000 		.word	239
- 852 0030 2F000000 		.word	47
- 853 0034 E3000000 		.word	227
- 854 0038 EA000000 		.word	234
- 855 003c 8F000000 		.word	143
- 856              		.text
- 857              	.Letext0:
- 858              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
- 859              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
- 860              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
- 861              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s 			page 20
+ 827 0004 0F000000 		.word	15
+ 828 0008 0F000000 		.word	15
+ 829 000c E3000000 		.word	227
+ 830 0010 00000000 		.word	0
+ 831 0014 60000000 		.word	96
+ 832 0018 E2000000 		.word	226
+ 833 001c 8F000000 		.word	143
+ 834 0020 00000000 		.word	0
+ 835 0024 0C000000 		.word	12
+ 836 0028 0F000000 		.word	15
+ 837 002c E3000000 		.word	227
+ 838 0030 2F000000 		.word	47
+ 839 0034 E2000000 		.word	226
+ 840 0038 E2000000 		.word	226
+ 841 003c 8F000000 		.word	143
+ 842              		.section	.rodata.twoDraw,"a"
+ 843              		.align	2
+ 846              	twoDraw:
+ 847 0000 E2000000 		.word	226
+ 848 0004 0F000000 		.word	15
+ 849 0008 0F000000 		.word	15
+ 850 000c E2000000 		.word	226
+ 851 0010 00000000 		.word	0
+ 852 0014 00000000 		.word	0
+ 853 0018 EA000000 		.word	234
+ 854 001c 8F000000 		.word	143
+ 855 0020 00000000 		.word	0
+ 856 0024 EA000000 		.word	234
+ 857 0028 8F000000 		.word	143
+ 858 002c 00000000 		.word	0
+ 859 0030 2F000000 		.word	47
+ 860 0034 E2000000 		.word	226
+ 861 0038 E2000000 		.word	226
+ 862 003c 8F000000 		.word	143
+ 863              		.section	.rodata.zeroDraw,"a"
+ 864              		.align	2
+ 867              	zeroDraw:
+ 868 0000 EA000000 		.word	234
+ 869 0004 0F000000 		.word	15
+ 870 0008 0F000000 		.word	15
+ 871 000c E3000000 		.word	227
+ 872 0010 EF000000 		.word	239
+ 873 0014 00000000 		.word	0
+ 874 0018 00000000 		.word	0
+ 875 001c EF000000 		.word	239
+ 876 0020 EF000000 		.word	239
+ 877 0024 00000000 		.word	0
+ 878 0028 00000000 		.word	0
+ 879 002c EF000000 		.word	239
+ 880 0030 2F000000 		.word	47
+ 881 0034 E3000000 		.word	227
+ 882 0038 EA000000 		.word	234
+ 883 003c 8F000000 		.word	143
+ 884              		.text
+ 885              	.Letext0:
+ 886              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
+ 887              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 20
+
+
+ 888              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ 889              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 7Seg.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:18     .text.updateDisplayCell:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:26     .text.updateDisplayCell:00000000 updateDisplayCell
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:48     .text.updateDisplayCell:00000010 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:53     .text.updateDisplayWithTime:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:60     .text.updateDisplayWithTime:00000000 updateDisplayWithTime
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:330    .text.updateDisplayWithTime:000000fc $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:336    .text.setDisplayCell:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:343    .text.setDisplayCell:00000000 setDisplayCell
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:438    .text.setDisplayCell:00000058 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:445    .text.setDisplay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:452    .text.setDisplay:00000000 setDisplay
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:523    .text.setDisplay:00000034 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:547    .bss.displayState:00000000 displayState
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:554    .bss.lastDisplayState:00000000 lastDisplayState
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:577    .rodata.displayAddresses:00000000 displayAddresses
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:561    .data.numDraws:00000000 numDraws
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:839    .rodata.zeroDraw:00000000 zeroDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:713    .rodata.nineDraw:00000000 nineDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:650    .rodata.eightDraw:00000000 eightDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:755    .rodata.sevenDraw:00000000 sevenDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:776    .rodata.sixDraw:00000000 sixDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:671    .rodata.fiveDraw:00000000 fiveDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:692    .rodata.fourDraw:00000000 fourDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:797    .rodata.threeDraw:00000000 threeDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:818    .rodata.twoDraw:00000000 twoDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:734    .rodata.oneDraw:00000000 oneDraw
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:543    .bss.displayState:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:550    .bss.lastDisplayState:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:557    .data.numDraws:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:573    .rodata.displayAddresses:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:647    .rodata.eightDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:668    .rodata.fiveDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:689    .rodata.fourDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:710    .rodata.nineDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:731    .rodata.oneDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:752    .rodata.sevenDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:773    .rodata.sixDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:794    .rodata.threeDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:815    .rodata.twoDraw:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccp1prZa.s:836    .rodata.zeroDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:18     .text.updateDisplayCell:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:26     .text.updateDisplayCell:00000000 updateDisplayCell
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:48     .text.updateDisplayCell:00000010 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:53     .text.updateDisplayWithTime:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:60     .text.updateDisplayWithTime:00000000 updateDisplayWithTime
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:356    .text.updateDisplayWithTime:00000124 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:362    .text.setDisplayCell:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:369    .text.setDisplayCell:00000000 setDisplayCell
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:466    .text.setDisplayCell:00000060 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:473    .text.setDisplay:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:480    .text.setDisplay:00000000 setDisplay
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:551    .text.setDisplay:00000034 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:575    .bss.displayState:00000000 displayState
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:582    .bss.lastDisplayState:00000000 lastDisplayState
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:605    .rodata.displayAddresses:00000000 displayAddresses
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:589    .data.numDraws:00000000 numDraws
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:867    .rodata.zeroDraw:00000000 zeroDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:741    .rodata.nineDraw:00000000 nineDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:678    .rodata.eightDraw:00000000 eightDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:783    .rodata.sevenDraw:00000000 sevenDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:804    .rodata.sixDraw:00000000 sixDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:699    .rodata.fiveDraw:00000000 fiveDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:720    .rodata.fourDraw:00000000 fourDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:825    .rodata.threeDraw:00000000 threeDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:846    .rodata.twoDraw:00000000 twoDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:762    .rodata.oneDraw:00000000 oneDraw
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:571    .bss.displayState:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:578    .bss.lastDisplayState:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:585    .data.numDraws:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:601    .rodata.displayAddresses:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:675    .rodata.eightDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:696    .rodata.fiveDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:717    .rodata.fourDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:738    .rodata.nineDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:759    .rodata.oneDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:780    .rodata.sevenDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:801    .rodata.sixDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:822    .rodata.threeDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:843    .rodata.twoDraw:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccSjm82b.s:864    .rodata.zeroDraw:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Delay

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
   28:USB_Device/Target/usbd_conf.c **** #include "usbd_cdc.h"
   29:USB_Device/Target/usbd_conf.c **** 
   30:USB_Device/Target/usbd_conf.c **** /* USER CODE BEGIN Includes */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 2
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 2
 
 
   31:USB_Device/Target/usbd_conf.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
   85:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_SetPriority(USB_LP_IRQn, 0, 0);
   86:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_EnableIRQ(USB_LP_IRQn);
   87:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN USB_MspInit 1 */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 3
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 3
 
 
   88:USB_Device/Target/usbd_conf.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  142:USB_Device/Target/usbd_conf.c **** #if (USE_HAL_PCD_REGISTER_CALLBACKS == 1U)
  143:USB_Device/Target/usbd_conf.c **** static void PCD_DataOutStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
  144:USB_Device/Target/usbd_conf.c **** #else
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 4
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 4
 
 
  145:USB_Device/Target/usbd_conf.c **** void HAL_PCD_DataOutStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  199:USB_Device/Target/usbd_conf.c ****   * @brief  Reset callback.
  200:USB_Device/Target/usbd_conf.c ****   * @param  hpcd: PCD handle
  201:USB_Device/Target/usbd_conf.c ****   * @retval None
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 5
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 5
 
 
  202:USB_Device/Target/usbd_conf.c ****   */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  256:USB_Device/Target/usbd_conf.c **** }
  257:USB_Device/Target/usbd_conf.c **** 
  258:USB_Device/Target/usbd_conf.c **** /**
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 6
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 6
 
 
  259:USB_Device/Target/usbd_conf.c ****   * @brief  Resume callback.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  313:USB_Device/Target/usbd_conf.c ****   * @param  epnum: Endpoint number
  314:USB_Device/Target/usbd_conf.c ****   * @retval None
  315:USB_Device/Target/usbd_conf.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 7
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 7
 
 
  316:USB_Device/Target/usbd_conf.c **** #if (USE_HAL_PCD_REGISTER_CALLBACKS == 1U)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  370:USB_Device/Target/usbd_conf.c **** 
  371:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN LowLevelInterface */
  372:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 8
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 8
 
 
  373:USB_Device/Target/usbd_conf.c ****   /* USER CODE END LowLevelInterface */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  427:USB_Device/Target/usbd_conf.c ****   HAL_PCD_RegisterIsoInIncpltCallback(&hpcd_USB_FS, PCD_ISOINIncompleteCallback);
  428:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN RegisterCallBackSecondPart */
  429:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 9
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 9
 
 
  430:USB_Device/Target/usbd_conf.c ****   /* USER CODE END RegisterCallBackSecondPart */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  484:USB_Device/Target/usbd_conf.c **** {
  485:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  486:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 10
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 10
 
 
  487:USB_Device/Target/usbd_conf.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  541:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  542:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
  543:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 11
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 11
 
 
  544:USB_Device/Target/usbd_conf.c ****   hal_status = HAL_PCD_EP_Flush(pdev->pData, ep_addr);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  598:USB_Device/Target/usbd_conf.c ****   {
  599:USB_Device/Target/usbd_conf.c ****     return hpcd->IN_ep[ep_addr & 0x7F].is_stall;
  600:USB_Device/Target/usbd_conf.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 12
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 12
 
 
  601:USB_Device/Target/usbd_conf.c ****   else
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  655:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  656:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
  657:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 13
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 13
 
 
  658:USB_Device/Target/usbd_conf.c ****   hal_status = HAL_PCD_EP_Receive(pdev->pData, ep_addr, pbuf, size);
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  712:USB_Device/Target/usbd_conf.c ****   }
  713:USB_Device/Target/usbd_conf.c ****   /* USER CODE END LPM_Callback */
  714:USB_Device/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 14
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 14
 
 
  715:USB_Device/Target/usbd_conf.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
   32              		@ frame_needed = 0, uses_anonymous_args = 0
   33              		@ link register save eliminated.
  766:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 15
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 15
 
 
   34              		.loc 1 766 3 view .LVU1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
   66              		.section	.text.SystemClockConfig_Resume,"ax",%progbits
   67              		.align	1
   68              		.syntax unified
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 16
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 16
 
 
   69              		.thumb
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  118              	.LCFI1:
  119              		.cfi_def_cfa_offset 4
  120              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 17
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 17
 
 
  121 000c 83B0     		sub	sp, sp, #12
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  166              		.align	1
  167              		.global	HAL_PCD_MspDeInit
  168              		.syntax unified
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 18
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 18
 
 
  169              		.thumb
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  214              	.L23:
  215 0020 005C0040 		.word	1073765376
  216 0024 00100240 		.word	1073876992
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 19
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 19
 
 
  217              		.cfi_endproc
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  268              		.loc 1 147 1 is_stmt 0 view .LVU44
  269 0000 08B5     		push	{r3, lr}
  270              	.LCFI6:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 20
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 20
 
 
  271              		.cfi_def_cfa_offset 8
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  319 0014 08BD     		pop	{r3, pc}
  320              		.cfi_endproc
  321              	.LFE140:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 21
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 21
 
 
  323              		.section	.text.HAL_PCD_SOFCallback,"ax",%progbits
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  373              		.cfi_def_cfa_offset 8
  374              		.cfi_offset 4, -8
  375              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 22
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 22
 
 
  376 0002 0446     		mov	r4, r0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  422              		@ frame_needed = 0, uses_anonymous_args = 0
  239:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SuspendCallback_PreTreatment */
  423              		.loc 1 239 1 is_stmt 0 view .LVU70
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 23
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 23
 
 
  424 0000 10B5     		push	{r4, lr}
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  470              		.loc 1 269 1 is_stmt 1 view -0
  471              		.cfi_startproc
  472              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 24
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 24
 
 
  473              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  518              		.thumb
  519              		.thumb_func
  520              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 25
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 25
 
 
  522              	HAL_PCD_ISOOUTIncompleteCallback:
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  325:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOINIncompleteCallback_PostTreatment */
  570              		.loc 1 325 3 is_stmt 0 view .LVU99
  571 0006 FFF7FEFF 		bl	USBD_LL_IsoINIncomplete
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 26
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 26
 
 
  572              	.LVL48:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  623              		@ args = 0, pretend = 0, frame = 0
  624              		@ frame_needed = 0, uses_anonymous_args = 0
  361:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DisconnectCallback_PreTreatment */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 27
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 27
 
 
  625              		.loc 1 361 1 is_stmt 0 view .LVU107
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  671              		.loc 1 389 15 is_stmt 0 view .LVU117
  672 000a C4F8C402 		str	r0, [r4, #708]
  391:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.dev_endpoints = 8;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 28
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 28
 
 
  673              		.loc 1 391 3 is_stmt 1 view .LVU118
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  708              		.loc 1 433 3 is_stmt 1 view .LVU137
  709 002c 1823     		movs	r3, #24
  710 002e 0022     		movs	r2, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 29
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 29
 
 
  711 0030 1146     		mov	r1, r2
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  758              		.cfi_endproc
  759              	.LFE149:
  761              		.section	.text.USBD_LL_DeInit,"ax",%progbits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 30
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 30
 
 
  762              		.align	1
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  807              		.thumb_func
  808              		.fpu fpv4-sp-d16
  810              	USBD_LL_Start:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 31
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 31
 
 
  811              	.LVL70:
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  855              		.cfi_startproc
  856              		@ args = 0, pretend = 0, frame = 0
  857              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 32
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 32
 
 
  484:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  902              		.cfi_def_cfa_offset 8
  903              		.cfi_offset 3, -8
  904              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 33
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 33
 
 
  905 0002 9446     		mov	ip, r2
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  949              		.cfi_offset 3, -8
  950              		.cfi_offset 14, -4
  523:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 34
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 34
 
 
  951              		.loc 1 523 3 is_stmt 1 view .LVU192
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  544:USB_Device/Target/usbd_conf.c **** 
  995              		.loc 1 544 3 view .LVU205
  544:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 35
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 35
 
 
  996              		.loc 1 544 16 is_stmt 0 view .LVU206
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1040              		.loc 1 562 16 view .LVU218
  1041 0006 FFF7FEFF 		bl	HAL_PCD_EP_SetStall
  1042              	.LVL99:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 36
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 36
 
 
  564:USB_Device/Target/usbd_conf.c **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1086 000a FFF7FEFF 		bl	USBD_Get_USB_Status
  1087              	.LVL105:
  584:USB_Device/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 37
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 37
 
 
  1088              		.loc 1 584 3 is_stmt 1 view .LVU232
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1132              		.loc 1 599 32 is_stmt 0 view .LVU244
  1133 001c 01F07F01 		and	r1, r1, #127
  1134              	.LVL111:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 38
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 38
 
 
  599:USB_Device/Target/usbd_conf.c ****   }
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1180              	.LVL117:
  622:USB_Device/Target/usbd_conf.c **** }
  1181              		.loc 1 622 3 is_stmt 1 view .LVU256
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 39
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 39
 
 
  623:USB_Device/Target/usbd_conf.c **** 
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1226              	.LFE160:
  1228              		.section	.text.USBD_LL_PrepareReceive,"ax",%progbits
  1229              		.align	1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 40
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 40
 
 
  1230              		.global	USBD_LL_PrepareReceive
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1275              		.fpu fpv4-sp-d16
  1277              	USBD_LL_GetRxDataSize:
  1278              	.LVL128:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 41
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 41
 
 
  1279              	.LFB162:
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1326 0006 0129     		cmp	r1, #1
  1327 0008 0FD0     		beq	.L92
  1328              	.LVL132:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 42
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 42
 
 
  1329              	.L90:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  706:USB_Device/Target/usbd_conf.c ****     {
  1370              		.loc 1 706 8 view .LVU302
  1371 0034 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 43
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 43
 
 
  1372 0036 E8D0     		beq	.L90
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1422              		.thumb_func
  1423              		.fpu fpv4-sp-d16
  1425              	USBD_static_malloc:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 44
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 44
 
 
  1426              	.LVL143:
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1475      00000000 
  1475      00000000 
  1476              		.section	.bss.mem.0,"aw",%nobits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 45
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 45
 
 
  1477              		.align	2
@@ -2664,93 +2664,93 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 1
  1495              		.file 12 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
  1496              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd_ex.h"
  1497              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 46
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 46
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_conf.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:18     .text.USBD_Get_USB_Status:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:25     .text.USBD_Get_USB_Status:00000000 USBD_Get_USB_Status
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:40     .text.USBD_Get_USB_Status:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:44     .text.USBD_Get_USB_Status:0000000c $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:67     .text.SystemClockConfig_Resume:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:73     .text.SystemClockConfig_Resume:00000000 SystemClockConfig_Resume
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:93     .text.HAL_PCD_MspInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:100    .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:161    .text.HAL_PCD_MspInit:0000003c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:166    .text.HAL_PCD_MspDeInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:173    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:215    .text.HAL_PCD_MspDeInit:00000020 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:221    .text.HAL_PCD_SetupStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:228    .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:254    .text.HAL_PCD_DataOutStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:261    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:289    .text.HAL_PCD_DataInStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:296    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:324    .text.HAL_PCD_SOFCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:331    .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:356    .text.HAL_PCD_ResetCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:363    .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:409    .text.HAL_PCD_SuspendCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:416    .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:455    .text.HAL_PCD_SuspendCallback:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:460    .text.HAL_PCD_ResumeCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:467    .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:510    .text.HAL_PCD_ResumeCallback:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:515    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:522    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:547    .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:554    .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:579    .text.HAL_PCD_ConnectCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:586    .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:611    .text.HAL_PCD_DisconnectCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:618    .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:643    .text.USBD_LL_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:650    .text.USBD_LL_Init:00000000 USBD_LL_Init
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:756    .text.USBD_LL_Init:00000080 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:762    .text.USBD_LL_DeInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:769    .text.USBD_LL_DeInit:00000000 USBD_LL_DeInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:803    .text.USBD_LL_Start:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:810    .text.USBD_LL_Start:00000000 USBD_LL_Start
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:844    .text.USBD_LL_Stop:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:851    .text.USBD_LL_Stop:00000000 USBD_LL_Stop
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:885    .text.USBD_LL_OpenEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:892    .text.USBD_LL_OpenEP:00000000 USBD_LL_OpenEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:931    .text.USBD_LL_CloseEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:938    .text.USBD_LL_CloseEP:00000000 USBD_LL_CloseEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:972    .text.USBD_LL_FlushEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:979    .text.USBD_LL_FlushEP:00000000 USBD_LL_FlushEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1013   .text.USBD_LL_StallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1020   .text.USBD_LL_StallEP:00000000 USBD_LL_StallEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1054   .text.USBD_LL_ClearStallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1061   .text.USBD_LL_ClearStallEP:00000000 USBD_LL_ClearStallEP
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 47
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:18     .text.USBD_Get_USB_Status:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:25     .text.USBD_Get_USB_Status:00000000 USBD_Get_USB_Status
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:40     .text.USBD_Get_USB_Status:00000008 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:44     .text.USBD_Get_USB_Status:0000000c $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:67     .text.SystemClockConfig_Resume:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:73     .text.SystemClockConfig_Resume:00000000 SystemClockConfig_Resume
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:93     .text.HAL_PCD_MspInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:100    .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:161    .text.HAL_PCD_MspInit:0000003c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:166    .text.HAL_PCD_MspDeInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:173    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:215    .text.HAL_PCD_MspDeInit:00000020 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:221    .text.HAL_PCD_SetupStageCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:228    .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:254    .text.HAL_PCD_DataOutStageCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:261    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:289    .text.HAL_PCD_DataInStageCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:296    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:324    .text.HAL_PCD_SOFCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:331    .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:356    .text.HAL_PCD_ResetCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:363    .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:409    .text.HAL_PCD_SuspendCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:416    .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:455    .text.HAL_PCD_SuspendCallback:0000001c $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:460    .text.HAL_PCD_ResumeCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:467    .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:510    .text.HAL_PCD_ResumeCallback:00000024 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:515    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:522    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:547    .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:554    .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:579    .text.HAL_PCD_ConnectCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:586    .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:611    .text.HAL_PCD_DisconnectCallback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:618    .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:643    .text.USBD_LL_Init:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:650    .text.USBD_LL_Init:00000000 USBD_LL_Init
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:756    .text.USBD_LL_Init:00000080 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:762    .text.USBD_LL_DeInit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:769    .text.USBD_LL_DeInit:00000000 USBD_LL_DeInit
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:803    .text.USBD_LL_Start:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:810    .text.USBD_LL_Start:00000000 USBD_LL_Start
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:844    .text.USBD_LL_Stop:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:851    .text.USBD_LL_Stop:00000000 USBD_LL_Stop
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:885    .text.USBD_LL_OpenEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:892    .text.USBD_LL_OpenEP:00000000 USBD_LL_OpenEP
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:931    .text.USBD_LL_CloseEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:938    .text.USBD_LL_CloseEP:00000000 USBD_LL_CloseEP
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:972    .text.USBD_LL_FlushEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:979    .text.USBD_LL_FlushEP:00000000 USBD_LL_FlushEP
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1013   .text.USBD_LL_StallEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1020   .text.USBD_LL_StallEP:00000000 USBD_LL_StallEP
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1054   .text.USBD_LL_ClearStallEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1061   .text.USBD_LL_ClearStallEP:00000000 USBD_LL_ClearStallEP
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 47
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1095   .text.USBD_LL_IsStallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1102   .text.USBD_LL_IsStallEP:00000000 USBD_LL_IsStallEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1147   .text.USBD_LL_SetUSBAddress:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1154   .text.USBD_LL_SetUSBAddress:00000000 USBD_LL_SetUSBAddress
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1188   .text.USBD_LL_Transmit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1195   .text.USBD_LL_Transmit:00000000 USBD_LL_Transmit
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1229   .text.USBD_LL_PrepareReceive:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1236   .text.USBD_LL_PrepareReceive:00000000 USBD_LL_PrepareReceive
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1270   .text.USBD_LL_GetRxDataSize:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1277   .text.USBD_LL_GetRxDataSize:00000000 USBD_LL_GetRxDataSize
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1303   .text.HAL_PCDEx_LPM_Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1310   .text.HAL_PCDEx_LPM_Callback:00000000 HAL_PCDEx_LPM_Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1384   .text.HAL_PCDEx_LPM_Callback:00000044 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1389   .text.USBD_LL_Delay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1396   .text.USBD_LL_Delay:00000000 USBD_LL_Delay
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1418   .text.USBD_static_malloc:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1425   .text.USBD_static_malloc:00000000 USBD_static_malloc
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1443   .text.USBD_static_malloc:00000004 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1448   .text.USBD_static_free:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1455   .text.USBD_static_free:00000000 USBD_static_free
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1474   .bss.hpcd_USB_FS:00000000 hpcd_USB_FS
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1470   .bss.hpcd_USB_FS:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1477   .bss.mem.0:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s:1481   .bss.mem.0:00000000 mem.0
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1095   .text.USBD_LL_IsStallEP:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1102   .text.USBD_LL_IsStallEP:00000000 USBD_LL_IsStallEP
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1147   .text.USBD_LL_SetUSBAddress:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1154   .text.USBD_LL_SetUSBAddress:00000000 USBD_LL_SetUSBAddress
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1188   .text.USBD_LL_Transmit:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1195   .text.USBD_LL_Transmit:00000000 USBD_LL_Transmit
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1229   .text.USBD_LL_PrepareReceive:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1236   .text.USBD_LL_PrepareReceive:00000000 USBD_LL_PrepareReceive
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1270   .text.USBD_LL_GetRxDataSize:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1277   .text.USBD_LL_GetRxDataSize:00000000 USBD_LL_GetRxDataSize
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1303   .text.HAL_PCDEx_LPM_Callback:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1310   .text.HAL_PCDEx_LPM_Callback:00000000 HAL_PCDEx_LPM_Callback
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1384   .text.HAL_PCDEx_LPM_Callback:00000044 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1389   .text.USBD_LL_Delay:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1396   .text.USBD_LL_Delay:00000000 USBD_LL_Delay
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1418   .text.USBD_static_malloc:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1425   .text.USBD_static_malloc:00000000 USBD_static_malloc
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1443   .text.USBD_static_malloc:00000004 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1448   .text.USBD_static_free:00000000 $t
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1455   .text.USBD_static_free:00000000 USBD_static_free
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1474   .bss.hpcd_USB_FS:00000000 hpcd_USB_FS
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1470   .bss.hpcd_USB_FS:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1477   .bss.mem.0:00000000 $d
+C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1481   .bss.mem.0:00000000 mem.0
 
 UNDEFINED SYMBOLS
 mainRCCInit
@@ -2784,7 +2784,7 @@ HAL_PCD_SetAddress
 HAL_PCD_EP_Transmit
 HAL_PCD_EP_Receive
 HAL_PCD_EP_GetRxCount
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccNst9D9.s 			page 48
+ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 48
 
 
 HAL_Delay
