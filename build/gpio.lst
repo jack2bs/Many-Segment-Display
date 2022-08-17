@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccCcWils.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s 			page 1
   28:Core/Src/gpio.c **** /* Configure GPIO                                                             */
   29:Core/Src/gpio.c **** /*----------------------------------------------------------------------------*/
   30:Core/Src/gpio.c **** /* USER CODE BEGIN 1 */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccCcWils.s 			page 2
 
 
   31:Core/Src/gpio.c **** 
@@ -74,53 +74,51 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s 			page 1
   32              		@ frame_needed = 0, uses_anonymous_args = 0
   33              		@ link register save eliminated.
   34 0000 82B0     		sub	sp, sp, #8
-  35              	.LCFI0:
-  36              		.cfi_def_cfa_offset 8
+  35              		.cfi_def_cfa_offset 8
   38:Core/Src/gpio.c **** 
   39:Core/Src/gpio.c ****   /* GPIO Ports Clock Enable */
   40:Core/Src/gpio.c ****   __HAL_RCC_GPIOA_CLK_ENABLE();
-  37              		.loc 1 40 3 view .LVU1
-  38              	.LBB2:
-  39              		.loc 1 40 3 view .LVU2
-  40              		.loc 1 40 3 view .LVU3
-  41 0002 064B     		ldr	r3, .L3
-  42 0004 DA6C     		ldr	r2, [r3, #76]
-  43 0006 42F00102 		orr	r2, r2, #1
-  44 000a DA64     		str	r2, [r3, #76]
-  45              		.loc 1 40 3 view .LVU4
-  46 000c DB6C     		ldr	r3, [r3, #76]
-  47 000e 03F00103 		and	r3, r3, #1
-  48 0012 0193     		str	r3, [sp, #4]
-  49              		.loc 1 40 3 view .LVU5
-  50 0014 019B     		ldr	r3, [sp, #4]
-  51              	.LBE2:
-  52              		.loc 1 40 3 view .LVU6
+  36              		.loc 1 40 3 view .LVU1
+  37              	.LBB2:
+  38              		.loc 1 40 3 view .LVU2
+  39              		.loc 1 40 3 view .LVU3
+  40 0002 064B     		ldr	r3, .L3
+  41 0004 DA6C     		ldr	r2, [r3, #76]
+  42 0006 42F00102 		orr	r2, r2, #1
+  43 000a DA64     		str	r2, [r3, #76]
+  44              		.loc 1 40 3 view .LVU4
+  45 000c DB6C     		ldr	r3, [r3, #76]
+  46 000e 03F00103 		and	r3, r3, #1
+  47 0012 0193     		str	r3, [sp, #4]
+  48              		.loc 1 40 3 view .LVU5
+  49 0014 019B     		ldr	r3, [sp, #4]
+  50              	.LBE2:
+  51              		.loc 1 40 3 view .LVU6
   41:Core/Src/gpio.c **** 
   42:Core/Src/gpio.c **** }
-  53              		.loc 1 42 1 is_stmt 0 view .LVU7
-  54 0016 02B0     		add	sp, sp, #8
-  55              	.LCFI1:
-  56              		.cfi_def_cfa_offset 0
-  57              		@ sp needed
-  58 0018 7047     		bx	lr
-  59              	.L4:
-  60 001a 00BF     		.align	2
-  61              	.L3:
-  62 001c 00100240 		.word	1073876992
-  63              		.cfi_endproc
-  64              	.LFE132:
-  66              		.text
-  67              	.Letext0:
-  68              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
-  69              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
-  70              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s 			page 3
+  52              		.loc 1 42 1 is_stmt 0 view .LVU7
+  53 0016 02B0     		add	sp, sp, #8
+  54              		.cfi_def_cfa_offset 0
+  55              		@ sp needed
+  56 0018 7047     		bx	lr
+  57              	.L4:
+  58 001a 00BF     		.align	2
+  59              	.L3:
+  60 001c 00100240 		.word	1073876992
+  61              		.cfi_endproc
+  62              	.LFE132:
+  64              		.text
+  65              	.Letext0:
+  66              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+  67              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+  68              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccCcWils.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 gpio.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s:18     .text.MX_GPIO_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-C:\Users\Jack2bs\AppData\Local\Temp\ccuZvVNv.s:62     .text.MX_GPIO_Init:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccCcWils.s:18     .text.MX_GPIO_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccCcWils.s:26     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+C:\Users\jack2\AppData\Local\Temp\ccCcWils.s:60     .text.MX_GPIO_Init:0000001c $d
 
 NO UNDEFINED SYMBOLS

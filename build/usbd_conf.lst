@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
   28:USB_Device/Target/usbd_conf.c **** #include "usbd_cdc.h"
   29:USB_Device/Target/usbd_conf.c **** 
   30:USB_Device/Target/usbd_conf.c **** /* USER CODE BEGIN Includes */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 2
 
 
   31:USB_Device/Target/usbd_conf.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
   85:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_SetPriority(USB_LP_IRQn, 0, 0);
   86:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_EnableIRQ(USB_LP_IRQn);
   87:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN USB_MspInit 1 */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 3
 
 
   88:USB_Device/Target/usbd_conf.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  142:USB_Device/Target/usbd_conf.c **** #if (USE_HAL_PCD_REGISTER_CALLBACKS == 1U)
  143:USB_Device/Target/usbd_conf.c **** static void PCD_DataOutStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
  144:USB_Device/Target/usbd_conf.c **** #else
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 4
 
 
  145:USB_Device/Target/usbd_conf.c **** void HAL_PCD_DataOutStageCallback(PCD_HandleTypeDef *hpcd, uint8_t epnum)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  199:USB_Device/Target/usbd_conf.c ****   * @brief  Reset callback.
  200:USB_Device/Target/usbd_conf.c ****   * @param  hpcd: PCD handle
  201:USB_Device/Target/usbd_conf.c ****   * @retval None
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 5
 
 
  202:USB_Device/Target/usbd_conf.c ****   */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  256:USB_Device/Target/usbd_conf.c **** }
  257:USB_Device/Target/usbd_conf.c **** 
  258:USB_Device/Target/usbd_conf.c **** /**
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 6
 
 
  259:USB_Device/Target/usbd_conf.c ****   * @brief  Resume callback.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  313:USB_Device/Target/usbd_conf.c ****   * @param  epnum: Endpoint number
  314:USB_Device/Target/usbd_conf.c ****   * @retval None
  315:USB_Device/Target/usbd_conf.c ****   */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 7
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 7
 
 
  316:USB_Device/Target/usbd_conf.c **** #if (USE_HAL_PCD_REGISTER_CALLBACKS == 1U)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  370:USB_Device/Target/usbd_conf.c **** 
  371:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN LowLevelInterface */
  372:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 8
 
 
  373:USB_Device/Target/usbd_conf.c ****   /* USER CODE END LowLevelInterface */
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  427:USB_Device/Target/usbd_conf.c ****   HAL_PCD_RegisterIsoInIncpltCallback(&hpcd_USB_FS, PCD_ISOINIncompleteCallback);
  428:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN RegisterCallBackSecondPart */
  429:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 9
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 9
 
 
  430:USB_Device/Target/usbd_conf.c ****   /* USER CODE END RegisterCallBackSecondPart */
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  484:USB_Device/Target/usbd_conf.c **** {
  485:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  486:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 10
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 10
 
 
  487:USB_Device/Target/usbd_conf.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  541:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  542:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
  543:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 11
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 11
 
 
  544:USB_Device/Target/usbd_conf.c ****   hal_status = HAL_PCD_EP_Flush(pdev->pData, ep_addr);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  598:USB_Device/Target/usbd_conf.c ****   {
  599:USB_Device/Target/usbd_conf.c ****     return hpcd->IN_ep[ep_addr & 0x7F].is_stall;
  600:USB_Device/Target/usbd_conf.c ****   }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 12
 
 
  601:USB_Device/Target/usbd_conf.c ****   else
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  655:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
  656:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
  657:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 13
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 13
 
 
  658:USB_Device/Target/usbd_conf.c ****   hal_status = HAL_PCD_EP_Receive(pdev->pData, ep_addr, pbuf, size);
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
  712:USB_Device/Target/usbd_conf.c ****   }
  713:USB_Device/Target/usbd_conf.c ****   /* USER CODE END LPM_Callback */
  714:USB_Device/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 14
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 14
 
 
  715:USB_Device/Target/usbd_conf.c **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
   32              		@ frame_needed = 0, uses_anonymous_args = 0
   33              		@ link register save eliminated.
  766:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 15
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 15
 
 
   34              		.loc 1 766 3 view .LVU1
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
   66              		.section	.text.SystemClockConfig_Resume,"ax",%progbits
   67              		.align	1
   68              		.syntax unified
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 16
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 16
 
 
   69              		.thumb
@@ -912,1845 +912,1811 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 1
   77              		@ args = 0, pretend = 0, frame = 0
   78              		@ frame_needed = 0, uses_anonymous_args = 0
   79 0000 08B5     		push	{r3, lr}
-  80              	.LCFI0:
-  81              		.cfi_def_cfa_offset 8
-  82              		.cfi_offset 3, -8
-  83              		.cfi_offset 14, -4
+  80              		.cfi_def_cfa_offset 8
+  81              		.cfi_offset 3, -8
+  82              		.cfi_offset 14, -4
  755:USB_Device/Target/usbd_conf.c **** }
-  84              		.loc 1 755 3 view .LVU11
-  85 0002 FFF7FEFF 		bl	mainRCCInit
-  86              	.LVL5:
+  83              		.loc 1 755 3 view .LVU11
+  84 0002 FFF7FEFF 		bl	mainRCCInit
+  85              	.LVL5:
  756:USB_Device/Target/usbd_conf.c **** /* USER CODE END 5 */
-  87              		.loc 1 756 1 is_stmt 0 view .LVU12
-  88 0006 08BD     		pop	{r3, pc}
-  89              		.cfi_endproc
-  90              	.LFE167:
-  92              		.section	.text.HAL_PCD_MspInit,"ax",%progbits
-  93              		.align	1
-  94              		.global	HAL_PCD_MspInit
-  95              		.syntax unified
-  96              		.thumb
-  97              		.thumb_func
-  98              		.fpu fpv4-sp-d16
- 100              	HAL_PCD_MspInit:
- 101              	.LVL6:
- 102              	.LFB136:
+  86              		.loc 1 756 1 is_stmt 0 view .LVU12
+  87 0006 08BD     		pop	{r3, pc}
+  88              		.cfi_endproc
+  89              	.LFE167:
+  91              		.section	.text.HAL_PCD_MspInit,"ax",%progbits
+  92              		.align	1
+  93              		.global	HAL_PCD_MspInit
+  94              		.syntax unified
+  95              		.thumb
+  96              		.thumb_func
+  97              		.fpu fpv4-sp-d16
+  99              	HAL_PCD_MspInit:
+ 100              	.LVL6:
+ 101              	.LFB136:
   75:USB_Device/Target/usbd_conf.c ****   if(pcdHandle->Instance==USB)
- 103              		.loc 1 75 1 is_stmt 1 view -0
- 104              		.cfi_startproc
- 105              		@ args = 0, pretend = 0, frame = 8
- 106              		@ frame_needed = 0, uses_anonymous_args = 0
+ 102              		.loc 1 75 1 is_stmt 1 view -0
+ 103              		.cfi_startproc
+ 104              		@ args = 0, pretend = 0, frame = 8
+ 105              		@ frame_needed = 0, uses_anonymous_args = 0
   76:USB_Device/Target/usbd_conf.c ****   {
- 107              		.loc 1 76 3 view .LVU14
+ 106              		.loc 1 76 3 view .LVU14
   76:USB_Device/Target/usbd_conf.c ****   {
- 108              		.loc 1 76 15 is_stmt 0 view .LVU15
- 109 0000 0268     		ldr	r2, [r0]
+ 107              		.loc 1 76 15 is_stmt 0 view .LVU15
+ 108 0000 0268     		ldr	r2, [r0]
   76:USB_Device/Target/usbd_conf.c ****   {
- 110              		.loc 1 76 5 view .LVU16
- 111 0002 0E4B     		ldr	r3, .L17
- 112 0004 9A42     		cmp	r2, r3
- 113 0006 00D0     		beq	.L16
- 114 0008 7047     		bx	lr
- 115              	.L16:
+ 109              		.loc 1 76 5 view .LVU16
+ 110 0002 0E4B     		ldr	r3, .L17
+ 111 0004 9A42     		cmp	r2, r3
+ 112 0006 00D0     		beq	.L16
+ 113 0008 7047     		bx	lr
+ 114              	.L16:
   75:USB_Device/Target/usbd_conf.c ****   if(pcdHandle->Instance==USB)
- 116              		.loc 1 75 1 view .LVU17
- 117 000a 00B5     		push	{lr}
- 118              	.LCFI1:
- 119              		.cfi_def_cfa_offset 4
- 120              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 17
+ 115              		.loc 1 75 1 view .LVU17
+ 116 000a 00B5     		push	{lr}
+ 117              		.cfi_def_cfa_offset 4
+ 118              		.cfi_offset 14, -4
+ 119 000c 83B0     		sub	sp, sp, #12
+ 120              		.cfi_def_cfa_offset 16
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 17
 
 
- 121 000c 83B0     		sub	sp, sp, #12
- 122              	.LCFI2:
- 123              		.cfi_def_cfa_offset 16
   82:USB_Device/Target/usbd_conf.c **** 
- 124              		.loc 1 82 5 is_stmt 1 view .LVU18
- 125              	.LBB2:
+ 121              		.loc 1 82 5 is_stmt 1 view .LVU18
+ 122              	.LBB2:
   82:USB_Device/Target/usbd_conf.c **** 
- 126              		.loc 1 82 5 view .LVU19
+ 123              		.loc 1 82 5 view .LVU19
   82:USB_Device/Target/usbd_conf.c **** 
- 127              		.loc 1 82 5 view .LVU20
- 128 000e 03F5DA33 		add	r3, r3, #111616
- 129 0012 9A6D     		ldr	r2, [r3, #88]
- 130 0014 42F40002 		orr	r2, r2, #8388608
- 131 0018 9A65     		str	r2, [r3, #88]
+ 124              		.loc 1 82 5 view .LVU20
+ 125 000e 03F5DA33 		add	r3, r3, #111616
+ 126 0012 9A6D     		ldr	r2, [r3, #88]
+ 127 0014 42F40002 		orr	r2, r2, #8388608
+ 128 0018 9A65     		str	r2, [r3, #88]
   82:USB_Device/Target/usbd_conf.c **** 
- 132              		.loc 1 82 5 view .LVU21
- 133 001a 9B6D     		ldr	r3, [r3, #88]
- 134 001c 03F40003 		and	r3, r3, #8388608
- 135 0020 0193     		str	r3, [sp, #4]
+ 129              		.loc 1 82 5 view .LVU21
+ 130 001a 9B6D     		ldr	r3, [r3, #88]
+ 131 001c 03F40003 		and	r3, r3, #8388608
+ 132 0020 0193     		str	r3, [sp, #4]
   82:USB_Device/Target/usbd_conf.c **** 
- 136              		.loc 1 82 5 view .LVU22
- 137 0022 019B     		ldr	r3, [sp, #4]
- 138              	.LBE2:
+ 133              		.loc 1 82 5 view .LVU22
+ 134 0022 019B     		ldr	r3, [sp, #4]
+ 135              	.LBE2:
   82:USB_Device/Target/usbd_conf.c **** 
- 139              		.loc 1 82 5 view .LVU23
+ 136              		.loc 1 82 5 view .LVU23
   85:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_EnableIRQ(USB_LP_IRQn);
- 140              		.loc 1 85 5 view .LVU24
- 141 0024 0022     		movs	r2, #0
- 142 0026 1146     		mov	r1, r2
- 143 0028 1420     		movs	r0, #20
- 144              	.LVL7:
+ 137              		.loc 1 85 5 view .LVU24
+ 138 0024 0022     		movs	r2, #0
+ 139 0026 1146     		mov	r1, r2
+ 140 0028 1420     		movs	r0, #20
+ 141              	.LVL7:
   85:USB_Device/Target/usbd_conf.c ****     HAL_NVIC_EnableIRQ(USB_LP_IRQn);
- 145              		.loc 1 85 5 is_stmt 0 view .LVU25
- 146 002a FFF7FEFF 		bl	HAL_NVIC_SetPriority
- 147              	.LVL8:
+ 142              		.loc 1 85 5 is_stmt 0 view .LVU25
+ 143 002a FFF7FEFF 		bl	HAL_NVIC_SetPriority
+ 144              	.LVL8:
   86:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN USB_MspInit 1 */
- 148              		.loc 1 86 5 is_stmt 1 view .LVU26
- 149 002e 1420     		movs	r0, #20
- 150 0030 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
- 151              	.LVL9:
+ 145              		.loc 1 86 5 is_stmt 1 view .LVU26
+ 146 002e 1420     		movs	r0, #20
+ 147 0030 FFF7FEFF 		bl	HAL_NVIC_EnableIRQ
+ 148              	.LVL9:
   91:USB_Device/Target/usbd_conf.c **** 
- 152              		.loc 1 91 1 is_stmt 0 view .LVU27
- 153 0034 03B0     		add	sp, sp, #12
- 154              	.LCFI3:
- 155              		.cfi_def_cfa_offset 4
- 156              		@ sp needed
- 157 0036 5DF804FB 		ldr	pc, [sp], #4
- 158              	.L18:
- 159 003a 00BF     		.align	2
- 160              	.L17:
- 161 003c 005C0040 		.word	1073765376
- 162              		.cfi_endproc
- 163              	.LFE136:
- 165              		.section	.text.HAL_PCD_MspDeInit,"ax",%progbits
- 166              		.align	1
- 167              		.global	HAL_PCD_MspDeInit
- 168              		.syntax unified
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 18
+ 149              		.loc 1 91 1 is_stmt 0 view .LVU27
+ 150 0034 03B0     		add	sp, sp, #12
+ 151              		.cfi_def_cfa_offset 4
+ 152              		@ sp needed
+ 153 0036 5DF804FB 		ldr	pc, [sp], #4
+ 154              	.L18:
+ 155 003a 00BF     		.align	2
+ 156              	.L17:
+ 157 003c 005C0040 		.word	1073765376
+ 158              		.cfi_endproc
+ 159              	.LFE136:
+ 161              		.section	.text.HAL_PCD_MspDeInit,"ax",%progbits
+ 162              		.align	1
+ 163              		.global	HAL_PCD_MspDeInit
+ 164              		.syntax unified
+ 165              		.thumb
+ 166              		.thumb_func
+ 167              		.fpu fpv4-sp-d16
+ 169              	HAL_PCD_MspDeInit:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 18
 
 
- 169              		.thumb
- 170              		.thumb_func
- 171              		.fpu fpv4-sp-d16
- 173              	HAL_PCD_MspDeInit:
- 174              	.LVL10:
- 175              	.LFB137:
+ 170              	.LVL10:
+ 171              	.LFB137:
   98:USB_Device/Target/usbd_conf.c ****   if(pcdHandle->Instance==USB)
- 176              		.loc 1 98 1 is_stmt 1 view -0
- 177              		.cfi_startproc
- 178              		@ args = 0, pretend = 0, frame = 0
- 179              		@ frame_needed = 0, uses_anonymous_args = 0
+ 172              		.loc 1 98 1 is_stmt 1 view -0
+ 173              		.cfi_startproc
+ 174              		@ args = 0, pretend = 0, frame = 0
+ 175              		@ frame_needed = 0, uses_anonymous_args = 0
   98:USB_Device/Target/usbd_conf.c ****   if(pcdHandle->Instance==USB)
- 180              		.loc 1 98 1 is_stmt 0 view .LVU29
- 181 0000 08B5     		push	{r3, lr}
- 182              	.LCFI4:
- 183              		.cfi_def_cfa_offset 8
- 184              		.cfi_offset 3, -8
- 185              		.cfi_offset 14, -4
+ 176              		.loc 1 98 1 is_stmt 0 view .LVU29
+ 177 0000 08B5     		push	{r3, lr}
+ 178              		.cfi_def_cfa_offset 8
+ 179              		.cfi_offset 3, -8
+ 180              		.cfi_offset 14, -4
   99:USB_Device/Target/usbd_conf.c ****   {
- 186              		.loc 1 99 3 is_stmt 1 view .LVU30
+ 181              		.loc 1 99 3 is_stmt 1 view .LVU30
   99:USB_Device/Target/usbd_conf.c ****   {
- 187              		.loc 1 99 15 is_stmt 0 view .LVU31
- 188 0002 0268     		ldr	r2, [r0]
+ 182              		.loc 1 99 15 is_stmt 0 view .LVU31
+ 183 0002 0268     		ldr	r2, [r0]
   99:USB_Device/Target/usbd_conf.c ****   {
- 189              		.loc 1 99 5 view .LVU32
- 190 0004 064B     		ldr	r3, .L23
- 191 0006 9A42     		cmp	r2, r3
- 192 0008 00D0     		beq	.L22
- 193              	.LVL11:
- 194              	.L19:
+ 184              		.loc 1 99 5 view .LVU32
+ 185 0004 064B     		ldr	r3, .L23
+ 186 0006 9A42     		cmp	r2, r3
+ 187 0008 00D0     		beq	.L22
+ 188              	.LVL11:
+ 189              	.L19:
  114:USB_Device/Target/usbd_conf.c **** 
- 195              		.loc 1 114 1 view .LVU33
- 196 000a 08BD     		pop	{r3, pc}
- 197              	.LVL12:
- 198              	.L22:
+ 190              		.loc 1 114 1 view .LVU33
+ 191 000a 08BD     		pop	{r3, pc}
+ 192              	.LVL12:
+ 193              	.L22:
  105:USB_Device/Target/usbd_conf.c **** 
- 199              		.loc 1 105 5 is_stmt 1 view .LVU34
- 200 000c 054A     		ldr	r2, .L23+4
- 201 000e 936D     		ldr	r3, [r2, #88]
- 202 0010 23F40003 		bic	r3, r3, #8388608
- 203 0014 9365     		str	r3, [r2, #88]
+ 194              		.loc 1 105 5 is_stmt 1 view .LVU34
+ 195 000c 054A     		ldr	r2, .L23+4
+ 196 000e 936D     		ldr	r3, [r2, #88]
+ 197 0010 23F40003 		bic	r3, r3, #8388608
+ 198 0014 9365     		str	r3, [r2, #88]
  108:USB_Device/Target/usbd_conf.c **** 
- 204              		.loc 1 108 5 view .LVU35
- 205 0016 1420     		movs	r0, #20
- 206              	.LVL13:
+ 199              		.loc 1 108 5 view .LVU35
+ 200 0016 1420     		movs	r0, #20
+ 201              	.LVL13:
  108:USB_Device/Target/usbd_conf.c **** 
- 207              		.loc 1 108 5 is_stmt 0 view .LVU36
- 208 0018 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
- 209              	.LVL14:
+ 202              		.loc 1 108 5 is_stmt 0 view .LVU36
+ 203 0018 FFF7FEFF 		bl	HAL_NVIC_DisableIRQ
+ 204              	.LVL14:
  114:USB_Device/Target/usbd_conf.c **** 
- 210              		.loc 1 114 1 view .LVU37
- 211 001c F5E7     		b	.L19
- 212              	.L24:
- 213 001e 00BF     		.align	2
- 214              	.L23:
- 215 0020 005C0040 		.word	1073765376
- 216 0024 00100240 		.word	1073876992
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 19
+ 205              		.loc 1 114 1 view .LVU37
+ 206 001c F5E7     		b	.L19
+ 207              	.L24:
+ 208 001e 00BF     		.align	2
+ 209              	.L23:
+ 210 0020 005C0040 		.word	1073765376
+ 211 0024 00100240 		.word	1073876992
+ 212              		.cfi_endproc
+ 213              	.LFE137:
+ 215              		.section	.text.HAL_PCD_SetupStageCallback,"ax",%progbits
+ 216              		.align	1
+ 217              		.global	HAL_PCD_SetupStageCallback
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 19
 
 
- 217              		.cfi_endproc
- 218              	.LFE137:
- 220              		.section	.text.HAL_PCD_SetupStageCallback,"ax",%progbits
- 221              		.align	1
- 222              		.global	HAL_PCD_SetupStageCallback
- 223              		.syntax unified
- 224              		.thumb
- 225              		.thumb_func
- 226              		.fpu fpv4-sp-d16
- 228              	HAL_PCD_SetupStageCallback:
- 229              	.LVL15:
- 230              	.LFB138:
+ 218              		.syntax unified
+ 219              		.thumb
+ 220              		.thumb_func
+ 221              		.fpu fpv4-sp-d16
+ 223              	HAL_PCD_SetupStageCallback:
+ 224              	.LVL15:
+ 225              	.LFB138:
  126:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SetupStageCallback_PreTreatment */
- 231              		.loc 1 126 1 is_stmt 1 view -0
- 232              		.cfi_startproc
- 233              		@ args = 0, pretend = 0, frame = 0
- 234              		@ frame_needed = 0, uses_anonymous_args = 0
+ 226              		.loc 1 126 1 is_stmt 1 view -0
+ 227              		.cfi_startproc
+ 228              		@ args = 0, pretend = 0, frame = 0
+ 229              		@ frame_needed = 0, uses_anonymous_args = 0
  126:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SetupStageCallback_PreTreatment */
- 235              		.loc 1 126 1 is_stmt 0 view .LVU39
- 236 0000 08B5     		push	{r3, lr}
- 237              	.LCFI5:
- 238              		.cfi_def_cfa_offset 8
- 239              		.cfi_offset 3, -8
- 240              		.cfi_offset 14, -4
+ 230              		.loc 1 126 1 is_stmt 0 view .LVU39
+ 231 0000 08B5     		push	{r3, lr}
+ 232              		.cfi_def_cfa_offset 8
+ 233              		.cfi_offset 3, -8
+ 234              		.cfi_offset 14, -4
  130:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SetupStageCallback_PostTreatment */
- 241              		.loc 1 130 3 is_stmt 1 view .LVU40
- 242 0002 00F52C71 		add	r1, r0, #688
- 243 0006 D0F8F002 		ldr	r0, [r0, #752]
- 244              	.LVL16:
+ 235              		.loc 1 130 3 is_stmt 1 view .LVU40
+ 236 0002 00F52C71 		add	r1, r0, #688
+ 237 0006 D0F8F002 		ldr	r0, [r0, #752]
+ 238              	.LVL16:
  130:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SetupStageCallback_PostTreatment */
- 245              		.loc 1 130 3 is_stmt 0 view .LVU41
- 246 000a FFF7FEFF 		bl	USBD_LL_SetupStage
- 247              	.LVL17:
+ 239              		.loc 1 130 3 is_stmt 0 view .LVU41
+ 240 000a FFF7FEFF 		bl	USBD_LL_SetupStage
+ 241              	.LVL17:
  134:USB_Device/Target/usbd_conf.c **** 
- 248              		.loc 1 134 1 view .LVU42
- 249 000e 08BD     		pop	{r3, pc}
- 250              		.cfi_endproc
- 251              	.LFE138:
- 253              		.section	.text.HAL_PCD_DataOutStageCallback,"ax",%progbits
- 254              		.align	1
- 255              		.global	HAL_PCD_DataOutStageCallback
- 256              		.syntax unified
- 257              		.thumb
- 258              		.thumb_func
- 259              		.fpu fpv4-sp-d16
- 261              	HAL_PCD_DataOutStageCallback:
- 262              	.LVL18:
- 263              	.LFB139:
+ 242              		.loc 1 134 1 view .LVU42
+ 243 000e 08BD     		pop	{r3, pc}
+ 244              		.cfi_endproc
+ 245              	.LFE138:
+ 247              		.section	.text.HAL_PCD_DataOutStageCallback,"ax",%progbits
+ 248              		.align	1
+ 249              		.global	HAL_PCD_DataOutStageCallback
+ 250              		.syntax unified
+ 251              		.thumb
+ 252              		.thumb_func
+ 253              		.fpu fpv4-sp-d16
+ 255              	HAL_PCD_DataOutStageCallback:
+ 256              	.LVL18:
+ 257              	.LFB139:
  147:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataOutStageCallback_PreTreatment */
- 264              		.loc 1 147 1 is_stmt 1 view -0
- 265              		.cfi_startproc
- 266              		@ args = 0, pretend = 0, frame = 0
- 267              		@ frame_needed = 0, uses_anonymous_args = 0
+ 258              		.loc 1 147 1 is_stmt 1 view -0
+ 259              		.cfi_startproc
+ 260              		@ args = 0, pretend = 0, frame = 0
+ 261              		@ frame_needed = 0, uses_anonymous_args = 0
  147:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataOutStageCallback_PreTreatment */
- 268              		.loc 1 147 1 is_stmt 0 view .LVU44
- 269 0000 08B5     		push	{r3, lr}
- 270              	.LCFI6:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 20
+ 262              		.loc 1 147 1 is_stmt 0 view .LVU44
+ 263 0000 08B5     		push	{r3, lr}
+ 264              		.cfi_def_cfa_offset 8
+ 265              		.cfi_offset 3, -8
+ 266              		.cfi_offset 14, -4
+ 151:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataOutStageCallback_PostTreatment */
+ 267              		.loc 1 151 3 is_stmt 1 view .LVU45
+ 268 0002 01EB8103 		add	r3, r1, r1, lsl #2
+ 269 0006 00EBC303 		add	r3, r0, r3, lsl #3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 20
 
 
- 271              		.cfi_def_cfa_offset 8
- 272              		.cfi_offset 3, -8
- 273              		.cfi_offset 14, -4
+ 270 000a D3F87C21 		ldr	r2, [r3, #380]
+ 271 000e D0F8F002 		ldr	r0, [r0, #752]
+ 272              	.LVL19:
  151:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataOutStageCallback_PostTreatment */
- 274              		.loc 1 151 3 is_stmt 1 view .LVU45
- 275 0002 01EB8103 		add	r3, r1, r1, lsl #2
- 276 0006 00EBC303 		add	r3, r0, r3, lsl #3
- 277 000a D3F87C21 		ldr	r2, [r3, #380]
- 278 000e D0F8F002 		ldr	r0, [r0, #752]
- 279              	.LVL19:
- 151:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataOutStageCallback_PostTreatment */
- 280              		.loc 1 151 3 is_stmt 0 view .LVU46
- 281 0012 FFF7FEFF 		bl	USBD_LL_DataOutStage
- 282              	.LVL20:
+ 273              		.loc 1 151 3 is_stmt 0 view .LVU46
+ 274 0012 FFF7FEFF 		bl	USBD_LL_DataOutStage
+ 275              	.LVL20:
  155:USB_Device/Target/usbd_conf.c **** 
- 283              		.loc 1 155 1 view .LVU47
- 284 0016 08BD     		pop	{r3, pc}
- 285              		.cfi_endproc
- 286              	.LFE139:
- 288              		.section	.text.HAL_PCD_DataInStageCallback,"ax",%progbits
- 289              		.align	1
- 290              		.global	HAL_PCD_DataInStageCallback
- 291              		.syntax unified
- 292              		.thumb
- 293              		.thumb_func
- 294              		.fpu fpv4-sp-d16
- 296              	HAL_PCD_DataInStageCallback:
- 297              	.LVL21:
- 298              	.LFB140:
+ 276              		.loc 1 155 1 view .LVU47
+ 277 0016 08BD     		pop	{r3, pc}
+ 278              		.cfi_endproc
+ 279              	.LFE139:
+ 281              		.section	.text.HAL_PCD_DataInStageCallback,"ax",%progbits
+ 282              		.align	1
+ 283              		.global	HAL_PCD_DataInStageCallback
+ 284              		.syntax unified
+ 285              		.thumb
+ 286              		.thumb_func
+ 287              		.fpu fpv4-sp-d16
+ 289              	HAL_PCD_DataInStageCallback:
+ 290              	.LVL21:
+ 291              	.LFB140:
  168:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataInStageCallback_PreTreatment */
- 299              		.loc 1 168 1 is_stmt 1 view -0
- 300              		.cfi_startproc
- 301              		@ args = 0, pretend = 0, frame = 0
- 302              		@ frame_needed = 0, uses_anonymous_args = 0
+ 292              		.loc 1 168 1 is_stmt 1 view -0
+ 293              		.cfi_startproc
+ 294              		@ args = 0, pretend = 0, frame = 0
+ 295              		@ frame_needed = 0, uses_anonymous_args = 0
  168:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataInStageCallback_PreTreatment */
- 303              		.loc 1 168 1 is_stmt 0 view .LVU49
- 304 0000 08B5     		push	{r3, lr}
- 305              	.LCFI7:
- 306              		.cfi_def_cfa_offset 8
- 307              		.cfi_offset 3, -8
- 308              		.cfi_offset 14, -4
+ 296              		.loc 1 168 1 is_stmt 0 view .LVU49
+ 297 0000 08B5     		push	{r3, lr}
+ 298              		.cfi_def_cfa_offset 8
+ 299              		.cfi_offset 3, -8
+ 300              		.cfi_offset 14, -4
  172:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataInStageCallback_PostTreatment  */
- 309              		.loc 1 172 3 is_stmt 1 view .LVU50
- 310 0002 01EB8103 		add	r3, r1, r1, lsl #2
- 311 0006 00EBC303 		add	r3, r0, r3, lsl #3
- 312 000a DA6B     		ldr	r2, [r3, #60]
- 313 000c D0F8F002 		ldr	r0, [r0, #752]
- 314              	.LVL22:
+ 301              		.loc 1 172 3 is_stmt 1 view .LVU50
+ 302 0002 01EB8103 		add	r3, r1, r1, lsl #2
+ 303 0006 00EBC303 		add	r3, r0, r3, lsl #3
+ 304 000a DA6B     		ldr	r2, [r3, #60]
+ 305 000c D0F8F002 		ldr	r0, [r0, #752]
+ 306              	.LVL22:
  172:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DataInStageCallback_PostTreatment  */
- 315              		.loc 1 172 3 is_stmt 0 view .LVU51
- 316 0010 FFF7FEFF 		bl	USBD_LL_DataInStage
- 317              	.LVL23:
+ 307              		.loc 1 172 3 is_stmt 0 view .LVU51
+ 308 0010 FFF7FEFF 		bl	USBD_LL_DataInStage
+ 309              	.LVL23:
  176:USB_Device/Target/usbd_conf.c **** 
- 318              		.loc 1 176 1 view .LVU52
- 319 0014 08BD     		pop	{r3, pc}
- 320              		.cfi_endproc
- 321              	.LFE140:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 21
+ 310              		.loc 1 176 1 view .LVU52
+ 311 0014 08BD     		pop	{r3, pc}
+ 312              		.cfi_endproc
+ 313              	.LFE140:
+ 315              		.section	.text.HAL_PCD_SOFCallback,"ax",%progbits
+ 316              		.align	1
+ 317              		.global	HAL_PCD_SOFCallback
+ 318              		.syntax unified
+ 319              		.thumb
+ 320              		.thumb_func
+ 321              		.fpu fpv4-sp-d16
+ 323              	HAL_PCD_SOFCallback:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 21
 
 
- 323              		.section	.text.HAL_PCD_SOFCallback,"ax",%progbits
- 324              		.align	1
- 325              		.global	HAL_PCD_SOFCallback
- 326              		.syntax unified
- 327              		.thumb
- 328              		.thumb_func
- 329              		.fpu fpv4-sp-d16
- 331              	HAL_PCD_SOFCallback:
- 332              	.LVL24:
- 333              	.LFB141:
+ 324              	.LVL24:
+ 325              	.LFB141:
  188:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SOFCallback_PreTreatment */
- 334              		.loc 1 188 1 is_stmt 1 view -0
- 335              		.cfi_startproc
- 336              		@ args = 0, pretend = 0, frame = 0
- 337              		@ frame_needed = 0, uses_anonymous_args = 0
+ 326              		.loc 1 188 1 is_stmt 1 view -0
+ 327              		.cfi_startproc
+ 328              		@ args = 0, pretend = 0, frame = 0
+ 329              		@ frame_needed = 0, uses_anonymous_args = 0
  188:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SOFCallback_PreTreatment */
- 338              		.loc 1 188 1 is_stmt 0 view .LVU54
- 339 0000 08B5     		push	{r3, lr}
- 340              	.LCFI8:
- 341              		.cfi_def_cfa_offset 8
- 342              		.cfi_offset 3, -8
- 343              		.cfi_offset 14, -4
+ 330              		.loc 1 188 1 is_stmt 0 view .LVU54
+ 331 0000 08B5     		push	{r3, lr}
+ 332              		.cfi_def_cfa_offset 8
+ 333              		.cfi_offset 3, -8
+ 334              		.cfi_offset 14, -4
  192:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SOFCallback_PostTreatment */
- 344              		.loc 1 192 3 is_stmt 1 view .LVU55
- 345 0002 D0F8F002 		ldr	r0, [r0, #752]
- 346              	.LVL25:
+ 335              		.loc 1 192 3 is_stmt 1 view .LVU55
+ 336 0002 D0F8F002 		ldr	r0, [r0, #752]
+ 337              	.LVL25:
  192:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SOFCallback_PostTreatment */
- 347              		.loc 1 192 3 is_stmt 0 view .LVU56
- 348 0006 FFF7FEFF 		bl	USBD_LL_SOF
- 349              	.LVL26:
+ 338              		.loc 1 192 3 is_stmt 0 view .LVU56
+ 339 0006 FFF7FEFF 		bl	USBD_LL_SOF
+ 340              	.LVL26:
  196:USB_Device/Target/usbd_conf.c **** 
- 350              		.loc 1 196 1 view .LVU57
- 351 000a 08BD     		pop	{r3, pc}
- 352              		.cfi_endproc
- 353              	.LFE141:
- 355              		.section	.text.HAL_PCD_ResetCallback,"ax",%progbits
- 356              		.align	1
- 357              		.global	HAL_PCD_ResetCallback
- 358              		.syntax unified
- 359              		.thumb
- 360              		.thumb_func
- 361              		.fpu fpv4-sp-d16
- 363              	HAL_PCD_ResetCallback:
- 364              	.LVL27:
- 365              	.LFB142:
+ 341              		.loc 1 196 1 view .LVU57
+ 342 000a 08BD     		pop	{r3, pc}
+ 343              		.cfi_endproc
+ 344              	.LFE141:
+ 346              		.section	.text.HAL_PCD_ResetCallback,"ax",%progbits
+ 347              		.align	1
+ 348              		.global	HAL_PCD_ResetCallback
+ 349              		.syntax unified
+ 350              		.thumb
+ 351              		.thumb_func
+ 352              		.fpu fpv4-sp-d16
+ 354              	HAL_PCD_ResetCallback:
+ 355              	.LVL27:
+ 356              	.LFB142:
  208:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResetCallback_PreTreatment */
- 366              		.loc 1 208 1 is_stmt 1 view -0
- 367              		.cfi_startproc
- 368              		@ args = 0, pretend = 0, frame = 0
- 369              		@ frame_needed = 0, uses_anonymous_args = 0
+ 357              		.loc 1 208 1 is_stmt 1 view -0
+ 358              		.cfi_startproc
+ 359              		@ args = 0, pretend = 0, frame = 0
+ 360              		@ frame_needed = 0, uses_anonymous_args = 0
  208:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResetCallback_PreTreatment */
- 370              		.loc 1 208 1 is_stmt 0 view .LVU59
- 371 0000 10B5     		push	{r4, lr}
- 372              	.LCFI9:
- 373              		.cfi_def_cfa_offset 8
- 374              		.cfi_offset 4, -8
- 375              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 22
-
-
- 376 0002 0446     		mov	r4, r0
+ 361              		.loc 1 208 1 is_stmt 0 view .LVU59
+ 362 0000 10B5     		push	{r4, lr}
+ 363              		.cfi_def_cfa_offset 8
+ 364              		.cfi_offset 4, -8
+ 365              		.cfi_offset 14, -4
+ 366 0002 0446     		mov	r4, r0
  212:USB_Device/Target/usbd_conf.c **** 
- 377              		.loc 1 212 3 is_stmt 1 view .LVU60
- 378              	.LVL28:
+ 367              		.loc 1 212 3 is_stmt 1 view .LVU60
+ 368              	.LVL28:
  214:USB_Device/Target/usbd_conf.c ****   {
- 379              		.loc 1 214 3 view .LVU61
+ 369              		.loc 1 214 3 view .LVU61
  214:USB_Device/Target/usbd_conf.c ****   {
- 380              		.loc 1 214 18 is_stmt 0 view .LVU62
- 381 0004 8368     		ldr	r3, [r0, #8]
+ 370              		.loc 1 214 18 is_stmt 0 view .LVU62
+ 371 0004 8368     		ldr	r3, [r0, #8]
  214:USB_Device/Target/usbd_conf.c ****   {
- 382              		.loc 1 214 6 view .LVU63
- 383 0006 022B     		cmp	r3, #2
- 384 0008 09D1     		bne	.L36
- 385              	.LVL29:
- 386              	.L34:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 22
+
+
+ 372              		.loc 1 214 6 view .LVU63
+ 373 0006 022B     		cmp	r3, #2
+ 374 0008 09D1     		bne	.L36
+ 375              	.LVL29:
+ 376              	.L34:
  219:USB_Device/Target/usbd_conf.c **** 
- 387              		.loc 1 219 3 is_stmt 1 view .LVU64
- 388 000a 0121     		movs	r1, #1
- 389 000c D4F8F002 		ldr	r0, [r4, #752]
- 390 0010 FFF7FEFF 		bl	USBD_LL_SetSpeed
- 391              	.LVL30:
+ 377              		.loc 1 219 3 is_stmt 1 view .LVU64
+ 378 000a 0121     		movs	r1, #1
+ 379 000c D4F8F002 		ldr	r0, [r4, #752]
+ 380 0010 FFF7FEFF 		bl	USBD_LL_SetSpeed
+ 381              	.LVL30:
  222:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResetCallback_PostTreatment */
- 392              		.loc 1 222 3 view .LVU65
- 393 0014 D4F8F002 		ldr	r0, [r4, #752]
- 394 0018 FFF7FEFF 		bl	USBD_LL_Reset
- 395              	.LVL31:
+ 382              		.loc 1 222 3 view .LVU65
+ 383 0014 D4F8F002 		ldr	r0, [r4, #752]
+ 384 0018 FFF7FEFF 		bl	USBD_LL_Reset
+ 385              	.LVL31:
  226:USB_Device/Target/usbd_conf.c **** 
- 396              		.loc 1 226 1 is_stmt 0 view .LVU66
- 397 001c 10BD     		pop	{r4, pc}
- 398              	.LVL32:
- 399              	.L36:
+ 386              		.loc 1 226 1 is_stmt 0 view .LVU66
+ 387 001c 10BD     		pop	{r4, pc}
+ 388              	.LVL32:
+ 389              	.L36:
  216:USB_Device/Target/usbd_conf.c ****   }
- 400              		.loc 1 216 5 is_stmt 1 view .LVU67
- 401 001e FFF7FEFF 		bl	Error_Handler
- 402              	.LVL33:
+ 390              		.loc 1 216 5 is_stmt 1 view .LVU67
+ 391 001e FFF7FEFF 		bl	Error_Handler
+ 392              	.LVL33:
  216:USB_Device/Target/usbd_conf.c ****   }
- 403              		.loc 1 216 5 is_stmt 0 view .LVU68
- 404 0022 F2E7     		b	.L34
- 405              		.cfi_endproc
- 406              	.LFE142:
- 408              		.section	.text.HAL_PCD_SuspendCallback,"ax",%progbits
- 409              		.align	1
- 410              		.global	HAL_PCD_SuspendCallback
- 411              		.syntax unified
- 412              		.thumb
- 413              		.thumb_func
- 414              		.fpu fpv4-sp-d16
- 416              	HAL_PCD_SuspendCallback:
- 417              	.LVL34:
- 418              	.LFB143:
+ 393              		.loc 1 216 5 is_stmt 0 view .LVU68
+ 394 0022 F2E7     		b	.L34
+ 395              		.cfi_endproc
+ 396              	.LFE142:
+ 398              		.section	.text.HAL_PCD_SuspendCallback,"ax",%progbits
+ 399              		.align	1
+ 400              		.global	HAL_PCD_SuspendCallback
+ 401              		.syntax unified
+ 402              		.thumb
+ 403              		.thumb_func
+ 404              		.fpu fpv4-sp-d16
+ 406              	HAL_PCD_SuspendCallback:
+ 407              	.LVL34:
+ 408              	.LFB143:
  239:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SuspendCallback_PreTreatment */
- 419              		.loc 1 239 1 is_stmt 1 view -0
- 420              		.cfi_startproc
- 421              		@ args = 0, pretend = 0, frame = 0
- 422              		@ frame_needed = 0, uses_anonymous_args = 0
+ 409              		.loc 1 239 1 is_stmt 1 view -0
+ 410              		.cfi_startproc
+ 411              		@ args = 0, pretend = 0, frame = 0
+ 412              		@ frame_needed = 0, uses_anonymous_args = 0
  239:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_SuspendCallback_PreTreatment */
- 423              		.loc 1 239 1 is_stmt 0 view .LVU70
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 23
-
-
- 424 0000 10B5     		push	{r4, lr}
- 425              	.LCFI10:
- 426              		.cfi_def_cfa_offset 8
- 427              		.cfi_offset 4, -8
- 428              		.cfi_offset 14, -4
- 429 0002 0446     		mov	r4, r0
+ 413              		.loc 1 239 1 is_stmt 0 view .LVU70
+ 414 0000 10B5     		push	{r4, lr}
+ 415              		.cfi_def_cfa_offset 8
+ 416              		.cfi_offset 4, -8
+ 417              		.cfi_offset 14, -4
+ 418 0002 0446     		mov	r4, r0
  244:USB_Device/Target/usbd_conf.c ****   /* Enter in STOP mode. */
- 430              		.loc 1 244 3 is_stmt 1 view .LVU71
- 431 0004 D0F8F002 		ldr	r0, [r0, #752]
- 432              	.LVL35:
+ 419              		.loc 1 244 3 is_stmt 1 view .LVU71
+ 420 0004 D0F8F002 		ldr	r0, [r0, #752]
+ 421              	.LVL35:
  244:USB_Device/Target/usbd_conf.c ****   /* Enter in STOP mode. */
- 433              		.loc 1 244 3 is_stmt 0 view .LVU72
- 434 0008 FFF7FEFF 		bl	USBD_LL_Suspend
- 435              	.LVL36:
- 247:USB_Device/Target/usbd_conf.c ****   {
- 436              		.loc 1 247 3 is_stmt 1 view .LVU73
- 247:USB_Device/Target/usbd_conf.c ****   {
- 437              		.loc 1 247 17 is_stmt 0 view .LVU74
- 438 000c A369     		ldr	r3, [r4, #24]
- 247:USB_Device/Target/usbd_conf.c ****   {
- 439              		.loc 1 247 6 view .LVU75
- 440 000e 23B1     		cbz	r3, .L37
- 250:USB_Device/Target/usbd_conf.c ****   }
- 441              		.loc 1 250 5 is_stmt 1 view .LVU76
- 250:USB_Device/Target/usbd_conf.c ****   }
- 442              		.loc 1 250 14 is_stmt 0 view .LVU77
- 443 0010 024A     		ldr	r2, .L40
- 444 0012 1369     		ldr	r3, [r2, #16]
- 445 0014 43F00603 		orr	r3, r3, #6
- 446 0018 1361     		str	r3, [r2, #16]
- 447              	.L37:
- 256:USB_Device/Target/usbd_conf.c **** 
- 448              		.loc 1 256 1 view .LVU78
- 449 001a 10BD     		pop	{r4, pc}
- 450              	.LVL37:
- 451              	.L41:
- 256:USB_Device/Target/usbd_conf.c **** 
- 452              		.loc 1 256 1 view .LVU79
- 453              		.align	2
- 454              	.L40:
- 455 001c 00ED00E0 		.word	-536810240
- 456              		.cfi_endproc
- 457              	.LFE143:
- 459              		.section	.text.HAL_PCD_ResumeCallback,"ax",%progbits
- 460              		.align	1
- 461              		.global	HAL_PCD_ResumeCallback
- 462              		.syntax unified
- 463              		.thumb
- 464              		.thumb_func
- 465              		.fpu fpv4-sp-d16
- 467              	HAL_PCD_ResumeCallback:
- 468              	.LVL38:
- 469              	.LFB144:
- 269:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResumeCallback_PreTreatment */
- 470              		.loc 1 269 1 is_stmt 1 view -0
- 471              		.cfi_startproc
- 472              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 24
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 23
 
 
- 473              		@ frame_needed = 0, uses_anonymous_args = 0
+ 422              		.loc 1 244 3 is_stmt 0 view .LVU72
+ 423 0008 FFF7FEFF 		bl	USBD_LL_Suspend
+ 424              	.LVL36:
+ 247:USB_Device/Target/usbd_conf.c ****   {
+ 425              		.loc 1 247 3 is_stmt 1 view .LVU73
+ 247:USB_Device/Target/usbd_conf.c ****   {
+ 426              		.loc 1 247 17 is_stmt 0 view .LVU74
+ 427 000c A369     		ldr	r3, [r4, #24]
+ 247:USB_Device/Target/usbd_conf.c ****   {
+ 428              		.loc 1 247 6 view .LVU75
+ 429 000e 23B1     		cbz	r3, .L37
+ 250:USB_Device/Target/usbd_conf.c ****   }
+ 430              		.loc 1 250 5 is_stmt 1 view .LVU76
+ 250:USB_Device/Target/usbd_conf.c ****   }
+ 431              		.loc 1 250 14 is_stmt 0 view .LVU77
+ 432 0010 024A     		ldr	r2, .L40
+ 433 0012 1369     		ldr	r3, [r2, #16]
+ 434 0014 43F00603 		orr	r3, r3, #6
+ 435 0018 1361     		str	r3, [r2, #16]
+ 436              	.L37:
+ 256:USB_Device/Target/usbd_conf.c **** 
+ 437              		.loc 1 256 1 view .LVU78
+ 438 001a 10BD     		pop	{r4, pc}
+ 439              	.LVL37:
+ 440              	.L41:
+ 256:USB_Device/Target/usbd_conf.c **** 
+ 441              		.loc 1 256 1 view .LVU79
+ 442              		.align	2
+ 443              	.L40:
+ 444 001c 00ED00E0 		.word	-536810240
+ 445              		.cfi_endproc
+ 446              	.LFE143:
+ 448              		.section	.text.HAL_PCD_ResumeCallback,"ax",%progbits
+ 449              		.align	1
+ 450              		.global	HAL_PCD_ResumeCallback
+ 451              		.syntax unified
+ 452              		.thumb
+ 453              		.thumb_func
+ 454              		.fpu fpv4-sp-d16
+ 456              	HAL_PCD_ResumeCallback:
+ 457              	.LVL38:
+ 458              	.LFB144:
  269:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResumeCallback_PreTreatment */
- 474              		.loc 1 269 1 is_stmt 0 view .LVU81
- 475 0000 10B5     		push	{r4, lr}
- 476              	.LCFI11:
- 477              		.cfi_def_cfa_offset 8
- 478              		.cfi_offset 4, -8
- 479              		.cfi_offset 14, -4
- 480 0002 0446     		mov	r4, r0
+ 459              		.loc 1 269 1 is_stmt 1 view -0
+ 460              		.cfi_startproc
+ 461              		@ args = 0, pretend = 0, frame = 0
+ 462              		@ frame_needed = 0, uses_anonymous_args = 0
+ 269:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResumeCallback_PreTreatment */
+ 463              		.loc 1 269 1 is_stmt 0 view .LVU81
+ 464 0000 10B5     		push	{r4, lr}
+ 465              		.cfi_def_cfa_offset 8
+ 466              		.cfi_offset 4, -8
+ 467              		.cfi_offset 14, -4
+ 468 0002 0446     		mov	r4, r0
  275:USB_Device/Target/usbd_conf.c ****   {
- 481              		.loc 1 275 3 is_stmt 1 view .LVU82
+ 469              		.loc 1 275 3 is_stmt 1 view .LVU82
  275:USB_Device/Target/usbd_conf.c ****   {
- 482              		.loc 1 275 17 is_stmt 0 view .LVU83
- 483 0004 8369     		ldr	r3, [r0, #24]
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 24
+
+
+ 470              		.loc 1 275 17 is_stmt 0 view .LVU83
+ 471 0004 8369     		ldr	r3, [r0, #24]
  275:USB_Device/Target/usbd_conf.c ****   {
- 484              		.loc 1 275 6 view .LVU84
- 485 0006 23B9     		cbnz	r3, .L45
- 486              	.LVL39:
- 487              	.L43:
+ 472              		.loc 1 275 6 view .LVU84
+ 473 0006 23B9     		cbnz	r3, .L45
+ 474              	.LVL39:
+ 475              	.L43:
  283:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ResumeCallback_PostTreatment */
- 488              		.loc 1 283 3 is_stmt 1 view .LVU85
- 489 0008 D4F8F002 		ldr	r0, [r4, #752]
- 490 000c FFF7FEFF 		bl	USBD_LL_Resume
- 491              	.LVL40:
+ 476              		.loc 1 283 3 is_stmt 1 view .LVU85
+ 477 0008 D4F8F002 		ldr	r0, [r4, #752]
+ 478 000c FFF7FEFF 		bl	USBD_LL_Resume
+ 479              	.LVL40:
  287:USB_Device/Target/usbd_conf.c **** 
- 492              		.loc 1 287 1 is_stmt 0 view .LVU86
- 493 0010 10BD     		pop	{r4, pc}
- 494              	.LVL41:
- 495              	.L45:
+ 480              		.loc 1 287 1 is_stmt 0 view .LVU86
+ 481 0010 10BD     		pop	{r4, pc}
+ 482              	.LVL41:
+ 483              	.L45:
  278:USB_Device/Target/usbd_conf.c ****     SystemClockConfig_Resume();
- 496              		.loc 1 278 5 is_stmt 1 view .LVU87
+ 484              		.loc 1 278 5 is_stmt 1 view .LVU87
  278:USB_Device/Target/usbd_conf.c ****     SystemClockConfig_Resume();
- 497              		.loc 1 278 14 is_stmt 0 view .LVU88
- 498 0012 044A     		ldr	r2, .L46
- 499 0014 1369     		ldr	r3, [r2, #16]
- 500 0016 23F00603 		bic	r3, r3, #6
- 501 001a 1361     		str	r3, [r2, #16]
+ 485              		.loc 1 278 14 is_stmt 0 view .LVU88
+ 486 0012 044A     		ldr	r2, .L46
+ 487 0014 1369     		ldr	r3, [r2, #16]
+ 488 0016 23F00603 		bic	r3, r3, #6
+ 489 001a 1361     		str	r3, [r2, #16]
  279:USB_Device/Target/usbd_conf.c ****   }
- 502              		.loc 1 279 5 is_stmt 1 view .LVU89
- 503 001c FFF7FEFF 		bl	SystemClockConfig_Resume
- 504              	.LVL42:
+ 490              		.loc 1 279 5 is_stmt 1 view .LVU89
+ 491 001c FFF7FEFF 		bl	SystemClockConfig_Resume
+ 492              	.LVL42:
  279:USB_Device/Target/usbd_conf.c ****   }
- 505              		.loc 1 279 5 is_stmt 0 view .LVU90
- 506 0020 F2E7     		b	.L43
- 507              	.L47:
- 508 0022 00BF     		.align	2
- 509              	.L46:
- 510 0024 00ED00E0 		.word	-536810240
- 511              		.cfi_endproc
- 512              	.LFE144:
- 514              		.section	.text.HAL_PCD_ISOOUTIncompleteCallback,"ax",%progbits
- 515              		.align	1
- 516              		.global	HAL_PCD_ISOOUTIncompleteCallback
- 517              		.syntax unified
- 518              		.thumb
- 519              		.thumb_func
- 520              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 25
+ 493              		.loc 1 279 5 is_stmt 0 view .LVU90
+ 494 0020 F2E7     		b	.L43
+ 495              	.L47:
+ 496 0022 00BF     		.align	2
+ 497              	.L46:
+ 498 0024 00ED00E0 		.word	-536810240
+ 499              		.cfi_endproc
+ 500              	.LFE144:
+ 502              		.section	.text.HAL_PCD_ISOOUTIncompleteCallback,"ax",%progbits
+ 503              		.align	1
+ 504              		.global	HAL_PCD_ISOOUTIncompleteCallback
+ 505              		.syntax unified
+ 506              		.thumb
+ 507              		.thumb_func
+ 508              		.fpu fpv4-sp-d16
+ 510              	HAL_PCD_ISOOUTIncompleteCallback:
+ 511              	.LVL43:
+ 512              	.LFB145:
+ 300:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PreTreatment */
+ 513              		.loc 1 300 1 is_stmt 1 view -0
+ 514              		.cfi_startproc
+ 515              		@ args = 0, pretend = 0, frame = 0
+ 516              		@ frame_needed = 0, uses_anonymous_args = 0
+ 300:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PreTreatment */
+ 517              		.loc 1 300 1 is_stmt 0 view .LVU92
+ 518 0000 08B5     		push	{r3, lr}
+ 519              		.cfi_def_cfa_offset 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 25
 
 
- 522              	HAL_PCD_ISOOUTIncompleteCallback:
- 523              	.LVL43:
- 524              	.LFB145:
- 300:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PreTreatment */
- 525              		.loc 1 300 1 is_stmt 1 view -0
- 526              		.cfi_startproc
- 527              		@ args = 0, pretend = 0, frame = 0
- 528              		@ frame_needed = 0, uses_anonymous_args = 0
- 300:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PreTreatment */
- 529              		.loc 1 300 1 is_stmt 0 view .LVU92
- 530 0000 08B5     		push	{r3, lr}
- 531              	.LCFI12:
- 532              		.cfi_def_cfa_offset 8
- 533              		.cfi_offset 3, -8
- 534              		.cfi_offset 14, -4
+ 520              		.cfi_offset 3, -8
+ 521              		.cfi_offset 14, -4
  304:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PostTreatment */
- 535              		.loc 1 304 3 is_stmt 1 view .LVU93
- 536 0002 D0F8F002 		ldr	r0, [r0, #752]
- 537              	.LVL44:
+ 522              		.loc 1 304 3 is_stmt 1 view .LVU93
+ 523 0002 D0F8F002 		ldr	r0, [r0, #752]
+ 524              	.LVL44:
  304:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOOUTIncompleteCallback_PostTreatment */
- 538              		.loc 1 304 3 is_stmt 0 view .LVU94
- 539 0006 FFF7FEFF 		bl	USBD_LL_IsoOUTIncomplete
- 540              	.LVL45:
+ 525              		.loc 1 304 3 is_stmt 0 view .LVU94
+ 526 0006 FFF7FEFF 		bl	USBD_LL_IsoOUTIncomplete
+ 527              	.LVL45:
  308:USB_Device/Target/usbd_conf.c **** 
- 541              		.loc 1 308 1 view .LVU95
- 542 000a 08BD     		pop	{r3, pc}
- 543              		.cfi_endproc
- 544              	.LFE145:
- 546              		.section	.text.HAL_PCD_ISOINIncompleteCallback,"ax",%progbits
- 547              		.align	1
- 548              		.global	HAL_PCD_ISOINIncompleteCallback
- 549              		.syntax unified
- 550              		.thumb
- 551              		.thumb_func
- 552              		.fpu fpv4-sp-d16
- 554              	HAL_PCD_ISOINIncompleteCallback:
- 555              	.LVL46:
- 556              	.LFB146:
+ 528              		.loc 1 308 1 view .LVU95
+ 529 000a 08BD     		pop	{r3, pc}
+ 530              		.cfi_endproc
+ 531              	.LFE145:
+ 533              		.section	.text.HAL_PCD_ISOINIncompleteCallback,"ax",%progbits
+ 534              		.align	1
+ 535              		.global	HAL_PCD_ISOINIncompleteCallback
+ 536              		.syntax unified
+ 537              		.thumb
+ 538              		.thumb_func
+ 539              		.fpu fpv4-sp-d16
+ 541              	HAL_PCD_ISOINIncompleteCallback:
+ 542              	.LVL46:
+ 543              	.LFB146:
  321:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOINIncompleteCallback_PreTreatment */
- 557              		.loc 1 321 1 is_stmt 1 view -0
- 558              		.cfi_startproc
- 559              		@ args = 0, pretend = 0, frame = 0
- 560              		@ frame_needed = 0, uses_anonymous_args = 0
+ 544              		.loc 1 321 1 is_stmt 1 view -0
+ 545              		.cfi_startproc
+ 546              		@ args = 0, pretend = 0, frame = 0
+ 547              		@ frame_needed = 0, uses_anonymous_args = 0
  321:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOINIncompleteCallback_PreTreatment */
- 561              		.loc 1 321 1 is_stmt 0 view .LVU97
- 562 0000 08B5     		push	{r3, lr}
- 563              	.LCFI13:
- 564              		.cfi_def_cfa_offset 8
- 565              		.cfi_offset 3, -8
- 566              		.cfi_offset 14, -4
+ 548              		.loc 1 321 1 is_stmt 0 view .LVU97
+ 549 0000 08B5     		push	{r3, lr}
+ 550              		.cfi_def_cfa_offset 8
+ 551              		.cfi_offset 3, -8
+ 552              		.cfi_offset 14, -4
  325:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOINIncompleteCallback_PostTreatment */
- 567              		.loc 1 325 3 is_stmt 1 view .LVU98
- 568 0002 D0F8F002 		ldr	r0, [r0, #752]
- 569              	.LVL47:
+ 553              		.loc 1 325 3 is_stmt 1 view .LVU98
+ 554 0002 D0F8F002 		ldr	r0, [r0, #752]
+ 555              	.LVL47:
  325:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ISOINIncompleteCallback_PostTreatment */
- 570              		.loc 1 325 3 is_stmt 0 view .LVU99
- 571 0006 FFF7FEFF 		bl	USBD_LL_IsoINIncomplete
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 26
-
-
- 572              	.LVL48:
+ 556              		.loc 1 325 3 is_stmt 0 view .LVU99
+ 557 0006 FFF7FEFF 		bl	USBD_LL_IsoINIncomplete
+ 558              	.LVL48:
  329:USB_Device/Target/usbd_conf.c **** 
- 573              		.loc 1 329 1 view .LVU100
- 574 000a 08BD     		pop	{r3, pc}
- 575              		.cfi_endproc
- 576              	.LFE146:
- 578              		.section	.text.HAL_PCD_ConnectCallback,"ax",%progbits
- 579              		.align	1
- 580              		.global	HAL_PCD_ConnectCallback
- 581              		.syntax unified
- 582              		.thumb
- 583              		.thumb_func
- 584              		.fpu fpv4-sp-d16
- 586              	HAL_PCD_ConnectCallback:
- 587              	.LVL49:
- 588              	.LFB147:
+ 559              		.loc 1 329 1 view .LVU100
+ 560 000a 08BD     		pop	{r3, pc}
+ 561              		.cfi_endproc
+ 562              	.LFE146:
+ 564              		.section	.text.HAL_PCD_ConnectCallback,"ax",%progbits
+ 565              		.align	1
+ 566              		.global	HAL_PCD_ConnectCallback
+ 567              		.syntax unified
+ 568              		.thumb
+ 569              		.thumb_func
+ 570              		.fpu fpv4-sp-d16
+ 572              	HAL_PCD_ConnectCallback:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 26
+
+
+ 573              	.LVL49:
+ 574              	.LFB147:
  341:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ConnectCallback_PreTreatment */
- 589              		.loc 1 341 1 is_stmt 1 view -0
- 590              		.cfi_startproc
- 591              		@ args = 0, pretend = 0, frame = 0
- 592              		@ frame_needed = 0, uses_anonymous_args = 0
+ 575              		.loc 1 341 1 is_stmt 1 view -0
+ 576              		.cfi_startproc
+ 577              		@ args = 0, pretend = 0, frame = 0
+ 578              		@ frame_needed = 0, uses_anonymous_args = 0
  341:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ConnectCallback_PreTreatment */
- 593              		.loc 1 341 1 is_stmt 0 view .LVU102
- 594 0000 08B5     		push	{r3, lr}
- 595              	.LCFI14:
- 596              		.cfi_def_cfa_offset 8
- 597              		.cfi_offset 3, -8
- 598              		.cfi_offset 14, -4
+ 579              		.loc 1 341 1 is_stmt 0 view .LVU102
+ 580 0000 08B5     		push	{r3, lr}
+ 581              		.cfi_def_cfa_offset 8
+ 582              		.cfi_offset 3, -8
+ 583              		.cfi_offset 14, -4
  345:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ConnectCallback_PostTreatment */
- 599              		.loc 1 345 3 is_stmt 1 view .LVU103
- 600 0002 D0F8F002 		ldr	r0, [r0, #752]
- 601              	.LVL50:
+ 584              		.loc 1 345 3 is_stmt 1 view .LVU103
+ 585 0002 D0F8F002 		ldr	r0, [r0, #752]
+ 586              	.LVL50:
  345:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_ConnectCallback_PostTreatment */
- 602              		.loc 1 345 3 is_stmt 0 view .LVU104
- 603 0006 FFF7FEFF 		bl	USBD_LL_DevConnected
- 604              	.LVL51:
+ 587              		.loc 1 345 3 is_stmt 0 view .LVU104
+ 588 0006 FFF7FEFF 		bl	USBD_LL_DevConnected
+ 589              	.LVL51:
  349:USB_Device/Target/usbd_conf.c **** 
- 605              		.loc 1 349 1 view .LVU105
- 606 000a 08BD     		pop	{r3, pc}
- 607              		.cfi_endproc
- 608              	.LFE147:
- 610              		.section	.text.HAL_PCD_DisconnectCallback,"ax",%progbits
- 611              		.align	1
- 612              		.global	HAL_PCD_DisconnectCallback
- 613              		.syntax unified
- 614              		.thumb
- 615              		.thumb_func
- 616              		.fpu fpv4-sp-d16
- 618              	HAL_PCD_DisconnectCallback:
- 619              	.LVL52:
- 620              	.LFB148:
+ 590              		.loc 1 349 1 view .LVU105
+ 591 000a 08BD     		pop	{r3, pc}
+ 592              		.cfi_endproc
+ 593              	.LFE147:
+ 595              		.section	.text.HAL_PCD_DisconnectCallback,"ax",%progbits
+ 596              		.align	1
+ 597              		.global	HAL_PCD_DisconnectCallback
+ 598              		.syntax unified
+ 599              		.thumb
+ 600              		.thumb_func
+ 601              		.fpu fpv4-sp-d16
+ 603              	HAL_PCD_DisconnectCallback:
+ 604              	.LVL52:
+ 605              	.LFB148:
  361:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DisconnectCallback_PreTreatment */
- 621              		.loc 1 361 1 is_stmt 1 view -0
- 622              		.cfi_startproc
- 623              		@ args = 0, pretend = 0, frame = 0
- 624              		@ frame_needed = 0, uses_anonymous_args = 0
+ 606              		.loc 1 361 1 is_stmt 1 view -0
+ 607              		.cfi_startproc
+ 608              		@ args = 0, pretend = 0, frame = 0
+ 609              		@ frame_needed = 0, uses_anonymous_args = 0
  361:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DisconnectCallback_PreTreatment */
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 27
-
-
- 625              		.loc 1 361 1 is_stmt 0 view .LVU107
- 626 0000 08B5     		push	{r3, lr}
- 627              	.LCFI15:
- 628              		.cfi_def_cfa_offset 8
- 629              		.cfi_offset 3, -8
- 630              		.cfi_offset 14, -4
+ 610              		.loc 1 361 1 is_stmt 0 view .LVU107
+ 611 0000 08B5     		push	{r3, lr}
+ 612              		.cfi_def_cfa_offset 8
+ 613              		.cfi_offset 3, -8
+ 614              		.cfi_offset 14, -4
  365:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DisconnectCallback_PostTreatment */
- 631              		.loc 1 365 3 is_stmt 1 view .LVU108
- 632 0002 D0F8F002 		ldr	r0, [r0, #752]
- 633              	.LVL53:
+ 615              		.loc 1 365 3 is_stmt 1 view .LVU108
+ 616 0002 D0F8F002 		ldr	r0, [r0, #752]
+ 617              	.LVL53:
  365:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN HAL_PCD_DisconnectCallback_PostTreatment */
- 634              		.loc 1 365 3 is_stmt 0 view .LVU109
- 635 0006 FFF7FEFF 		bl	USBD_LL_DevDisconnected
- 636              	.LVL54:
+ 618              		.loc 1 365 3 is_stmt 0 view .LVU109
+ 619 0006 FFF7FEFF 		bl	USBD_LL_DevDisconnected
+ 620              	.LVL54:
  369:USB_Device/Target/usbd_conf.c **** 
- 637              		.loc 1 369 1 view .LVU110
- 638 000a 08BD     		pop	{r3, pc}
- 639              		.cfi_endproc
- 640              	.LFE148:
- 642              		.section	.text.USBD_LL_Init,"ax",%progbits
- 643              		.align	1
- 644              		.global	USBD_LL_Init
- 645              		.syntax unified
- 646              		.thumb
- 647              		.thumb_func
- 648              		.fpu fpv4-sp-d16
- 650              	USBD_LL_Init:
- 651              	.LVL55:
- 652              	.LFB149:
- 385:USB_Device/Target/usbd_conf.c ****   /* Init USB Ip. */
- 653              		.loc 1 385 1 is_stmt 1 view -0
- 654              		.cfi_startproc
- 655              		@ args = 0, pretend = 0, frame = 0
- 656              		@ frame_needed = 0, uses_anonymous_args = 0
- 385:USB_Device/Target/usbd_conf.c ****   /* Init USB Ip. */
- 657              		.loc 1 385 1 is_stmt 0 view .LVU112
- 658 0000 10B5     		push	{r4, lr}
- 659              	.LCFI16:
- 660              		.cfi_def_cfa_offset 8
- 661              		.cfi_offset 4, -8
- 662              		.cfi_offset 14, -4
- 663 0002 0446     		mov	r4, r0
- 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
- 664              		.loc 1 387 3 is_stmt 1 view .LVU113
- 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
- 665              		.loc 1 387 21 is_stmt 0 view .LVU114
- 666 0004 1E48     		ldr	r0, .L60
- 667              	.LVL56:
- 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
- 668              		.loc 1 387 21 view .LVU115
- 669 0006 C0F8F042 		str	r4, [r0, #752]
- 389:USB_Device/Target/usbd_conf.c **** 
- 670              		.loc 1 389 3 is_stmt 1 view .LVU116
- 389:USB_Device/Target/usbd_conf.c **** 
- 671              		.loc 1 389 15 is_stmt 0 view .LVU117
- 672 000a C4F8C402 		str	r0, [r4, #708]
- 391:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.dev_endpoints = 8;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 28
+ 621              		.loc 1 369 1 view .LVU110
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 27
 
 
- 673              		.loc 1 391 3 is_stmt 1 view .LVU118
+ 622 000a 08BD     		pop	{r3, pc}
+ 623              		.cfi_endproc
+ 624              	.LFE148:
+ 626              		.section	.text.USBD_LL_Init,"ax",%progbits
+ 627              		.align	1
+ 628              		.global	USBD_LL_Init
+ 629              		.syntax unified
+ 630              		.thumb
+ 631              		.thumb_func
+ 632              		.fpu fpv4-sp-d16
+ 634              	USBD_LL_Init:
+ 635              	.LVL55:
+ 636              	.LFB149:
+ 385:USB_Device/Target/usbd_conf.c ****   /* Init USB Ip. */
+ 637              		.loc 1 385 1 is_stmt 1 view -0
+ 638              		.cfi_startproc
+ 639              		@ args = 0, pretend = 0, frame = 0
+ 640              		@ frame_needed = 0, uses_anonymous_args = 0
+ 385:USB_Device/Target/usbd_conf.c ****   /* Init USB Ip. */
+ 641              		.loc 1 385 1 is_stmt 0 view .LVU112
+ 642 0000 10B5     		push	{r4, lr}
+ 643              		.cfi_def_cfa_offset 8
+ 644              		.cfi_offset 4, -8
+ 645              		.cfi_offset 14, -4
+ 646 0002 0446     		mov	r4, r0
+ 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
+ 647              		.loc 1 387 3 is_stmt 1 view .LVU113
+ 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
+ 648              		.loc 1 387 21 is_stmt 0 view .LVU114
+ 649 0004 1E48     		ldr	r0, .L60
+ 650              	.LVL56:
+ 387:USB_Device/Target/usbd_conf.c ****   /* Link the driver to the stack. */
+ 651              		.loc 1 387 21 view .LVU115
+ 652 0006 C0F8F042 		str	r4, [r0, #752]
+ 389:USB_Device/Target/usbd_conf.c **** 
+ 653              		.loc 1 389 3 is_stmt 1 view .LVU116
+ 389:USB_Device/Target/usbd_conf.c **** 
+ 654              		.loc 1 389 15 is_stmt 0 view .LVU117
+ 655 000a C4F8C402 		str	r0, [r4, #708]
  391:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.dev_endpoints = 8;
- 674              		.loc 1 391 24 is_stmt 0 view .LVU119
- 675 000e 1D4B     		ldr	r3, .L60+4
- 676 0010 0360     		str	r3, [r0]
+ 656              		.loc 1 391 3 is_stmt 1 view .LVU118
+ 391:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.dev_endpoints = 8;
+ 657              		.loc 1 391 24 is_stmt 0 view .LVU119
+ 658 000e 1D4B     		ldr	r3, .L60+4
+ 659 0010 0360     		str	r3, [r0]
  392:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.speed = PCD_SPEED_FULL;
- 677              		.loc 1 392 3 is_stmt 1 view .LVU120
+ 660              		.loc 1 392 3 is_stmt 1 view .LVU120
  392:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.speed = PCD_SPEED_FULL;
- 678              		.loc 1 392 34 is_stmt 0 view .LVU121
- 679 0012 0823     		movs	r3, #8
- 680 0014 4360     		str	r3, [r0, #4]
+ 661              		.loc 1 392 34 is_stmt 0 view .LVU121
+ 662 0012 0823     		movs	r3, #8
+ 663 0014 4360     		str	r3, [r0, #4]
  393:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
- 681              		.loc 1 393 3 is_stmt 1 view .LVU122
+ 664              		.loc 1 393 3 is_stmt 1 view .LVU122
  393:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
- 682              		.loc 1 393 26 is_stmt 0 view .LVU123
- 683 0016 0223     		movs	r3, #2
- 684 0018 8360     		str	r3, [r0, #8]
+ 665              		.loc 1 393 26 is_stmt 0 view .LVU123
+ 666 0016 0223     		movs	r3, #2
+ 667 0018 8360     		str	r3, [r0, #8]
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 28
+
+
  394:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.Sof_enable = DISABLE;
- 685              		.loc 1 394 3 is_stmt 1 view .LVU124
+ 668              		.loc 1 394 3 is_stmt 1 view .LVU124
  394:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.Sof_enable = DISABLE;
- 686              		.loc 1 394 31 is_stmt 0 view .LVU125
- 687 001a 0361     		str	r3, [r0, #16]
+ 669              		.loc 1 394 31 is_stmt 0 view .LVU125
+ 670 001a 0361     		str	r3, [r0, #16]
  395:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.low_power_enable = DISABLE;
- 688              		.loc 1 395 3 is_stmt 1 view .LVU126
+ 671              		.loc 1 395 3 is_stmt 1 view .LVU126
  395:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.low_power_enable = DISABLE;
- 689              		.loc 1 395 31 is_stmt 0 view .LVU127
- 690 001c 0023     		movs	r3, #0
- 691 001e 4361     		str	r3, [r0, #20]
+ 672              		.loc 1 395 31 is_stmt 0 view .LVU127
+ 673 001c 0023     		movs	r3, #0
+ 674 001e 4361     		str	r3, [r0, #20]
  396:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.lpm_enable = DISABLE;
- 692              		.loc 1 396 3 is_stmt 1 view .LVU128
+ 675              		.loc 1 396 3 is_stmt 1 view .LVU128
  396:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.lpm_enable = DISABLE;
- 693              		.loc 1 396 37 is_stmt 0 view .LVU129
- 694 0020 8361     		str	r3, [r0, #24]
+ 676              		.loc 1 396 37 is_stmt 0 view .LVU129
+ 677 0020 8361     		str	r3, [r0, #24]
  397:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.battery_charging_enable = DISABLE;
- 695              		.loc 1 397 3 is_stmt 1 view .LVU130
+ 678              		.loc 1 397 3 is_stmt 1 view .LVU130
  397:USB_Device/Target/usbd_conf.c ****   hpcd_USB_FS.Init.battery_charging_enable = DISABLE;
- 696              		.loc 1 397 31 is_stmt 0 view .LVU131
- 697 0022 C361     		str	r3, [r0, #28]
+ 679              		.loc 1 397 31 is_stmt 0 view .LVU131
+ 680 0022 C361     		str	r3, [r0, #28]
  398:USB_Device/Target/usbd_conf.c **** 
- 698              		.loc 1 398 3 is_stmt 1 view .LVU132
+ 681              		.loc 1 398 3 is_stmt 1 view .LVU132
  398:USB_Device/Target/usbd_conf.c **** 
- 699              		.loc 1 398 44 is_stmt 0 view .LVU133
- 700 0024 0362     		str	r3, [r0, #32]
+ 682              		.loc 1 398 44 is_stmt 0 view .LVU133
+ 683 0024 0362     		str	r3, [r0, #32]
  406:USB_Device/Target/usbd_conf.c ****   {
- 701              		.loc 1 406 3 is_stmt 1 view .LVU134
+ 684              		.loc 1 406 3 is_stmt 1 view .LVU134
  406:USB_Device/Target/usbd_conf.c ****   {
- 702              		.loc 1 406 7 is_stmt 0 view .LVU135
- 703 0026 FFF7FEFF 		bl	HAL_PCD_Init
- 704              	.LVL57:
+ 685              		.loc 1 406 7 is_stmt 0 view .LVU135
+ 686 0026 FFF7FEFF 		bl	HAL_PCD_Init
+ 687              	.LVL57:
  406:USB_Device/Target/usbd_conf.c ****   {
- 705              		.loc 1 406 6 view .LVU136
- 706 002a 30BB     		cbnz	r0, .L59
- 707              	.L57:
+ 688              		.loc 1 406 6 view .LVU136
+ 689 002a 30BB     		cbnz	r0, .L59
+ 690              	.L57:
  433:USB_Device/Target/usbd_conf.c ****   HAL_PCDEx_PMAConfig((PCD_HandleTypeDef*)pdev->pData , 0x80 , PCD_SNG_BUF, 0x58);
- 708              		.loc 1 433 3 is_stmt 1 view .LVU137
- 709 002c 1823     		movs	r3, #24
- 710 002e 0022     		movs	r2, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 29
-
-
- 711 0030 1146     		mov	r1, r2
- 712 0032 D4F8C402 		ldr	r0, [r4, #708]
- 713 0036 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
- 714              	.LVL58:
+ 691              		.loc 1 433 3 is_stmt 1 view .LVU137
+ 692 002c 1823     		movs	r3, #24
+ 693 002e 0022     		movs	r2, #0
+ 694 0030 1146     		mov	r1, r2
+ 695 0032 D4F8C402 		ldr	r0, [r4, #708]
+ 696 0036 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
+ 697              	.LVL58:
  434:USB_Device/Target/usbd_conf.c ****   /* USER CODE END EndPoint_Configuration */
- 715              		.loc 1 434 3 view .LVU138
- 716 003a 5823     		movs	r3, #88
- 717 003c 0022     		movs	r2, #0
- 718 003e 8021     		movs	r1, #128
- 719 0040 D4F8C402 		ldr	r0, [r4, #708]
- 720 0044 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
- 721              	.LVL59:
+ 698              		.loc 1 434 3 view .LVU138
+ 699 003a 5823     		movs	r3, #88
+ 700 003c 0022     		movs	r2, #0
+ 701 003e 8021     		movs	r1, #128
+ 702 0040 D4F8C402 		ldr	r0, [r4, #708]
+ 703 0044 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
+ 704              	.LVL59:
  437:USB_Device/Target/usbd_conf.c ****   HAL_PCDEx_PMAConfig((PCD_HandleTypeDef*)pdev->pData , 0x01 , PCD_SNG_BUF, 0x110);
- 722              		.loc 1 437 3 view .LVU139
- 723 0048 C023     		movs	r3, #192
- 724 004a 0022     		movs	r2, #0
- 725 004c 8121     		movs	r1, #129
- 726 004e D4F8C402 		ldr	r0, [r4, #708]
- 727 0052 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
- 728              	.LVL60:
+ 705              		.loc 1 437 3 view .LVU139
+ 706 0048 C023     		movs	r3, #192
+ 707 004a 0022     		movs	r2, #0
+ 708 004c 8121     		movs	r1, #129
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 29
+
+
+ 709 004e D4F8C402 		ldr	r0, [r4, #708]
+ 710 0052 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
+ 711              	.LVL60:
  438:USB_Device/Target/usbd_conf.c ****   HAL_PCDEx_PMAConfig((PCD_HandleTypeDef*)pdev->pData , 0x82 , PCD_SNG_BUF, 0x100);
- 729              		.loc 1 438 3 view .LVU140
- 730 0056 4FF48873 		mov	r3, #272
- 731 005a 0022     		movs	r2, #0
- 732 005c 0121     		movs	r1, #1
- 733 005e D4F8C402 		ldr	r0, [r4, #708]
- 734 0062 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
- 735              	.LVL61:
+ 712              		.loc 1 438 3 view .LVU140
+ 713 0056 4FF48873 		mov	r3, #272
+ 714 005a 0022     		movs	r2, #0
+ 715 005c 0121     		movs	r1, #1
+ 716 005e D4F8C402 		ldr	r0, [r4, #708]
+ 717 0062 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
+ 718              	.LVL61:
  439:USB_Device/Target/usbd_conf.c ****   /* USER CODE END EndPoint_Configuration_CDC */
- 736              		.loc 1 439 3 view .LVU141
- 737 0066 4FF48073 		mov	r3, #256
- 738 006a 0022     		movs	r2, #0
- 739 006c 8221     		movs	r1, #130
- 740 006e D4F8C402 		ldr	r0, [r4, #708]
- 741 0072 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
- 742              	.LVL62:
+ 719              		.loc 1 439 3 view .LVU141
+ 720 0066 4FF48073 		mov	r3, #256
+ 721 006a 0022     		movs	r2, #0
+ 722 006c 8221     		movs	r1, #130
+ 723 006e D4F8C402 		ldr	r0, [r4, #708]
+ 724 0072 FFF7FEFF 		bl	HAL_PCDEx_PMAConfig
+ 725              	.LVL62:
  441:USB_Device/Target/usbd_conf.c **** }
- 743              		.loc 1 441 3 view .LVU142
+ 726              		.loc 1 441 3 view .LVU142
  442:USB_Device/Target/usbd_conf.c **** 
- 744              		.loc 1 442 1 is_stmt 0 view .LVU143
- 745 0076 0020     		movs	r0, #0
- 746 0078 10BD     		pop	{r4, pc}
- 747              	.LVL63:
- 748              	.L59:
+ 727              		.loc 1 442 1 is_stmt 0 view .LVU143
+ 728 0076 0020     		movs	r0, #0
+ 729 0078 10BD     		pop	{r4, pc}
+ 730              	.LVL63:
+ 731              	.L59:
  408:USB_Device/Target/usbd_conf.c ****   }
- 749              		.loc 1 408 5 is_stmt 1 view .LVU144
- 750 007a FFF7FEFF 		bl	Error_Handler
- 751              	.LVL64:
- 752 007e D5E7     		b	.L57
- 753              	.L61:
- 754              		.align	2
- 755              	.L60:
- 756 0080 00000000 		.word	.LANCHOR0
- 757 0084 005C0040 		.word	1073765376
- 758              		.cfi_endproc
- 759              	.LFE149:
- 761              		.section	.text.USBD_LL_DeInit,"ax",%progbits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 30
+ 732              		.loc 1 408 5 is_stmt 1 view .LVU144
+ 733 007a FFF7FEFF 		bl	Error_Handler
+ 734              	.LVL64:
+ 735 007e D5E7     		b	.L57
+ 736              	.L61:
+ 737              		.align	2
+ 738              	.L60:
+ 739 0080 00000000 		.word	.LANCHOR0
+ 740 0084 005C0040 		.word	1073765376
+ 741              		.cfi_endproc
+ 742              	.LFE149:
+ 744              		.section	.text.USBD_LL_DeInit,"ax",%progbits
+ 745              		.align	1
+ 746              		.global	USBD_LL_DeInit
+ 747              		.syntax unified
+ 748              		.thumb
+ 749              		.thumb_func
+ 750              		.fpu fpv4-sp-d16
+ 752              	USBD_LL_DeInit:
+ 753              	.LVL65:
+ 754              	.LFB150:
+ 450:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
+ 755              		.loc 1 450 1 view -0
+ 756              		.cfi_startproc
+ 757              		@ args = 0, pretend = 0, frame = 0
+ 758              		@ frame_needed = 0, uses_anonymous_args = 0
+ 450:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
+ 759              		.loc 1 450 1 is_stmt 0 view .LVU146
+ 760 0000 08B5     		push	{r3, lr}
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 30
 
 
- 762              		.align	1
- 763              		.global	USBD_LL_DeInit
- 764              		.syntax unified
- 765              		.thumb
- 766              		.thumb_func
- 767              		.fpu fpv4-sp-d16
- 769              	USBD_LL_DeInit:
- 770              	.LVL65:
- 771              	.LFB150:
- 450:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 772              		.loc 1 450 1 view -0
- 773              		.cfi_startproc
- 774              		@ args = 0, pretend = 0, frame = 0
- 775              		@ frame_needed = 0, uses_anonymous_args = 0
- 450:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 776              		.loc 1 450 1 is_stmt 0 view .LVU146
- 777 0000 08B5     		push	{r3, lr}
- 778              	.LCFI17:
- 779              		.cfi_def_cfa_offset 8
- 780              		.cfi_offset 3, -8
- 781              		.cfi_offset 14, -4
+ 761              		.cfi_def_cfa_offset 8
+ 762              		.cfi_offset 3, -8
+ 763              		.cfi_offset 14, -4
  451:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 782              		.loc 1 451 3 is_stmt 1 view .LVU147
- 783              	.LVL66:
+ 764              		.loc 1 451 3 is_stmt 1 view .LVU147
+ 765              	.LVL66:
  452:USB_Device/Target/usbd_conf.c **** 
- 784              		.loc 1 452 3 view .LVU148
+ 766              		.loc 1 452 3 view .LVU148
  454:USB_Device/Target/usbd_conf.c **** 
- 785              		.loc 1 454 3 view .LVU149
+ 767              		.loc 1 454 3 view .LVU149
  454:USB_Device/Target/usbd_conf.c **** 
- 786              		.loc 1 454 16 is_stmt 0 view .LVU150
- 787 0002 D0F8C402 		ldr	r0, [r0, #708]
- 788              	.LVL67:
+ 768              		.loc 1 454 16 is_stmt 0 view .LVU150
+ 769 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 770              	.LVL67:
  454:USB_Device/Target/usbd_conf.c **** 
- 789              		.loc 1 454 16 view .LVU151
- 790 0006 FFF7FEFF 		bl	HAL_PCD_DeInit
- 791              	.LVL68:
+ 771              		.loc 1 454 16 view .LVU151
+ 772 0006 FFF7FEFF 		bl	HAL_PCD_DeInit
+ 773              	.LVL68:
  456:USB_Device/Target/usbd_conf.c **** 
- 792              		.loc 1 456 3 is_stmt 1 view .LVU152
+ 774              		.loc 1 456 3 is_stmt 1 view .LVU152
  456:USB_Device/Target/usbd_conf.c **** 
- 793              		.loc 1 456 17 is_stmt 0 view .LVU153
- 794 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 795              	.LVL69:
+ 775              		.loc 1 456 17 is_stmt 0 view .LVU153
+ 776 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 777              	.LVL69:
  458:USB_Device/Target/usbd_conf.c **** }
- 796              		.loc 1 458 3 is_stmt 1 view .LVU154
+ 778              		.loc 1 458 3 is_stmt 1 view .LVU154
  459:USB_Device/Target/usbd_conf.c **** 
- 797              		.loc 1 459 1 is_stmt 0 view .LVU155
- 798 000e 08BD     		pop	{r3, pc}
- 799              		.cfi_endproc
- 800              	.LFE150:
- 802              		.section	.text.USBD_LL_Start,"ax",%progbits
- 803              		.align	1
- 804              		.global	USBD_LL_Start
- 805              		.syntax unified
- 806              		.thumb
- 807              		.thumb_func
- 808              		.fpu fpv4-sp-d16
- 810              	USBD_LL_Start:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 31
-
-
- 811              	.LVL70:
- 812              	.LFB151:
+ 779              		.loc 1 459 1 is_stmt 0 view .LVU155
+ 780 000e 08BD     		pop	{r3, pc}
+ 781              		.cfi_endproc
+ 782              	.LFE150:
+ 784              		.section	.text.USBD_LL_Start,"ax",%progbits
+ 785              		.align	1
+ 786              		.global	USBD_LL_Start
+ 787              		.syntax unified
+ 788              		.thumb
+ 789              		.thumb_func
+ 790              		.fpu fpv4-sp-d16
+ 792              	USBD_LL_Start:
+ 793              	.LVL70:
+ 794              	.LFB151:
  467:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 813              		.loc 1 467 1 is_stmt 1 view -0
- 814              		.cfi_startproc
- 815              		@ args = 0, pretend = 0, frame = 0
- 816              		@ frame_needed = 0, uses_anonymous_args = 0
+ 795              		.loc 1 467 1 is_stmt 1 view -0
+ 796              		.cfi_startproc
+ 797              		@ args = 0, pretend = 0, frame = 0
+ 798              		@ frame_needed = 0, uses_anonymous_args = 0
  467:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 817              		.loc 1 467 1 is_stmt 0 view .LVU157
- 818 0000 08B5     		push	{r3, lr}
- 819              	.LCFI18:
- 820              		.cfi_def_cfa_offset 8
- 821              		.cfi_offset 3, -8
- 822              		.cfi_offset 14, -4
+ 799              		.loc 1 467 1 is_stmt 0 view .LVU157
+ 800 0000 08B5     		push	{r3, lr}
+ 801              		.cfi_def_cfa_offset 8
+ 802              		.cfi_offset 3, -8
+ 803              		.cfi_offset 14, -4
  468:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 823              		.loc 1 468 3 is_stmt 1 view .LVU158
- 824              	.LVL71:
+ 804              		.loc 1 468 3 is_stmt 1 view .LVU158
+ 805              	.LVL71:
  469:USB_Device/Target/usbd_conf.c **** 
- 825              		.loc 1 469 3 view .LVU159
+ 806              		.loc 1 469 3 view .LVU159
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 31
+
+
  471:USB_Device/Target/usbd_conf.c **** 
- 826              		.loc 1 471 3 view .LVU160
+ 807              		.loc 1 471 3 view .LVU160
  471:USB_Device/Target/usbd_conf.c **** 
- 827              		.loc 1 471 16 is_stmt 0 view .LVU161
- 828 0002 D0F8C402 		ldr	r0, [r0, #708]
- 829              	.LVL72:
+ 808              		.loc 1 471 16 is_stmt 0 view .LVU161
+ 809 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 810              	.LVL72:
  471:USB_Device/Target/usbd_conf.c **** 
- 830              		.loc 1 471 16 view .LVU162
- 831 0006 FFF7FEFF 		bl	HAL_PCD_Start
- 832              	.LVL73:
+ 811              		.loc 1 471 16 view .LVU162
+ 812 0006 FFF7FEFF 		bl	HAL_PCD_Start
+ 813              	.LVL73:
  473:USB_Device/Target/usbd_conf.c **** 
- 833              		.loc 1 473 3 is_stmt 1 view .LVU163
+ 814              		.loc 1 473 3 is_stmt 1 view .LVU163
  473:USB_Device/Target/usbd_conf.c **** 
- 834              		.loc 1 473 17 is_stmt 0 view .LVU164
- 835 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 836              	.LVL74:
+ 815              		.loc 1 473 17 is_stmt 0 view .LVU164
+ 816 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 817              	.LVL74:
  475:USB_Device/Target/usbd_conf.c **** }
- 837              		.loc 1 475 3 is_stmt 1 view .LVU165
+ 818              		.loc 1 475 3 is_stmt 1 view .LVU165
  476:USB_Device/Target/usbd_conf.c **** 
- 838              		.loc 1 476 1 is_stmt 0 view .LVU166
- 839 000e 08BD     		pop	{r3, pc}
- 840              		.cfi_endproc
- 841              	.LFE151:
- 843              		.section	.text.USBD_LL_Stop,"ax",%progbits
- 844              		.align	1
- 845              		.global	USBD_LL_Stop
- 846              		.syntax unified
- 847              		.thumb
- 848              		.thumb_func
- 849              		.fpu fpv4-sp-d16
- 851              	USBD_LL_Stop:
- 852              	.LVL75:
- 853              	.LFB152:
+ 819              		.loc 1 476 1 is_stmt 0 view .LVU166
+ 820 000e 08BD     		pop	{r3, pc}
+ 821              		.cfi_endproc
+ 822              	.LFE151:
+ 824              		.section	.text.USBD_LL_Stop,"ax",%progbits
+ 825              		.align	1
+ 826              		.global	USBD_LL_Stop
+ 827              		.syntax unified
+ 828              		.thumb
+ 829              		.thumb_func
+ 830              		.fpu fpv4-sp-d16
+ 832              	USBD_LL_Stop:
+ 833              	.LVL75:
+ 834              	.LFB152:
  484:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 854              		.loc 1 484 1 is_stmt 1 view -0
- 855              		.cfi_startproc
- 856              		@ args = 0, pretend = 0, frame = 0
- 857              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 32
-
-
+ 835              		.loc 1 484 1 is_stmt 1 view -0
+ 836              		.cfi_startproc
+ 837              		@ args = 0, pretend = 0, frame = 0
+ 838              		@ frame_needed = 0, uses_anonymous_args = 0
  484:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 858              		.loc 1 484 1 is_stmt 0 view .LVU168
- 859 0000 08B5     		push	{r3, lr}
- 860              	.LCFI19:
- 861              		.cfi_def_cfa_offset 8
- 862              		.cfi_offset 3, -8
- 863              		.cfi_offset 14, -4
+ 839              		.loc 1 484 1 is_stmt 0 view .LVU168
+ 840 0000 08B5     		push	{r3, lr}
+ 841              		.cfi_def_cfa_offset 8
+ 842              		.cfi_offset 3, -8
+ 843              		.cfi_offset 14, -4
  485:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 864              		.loc 1 485 3 is_stmt 1 view .LVU169
- 865              	.LVL76:
+ 844              		.loc 1 485 3 is_stmt 1 view .LVU169
+ 845              	.LVL76:
  486:USB_Device/Target/usbd_conf.c **** 
- 866              		.loc 1 486 3 view .LVU170
+ 846              		.loc 1 486 3 view .LVU170
  488:USB_Device/Target/usbd_conf.c **** 
- 867              		.loc 1 488 3 view .LVU171
+ 847              		.loc 1 488 3 view .LVU171
  488:USB_Device/Target/usbd_conf.c **** 
- 868              		.loc 1 488 16 is_stmt 0 view .LVU172
- 869 0002 D0F8C402 		ldr	r0, [r0, #708]
- 870              	.LVL77:
+ 848              		.loc 1 488 16 is_stmt 0 view .LVU172
+ 849 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 850              	.LVL77:
  488:USB_Device/Target/usbd_conf.c **** 
- 871              		.loc 1 488 16 view .LVU173
- 872 0006 FFF7FEFF 		bl	HAL_PCD_Stop
- 873              	.LVL78:
+ 851              		.loc 1 488 16 view .LVU173
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 32
+
+
+ 852 0006 FFF7FEFF 		bl	HAL_PCD_Stop
+ 853              	.LVL78:
  490:USB_Device/Target/usbd_conf.c **** 
- 874              		.loc 1 490 3 is_stmt 1 view .LVU174
+ 854              		.loc 1 490 3 is_stmt 1 view .LVU174
  490:USB_Device/Target/usbd_conf.c **** 
- 875              		.loc 1 490 17 is_stmt 0 view .LVU175
- 876 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 877              	.LVL79:
+ 855              		.loc 1 490 17 is_stmt 0 view .LVU175
+ 856 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 857              	.LVL79:
  492:USB_Device/Target/usbd_conf.c **** }
- 878              		.loc 1 492 3 is_stmt 1 view .LVU176
+ 858              		.loc 1 492 3 is_stmt 1 view .LVU176
  493:USB_Device/Target/usbd_conf.c **** 
- 879              		.loc 1 493 1 is_stmt 0 view .LVU177
- 880 000e 08BD     		pop	{r3, pc}
- 881              		.cfi_endproc
- 882              	.LFE152:
- 884              		.section	.text.USBD_LL_OpenEP,"ax",%progbits
- 885              		.align	1
- 886              		.global	USBD_LL_OpenEP
- 887              		.syntax unified
- 888              		.thumb
- 889              		.thumb_func
- 890              		.fpu fpv4-sp-d16
- 892              	USBD_LL_OpenEP:
- 893              	.LVL80:
- 894              	.LFB153:
+ 859              		.loc 1 493 1 is_stmt 0 view .LVU177
+ 860 000e 08BD     		pop	{r3, pc}
+ 861              		.cfi_endproc
+ 862              	.LFE152:
+ 864              		.section	.text.USBD_LL_OpenEP,"ax",%progbits
+ 865              		.align	1
+ 866              		.global	USBD_LL_OpenEP
+ 867              		.syntax unified
+ 868              		.thumb
+ 869              		.thumb_func
+ 870              		.fpu fpv4-sp-d16
+ 872              	USBD_LL_OpenEP:
+ 873              	.LVL80:
+ 874              	.LFB153:
  504:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 895              		.loc 1 504 1 is_stmt 1 view -0
- 896              		.cfi_startproc
- 897              		@ args = 0, pretend = 0, frame = 0
- 898              		@ frame_needed = 0, uses_anonymous_args = 0
+ 875              		.loc 1 504 1 is_stmt 1 view -0
+ 876              		.cfi_startproc
+ 877              		@ args = 0, pretend = 0, frame = 0
+ 878              		@ frame_needed = 0, uses_anonymous_args = 0
  504:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 899              		.loc 1 504 1 is_stmt 0 view .LVU179
- 900 0000 08B5     		push	{r3, lr}
- 901              	.LCFI20:
- 902              		.cfi_def_cfa_offset 8
- 903              		.cfi_offset 3, -8
- 904              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 33
-
-
- 905 0002 9446     		mov	ip, r2
- 906 0004 1A46     		mov	r2, r3
- 907              	.LVL81:
+ 879              		.loc 1 504 1 is_stmt 0 view .LVU179
+ 880 0000 08B5     		push	{r3, lr}
+ 881              		.cfi_def_cfa_offset 8
+ 882              		.cfi_offset 3, -8
+ 883              		.cfi_offset 14, -4
+ 884 0002 9446     		mov	ip, r2
+ 885 0004 1A46     		mov	r2, r3
+ 886              	.LVL81:
  505:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 908              		.loc 1 505 3 is_stmt 1 view .LVU180
+ 887              		.loc 1 505 3 is_stmt 1 view .LVU180
  506:USB_Device/Target/usbd_conf.c **** 
- 909              		.loc 1 506 3 view .LVU181
+ 888              		.loc 1 506 3 view .LVU181
  508:USB_Device/Target/usbd_conf.c **** 
- 910              		.loc 1 508 3 view .LVU182
+ 889              		.loc 1 508 3 view .LVU182
  508:USB_Device/Target/usbd_conf.c **** 
- 911              		.loc 1 508 16 is_stmt 0 view .LVU183
- 912 0006 6346     		mov	r3, ip
- 913              	.LVL82:
+ 890              		.loc 1 508 16 is_stmt 0 view .LVU183
+ 891 0006 6346     		mov	r3, ip
+ 892              	.LVL82:
  508:USB_Device/Target/usbd_conf.c **** 
- 914              		.loc 1 508 16 view .LVU184
- 915 0008 D0F8C402 		ldr	r0, [r0, #708]
- 916              	.LVL83:
+ 893              		.loc 1 508 16 view .LVU184
+ 894 0008 D0F8C402 		ldr	r0, [r0, #708]
+ 895              	.LVL83:
  508:USB_Device/Target/usbd_conf.c **** 
- 917              		.loc 1 508 16 view .LVU185
- 918 000c FFF7FEFF 		bl	HAL_PCD_EP_Open
- 919              	.LVL84:
+ 896              		.loc 1 508 16 view .LVU185
+ 897 000c FFF7FEFF 		bl	HAL_PCD_EP_Open
+ 898              	.LVL84:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 33
+
+
  510:USB_Device/Target/usbd_conf.c **** 
- 920              		.loc 1 510 3 is_stmt 1 view .LVU186
+ 899              		.loc 1 510 3 is_stmt 1 view .LVU186
  510:USB_Device/Target/usbd_conf.c **** 
- 921              		.loc 1 510 17 is_stmt 0 view .LVU187
- 922 0010 FFF7FEFF 		bl	USBD_Get_USB_Status
- 923              	.LVL85:
+ 900              		.loc 1 510 17 is_stmt 0 view .LVU187
+ 901 0010 FFF7FEFF 		bl	USBD_Get_USB_Status
+ 902              	.LVL85:
  512:USB_Device/Target/usbd_conf.c **** }
- 924              		.loc 1 512 3 is_stmt 1 view .LVU188
+ 903              		.loc 1 512 3 is_stmt 1 view .LVU188
  513:USB_Device/Target/usbd_conf.c **** 
- 925              		.loc 1 513 1 is_stmt 0 view .LVU189
- 926 0014 08BD     		pop	{r3, pc}
- 927              		.cfi_endproc
- 928              	.LFE153:
- 930              		.section	.text.USBD_LL_CloseEP,"ax",%progbits
- 931              		.align	1
- 932              		.global	USBD_LL_CloseEP
- 933              		.syntax unified
- 934              		.thumb
- 935              		.thumb_func
- 936              		.fpu fpv4-sp-d16
- 938              	USBD_LL_CloseEP:
- 939              	.LVL86:
- 940              	.LFB154:
+ 904              		.loc 1 513 1 is_stmt 0 view .LVU189
+ 905 0014 08BD     		pop	{r3, pc}
+ 906              		.cfi_endproc
+ 907              	.LFE153:
+ 909              		.section	.text.USBD_LL_CloseEP,"ax",%progbits
+ 910              		.align	1
+ 911              		.global	USBD_LL_CloseEP
+ 912              		.syntax unified
+ 913              		.thumb
+ 914              		.thumb_func
+ 915              		.fpu fpv4-sp-d16
+ 917              	USBD_LL_CloseEP:
+ 918              	.LVL86:
+ 919              	.LFB154:
  522:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 941              		.loc 1 522 1 is_stmt 1 view -0
- 942              		.cfi_startproc
- 943              		@ args = 0, pretend = 0, frame = 0
- 944              		@ frame_needed = 0, uses_anonymous_args = 0
+ 920              		.loc 1 522 1 is_stmt 1 view -0
+ 921              		.cfi_startproc
+ 922              		@ args = 0, pretend = 0, frame = 0
+ 923              		@ frame_needed = 0, uses_anonymous_args = 0
  522:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 945              		.loc 1 522 1 is_stmt 0 view .LVU191
- 946 0000 08B5     		push	{r3, lr}
- 947              	.LCFI21:
- 948              		.cfi_def_cfa_offset 8
- 949              		.cfi_offset 3, -8
- 950              		.cfi_offset 14, -4
+ 924              		.loc 1 522 1 is_stmt 0 view .LVU191
+ 925 0000 08B5     		push	{r3, lr}
+ 926              		.cfi_def_cfa_offset 8
+ 927              		.cfi_offset 3, -8
+ 928              		.cfi_offset 14, -4
  523:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 34
-
-
- 951              		.loc 1 523 3 is_stmt 1 view .LVU192
- 952              	.LVL87:
+ 929              		.loc 1 523 3 is_stmt 1 view .LVU192
+ 930              	.LVL87:
  524:USB_Device/Target/usbd_conf.c **** 
- 953              		.loc 1 524 3 view .LVU193
+ 931              		.loc 1 524 3 view .LVU193
  526:USB_Device/Target/usbd_conf.c **** 
- 954              		.loc 1 526 3 view .LVU194
+ 932              		.loc 1 526 3 view .LVU194
  526:USB_Device/Target/usbd_conf.c **** 
- 955              		.loc 1 526 16 is_stmt 0 view .LVU195
- 956 0002 D0F8C402 		ldr	r0, [r0, #708]
- 957              	.LVL88:
+ 933              		.loc 1 526 16 is_stmt 0 view .LVU195
+ 934 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 935              	.LVL88:
  526:USB_Device/Target/usbd_conf.c **** 
- 958              		.loc 1 526 16 view .LVU196
- 959 0006 FFF7FEFF 		bl	HAL_PCD_EP_Close
- 960              	.LVL89:
+ 936              		.loc 1 526 16 view .LVU196
+ 937 0006 FFF7FEFF 		bl	HAL_PCD_EP_Close
+ 938              	.LVL89:
  528:USB_Device/Target/usbd_conf.c **** 
- 961              		.loc 1 528 3 is_stmt 1 view .LVU197
+ 939              		.loc 1 528 3 is_stmt 1 view .LVU197
  528:USB_Device/Target/usbd_conf.c **** 
- 962              		.loc 1 528 17 is_stmt 0 view .LVU198
- 963 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 964              	.LVL90:
+ 940              		.loc 1 528 17 is_stmt 0 view .LVU198
+ 941 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 942              	.LVL90:
  530:USB_Device/Target/usbd_conf.c **** }
- 965              		.loc 1 530 3 is_stmt 1 view .LVU199
+ 943              		.loc 1 530 3 is_stmt 1 view .LVU199
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 34
+
+
  531:USB_Device/Target/usbd_conf.c **** 
- 966              		.loc 1 531 1 is_stmt 0 view .LVU200
- 967 000e 08BD     		pop	{r3, pc}
- 968              		.cfi_endproc
- 969              	.LFE154:
- 971              		.section	.text.USBD_LL_FlushEP,"ax",%progbits
- 972              		.align	1
- 973              		.global	USBD_LL_FlushEP
- 974              		.syntax unified
- 975              		.thumb
- 976              		.thumb_func
- 977              		.fpu fpv4-sp-d16
- 979              	USBD_LL_FlushEP:
- 980              	.LVL91:
- 981              	.LFB155:
+ 944              		.loc 1 531 1 is_stmt 0 view .LVU200
+ 945 000e 08BD     		pop	{r3, pc}
+ 946              		.cfi_endproc
+ 947              	.LFE154:
+ 949              		.section	.text.USBD_LL_FlushEP,"ax",%progbits
+ 950              		.align	1
+ 951              		.global	USBD_LL_FlushEP
+ 952              		.syntax unified
+ 953              		.thumb
+ 954              		.thumb_func
+ 955              		.fpu fpv4-sp-d16
+ 957              	USBD_LL_FlushEP:
+ 958              	.LVL91:
+ 959              	.LFB155:
  540:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 982              		.loc 1 540 1 is_stmt 1 view -0
- 983              		.cfi_startproc
- 984              		@ args = 0, pretend = 0, frame = 0
- 985              		@ frame_needed = 0, uses_anonymous_args = 0
+ 960              		.loc 1 540 1 is_stmt 1 view -0
+ 961              		.cfi_startproc
+ 962              		@ args = 0, pretend = 0, frame = 0
+ 963              		@ frame_needed = 0, uses_anonymous_args = 0
  540:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 986              		.loc 1 540 1 is_stmt 0 view .LVU202
- 987 0000 08B5     		push	{r3, lr}
- 988              	.LCFI22:
- 989              		.cfi_def_cfa_offset 8
- 990              		.cfi_offset 3, -8
- 991              		.cfi_offset 14, -4
+ 964              		.loc 1 540 1 is_stmt 0 view .LVU202
+ 965 0000 08B5     		push	{r3, lr}
+ 966              		.cfi_def_cfa_offset 8
+ 967              		.cfi_offset 3, -8
+ 968              		.cfi_offset 14, -4
  541:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 992              		.loc 1 541 3 is_stmt 1 view .LVU203
- 993              	.LVL92:
+ 969              		.loc 1 541 3 is_stmt 1 view .LVU203
+ 970              	.LVL92:
  542:USB_Device/Target/usbd_conf.c **** 
- 994              		.loc 1 542 3 view .LVU204
+ 971              		.loc 1 542 3 view .LVU204
  544:USB_Device/Target/usbd_conf.c **** 
- 995              		.loc 1 544 3 view .LVU205
+ 972              		.loc 1 544 3 view .LVU205
  544:USB_Device/Target/usbd_conf.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 35
-
-
- 996              		.loc 1 544 16 is_stmt 0 view .LVU206
- 997 0002 D0F8C402 		ldr	r0, [r0, #708]
- 998              	.LVL93:
+ 973              		.loc 1 544 16 is_stmt 0 view .LVU206
+ 974 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 975              	.LVL93:
  544:USB_Device/Target/usbd_conf.c **** 
- 999              		.loc 1 544 16 view .LVU207
- 1000 0006 FFF7FEFF 		bl	HAL_PCD_EP_Flush
- 1001              	.LVL94:
+ 976              		.loc 1 544 16 view .LVU207
+ 977 0006 FFF7FEFF 		bl	HAL_PCD_EP_Flush
+ 978              	.LVL94:
  546:USB_Device/Target/usbd_conf.c **** 
- 1002              		.loc 1 546 3 is_stmt 1 view .LVU208
+ 979              		.loc 1 546 3 is_stmt 1 view .LVU208
  546:USB_Device/Target/usbd_conf.c **** 
- 1003              		.loc 1 546 17 is_stmt 0 view .LVU209
- 1004 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1005              	.LVL95:
+ 980              		.loc 1 546 17 is_stmt 0 view .LVU209
+ 981 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 982              	.LVL95:
  548:USB_Device/Target/usbd_conf.c **** }
- 1006              		.loc 1 548 3 is_stmt 1 view .LVU210
+ 983              		.loc 1 548 3 is_stmt 1 view .LVU210
  549:USB_Device/Target/usbd_conf.c **** 
- 1007              		.loc 1 549 1 is_stmt 0 view .LVU211
- 1008 000e 08BD     		pop	{r3, pc}
- 1009              		.cfi_endproc
- 1010              	.LFE155:
- 1012              		.section	.text.USBD_LL_StallEP,"ax",%progbits
- 1013              		.align	1
- 1014              		.global	USBD_LL_StallEP
- 1015              		.syntax unified
- 1016              		.thumb
- 1017              		.thumb_func
- 1018              		.fpu fpv4-sp-d16
- 1020              	USBD_LL_StallEP:
- 1021              	.LVL96:
- 1022              	.LFB156:
+ 984              		.loc 1 549 1 is_stmt 0 view .LVU211
+ 985 000e 08BD     		pop	{r3, pc}
+ 986              		.cfi_endproc
+ 987              	.LFE155:
+ 989              		.section	.text.USBD_LL_StallEP,"ax",%progbits
+ 990              		.align	1
+ 991              		.global	USBD_LL_StallEP
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 35
+
+
+ 992              		.syntax unified
+ 993              		.thumb
+ 994              		.thumb_func
+ 995              		.fpu fpv4-sp-d16
+ 997              	USBD_LL_StallEP:
+ 998              	.LVL96:
+ 999              	.LFB156:
  558:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1023              		.loc 1 558 1 is_stmt 1 view -0
- 1024              		.cfi_startproc
- 1025              		@ args = 0, pretend = 0, frame = 0
- 1026              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1000              		.loc 1 558 1 is_stmt 1 view -0
+ 1001              		.cfi_startproc
+ 1002              		@ args = 0, pretend = 0, frame = 0
+ 1003              		@ frame_needed = 0, uses_anonymous_args = 0
  558:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1027              		.loc 1 558 1 is_stmt 0 view .LVU213
- 1028 0000 08B5     		push	{r3, lr}
- 1029              	.LCFI23:
- 1030              		.cfi_def_cfa_offset 8
- 1031              		.cfi_offset 3, -8
- 1032              		.cfi_offset 14, -4
+ 1004              		.loc 1 558 1 is_stmt 0 view .LVU213
+ 1005 0000 08B5     		push	{r3, lr}
+ 1006              		.cfi_def_cfa_offset 8
+ 1007              		.cfi_offset 3, -8
+ 1008              		.cfi_offset 14, -4
  559:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 1033              		.loc 1 559 3 is_stmt 1 view .LVU214
- 1034              	.LVL97:
+ 1009              		.loc 1 559 3 is_stmt 1 view .LVU214
+ 1010              	.LVL97:
  560:USB_Device/Target/usbd_conf.c **** 
- 1035              		.loc 1 560 3 view .LVU215
+ 1011              		.loc 1 560 3 view .LVU215
  562:USB_Device/Target/usbd_conf.c **** 
- 1036              		.loc 1 562 3 view .LVU216
+ 1012              		.loc 1 562 3 view .LVU216
  562:USB_Device/Target/usbd_conf.c **** 
- 1037              		.loc 1 562 16 is_stmt 0 view .LVU217
- 1038 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1039              	.LVL98:
+ 1013              		.loc 1 562 16 is_stmt 0 view .LVU217
+ 1014 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1015              	.LVL98:
  562:USB_Device/Target/usbd_conf.c **** 
- 1040              		.loc 1 562 16 view .LVU218
- 1041 0006 FFF7FEFF 		bl	HAL_PCD_EP_SetStall
- 1042              	.LVL99:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 36
-
-
+ 1016              		.loc 1 562 16 view .LVU218
+ 1017 0006 FFF7FEFF 		bl	HAL_PCD_EP_SetStall
+ 1018              	.LVL99:
  564:USB_Device/Target/usbd_conf.c **** 
- 1043              		.loc 1 564 3 is_stmt 1 view .LVU219
+ 1019              		.loc 1 564 3 is_stmt 1 view .LVU219
  564:USB_Device/Target/usbd_conf.c **** 
- 1044              		.loc 1 564 17 is_stmt 0 view .LVU220
- 1045 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1046              	.LVL100:
+ 1020              		.loc 1 564 17 is_stmt 0 view .LVU220
+ 1021 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 1022              	.LVL100:
  566:USB_Device/Target/usbd_conf.c **** }
- 1047              		.loc 1 566 3 is_stmt 1 view .LVU221
+ 1023              		.loc 1 566 3 is_stmt 1 view .LVU221
  567:USB_Device/Target/usbd_conf.c **** 
- 1048              		.loc 1 567 1 is_stmt 0 view .LVU222
- 1049 000e 08BD     		pop	{r3, pc}
- 1050              		.cfi_endproc
- 1051              	.LFE156:
- 1053              		.section	.text.USBD_LL_ClearStallEP,"ax",%progbits
- 1054              		.align	1
- 1055              		.global	USBD_LL_ClearStallEP
- 1056              		.syntax unified
- 1057              		.thumb
- 1058              		.thumb_func
- 1059              		.fpu fpv4-sp-d16
- 1061              	USBD_LL_ClearStallEP:
- 1062              	.LVL101:
- 1063              	.LFB157:
+ 1024              		.loc 1 567 1 is_stmt 0 view .LVU222
+ 1025 000e 08BD     		pop	{r3, pc}
+ 1026              		.cfi_endproc
+ 1027              	.LFE156:
+ 1029              		.section	.text.USBD_LL_ClearStallEP,"ax",%progbits
+ 1030              		.align	1
+ 1031              		.global	USBD_LL_ClearStallEP
+ 1032              		.syntax unified
+ 1033              		.thumb
+ 1034              		.thumb_func
+ 1035              		.fpu fpv4-sp-d16
+ 1037              	USBD_LL_ClearStallEP:
+ 1038              	.LVL101:
+ 1039              	.LFB157:
  576:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1064              		.loc 1 576 1 is_stmt 1 view -0
- 1065              		.cfi_startproc
- 1066              		@ args = 0, pretend = 0, frame = 0
- 1067              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 36
+
+
+ 1040              		.loc 1 576 1 is_stmt 1 view -0
+ 1041              		.cfi_startproc
+ 1042              		@ args = 0, pretend = 0, frame = 0
+ 1043              		@ frame_needed = 0, uses_anonymous_args = 0
  576:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1068              		.loc 1 576 1 is_stmt 0 view .LVU224
- 1069 0000 08B5     		push	{r3, lr}
- 1070              	.LCFI24:
- 1071              		.cfi_def_cfa_offset 8
- 1072              		.cfi_offset 3, -8
- 1073              		.cfi_offset 14, -4
+ 1044              		.loc 1 576 1 is_stmt 0 view .LVU224
+ 1045 0000 08B5     		push	{r3, lr}
+ 1046              		.cfi_def_cfa_offset 8
+ 1047              		.cfi_offset 3, -8
+ 1048              		.cfi_offset 14, -4
  577:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 1074              		.loc 1 577 3 is_stmt 1 view .LVU225
- 1075              	.LVL102:
+ 1049              		.loc 1 577 3 is_stmt 1 view .LVU225
+ 1050              	.LVL102:
  578:USB_Device/Target/usbd_conf.c **** 
- 1076              		.loc 1 578 3 view .LVU226
+ 1051              		.loc 1 578 3 view .LVU226
  580:USB_Device/Target/usbd_conf.c **** 
- 1077              		.loc 1 580 3 view .LVU227
+ 1052              		.loc 1 580 3 view .LVU227
  580:USB_Device/Target/usbd_conf.c **** 
- 1078              		.loc 1 580 16 is_stmt 0 view .LVU228
- 1079 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1080              	.LVL103:
+ 1053              		.loc 1 580 16 is_stmt 0 view .LVU228
+ 1054 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1055              	.LVL103:
  580:USB_Device/Target/usbd_conf.c **** 
- 1081              		.loc 1 580 16 view .LVU229
- 1082 0006 FFF7FEFF 		bl	HAL_PCD_EP_ClrStall
- 1083              	.LVL104:
+ 1056              		.loc 1 580 16 view .LVU229
+ 1057 0006 FFF7FEFF 		bl	HAL_PCD_EP_ClrStall
+ 1058              	.LVL104:
  582:USB_Device/Target/usbd_conf.c **** 
- 1084              		.loc 1 582 3 is_stmt 1 view .LVU230
+ 1059              		.loc 1 582 3 is_stmt 1 view .LVU230
  582:USB_Device/Target/usbd_conf.c **** 
- 1085              		.loc 1 582 17 is_stmt 0 view .LVU231
- 1086 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1087              	.LVL105:
+ 1060              		.loc 1 582 17 is_stmt 0 view .LVU231
+ 1061 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 1062              	.LVL105:
  584:USB_Device/Target/usbd_conf.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 37
-
-
- 1088              		.loc 1 584 3 is_stmt 1 view .LVU232
+ 1063              		.loc 1 584 3 is_stmt 1 view .LVU232
  585:USB_Device/Target/usbd_conf.c **** 
- 1089              		.loc 1 585 1 is_stmt 0 view .LVU233
- 1090 000e 08BD     		pop	{r3, pc}
- 1091              		.cfi_endproc
- 1092              	.LFE157:
- 1094              		.section	.text.USBD_LL_IsStallEP,"ax",%progbits
- 1095              		.align	1
- 1096              		.global	USBD_LL_IsStallEP
- 1097              		.syntax unified
- 1098              		.thumb
- 1099              		.thumb_func
- 1100              		.fpu fpv4-sp-d16
- 1102              	USBD_LL_IsStallEP:
- 1103              	.LVL106:
- 1104              	.LFB158:
+ 1064              		.loc 1 585 1 is_stmt 0 view .LVU233
+ 1065 000e 08BD     		pop	{r3, pc}
+ 1066              		.cfi_endproc
+ 1067              	.LFE157:
+ 1069              		.section	.text.USBD_LL_IsStallEP,"ax",%progbits
+ 1070              		.align	1
+ 1071              		.global	USBD_LL_IsStallEP
+ 1072              		.syntax unified
+ 1073              		.thumb
+ 1074              		.thumb_func
+ 1075              		.fpu fpv4-sp-d16
+ 1077              	USBD_LL_IsStallEP:
+ 1078              	.LVL106:
+ 1079              	.LFB158:
  594:USB_Device/Target/usbd_conf.c ****   PCD_HandleTypeDef *hpcd = (PCD_HandleTypeDef*) pdev->pData;
- 1105              		.loc 1 594 1 is_stmt 1 view -0
- 1106              		.cfi_startproc
- 1107              		@ args = 0, pretend = 0, frame = 0
- 1108              		@ frame_needed = 0, uses_anonymous_args = 0
- 1109              		@ link register save eliminated.
+ 1080              		.loc 1 594 1 is_stmt 1 view -0
+ 1081              		.cfi_startproc
+ 1082              		@ args = 0, pretend = 0, frame = 0
+ 1083              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1084              		@ link register save eliminated.
  595:USB_Device/Target/usbd_conf.c **** 
- 1110              		.loc 1 595 3 view .LVU235
+ 1085              		.loc 1 595 3 view .LVU235
  595:USB_Device/Target/usbd_conf.c **** 
- 1111              		.loc 1 595 22 is_stmt 0 view .LVU236
- 1112 0000 D0F8C432 		ldr	r3, [r0, #708]
- 1113              	.LVL107:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 37
+
+
+ 1086              		.loc 1 595 22 is_stmt 0 view .LVU236
+ 1087 0000 D0F8C432 		ldr	r3, [r0, #708]
+ 1088              	.LVL107:
  597:USB_Device/Target/usbd_conf.c ****   {
- 1114              		.loc 1 597 3 is_stmt 1 view .LVU237
+ 1089              		.loc 1 597 3 is_stmt 1 view .LVU237
  597:USB_Device/Target/usbd_conf.c ****   {
- 1115              		.loc 1 597 5 is_stmt 0 view .LVU238
- 1116 0004 11F0800F 		tst	r1, #128
- 1117 0008 08D1     		bne	.L81
+ 1090              		.loc 1 597 5 is_stmt 0 view .LVU238
+ 1091 0004 11F0800F 		tst	r1, #128
+ 1092 0008 08D1     		bne	.L81
  603:USB_Device/Target/usbd_conf.c ****   }
- 1118              		.loc 1 603 5 is_stmt 1 view .LVU239
+ 1093              		.loc 1 603 5 is_stmt 1 view .LVU239
  603:USB_Device/Target/usbd_conf.c ****   }
- 1119              		.loc 1 603 33 is_stmt 0 view .LVU240
- 1120 000a 01F07F01 		and	r1, r1, #127
- 1121              	.LVL108:
+ 1094              		.loc 1 603 33 is_stmt 0 view .LVU240
+ 1095 000a 01F07F01 		and	r1, r1, #127
+ 1096              	.LVL108:
  603:USB_Device/Target/usbd_conf.c ****   }
- 1122              		.loc 1 603 40 view .LVU241
- 1123 000e 01EB8101 		add	r1, r1, r1, lsl #2
- 1124 0012 03EBC101 		add	r1, r3, r1, lsl #3
- 1125 0016 91F86A01 		ldrb	r0, [r1, #362]	@ zero_extendqisi2
- 1126              	.LVL109:
+ 1097              		.loc 1 603 40 view .LVU241
+ 1098 000e 01EB8101 		add	r1, r1, r1, lsl #2
+ 1099 0012 03EBC101 		add	r1, r3, r1, lsl #3
+ 1100 0016 91F86A01 		ldrb	r0, [r1, #362]	@ zero_extendqisi2
+ 1101              	.LVL109:
  605:USB_Device/Target/usbd_conf.c **** 
- 1127              		.loc 1 605 1 view .LVU242
- 1128 001a 7047     		bx	lr
- 1129              	.LVL110:
- 1130              	.L81:
+ 1102              		.loc 1 605 1 view .LVU242
+ 1103 001a 7047     		bx	lr
+ 1104              	.LVL110:
+ 1105              	.L81:
  599:USB_Device/Target/usbd_conf.c ****   }
- 1131              		.loc 1 599 5 is_stmt 1 view .LVU243
+ 1106              		.loc 1 599 5 is_stmt 1 view .LVU243
  599:USB_Device/Target/usbd_conf.c ****   }
- 1132              		.loc 1 599 32 is_stmt 0 view .LVU244
- 1133 001c 01F07F01 		and	r1, r1, #127
- 1134              	.LVL111:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 38
+ 1107              		.loc 1 599 32 is_stmt 0 view .LVU244
+ 1108 001c 01F07F01 		and	r1, r1, #127
+ 1109              	.LVL111:
+ 599:USB_Device/Target/usbd_conf.c ****   }
+ 1110              		.loc 1 599 39 view .LVU245
+ 1111 0020 0131     		adds	r1, r1, #1
+ 1112 0022 01EB8101 		add	r1, r1, r1, lsl #2
+ 1113 0026 03EBC101 		add	r1, r3, r1, lsl #3
+ 1114 002a 8878     		ldrb	r0, [r1, #2]	@ zero_extendqisi2
+ 1115              	.LVL112:
+ 599:USB_Device/Target/usbd_conf.c ****   }
+ 1116              		.loc 1 599 39 view .LVU246
+ 1117 002c 7047     		bx	lr
+ 1118              		.cfi_endproc
+ 1119              	.LFE158:
+ 1121              		.section	.text.USBD_LL_SetUSBAddress,"ax",%progbits
+ 1122              		.align	1
+ 1123              		.global	USBD_LL_SetUSBAddress
+ 1124              		.syntax unified
+ 1125              		.thumb
+ 1126              		.thumb_func
+ 1127              		.fpu fpv4-sp-d16
+ 1129              	USBD_LL_SetUSBAddress:
+ 1130              	.LVL113:
+ 1131              	.LFB159:
+ 614:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
+ 1132              		.loc 1 614 1 is_stmt 1 view -0
+ 1133              		.cfi_startproc
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 38
 
 
- 599:USB_Device/Target/usbd_conf.c ****   }
- 1135              		.loc 1 599 39 view .LVU245
- 1136 0020 0131     		adds	r1, r1, #1
- 1137 0022 01EB8101 		add	r1, r1, r1, lsl #2
- 1138 0026 03EBC101 		add	r1, r3, r1, lsl #3
- 1139 002a 8878     		ldrb	r0, [r1, #2]	@ zero_extendqisi2
- 1140              	.LVL112:
- 599:USB_Device/Target/usbd_conf.c ****   }
- 1141              		.loc 1 599 39 view .LVU246
- 1142 002c 7047     		bx	lr
- 1143              		.cfi_endproc
- 1144              	.LFE158:
- 1146              		.section	.text.USBD_LL_SetUSBAddress,"ax",%progbits
- 1147              		.align	1
- 1148              		.global	USBD_LL_SetUSBAddress
- 1149              		.syntax unified
- 1150              		.thumb
- 1151              		.thumb_func
- 1152              		.fpu fpv4-sp-d16
- 1154              	USBD_LL_SetUSBAddress:
- 1155              	.LVL113:
- 1156              	.LFB159:
+ 1134              		@ args = 0, pretend = 0, frame = 0
+ 1135              		@ frame_needed = 0, uses_anonymous_args = 0
  614:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1157              		.loc 1 614 1 is_stmt 1 view -0
- 1158              		.cfi_startproc
- 1159              		@ args = 0, pretend = 0, frame = 0
- 1160              		@ frame_needed = 0, uses_anonymous_args = 0
- 614:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1161              		.loc 1 614 1 is_stmt 0 view .LVU248
- 1162 0000 08B5     		push	{r3, lr}
- 1163              	.LCFI25:
- 1164              		.cfi_def_cfa_offset 8
- 1165              		.cfi_offset 3, -8
- 1166              		.cfi_offset 14, -4
+ 1136              		.loc 1 614 1 is_stmt 0 view .LVU248
+ 1137 0000 08B5     		push	{r3, lr}
+ 1138              		.cfi_def_cfa_offset 8
+ 1139              		.cfi_offset 3, -8
+ 1140              		.cfi_offset 14, -4
  615:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 1167              		.loc 1 615 3 is_stmt 1 view .LVU249
- 1168              	.LVL114:
+ 1141              		.loc 1 615 3 is_stmt 1 view .LVU249
+ 1142              	.LVL114:
  616:USB_Device/Target/usbd_conf.c **** 
- 1169              		.loc 1 616 3 view .LVU250
+ 1143              		.loc 1 616 3 view .LVU250
  618:USB_Device/Target/usbd_conf.c **** 
- 1170              		.loc 1 618 3 view .LVU251
+ 1144              		.loc 1 618 3 view .LVU251
  618:USB_Device/Target/usbd_conf.c **** 
- 1171              		.loc 1 618 16 is_stmt 0 view .LVU252
- 1172 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1173              	.LVL115:
+ 1145              		.loc 1 618 16 is_stmt 0 view .LVU252
+ 1146 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1147              	.LVL115:
  618:USB_Device/Target/usbd_conf.c **** 
- 1174              		.loc 1 618 16 view .LVU253
- 1175 0006 FFF7FEFF 		bl	HAL_PCD_SetAddress
- 1176              	.LVL116:
+ 1148              		.loc 1 618 16 view .LVU253
+ 1149 0006 FFF7FEFF 		bl	HAL_PCD_SetAddress
+ 1150              	.LVL116:
  620:USB_Device/Target/usbd_conf.c **** 
- 1177              		.loc 1 620 3 is_stmt 1 view .LVU254
+ 1151              		.loc 1 620 3 is_stmt 1 view .LVU254
  620:USB_Device/Target/usbd_conf.c **** 
- 1178              		.loc 1 620 17 is_stmt 0 view .LVU255
- 1179 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1180              	.LVL117:
+ 1152              		.loc 1 620 17 is_stmt 0 view .LVU255
+ 1153 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 1154              	.LVL117:
  622:USB_Device/Target/usbd_conf.c **** }
- 1181              		.loc 1 622 3 is_stmt 1 view .LVU256
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 39
-
-
+ 1155              		.loc 1 622 3 is_stmt 1 view .LVU256
  623:USB_Device/Target/usbd_conf.c **** 
- 1182              		.loc 1 623 1 is_stmt 0 view .LVU257
- 1183 000e 08BD     		pop	{r3, pc}
- 1184              		.cfi_endproc
- 1185              	.LFE159:
- 1187              		.section	.text.USBD_LL_Transmit,"ax",%progbits
- 1188              		.align	1
- 1189              		.global	USBD_LL_Transmit
- 1190              		.syntax unified
- 1191              		.thumb
- 1192              		.thumb_func
- 1193              		.fpu fpv4-sp-d16
- 1195              	USBD_LL_Transmit:
- 1196              	.LVL118:
- 1197              	.LFB160:
+ 1156              		.loc 1 623 1 is_stmt 0 view .LVU257
+ 1157 000e 08BD     		pop	{r3, pc}
+ 1158              		.cfi_endproc
+ 1159              	.LFE159:
+ 1161              		.section	.text.USBD_LL_Transmit,"ax",%progbits
+ 1162              		.align	1
+ 1163              		.global	USBD_LL_Transmit
+ 1164              		.syntax unified
+ 1165              		.thumb
+ 1166              		.thumb_func
+ 1167              		.fpu fpv4-sp-d16
+ 1169              	USBD_LL_Transmit:
+ 1170              	.LVL118:
+ 1171              	.LFB160:
  634:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1198              		.loc 1 634 1 is_stmt 1 view -0
- 1199              		.cfi_startproc
- 1200              		@ args = 0, pretend = 0, frame = 0
- 1201              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1172              		.loc 1 634 1 is_stmt 1 view -0
+ 1173              		.cfi_startproc
+ 1174              		@ args = 0, pretend = 0, frame = 0
+ 1175              		@ frame_needed = 0, uses_anonymous_args = 0
  634:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1202              		.loc 1 634 1 is_stmt 0 view .LVU259
- 1203 0000 08B5     		push	{r3, lr}
- 1204              	.LCFI26:
- 1205              		.cfi_def_cfa_offset 8
- 1206              		.cfi_offset 3, -8
- 1207              		.cfi_offset 14, -4
+ 1176              		.loc 1 634 1 is_stmt 0 view .LVU259
+ 1177 0000 08B5     		push	{r3, lr}
+ 1178              		.cfi_def_cfa_offset 8
+ 1179              		.cfi_offset 3, -8
+ 1180              		.cfi_offset 14, -4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 39
+
+
  635:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 1208              		.loc 1 635 3 is_stmt 1 view .LVU260
- 1209              	.LVL119:
+ 1181              		.loc 1 635 3 is_stmt 1 view .LVU260
+ 1182              	.LVL119:
  636:USB_Device/Target/usbd_conf.c **** 
- 1210              		.loc 1 636 3 view .LVU261
+ 1183              		.loc 1 636 3 view .LVU261
  638:USB_Device/Target/usbd_conf.c **** 
- 1211              		.loc 1 638 3 view .LVU262
+ 1184              		.loc 1 638 3 view .LVU262
  638:USB_Device/Target/usbd_conf.c **** 
- 1212              		.loc 1 638 16 is_stmt 0 view .LVU263
- 1213 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1214              	.LVL120:
+ 1185              		.loc 1 638 16 is_stmt 0 view .LVU263
+ 1186 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1187              	.LVL120:
  638:USB_Device/Target/usbd_conf.c **** 
- 1215              		.loc 1 638 16 view .LVU264
- 1216 0006 FFF7FEFF 		bl	HAL_PCD_EP_Transmit
- 1217              	.LVL121:
+ 1188              		.loc 1 638 16 view .LVU264
+ 1189 0006 FFF7FEFF 		bl	HAL_PCD_EP_Transmit
+ 1190              	.LVL121:
  640:USB_Device/Target/usbd_conf.c **** 
- 1218              		.loc 1 640 3 is_stmt 1 view .LVU265
+ 1191              		.loc 1 640 3 is_stmt 1 view .LVU265
  640:USB_Device/Target/usbd_conf.c **** 
- 1219              		.loc 1 640 17 is_stmt 0 view .LVU266
- 1220 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1221              	.LVL122:
+ 1192              		.loc 1 640 17 is_stmt 0 view .LVU266
+ 1193 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 1194              	.LVL122:
  642:USB_Device/Target/usbd_conf.c **** }
- 1222              		.loc 1 642 3 is_stmt 1 view .LVU267
+ 1195              		.loc 1 642 3 is_stmt 1 view .LVU267
  643:USB_Device/Target/usbd_conf.c **** 
- 1223              		.loc 1 643 1 is_stmt 0 view .LVU268
- 1224 000e 08BD     		pop	{r3, pc}
- 1225              		.cfi_endproc
- 1226              	.LFE160:
- 1228              		.section	.text.USBD_LL_PrepareReceive,"ax",%progbits
- 1229              		.align	1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 40
-
-
- 1230              		.global	USBD_LL_PrepareReceive
- 1231              		.syntax unified
- 1232              		.thumb
- 1233              		.thumb_func
- 1234              		.fpu fpv4-sp-d16
- 1236              	USBD_LL_PrepareReceive:
- 1237              	.LVL123:
- 1238              	.LFB161:
+ 1196              		.loc 1 643 1 is_stmt 0 view .LVU268
+ 1197 000e 08BD     		pop	{r3, pc}
+ 1198              		.cfi_endproc
+ 1199              	.LFE160:
+ 1201              		.section	.text.USBD_LL_PrepareReceive,"ax",%progbits
+ 1202              		.align	1
+ 1203              		.global	USBD_LL_PrepareReceive
+ 1204              		.syntax unified
+ 1205              		.thumb
+ 1206              		.thumb_func
+ 1207              		.fpu fpv4-sp-d16
+ 1209              	USBD_LL_PrepareReceive:
+ 1210              	.LVL123:
+ 1211              	.LFB161:
  654:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1239              		.loc 1 654 1 is_stmt 1 view -0
- 1240              		.cfi_startproc
- 1241              		@ args = 0, pretend = 0, frame = 0
- 1242              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1212              		.loc 1 654 1 is_stmt 1 view -0
+ 1213              		.cfi_startproc
+ 1214              		@ args = 0, pretend = 0, frame = 0
+ 1215              		@ frame_needed = 0, uses_anonymous_args = 0
  654:USB_Device/Target/usbd_conf.c ****   HAL_StatusTypeDef hal_status = HAL_OK;
- 1243              		.loc 1 654 1 is_stmt 0 view .LVU270
- 1244 0000 08B5     		push	{r3, lr}
- 1245              	.LCFI27:
- 1246              		.cfi_def_cfa_offset 8
- 1247              		.cfi_offset 3, -8
- 1248              		.cfi_offset 14, -4
+ 1216              		.loc 1 654 1 is_stmt 0 view .LVU270
+ 1217 0000 08B5     		push	{r3, lr}
+ 1218              		.cfi_def_cfa_offset 8
+ 1219              		.cfi_offset 3, -8
+ 1220              		.cfi_offset 14, -4
  655:USB_Device/Target/usbd_conf.c ****   USBD_StatusTypeDef usb_status = USBD_OK;
- 1249              		.loc 1 655 3 is_stmt 1 view .LVU271
- 1250              	.LVL124:
+ 1221              		.loc 1 655 3 is_stmt 1 view .LVU271
+ 1222              	.LVL124:
  656:USB_Device/Target/usbd_conf.c **** 
- 1251              		.loc 1 656 3 view .LVU272
+ 1223              		.loc 1 656 3 view .LVU272
  658:USB_Device/Target/usbd_conf.c **** 
- 1252              		.loc 1 658 3 view .LVU273
+ 1224              		.loc 1 658 3 view .LVU273
  658:USB_Device/Target/usbd_conf.c **** 
- 1253              		.loc 1 658 16 is_stmt 0 view .LVU274
- 1254 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1255              	.LVL125:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 40
+
+
+ 1225              		.loc 1 658 16 is_stmt 0 view .LVU274
+ 1226 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1227              	.LVL125:
  658:USB_Device/Target/usbd_conf.c **** 
- 1256              		.loc 1 658 16 view .LVU275
- 1257 0006 FFF7FEFF 		bl	HAL_PCD_EP_Receive
- 1258              	.LVL126:
+ 1228              		.loc 1 658 16 view .LVU275
+ 1229 0006 FFF7FEFF 		bl	HAL_PCD_EP_Receive
+ 1230              	.LVL126:
  660:USB_Device/Target/usbd_conf.c **** 
- 1259              		.loc 1 660 3 is_stmt 1 view .LVU276
+ 1231              		.loc 1 660 3 is_stmt 1 view .LVU276
  660:USB_Device/Target/usbd_conf.c **** 
- 1260              		.loc 1 660 17 is_stmt 0 view .LVU277
- 1261 000a FFF7FEFF 		bl	USBD_Get_USB_Status
- 1262              	.LVL127:
+ 1232              		.loc 1 660 17 is_stmt 0 view .LVU277
+ 1233 000a FFF7FEFF 		bl	USBD_Get_USB_Status
+ 1234              	.LVL127:
  662:USB_Device/Target/usbd_conf.c **** }
- 1263              		.loc 1 662 3 is_stmt 1 view .LVU278
+ 1235              		.loc 1 662 3 is_stmt 1 view .LVU278
  663:USB_Device/Target/usbd_conf.c **** 
- 1264              		.loc 1 663 1 is_stmt 0 view .LVU279
- 1265 000e 08BD     		pop	{r3, pc}
- 1266              		.cfi_endproc
- 1267              	.LFE161:
- 1269              		.section	.text.USBD_LL_GetRxDataSize,"ax",%progbits
- 1270              		.align	1
- 1271              		.global	USBD_LL_GetRxDataSize
- 1272              		.syntax unified
- 1273              		.thumb
- 1274              		.thumb_func
- 1275              		.fpu fpv4-sp-d16
- 1277              	USBD_LL_GetRxDataSize:
- 1278              	.LVL128:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 41
-
-
- 1279              	.LFB162:
+ 1236              		.loc 1 663 1 is_stmt 0 view .LVU279
+ 1237 000e 08BD     		pop	{r3, pc}
+ 1238              		.cfi_endproc
+ 1239              	.LFE161:
+ 1241              		.section	.text.USBD_LL_GetRxDataSize,"ax",%progbits
+ 1242              		.align	1
+ 1243              		.global	USBD_LL_GetRxDataSize
+ 1244              		.syntax unified
+ 1245              		.thumb
+ 1246              		.thumb_func
+ 1247              		.fpu fpv4-sp-d16
+ 1249              	USBD_LL_GetRxDataSize:
+ 1250              	.LVL128:
+ 1251              	.LFB162:
  672:USB_Device/Target/usbd_conf.c ****   return HAL_PCD_EP_GetRxCount((PCD_HandleTypeDef*) pdev->pData, ep_addr);
- 1280              		.loc 1 672 1 is_stmt 1 view -0
- 1281              		.cfi_startproc
- 1282              		@ args = 0, pretend = 0, frame = 0
- 1283              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1252              		.loc 1 672 1 is_stmt 1 view -0
+ 1253              		.cfi_startproc
+ 1254              		@ args = 0, pretend = 0, frame = 0
+ 1255              		@ frame_needed = 0, uses_anonymous_args = 0
  672:USB_Device/Target/usbd_conf.c ****   return HAL_PCD_EP_GetRxCount((PCD_HandleTypeDef*) pdev->pData, ep_addr);
- 1284              		.loc 1 672 1 is_stmt 0 view .LVU281
- 1285 0000 08B5     		push	{r3, lr}
- 1286              	.LCFI28:
- 1287              		.cfi_def_cfa_offset 8
- 1288              		.cfi_offset 3, -8
- 1289              		.cfi_offset 14, -4
+ 1256              		.loc 1 672 1 is_stmt 0 view .LVU281
+ 1257 0000 08B5     		push	{r3, lr}
+ 1258              		.cfi_def_cfa_offset 8
+ 1259              		.cfi_offset 3, -8
+ 1260              		.cfi_offset 14, -4
  673:USB_Device/Target/usbd_conf.c **** }
- 1290              		.loc 1 673 3 is_stmt 1 view .LVU282
+ 1261              		.loc 1 673 3 is_stmt 1 view .LVU282
  673:USB_Device/Target/usbd_conf.c **** }
- 1291              		.loc 1 673 10 is_stmt 0 view .LVU283
- 1292 0002 D0F8C402 		ldr	r0, [r0, #708]
- 1293              	.LVL129:
+ 1262              		.loc 1 673 10 is_stmt 0 view .LVU283
+ 1263 0002 D0F8C402 		ldr	r0, [r0, #708]
+ 1264              	.LVL129:
  673:USB_Device/Target/usbd_conf.c **** }
- 1294              		.loc 1 673 10 view .LVU284
- 1295 0006 FFF7FEFF 		bl	HAL_PCD_EP_GetRxCount
- 1296              	.LVL130:
+ 1265              		.loc 1 673 10 view .LVU284
+ 1266 0006 FFF7FEFF 		bl	HAL_PCD_EP_GetRxCount
+ 1267              	.LVL130:
  674:USB_Device/Target/usbd_conf.c **** 
- 1297              		.loc 1 674 1 view .LVU285
- 1298 000a 08BD     		pop	{r3, pc}
- 1299              		.cfi_endproc
- 1300              	.LFE162:
- 1302              		.section	.text.HAL_PCDEx_LPM_Callback,"ax",%progbits
- 1303              		.align	1
- 1304              		.global	HAL_PCDEx_LPM_Callback
- 1305              		.syntax unified
- 1306              		.thumb
- 1307              		.thumb_func
- 1308              		.fpu fpv4-sp-d16
- 1310              	HAL_PCDEx_LPM_Callback:
- 1311              	.LVL131:
- 1312              	.LFB163:
+ 1268              		.loc 1 674 1 view .LVU285
+ 1269 000a 08BD     		pop	{r3, pc}
+ 1270              		.cfi_endproc
+ 1271              	.LFE162:
+ 1273              		.section	.text.HAL_PCDEx_LPM_Callback,"ax",%progbits
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 41
+
+
+ 1274              		.align	1
+ 1275              		.global	HAL_PCDEx_LPM_Callback
+ 1276              		.syntax unified
+ 1277              		.thumb
+ 1278              		.thumb_func
+ 1279              		.fpu fpv4-sp-d16
+ 1281              	HAL_PCDEx_LPM_Callback:
+ 1282              	.LVL131:
+ 1283              	.LFB163:
  687:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN LPM_Callback */
- 1313              		.loc 1 687 1 is_stmt 1 view -0
- 1314              		.cfi_startproc
- 1315              		@ args = 0, pretend = 0, frame = 0
- 1316              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1284              		.loc 1 687 1 is_stmt 1 view -0
+ 1285              		.cfi_startproc
+ 1286              		@ args = 0, pretend = 0, frame = 0
+ 1287              		@ frame_needed = 0, uses_anonymous_args = 0
  687:USB_Device/Target/usbd_conf.c ****   /* USER CODE BEGIN LPM_Callback */
- 1317              		.loc 1 687 1 is_stmt 0 view .LVU287
- 1318 0000 10B5     		push	{r4, lr}
- 1319              	.LCFI29:
- 1320              		.cfi_def_cfa_offset 8
- 1321              		.cfi_offset 4, -8
- 1322              		.cfi_offset 14, -4
- 1323 0002 0446     		mov	r4, r0
+ 1288              		.loc 1 687 1 is_stmt 0 view .LVU287
+ 1289 0000 10B5     		push	{r4, lr}
+ 1290              		.cfi_def_cfa_offset 8
+ 1291              		.cfi_offset 4, -8
+ 1292              		.cfi_offset 14, -4
+ 1293 0002 0446     		mov	r4, r0
  689:USB_Device/Target/usbd_conf.c ****   {
- 1324              		.loc 1 689 3 is_stmt 1 view .LVU288
- 1325 0004 11B1     		cbz	r1, .L91
- 1326 0006 0129     		cmp	r1, #1
- 1327 0008 0FD0     		beq	.L92
- 1328              	.LVL132:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 42
-
-
- 1329              	.L90:
+ 1294              		.loc 1 689 3 is_stmt 1 view .LVU288
+ 1295 0004 11B1     		cbz	r1, .L91
+ 1296 0006 0129     		cmp	r1, #1
+ 1297 0008 0FD0     		beq	.L92
+ 1298              	.LVL132:
+ 1299              	.L90:
  714:USB_Device/Target/usbd_conf.c **** 
- 1330              		.loc 1 714 1 is_stmt 0 view .LVU289
- 1331 000a 10BD     		pop	{r4, pc}
- 1332              	.LVL133:
- 1333              	.L91:
+ 1300              		.loc 1 714 1 is_stmt 0 view .LVU289
+ 1301 000a 10BD     		pop	{r4, pc}
+ 1302              	.LVL133:
+ 1303              	.L91:
  692:USB_Device/Target/usbd_conf.c ****     {
- 1334              		.loc 1 692 5 is_stmt 1 view .LVU290
+ 1304              		.loc 1 692 5 is_stmt 1 view .LVU290
  692:USB_Device/Target/usbd_conf.c ****     {
- 1335              		.loc 1 692 19 is_stmt 0 view .LVU291
- 1336 000c 8369     		ldr	r3, [r0, #24]
+ 1305              		.loc 1 692 19 is_stmt 0 view .LVU291
+ 1306 000c 8369     		ldr	r3, [r0, #24]
  692:USB_Device/Target/usbd_conf.c ****     {
- 1337              		.loc 1 692 8 view .LVU292
- 1338 000e 23B9     		cbnz	r3, .L96
- 1339              	.LVL134:
- 1340              	.L94:
+ 1307              		.loc 1 692 8 view .LVU292
+ 1308 000e 23B9     		cbnz	r3, .L96
+ 1309              	.LVL134:
+ 1310              	.L94:
  699:USB_Device/Target/usbd_conf.c ****     break;
- 1341              		.loc 1 699 5 is_stmt 1 view .LVU293
- 1342 0010 D4F8F002 		ldr	r0, [r4, #752]
- 1343 0014 FFF7FEFF 		bl	USBD_LL_Resume
- 1344              	.LVL135:
+ 1311              		.loc 1 699 5 is_stmt 1 view .LVU293
+ 1312 0010 D4F8F002 		ldr	r0, [r4, #752]
+ 1313 0014 FFF7FEFF 		bl	USBD_LL_Resume
+ 1314              	.LVL135:
  700:USB_Device/Target/usbd_conf.c **** 
- 1345              		.loc 1 700 5 view .LVU294
- 1346 0018 F7E7     		b	.L90
- 1347              	.LVL136:
- 1348              	.L96:
+ 1315              		.loc 1 700 5 view .LVU294
+ 1316 0018 F7E7     		b	.L90
+ 1317              	.LVL136:
+ 1318              	.L96:
  694:USB_Device/Target/usbd_conf.c **** 
- 1349              		.loc 1 694 7 view .LVU295
- 1350 001a FFF7FEFF 		bl	SystemClockConfig_Resume
- 1351              	.LVL137:
- 697:USB_Device/Target/usbd_conf.c ****     }
- 1352              		.loc 1 697 7 view .LVU296
- 697:USB_Device/Target/usbd_conf.c ****     }
- 1353              		.loc 1 697 16 is_stmt 0 view .LVU297
- 1354 001e 094A     		ldr	r2, .L97
- 1355 0020 1369     		ldr	r3, [r2, #16]
- 1356 0022 23F00603 		bic	r3, r3, #6
- 1357 0026 1361     		str	r3, [r2, #16]
- 1358 0028 F2E7     		b	.L94
- 1359              	.LVL138:
- 1360              	.L92:
- 703:USB_Device/Target/usbd_conf.c **** 
- 1361              		.loc 1 703 5 is_stmt 1 view .LVU298
- 1362 002a D0F8F002 		ldr	r0, [r0, #752]
- 1363              	.LVL139:
- 703:USB_Device/Target/usbd_conf.c **** 
- 1364              		.loc 1 703 5 is_stmt 0 view .LVU299
- 1365 002e FFF7FEFF 		bl	USBD_LL_Suspend
- 1366              	.LVL140:
- 706:USB_Device/Target/usbd_conf.c ****     {
- 1367              		.loc 1 706 5 is_stmt 1 view .LVU300
- 706:USB_Device/Target/usbd_conf.c ****     {
- 1368              		.loc 1 706 19 is_stmt 0 view .LVU301
- 1369 0032 A369     		ldr	r3, [r4, #24]
- 706:USB_Device/Target/usbd_conf.c ****     {
- 1370              		.loc 1 706 8 view .LVU302
- 1371 0034 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 43
+ 1319              		.loc 1 694 7 view .LVU295
+ 1320 001a FFF7FEFF 		bl	SystemClockConfig_Resume
+ 1321              	.LVL137:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 42
 
 
- 1372 0036 E8D0     		beq	.L90
+ 697:USB_Device/Target/usbd_conf.c ****     }
+ 1322              		.loc 1 697 7 view .LVU296
+ 697:USB_Device/Target/usbd_conf.c ****     }
+ 1323              		.loc 1 697 16 is_stmt 0 view .LVU297
+ 1324 001e 094A     		ldr	r2, .L97
+ 1325 0020 1369     		ldr	r3, [r2, #16]
+ 1326 0022 23F00603 		bic	r3, r3, #6
+ 1327 0026 1361     		str	r3, [r2, #16]
+ 1328 0028 F2E7     		b	.L94
+ 1329              	.LVL138:
+ 1330              	.L92:
+ 703:USB_Device/Target/usbd_conf.c **** 
+ 1331              		.loc 1 703 5 is_stmt 1 view .LVU298
+ 1332 002a D0F8F002 		ldr	r0, [r0, #752]
+ 1333              	.LVL139:
+ 703:USB_Device/Target/usbd_conf.c **** 
+ 1334              		.loc 1 703 5 is_stmt 0 view .LVU299
+ 1335 002e FFF7FEFF 		bl	USBD_LL_Suspend
+ 1336              	.LVL140:
+ 706:USB_Device/Target/usbd_conf.c ****     {
+ 1337              		.loc 1 706 5 is_stmt 1 view .LVU300
+ 706:USB_Device/Target/usbd_conf.c ****     {
+ 1338              		.loc 1 706 19 is_stmt 0 view .LVU301
+ 1339 0032 A369     		ldr	r3, [r4, #24]
+ 706:USB_Device/Target/usbd_conf.c ****     {
+ 1340              		.loc 1 706 8 view .LVU302
+ 1341 0034 002B     		cmp	r3, #0
+ 1342 0036 E8D0     		beq	.L90
  709:USB_Device/Target/usbd_conf.c ****     }
- 1373              		.loc 1 709 7 is_stmt 1 view .LVU303
+ 1343              		.loc 1 709 7 is_stmt 1 view .LVU303
  709:USB_Device/Target/usbd_conf.c ****     }
- 1374              		.loc 1 709 16 is_stmt 0 view .LVU304
- 1375 0038 024A     		ldr	r2, .L97
- 1376 003a 1369     		ldr	r3, [r2, #16]
- 1377 003c 43F00603 		orr	r3, r3, #6
- 1378 0040 1361     		str	r3, [r2, #16]
+ 1344              		.loc 1 709 16 is_stmt 0 view .LVU304
+ 1345 0038 024A     		ldr	r2, .L97
+ 1346 003a 1369     		ldr	r3, [r2, #16]
+ 1347 003c 43F00603 		orr	r3, r3, #6
+ 1348 0040 1361     		str	r3, [r2, #16]
  714:USB_Device/Target/usbd_conf.c **** 
- 1379              		.loc 1 714 1 view .LVU305
- 1380 0042 E2E7     		b	.L90
- 1381              	.L98:
- 1382              		.align	2
- 1383              	.L97:
- 1384 0044 00ED00E0 		.word	-536810240
- 1385              		.cfi_endproc
- 1386              	.LFE163:
- 1388              		.section	.text.USBD_LL_Delay,"ax",%progbits
- 1389              		.align	1
- 1390              		.global	USBD_LL_Delay
- 1391              		.syntax unified
- 1392              		.thumb
- 1393              		.thumb_func
- 1394              		.fpu fpv4-sp-d16
- 1396              	USBD_LL_Delay:
- 1397              	.LVL141:
- 1398              	.LFB164:
+ 1349              		.loc 1 714 1 view .LVU305
+ 1350 0042 E2E7     		b	.L90
+ 1351              	.L98:
+ 1352              		.align	2
+ 1353              	.L97:
+ 1354 0044 00ED00E0 		.word	-536810240
+ 1355              		.cfi_endproc
+ 1356              	.LFE163:
+ 1358              		.section	.text.USBD_LL_Delay,"ax",%progbits
+ 1359              		.align	1
+ 1360              		.global	USBD_LL_Delay
+ 1361              		.syntax unified
+ 1362              		.thumb
+ 1363              		.thumb_func
+ 1364              		.fpu fpv4-sp-d16
+ 1366              	USBD_LL_Delay:
+ 1367              	.LVL141:
+ 1368              	.LFB164:
  722:USB_Device/Target/usbd_conf.c ****   HAL_Delay(Delay);
- 1399              		.loc 1 722 1 is_stmt 1 view -0
- 1400              		.cfi_startproc
- 1401              		@ args = 0, pretend = 0, frame = 0
- 1402              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1369              		.loc 1 722 1 is_stmt 1 view -0
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 43
+
+
+ 1370              		.cfi_startproc
+ 1371              		@ args = 0, pretend = 0, frame = 0
+ 1372              		@ frame_needed = 0, uses_anonymous_args = 0
  722:USB_Device/Target/usbd_conf.c ****   HAL_Delay(Delay);
- 1403              		.loc 1 722 1 is_stmt 0 view .LVU307
- 1404 0000 08B5     		push	{r3, lr}
- 1405              	.LCFI30:
- 1406              		.cfi_def_cfa_offset 8
- 1407              		.cfi_offset 3, -8
- 1408              		.cfi_offset 14, -4
+ 1373              		.loc 1 722 1 is_stmt 0 view .LVU307
+ 1374 0000 08B5     		push	{r3, lr}
+ 1375              		.cfi_def_cfa_offset 8
+ 1376              		.cfi_offset 3, -8
+ 1377              		.cfi_offset 14, -4
  723:USB_Device/Target/usbd_conf.c **** }
- 1409              		.loc 1 723 3 is_stmt 1 view .LVU308
- 1410 0002 FFF7FEFF 		bl	HAL_Delay
- 1411              	.LVL142:
+ 1378              		.loc 1 723 3 is_stmt 1 view .LVU308
+ 1379 0002 FFF7FEFF 		bl	HAL_Delay
+ 1380              	.LVL142:
  724:USB_Device/Target/usbd_conf.c **** 
- 1412              		.loc 1 724 1 is_stmt 0 view .LVU309
- 1413 0006 08BD     		pop	{r3, pc}
- 1414              		.cfi_endproc
- 1415              	.LFE164:
- 1417              		.section	.text.USBD_static_malloc,"ax",%progbits
- 1418              		.align	1
- 1419              		.global	USBD_static_malloc
- 1420              		.syntax unified
- 1421              		.thumb
- 1422              		.thumb_func
- 1423              		.fpu fpv4-sp-d16
- 1425              	USBD_static_malloc:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 44
-
-
- 1426              	.LVL143:
- 1427              	.LFB165:
+ 1381              		.loc 1 724 1 is_stmt 0 view .LVU309
+ 1382 0006 08BD     		pop	{r3, pc}
+ 1383              		.cfi_endproc
+ 1384              	.LFE164:
+ 1386              		.section	.text.USBD_static_malloc,"ax",%progbits
+ 1387              		.align	1
+ 1388              		.global	USBD_static_malloc
+ 1389              		.syntax unified
+ 1390              		.thumb
+ 1391              		.thumb_func
+ 1392              		.fpu fpv4-sp-d16
+ 1394              	USBD_static_malloc:
+ 1395              	.LVL143:
+ 1396              	.LFB165:
  732:USB_Device/Target/usbd_conf.c ****   static uint32_t mem[(sizeof(USBD_CDC_HandleTypeDef)/4)+1];/* On 32-bit boundary */
- 1428              		.loc 1 732 1 is_stmt 1 view -0
- 1429              		.cfi_startproc
- 1430              		@ args = 0, pretend = 0, frame = 0
- 1431              		@ frame_needed = 0, uses_anonymous_args = 0
- 1432              		@ link register save eliminated.
+ 1397              		.loc 1 732 1 is_stmt 1 view -0
+ 1398              		.cfi_startproc
+ 1399              		@ args = 0, pretend = 0, frame = 0
+ 1400              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1401              		@ link register save eliminated.
  733:USB_Device/Target/usbd_conf.c ****   return mem;
- 1433              		.loc 1 733 3 view .LVU311
+ 1402              		.loc 1 733 3 view .LVU311
  734:USB_Device/Target/usbd_conf.c **** }
- 1434              		.loc 1 734 3 view .LVU312
+ 1403              		.loc 1 734 3 view .LVU312
  735:USB_Device/Target/usbd_conf.c **** 
- 1435              		.loc 1 735 1 is_stmt 0 view .LVU313
- 1436 0000 0048     		ldr	r0, .L102
- 1437              	.LVL144:
+ 1404              		.loc 1 735 1 is_stmt 0 view .LVU313
+ 1405 0000 0048     		ldr	r0, .L102
+ 1406              	.LVL144:
  735:USB_Device/Target/usbd_conf.c **** 
- 1438              		.loc 1 735 1 view .LVU314
- 1439 0002 7047     		bx	lr
- 1440              	.L103:
- 1441              		.align	2
- 1442              	.L102:
- 1443 0004 00000000 		.word	.LANCHOR1
- 1444              		.cfi_endproc
- 1445              	.LFE165:
- 1447              		.section	.text.USBD_static_free,"ax",%progbits
- 1448              		.align	1
- 1449              		.global	USBD_static_free
- 1450              		.syntax unified
- 1451              		.thumb
- 1452              		.thumb_func
- 1453              		.fpu fpv4-sp-d16
- 1455              	USBD_static_free:
- 1456              	.LVL145:
- 1457              	.LFB166:
+ 1407              		.loc 1 735 1 view .LVU314
+ 1408 0002 7047     		bx	lr
+ 1409              	.L103:
+ 1410              		.align	2
+ 1411              	.L102:
+ 1412 0004 00000000 		.word	.LANCHOR1
+ 1413              		.cfi_endproc
+ 1414              	.LFE165:
+ 1416              		.section	.text.USBD_static_free,"ax",%progbits
+ 1417              		.align	1
+ 1418              		.global	USBD_static_free
+ 1419              		.syntax unified
+ 1420              		.thumb
+ 1421              		.thumb_func
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 44
+
+
+ 1422              		.fpu fpv4-sp-d16
+ 1424              	USBD_static_free:
+ 1425              	.LVL145:
+ 1426              	.LFB166:
  743:USB_Device/Target/usbd_conf.c **** 
- 1458              		.loc 1 743 1 is_stmt 1 view -0
- 1459              		.cfi_startproc
- 1460              		@ args = 0, pretend = 0, frame = 0
- 1461              		@ frame_needed = 0, uses_anonymous_args = 0
- 1462              		@ link register save eliminated.
+ 1427              		.loc 1 743 1 is_stmt 1 view -0
+ 1428              		.cfi_startproc
+ 1429              		@ args = 0, pretend = 0, frame = 0
+ 1430              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1431              		@ link register save eliminated.
  745:USB_Device/Target/usbd_conf.c **** 
- 1463              		.loc 1 745 1 view .LVU316
- 1464 0000 7047     		bx	lr
- 1465              		.cfi_endproc
- 1466              	.LFE166:
- 1468              		.global	hpcd_USB_FS
- 1469              		.section	.bss.hpcd_USB_FS,"aw",%nobits
- 1470              		.align	2
- 1471              		.set	.LANCHOR0,. + 0
- 1474              	hpcd_USB_FS:
- 1475 0000 00000000 		.space	756
- 1475      00000000 
- 1475      00000000 
- 1475      00000000 
- 1475      00000000 
- 1476              		.section	.bss.mem.0,"aw",%nobits
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 45
-
-
- 1477              		.align	2
- 1478              		.set	.LANCHOR1,. + 0
- 1481              	mem.0:
- 1482 0000 00000000 		.space	544
- 1482      00000000 
- 1482      00000000 
- 1482      00000000 
- 1482      00000000 
- 1483              		.text
- 1484              	.Letext0:
- 1485              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1486              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1487              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 1488              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
- 1489              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h"
- 1490              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
- 1491              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usb.h"
- 1492              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd.h"
- 1493              		.file 10 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 1494              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
- 1495              		.file 12 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
- 1496              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd_ex.h"
- 1497              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 46
+ 1432              		.loc 1 745 1 view .LVU316
+ 1433 0000 7047     		bx	lr
+ 1434              		.cfi_endproc
+ 1435              	.LFE166:
+ 1437              		.global	hpcd_USB_FS
+ 1438              		.section	.bss.hpcd_USB_FS,"aw",%nobits
+ 1439              		.align	2
+ 1440              		.set	.LANCHOR0,. + 0
+ 1443              	hpcd_USB_FS:
+ 1444 0000 00000000 		.space	756
+ 1444      00000000 
+ 1444      00000000 
+ 1444      00000000 
+ 1444      00000000 
+ 1445              		.section	.bss.mem.0,"aw",%nobits
+ 1446              		.align	2
+ 1447              		.set	.LANCHOR1,. + 0
+ 1450              	mem.0:
+ 1451 0000 00000000 		.space	544
+ 1451      00000000 
+ 1451      00000000 
+ 1451      00000000 
+ 1451      00000000 
+ 1452              		.text
+ 1453              	.Letext0:
+ 1454              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1455              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1456              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 1457              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ 1458              		.file 6 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h"
+ 1459              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
+ 1460              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usb.h"
+ 1461              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd.h"
+ 1462              		.file 10 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 1463              		.file 11 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ 1464              		.file 12 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h"
+ 1465              		.file 13 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd_ex.h"
+ 1466              		.file 14 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h"
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 45
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 usbd_conf.c
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:18     .text.USBD_Get_USB_Status:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:25     .text.USBD_Get_USB_Status:00000000 USBD_Get_USB_Status
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:40     .text.USBD_Get_USB_Status:00000008 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:44     .text.USBD_Get_USB_Status:0000000c $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:67     .text.SystemClockConfig_Resume:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:73     .text.SystemClockConfig_Resume:00000000 SystemClockConfig_Resume
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:93     .text.HAL_PCD_MspInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:100    .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:161    .text.HAL_PCD_MspInit:0000003c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:166    .text.HAL_PCD_MspDeInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:173    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:215    .text.HAL_PCD_MspDeInit:00000020 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:221    .text.HAL_PCD_SetupStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:228    .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:254    .text.HAL_PCD_DataOutStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:261    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:289    .text.HAL_PCD_DataInStageCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:296    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:324    .text.HAL_PCD_SOFCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:331    .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:356    .text.HAL_PCD_ResetCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:363    .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:409    .text.HAL_PCD_SuspendCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:416    .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:455    .text.HAL_PCD_SuspendCallback:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:460    .text.HAL_PCD_ResumeCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:467    .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:510    .text.HAL_PCD_ResumeCallback:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:515    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:522    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:547    .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:554    .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:579    .text.HAL_PCD_ConnectCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:586    .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:611    .text.HAL_PCD_DisconnectCallback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:618    .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:643    .text.USBD_LL_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:650    .text.USBD_LL_Init:00000000 USBD_LL_Init
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:756    .text.USBD_LL_Init:00000080 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:762    .text.USBD_LL_DeInit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:769    .text.USBD_LL_DeInit:00000000 USBD_LL_DeInit
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:803    .text.USBD_LL_Start:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:810    .text.USBD_LL_Start:00000000 USBD_LL_Start
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:844    .text.USBD_LL_Stop:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:851    .text.USBD_LL_Stop:00000000 USBD_LL_Stop
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:885    .text.USBD_LL_OpenEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:892    .text.USBD_LL_OpenEP:00000000 USBD_LL_OpenEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:931    .text.USBD_LL_CloseEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:938    .text.USBD_LL_CloseEP:00000000 USBD_LL_CloseEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:972    .text.USBD_LL_FlushEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:979    .text.USBD_LL_FlushEP:00000000 USBD_LL_FlushEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1013   .text.USBD_LL_StallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1020   .text.USBD_LL_StallEP:00000000 USBD_LL_StallEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1054   .text.USBD_LL_ClearStallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1061   .text.USBD_LL_ClearStallEP:00000000 USBD_LL_ClearStallEP
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 47
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:18     .text.USBD_Get_USB_Status:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:25     .text.USBD_Get_USB_Status:00000000 USBD_Get_USB_Status
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:40     .text.USBD_Get_USB_Status:00000008 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:44     .text.USBD_Get_USB_Status:0000000c $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:67     .text.SystemClockConfig_Resume:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:73     .text.SystemClockConfig_Resume:00000000 SystemClockConfig_Resume
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:92     .text.HAL_PCD_MspInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:99     .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:157    .text.HAL_PCD_MspInit:0000003c $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:162    .text.HAL_PCD_MspDeInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:169    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:210    .text.HAL_PCD_MspDeInit:00000020 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:216    .text.HAL_PCD_SetupStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:223    .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:248    .text.HAL_PCD_DataOutStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:255    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:282    .text.HAL_PCD_DataInStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:289    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:316    .text.HAL_PCD_SOFCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:323    .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:347    .text.HAL_PCD_ResetCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:354    .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:399    .text.HAL_PCD_SuspendCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:406    .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:444    .text.HAL_PCD_SuspendCallback:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:449    .text.HAL_PCD_ResumeCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:456    .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:498    .text.HAL_PCD_ResumeCallback:00000024 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:503    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:510    .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:534    .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:541    .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:565    .text.HAL_PCD_ConnectCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:572    .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:596    .text.HAL_PCD_DisconnectCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:603    .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:627    .text.USBD_LL_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:634    .text.USBD_LL_Init:00000000 USBD_LL_Init
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:739    .text.USBD_LL_Init:00000080 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:745    .text.USBD_LL_DeInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:752    .text.USBD_LL_DeInit:00000000 USBD_LL_DeInit
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:785    .text.USBD_LL_Start:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:792    .text.USBD_LL_Start:00000000 USBD_LL_Start
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:825    .text.USBD_LL_Stop:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:832    .text.USBD_LL_Stop:00000000 USBD_LL_Stop
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:865    .text.USBD_LL_OpenEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:872    .text.USBD_LL_OpenEP:00000000 USBD_LL_OpenEP
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:910    .text.USBD_LL_CloseEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:917    .text.USBD_LL_CloseEP:00000000 USBD_LL_CloseEP
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:950    .text.USBD_LL_FlushEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:957    .text.USBD_LL_FlushEP:00000000 USBD_LL_FlushEP
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:990    .text.USBD_LL_StallEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:997    .text.USBD_LL_StallEP:00000000 USBD_LL_StallEP
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1030   .text.USBD_LL_ClearStallEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1037   .text.USBD_LL_ClearStallEP:00000000 USBD_LL_ClearStallEP
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 46
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1095   .text.USBD_LL_IsStallEP:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1102   .text.USBD_LL_IsStallEP:00000000 USBD_LL_IsStallEP
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1147   .text.USBD_LL_SetUSBAddress:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1154   .text.USBD_LL_SetUSBAddress:00000000 USBD_LL_SetUSBAddress
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1188   .text.USBD_LL_Transmit:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1195   .text.USBD_LL_Transmit:00000000 USBD_LL_Transmit
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1229   .text.USBD_LL_PrepareReceive:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1236   .text.USBD_LL_PrepareReceive:00000000 USBD_LL_PrepareReceive
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1270   .text.USBD_LL_GetRxDataSize:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1277   .text.USBD_LL_GetRxDataSize:00000000 USBD_LL_GetRxDataSize
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1303   .text.HAL_PCDEx_LPM_Callback:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1310   .text.HAL_PCDEx_LPM_Callback:00000000 HAL_PCDEx_LPM_Callback
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1384   .text.HAL_PCDEx_LPM_Callback:00000044 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1389   .text.USBD_LL_Delay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1396   .text.USBD_LL_Delay:00000000 USBD_LL_Delay
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1418   .text.USBD_static_malloc:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1425   .text.USBD_static_malloc:00000000 USBD_static_malloc
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1443   .text.USBD_static_malloc:00000004 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1448   .text.USBD_static_free:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1455   .text.USBD_static_free:00000000 USBD_static_free
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1474   .bss.hpcd_USB_FS:00000000 hpcd_USB_FS
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1470   .bss.hpcd_USB_FS:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1477   .bss.mem.0:00000000 $d
-C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s:1481   .bss.mem.0:00000000 mem.0
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1070   .text.USBD_LL_IsStallEP:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1077   .text.USBD_LL_IsStallEP:00000000 USBD_LL_IsStallEP
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1122   .text.USBD_LL_SetUSBAddress:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1129   .text.USBD_LL_SetUSBAddress:00000000 USBD_LL_SetUSBAddress
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1162   .text.USBD_LL_Transmit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1169   .text.USBD_LL_Transmit:00000000 USBD_LL_Transmit
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1202   .text.USBD_LL_PrepareReceive:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1209   .text.USBD_LL_PrepareReceive:00000000 USBD_LL_PrepareReceive
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1242   .text.USBD_LL_GetRxDataSize:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1249   .text.USBD_LL_GetRxDataSize:00000000 USBD_LL_GetRxDataSize
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1274   .text.HAL_PCDEx_LPM_Callback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1281   .text.HAL_PCDEx_LPM_Callback:00000000 HAL_PCDEx_LPM_Callback
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1354   .text.HAL_PCDEx_LPM_Callback:00000044 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1359   .text.USBD_LL_Delay:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1366   .text.USBD_LL_Delay:00000000 USBD_LL_Delay
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1387   .text.USBD_static_malloc:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1394   .text.USBD_static_malloc:00000000 USBD_static_malloc
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1412   .text.USBD_static_malloc:00000004 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1417   .text.USBD_static_free:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1424   .text.USBD_static_free:00000000 USBD_static_free
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1443   .bss.hpcd_USB_FS:00000000 hpcd_USB_FS
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1439   .bss.hpcd_USB_FS:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1446   .bss.mem.0:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s:1450   .bss.mem.0:00000000 mem.0
 
 UNDEFINED SYMBOLS
 mainRCCInit
@@ -2784,7 +2750,7 @@ HAL_PCD_SetAddress
 HAL_PCD_EP_Transmit
 HAL_PCD_EP_Receive
 HAL_PCD_EP_GetRxCount
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\ccduuQQk.s 			page 48
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccW24SnU.s 			page 47
 
 
 HAL_Delay

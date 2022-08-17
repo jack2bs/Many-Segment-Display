@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
   42 000e D3F8FC20 		ldr	r2, [r3, #252]
   43 0012 42F08072 		orr	r2, r2, #16777216
   44 0016 C3F8FC20 		str	r2, [r3, #252]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 2
 
 
   15:Core/Src/Lcd.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
   30:Core/Src/Lcd.c **** 	{
   31:Core/Src/Lcd.c **** 		return 1;
   84              		.loc 1 31 10 view .LVU18
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 3
 
 
   85 0040 0120     		movs	r0, #1
@@ -153,167 +153,163 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  110              		@ link register save eliminated.
  111              		.loc 1 37 1 is_stmt 0 view .LVU21
  112 0000 82B0     		sub	sp, sp, #8
- 113              	.LCFI0:
- 114              		.cfi_def_cfa_offset 8
- 115 0002 0190     		str	r0, [sp, #4]
+ 113              		.cfi_def_cfa_offset 8
+ 114 0002 0190     		str	r0, [sp, #4]
   38:Core/Src/Lcd.c **** 	uint32_t iniTicks = DWT->CYCCNT;
- 116              		.loc 1 38 2 is_stmt 1 view .LVU22
- 117              		.loc 1 38 11 is_stmt 0 view .LVU23
- 118 0004 074B     		ldr	r3, .L9
- 119 0006 5968     		ldr	r1, [r3, #4]
- 120              	.LVL1:
+ 115              		.loc 1 38 2 is_stmt 1 view .LVU22
+ 116              		.loc 1 38 11 is_stmt 0 view .LVU23
+ 117 0004 074B     		ldr	r3, .L9
+ 118 0006 5968     		ldr	r1, [r3, #4]
+ 119              	.LVL1:
   39:Core/Src/Lcd.c **** 	uint32_t ticks = 100000000 / 1000000;
- 121              		.loc 1 39 2 is_stmt 1 view .LVU24
+ 120              		.loc 1 39 2 is_stmt 1 view .LVU24
   40:Core/Src/Lcd.c **** 	micros *= ticks;
- 122              		.loc 1 40 2 view .LVU25
- 123              		.loc 1 40 9 is_stmt 0 view .LVU26
- 124 0008 019B     		ldr	r3, [sp, #4]
- 125 000a 6422     		movs	r2, #100
- 126 000c 02FB03F3 		mul	r3, r2, r3
- 127 0010 0193     		str	r3, [sp, #4]
+ 121              		.loc 1 40 2 view .LVU25
+ 122              		.loc 1 40 9 is_stmt 0 view .LVU26
+ 123 0008 019B     		ldr	r3, [sp, #4]
+ 124 000a 6422     		movs	r2, #100
+ 125 000c 02FB03F3 		mul	r3, r2, r3
+ 126 0010 0193     		str	r3, [sp, #4]
   41:Core/Src/Lcd.c **** 	while((DWT->CYCCNT - iniTicks) < micros - ticks);
- 128              		.loc 1 41 2 is_stmt 1 view .LVU27
- 129              	.L7:
- 130              		.loc 1 41 50 discriminator 1 view .LVU28
- 131              		.loc 1 41 7 discriminator 1 view .LVU29
- 132              		.loc 1 41 12 is_stmt 0 discriminator 1 view .LVU30
- 133 0012 044B     		ldr	r3, .L9
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 4
+ 127              		.loc 1 41 2 is_stmt 1 view .LVU27
+ 128              	.L7:
+ 129              		.loc 1 41 50 discriminator 1 view .LVU28
+ 130              		.loc 1 41 7 discriminator 1 view .LVU29
+ 131              		.loc 1 41 12 is_stmt 0 discriminator 1 view .LVU30
+ 132 0012 044B     		ldr	r3, .L9
+ 133 0014 5A68     		ldr	r2, [r3, #4]
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 4
 
 
- 134 0014 5A68     		ldr	r2, [r3, #4]
- 135              		.loc 1 41 21 discriminator 1 view .LVU31
- 136 0016 521A     		subs	r2, r2, r1
- 137              		.loc 1 41 42 discriminator 1 view .LVU32
- 138 0018 019B     		ldr	r3, [sp, #4]
- 139 001a 643B     		subs	r3, r3, #100
- 140              		.loc 1 41 7 discriminator 1 view .LVU33
- 141 001c 9A42     		cmp	r2, r3
- 142 001e F8D3     		bcc	.L7
+ 134              		.loc 1 41 21 discriminator 1 view .LVU31
+ 135 0016 521A     		subs	r2, r2, r1
+ 136              		.loc 1 41 42 discriminator 1 view .LVU32
+ 137 0018 019B     		ldr	r3, [sp, #4]
+ 138 001a 643B     		subs	r3, r3, #100
+ 139              		.loc 1 41 7 discriminator 1 view .LVU33
+ 140 001c 9A42     		cmp	r2, r3
+ 141 001e F8D3     		bcc	.L7
   42:Core/Src/Lcd.c **** }
- 143              		.loc 1 42 1 view .LVU34
- 144 0020 02B0     		add	sp, sp, #8
- 145              	.LCFI1:
- 146              		.cfi_def_cfa_offset 0
- 147              		@ sp needed
- 148 0022 7047     		bx	lr
- 149              	.L10:
- 150              		.align	2
- 151              	.L9:
- 152 0024 001000E0 		.word	-536866816
- 153              		.cfi_endproc
- 154              	.LFE136:
- 156              		.section	.text.DWT_Delay_ms,"ax",%progbits
- 157              		.align	1
- 158              		.global	DWT_Delay_ms
- 159              		.syntax unified
- 160              		.thumb
- 161              		.thumb_func
- 162              		.fpu fpv4-sp-d16
- 164              	DWT_Delay_ms:
- 165              	.LVL2:
- 166              	.LFB137:
+ 142              		.loc 1 42 1 view .LVU34
+ 143 0020 02B0     		add	sp, sp, #8
+ 144              		.cfi_def_cfa_offset 0
+ 145              		@ sp needed
+ 146 0022 7047     		bx	lr
+ 147              	.L10:
+ 148              		.align	2
+ 149              	.L9:
+ 150 0024 001000E0 		.word	-536866816
+ 151              		.cfi_endproc
+ 152              	.LFE136:
+ 154              		.section	.text.DWT_Delay_ms,"ax",%progbits
+ 155              		.align	1
+ 156              		.global	DWT_Delay_ms
+ 157              		.syntax unified
+ 158              		.thumb
+ 159              		.thumb_func
+ 160              		.fpu fpv4-sp-d16
+ 162              	DWT_Delay_ms:
+ 163              	.LVL2:
+ 164              	.LFB137:
   43:Core/Src/Lcd.c **** 
   44:Core/Src/Lcd.c **** void DWT_Delay_ms(volatile uint32_t millis)
   45:Core/Src/Lcd.c **** {
- 167              		.loc 1 45 1 is_stmt 1 view -0
- 168              		.cfi_startproc
- 169              		@ args = 0, pretend = 0, frame = 8
- 170              		@ frame_needed = 0, uses_anonymous_args = 0
- 171              		@ link register save eliminated.
- 172              		.loc 1 45 1 is_stmt 0 view .LVU36
- 173 0000 82B0     		sub	sp, sp, #8
- 174              	.LCFI2:
- 175              		.cfi_def_cfa_offset 8
- 176 0002 0190     		str	r0, [sp, #4]
+ 165              		.loc 1 45 1 is_stmt 1 view -0
+ 166              		.cfi_startproc
+ 167              		@ args = 0, pretend = 0, frame = 8
+ 168              		@ frame_needed = 0, uses_anonymous_args = 0
+ 169              		@ link register save eliminated.
+ 170              		.loc 1 45 1 is_stmt 0 view .LVU36
+ 171 0000 82B0     		sub	sp, sp, #8
+ 172              		.cfi_def_cfa_offset 8
+ 173 0002 0190     		str	r0, [sp, #4]
   46:Core/Src/Lcd.c **** 	uint32_t iniTicks = DWT->CYCCNT;
- 177              		.loc 1 46 2 is_stmt 1 view .LVU37
- 178              		.loc 1 46 11 is_stmt 0 view .LVU38
- 179 0004 074B     		ldr	r3, .L14
- 180 0006 5968     		ldr	r1, [r3, #4]
- 181              	.LVL3:
+ 174              		.loc 1 46 2 is_stmt 1 view .LVU37
+ 175              		.loc 1 46 11 is_stmt 0 view .LVU38
+ 176 0004 074B     		ldr	r3, .L14
+ 177 0006 5968     		ldr	r1, [r3, #4]
+ 178              	.LVL3:
   47:Core/Src/Lcd.c **** 	uint32_t ticks = 100000000 / 1000;
- 182              		.loc 1 47 2 is_stmt 1 view .LVU39
+ 179              		.loc 1 47 2 is_stmt 1 view .LVU39
   48:Core/Src/Lcd.c **** 	millis *= ticks;
- 183              		.loc 1 48 2 view .LVU40
- 184              		.loc 1 48 9 is_stmt 0 view .LVU41
- 185 0008 019B     		ldr	r3, [sp, #4]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 5
+ 180              		.loc 1 48 2 view .LVU40
+ 181              		.loc 1 48 9 is_stmt 0 view .LVU41
+ 182 0008 019B     		ldr	r3, [sp, #4]
+ 183 000a 074A     		ldr	r2, .L14+4
+ 184 000c 02FB03F3 		mul	r3, r2, r3
+ 185 0010 0193     		str	r3, [sp, #4]
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 5
 
 
- 186 000a 074A     		ldr	r2, .L14+4
- 187 000c 02FB03F3 		mul	r3, r2, r3
- 188 0010 0193     		str	r3, [sp, #4]
   49:Core/Src/Lcd.c **** 	while((DWT->CYCCNT - iniTicks) < millis);
- 189              		.loc 1 49 2 is_stmt 1 view .LVU42
- 190              	.L12:
- 191              		.loc 1 49 42 discriminator 1 view .LVU43
- 192              		.loc 1 49 7 discriminator 1 view .LVU44
- 193              		.loc 1 49 12 is_stmt 0 discriminator 1 view .LVU45
- 194 0012 044B     		ldr	r3, .L14
- 195 0014 5B68     		ldr	r3, [r3, #4]
- 196              		.loc 1 49 21 discriminator 1 view .LVU46
- 197 0016 5B1A     		subs	r3, r3, r1
- 198              		.loc 1 49 33 discriminator 1 view .LVU47
- 199 0018 019A     		ldr	r2, [sp, #4]
- 200              		.loc 1 49 7 discriminator 1 view .LVU48
- 201 001a 9342     		cmp	r3, r2
- 202 001c F9D3     		bcc	.L12
+ 186              		.loc 1 49 2 is_stmt 1 view .LVU42
+ 187              	.L12:
+ 188              		.loc 1 49 42 discriminator 1 view .LVU43
+ 189              		.loc 1 49 7 discriminator 1 view .LVU44
+ 190              		.loc 1 49 12 is_stmt 0 discriminator 1 view .LVU45
+ 191 0012 044B     		ldr	r3, .L14
+ 192 0014 5B68     		ldr	r3, [r3, #4]
+ 193              		.loc 1 49 21 discriminator 1 view .LVU46
+ 194 0016 5B1A     		subs	r3, r3, r1
+ 195              		.loc 1 49 33 discriminator 1 view .LVU47
+ 196 0018 019A     		ldr	r2, [sp, #4]
+ 197              		.loc 1 49 7 discriminator 1 view .LVU48
+ 198 001a 9342     		cmp	r3, r2
+ 199 001c F9D3     		bcc	.L12
   50:Core/Src/Lcd.c **** }
- 203              		.loc 1 50 1 view .LVU49
- 204 001e 02B0     		add	sp, sp, #8
- 205              	.LCFI3:
- 206              		.cfi_def_cfa_offset 0
- 207              		@ sp needed
- 208 0020 7047     		bx	lr
- 209              	.L15:
- 210 0022 00BF     		.align	2
- 211              	.L14:
- 212 0024 001000E0 		.word	-536866816
- 213 0028 A0860100 		.word	100000
- 214              		.cfi_endproc
- 215              	.LFE137:
- 217              		.section	.text.setE,"ax",%progbits
- 218              		.align	1
- 219              		.global	setE
- 220              		.syntax unified
- 221              		.thumb
- 222              		.thumb_func
- 223              		.fpu fpv4-sp-d16
- 225              	setE:
- 226              	.LVL4:
- 227              	.LFB138:
+ 200              		.loc 1 50 1 view .LVU49
+ 201 001e 02B0     		add	sp, sp, #8
+ 202              		.cfi_def_cfa_offset 0
+ 203              		@ sp needed
+ 204 0020 7047     		bx	lr
+ 205              	.L15:
+ 206 0022 00BF     		.align	2
+ 207              	.L14:
+ 208 0024 001000E0 		.word	-536866816
+ 209 0028 A0860100 		.word	100000
+ 210              		.cfi_endproc
+ 211              	.LFE137:
+ 213              		.section	.text.setE,"ax",%progbits
+ 214              		.align	1
+ 215              		.global	setE
+ 216              		.syntax unified
+ 217              		.thumb
+ 218              		.thumb_func
+ 219              		.fpu fpv4-sp-d16
+ 221              	setE:
+ 222              	.LVL4:
+ 223              	.LFB138:
   51:Core/Src/Lcd.c **** 
   52:Core/Src/Lcd.c **** void setE(uint8_t sOrC)
   53:Core/Src/Lcd.c **** {
- 228              		.loc 1 53 1 is_stmt 1 view -0
- 229              		.cfi_startproc
- 230              		@ args = 0, pretend = 0, frame = 0
- 231              		@ frame_needed = 0, uses_anonymous_args = 0
- 232              		@ link register save eliminated.
+ 224              		.loc 1 53 1 is_stmt 1 view -0
+ 225              		.cfi_startproc
+ 226              		@ args = 0, pretend = 0, frame = 0
+ 227              		@ frame_needed = 0, uses_anonymous_args = 0
+ 228              		@ link register save eliminated.
   54:Core/Src/Lcd.c **** 	uint32_t ePortOut;
- 233              		.loc 1 54 2 view .LVU51
+ 229              		.loc 1 54 2 view .LVU51
   55:Core/Src/Lcd.c **** 	ePortOut = E_PORT->ODR;
- 234              		.loc 1 55 2 view .LVU52
- 235              		.loc 1 55 11 is_stmt 0 view .LVU53
- 236 0000 054B     		ldr	r3, .L19
- 237 0002 5B69     		ldr	r3, [r3, #20]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 6
-
-
- 238              	.LVL5:
+ 230              		.loc 1 55 2 view .LVU52
+ 231              		.loc 1 55 11 is_stmt 0 view .LVU53
+ 232 0000 054B     		ldr	r3, .L19
+ 233 0002 5B69     		ldr	r3, [r3, #20]
+ 234              	.LVL5:
   56:Core/Src/Lcd.c **** 
   57:Core/Src/Lcd.c **** 	if (sOrC)
- 239              		.loc 1 57 2 is_stmt 1 view .LVU54
- 240              		.loc 1 57 5 is_stmt 0 view .LVU55
- 241 0004 20B1     		cbz	r0, .L17
+ 235              		.loc 1 57 2 is_stmt 1 view .LVU54
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 6
+
+
+ 236              		.loc 1 57 5 is_stmt 0 view .LVU55
+ 237 0004 20B1     		cbz	r0, .L17
   58:Core/Src/Lcd.c **** 	{
   59:Core/Src/Lcd.c **** 		ePortOut |= (1<<E_PIN);
- 242              		.loc 1 59 3 is_stmt 1 view .LVU56
- 243              		.loc 1 59 12 is_stmt 0 view .LVU57
- 244 0006 43F00403 		orr	r3, r3, #4
- 245              	.LVL6:
- 246              	.L18:
+ 238              		.loc 1 59 3 is_stmt 1 view .LVU56
+ 239              		.loc 1 59 12 is_stmt 0 view .LVU57
+ 240 0006 43F00403 		orr	r3, r3, #4
+ 241              	.LVL6:
+ 242              	.L18:
   60:Core/Src/Lcd.c **** 	}
   61:Core/Src/Lcd.c **** 	else
   62:Core/Src/Lcd.c **** 	{
@@ -321,72 +317,72 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
   64:Core/Src/Lcd.c **** 	}
   65:Core/Src/Lcd.c **** 
   66:Core/Src/Lcd.c **** 	E_PORT->ODR = ePortOut;
- 247              		.loc 1 66 2 is_stmt 1 view .LVU58
- 248              		.loc 1 66 14 is_stmt 0 view .LVU59
- 249 000a 034A     		ldr	r2, .L19
- 250 000c 5361     		str	r3, [r2, #20]
+ 243              		.loc 1 66 2 is_stmt 1 view .LVU58
+ 244              		.loc 1 66 14 is_stmt 0 view .LVU59
+ 245 000a 034A     		ldr	r2, .L19
+ 246 000c 5361     		str	r3, [r2, #20]
   67:Core/Src/Lcd.c **** }
- 251              		.loc 1 67 1 view .LVU60
- 252 000e 7047     		bx	lr
- 253              	.L17:
+ 247              		.loc 1 67 1 view .LVU60
+ 248 000e 7047     		bx	lr
+ 249              	.L17:
   63:Core/Src/Lcd.c **** 	}
- 254              		.loc 1 63 3 is_stmt 1 view .LVU61
+ 250              		.loc 1 63 3 is_stmt 1 view .LVU61
   63:Core/Src/Lcd.c **** 	}
- 255              		.loc 1 63 12 is_stmt 0 view .LVU62
- 256 0010 23F00403 		bic	r3, r3, #4
- 257              	.LVL7:
+ 251              		.loc 1 63 12 is_stmt 0 view .LVU62
+ 252 0010 23F00403 		bic	r3, r3, #4
+ 253              	.LVL7:
   63:Core/Src/Lcd.c **** 	}
- 258              		.loc 1 63 12 view .LVU63
- 259 0014 F9E7     		b	.L18
- 260              	.L20:
- 261 0016 00BF     		.align	2
- 262              	.L19:
- 263 0018 00040048 		.word	1207960576
- 264              		.cfi_endproc
- 265              	.LFE138:
- 267              		.section	.text.setRW,"ax",%progbits
- 268              		.align	1
- 269              		.global	setRW
- 270              		.syntax unified
- 271              		.thumb
- 272              		.thumb_func
- 273              		.fpu fpv4-sp-d16
- 275              	setRW:
- 276              	.LVL8:
- 277              	.LFB139:
+ 254              		.loc 1 63 12 view .LVU63
+ 255 0014 F9E7     		b	.L18
+ 256              	.L20:
+ 257 0016 00BF     		.align	2
+ 258              	.L19:
+ 259 0018 00040048 		.word	1207960576
+ 260              		.cfi_endproc
+ 261              	.LFE138:
+ 263              		.section	.text.setRW,"ax",%progbits
+ 264              		.align	1
+ 265              		.global	setRW
+ 266              		.syntax unified
+ 267              		.thumb
+ 268              		.thumb_func
+ 269              		.fpu fpv4-sp-d16
+ 271              	setRW:
+ 272              	.LVL8:
+ 273              	.LFB139:
   68:Core/Src/Lcd.c **** 
   69:Core/Src/Lcd.c **** void setRW(uint8_t sOrC)
   70:Core/Src/Lcd.c **** {
- 278              		.loc 1 70 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 7
+ 274              		.loc 1 70 1 is_stmt 1 view -0
+ 275              		.cfi_startproc
+ 276              		@ args = 0, pretend = 0, frame = 0
+ 277              		@ frame_needed = 0, uses_anonymous_args = 0
+ 278              		@ link register save eliminated.
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 7
 
 
- 279              		.cfi_startproc
- 280              		@ args = 0, pretend = 0, frame = 0
- 281              		@ frame_needed = 0, uses_anonymous_args = 0
- 282              		@ link register save eliminated.
   71:Core/Src/Lcd.c **** 	uint16_t rWPortOut;
- 283              		.loc 1 71 2 view .LVU65
+ 279              		.loc 1 71 2 view .LVU65
   72:Core/Src/Lcd.c **** 	rWPortOut = RW_PORT->ODR;
- 284              		.loc 1 72 2 view .LVU66
- 285              		.loc 1 72 21 is_stmt 0 view .LVU67
- 286 0000 064B     		ldr	r3, .L24
- 287 0002 5B69     		ldr	r3, [r3, #20]
- 288              		.loc 1 72 12 view .LVU68
- 289 0004 9BB2     		uxth	r3, r3
- 290              	.LVL9:
+ 280              		.loc 1 72 2 view .LVU66
+ 281              		.loc 1 72 21 is_stmt 0 view .LVU67
+ 282 0000 064B     		ldr	r3, .L24
+ 283 0002 5B69     		ldr	r3, [r3, #20]
+ 284              		.loc 1 72 12 view .LVU68
+ 285 0004 9BB2     		uxth	r3, r3
+ 286              	.LVL9:
   73:Core/Src/Lcd.c **** 
   74:Core/Src/Lcd.c **** 	if (sOrC)
- 291              		.loc 1 74 2 is_stmt 1 view .LVU69
- 292              		.loc 1 74 5 is_stmt 0 view .LVU70
- 293 0006 20B1     		cbz	r0, .L22
+ 287              		.loc 1 74 2 is_stmt 1 view .LVU69
+ 288              		.loc 1 74 5 is_stmt 0 view .LVU70
+ 289 0006 20B1     		cbz	r0, .L22
   75:Core/Src/Lcd.c **** 	{
   76:Core/Src/Lcd.c **** 		rWPortOut |= (1<<RW_PIN);
- 294              		.loc 1 76 3 is_stmt 1 view .LVU71
- 295              		.loc 1 76 13 is_stmt 0 view .LVU72
- 296 0008 43F00103 		orr	r3, r3, #1
- 297              	.LVL10:
- 298              	.L23:
+ 290              		.loc 1 76 3 is_stmt 1 view .LVU71
+ 291              		.loc 1 76 13 is_stmt 0 view .LVU72
+ 292 0008 43F00103 		orr	r3, r3, #1
+ 293              	.LVL10:
+ 294              	.L23:
   77:Core/Src/Lcd.c **** 	}
   78:Core/Src/Lcd.c **** 	else
   79:Core/Src/Lcd.c **** 	{
@@ -394,76 +390,76 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
   81:Core/Src/Lcd.c **** 	}
   82:Core/Src/Lcd.c **** 
   83:Core/Src/Lcd.c **** 	RW_PORT->ODR = rWPortOut;
- 299              		.loc 1 83 2 is_stmt 1 view .LVU73
- 300              		.loc 1 83 15 is_stmt 0 view .LVU74
- 301 000c 034A     		ldr	r2, .L24
- 302 000e 5361     		str	r3, [r2, #20]
+ 295              		.loc 1 83 2 is_stmt 1 view .LVU73
+ 296              		.loc 1 83 15 is_stmt 0 view .LVU74
+ 297 000c 034A     		ldr	r2, .L24
+ 298 000e 5361     		str	r3, [r2, #20]
   84:Core/Src/Lcd.c **** }
- 303              		.loc 1 84 1 view .LVU75
- 304 0010 7047     		bx	lr
- 305              	.L22:
+ 299              		.loc 1 84 1 view .LVU75
+ 300 0010 7047     		bx	lr
+ 301              	.L22:
   80:Core/Src/Lcd.c **** 	}
- 306              		.loc 1 80 3 is_stmt 1 view .LVU76
+ 302              		.loc 1 80 3 is_stmt 1 view .LVU76
   80:Core/Src/Lcd.c **** 	}
- 307              		.loc 1 80 13 is_stmt 0 view .LVU77
- 308 0012 23F00103 		bic	r3, r3, #1
- 309              	.LVL11:
+ 303              		.loc 1 80 13 is_stmt 0 view .LVU77
+ 304 0012 23F00103 		bic	r3, r3, #1
+ 305              	.LVL11:
   80:Core/Src/Lcd.c **** 	}
- 310              		.loc 1 80 13 view .LVU78
- 311 0016 9BB2     		uxth	r3, r3
- 312              	.LVL12:
+ 306              		.loc 1 80 13 view .LVU78
+ 307 0016 9BB2     		uxth	r3, r3
+ 308              	.LVL12:
   80:Core/Src/Lcd.c **** 	}
- 313              		.loc 1 80 13 view .LVU79
- 314 0018 F8E7     		b	.L23
- 315              	.L25:
- 316 001a 00BF     		.align	2
- 317              	.L24:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 8
+ 309              		.loc 1 80 13 view .LVU79
+ 310 0018 F8E7     		b	.L23
+ 311              	.L25:
+ 312 001a 00BF     		.align	2
+ 313              	.L24:
+ 314 001c 00040048 		.word	1207960576
+ 315              		.cfi_endproc
+ 316              	.LFE139:
+ 318              		.section	.text.setRS,"ax",%progbits
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 8
 
 
- 318 001c 00040048 		.word	1207960576
- 319              		.cfi_endproc
- 320              	.LFE139:
- 322              		.section	.text.setRS,"ax",%progbits
- 323              		.align	1
- 324              		.global	setRS
- 325              		.syntax unified
- 326              		.thumb
- 327              		.thumb_func
- 328              		.fpu fpv4-sp-d16
- 330              	setRS:
- 331              	.LVL13:
- 332              	.LFB140:
+ 319              		.align	1
+ 320              		.global	setRS
+ 321              		.syntax unified
+ 322              		.thumb
+ 323              		.thumb_func
+ 324              		.fpu fpv4-sp-d16
+ 326              	setRS:
+ 327              	.LVL13:
+ 328              	.LFB140:
   85:Core/Src/Lcd.c **** 
   86:Core/Src/Lcd.c **** void setRS(uint8_t sOrC)
   87:Core/Src/Lcd.c **** {
- 333              		.loc 1 87 1 is_stmt 1 view -0
- 334              		.cfi_startproc
- 335              		@ args = 0, pretend = 0, frame = 0
- 336              		@ frame_needed = 0, uses_anonymous_args = 0
- 337              		@ link register save eliminated.
+ 329              		.loc 1 87 1 is_stmt 1 view -0
+ 330              		.cfi_startproc
+ 331              		@ args = 0, pretend = 0, frame = 0
+ 332              		@ frame_needed = 0, uses_anonymous_args = 0
+ 333              		@ link register save eliminated.
   88:Core/Src/Lcd.c **** 	uint16_t rSPortOut;
- 338              		.loc 1 88 2 view .LVU81
+ 334              		.loc 1 88 2 view .LVU81
   89:Core/Src/Lcd.c **** 	rSPortOut = RS_PORT->ODR;
- 339              		.loc 1 89 2 view .LVU82
- 340              		.loc 1 89 21 is_stmt 0 view .LVU83
- 341 0000 064B     		ldr	r3, .L29
- 342 0002 5B69     		ldr	r3, [r3, #20]
- 343              		.loc 1 89 12 view .LVU84
- 344 0004 9BB2     		uxth	r3, r3
- 345              	.LVL14:
+ 335              		.loc 1 89 2 view .LVU82
+ 336              		.loc 1 89 21 is_stmt 0 view .LVU83
+ 337 0000 064B     		ldr	r3, .L29
+ 338 0002 5B69     		ldr	r3, [r3, #20]
+ 339              		.loc 1 89 12 view .LVU84
+ 340 0004 9BB2     		uxth	r3, r3
+ 341              	.LVL14:
   90:Core/Src/Lcd.c **** 
   91:Core/Src/Lcd.c **** 	if (sOrC)
- 346              		.loc 1 91 2 is_stmt 1 view .LVU85
- 347              		.loc 1 91 5 is_stmt 0 view .LVU86
- 348 0006 20B1     		cbz	r0, .L27
+ 342              		.loc 1 91 2 is_stmt 1 view .LVU85
+ 343              		.loc 1 91 5 is_stmt 0 view .LVU86
+ 344 0006 20B1     		cbz	r0, .L27
   92:Core/Src/Lcd.c **** 	{
   93:Core/Src/Lcd.c **** 		rSPortOut |= (1<<RS_PIN);
- 349              		.loc 1 93 3 is_stmt 1 view .LVU87
- 350              		.loc 1 93 13 is_stmt 0 view .LVU88
- 351 0008 43F00203 		orr	r3, r3, #2
- 352              	.LVL15:
- 353              	.L28:
+ 345              		.loc 1 93 3 is_stmt 1 view .LVU87
+ 346              		.loc 1 93 13 is_stmt 0 view .LVU88
+ 347 0008 43F00203 		orr	r3, r3, #2
+ 348              	.LVL15:
+ 349              	.L28:
   94:Core/Src/Lcd.c **** 	}
   95:Core/Src/Lcd.c **** 	else
   96:Core/Src/Lcd.c **** 	{
@@ -471,46 +467,46 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
   98:Core/Src/Lcd.c **** 	}
   99:Core/Src/Lcd.c **** 
  100:Core/Src/Lcd.c **** 	RS_PORT->ODR = rSPortOut;
- 354              		.loc 1 100 2 is_stmt 1 view .LVU89
- 355              		.loc 1 100 15 is_stmt 0 view .LVU90
- 356 000c 034A     		ldr	r2, .L29
- 357 000e 5361     		str	r3, [r2, #20]
+ 350              		.loc 1 100 2 is_stmt 1 view .LVU89
+ 351              		.loc 1 100 15 is_stmt 0 view .LVU90
+ 352 000c 034A     		ldr	r2, .L29
+ 353 000e 5361     		str	r3, [r2, #20]
  101:Core/Src/Lcd.c **** }
- 358              		.loc 1 101 1 view .LVU91
- 359 0010 7047     		bx	lr
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 9
+ 354              		.loc 1 101 1 view .LVU91
+ 355 0010 7047     		bx	lr
+ 356              	.L27:
+  97:Core/Src/Lcd.c **** 	}
+ 357              		.loc 1 97 3 is_stmt 1 view .LVU92
+  97:Core/Src/Lcd.c **** 	}
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 9
 
 
- 360              	.L27:
+ 358              		.loc 1 97 13 is_stmt 0 view .LVU93
+ 359 0012 23F00203 		bic	r3, r3, #2
+ 360              	.LVL16:
   97:Core/Src/Lcd.c **** 	}
- 361              		.loc 1 97 3 is_stmt 1 view .LVU92
+ 361              		.loc 1 97 13 view .LVU94
+ 362 0016 9BB2     		uxth	r3, r3
+ 363              	.LVL17:
   97:Core/Src/Lcd.c **** 	}
- 362              		.loc 1 97 13 is_stmt 0 view .LVU93
- 363 0012 23F00203 		bic	r3, r3, #2
- 364              	.LVL16:
-  97:Core/Src/Lcd.c **** 	}
- 365              		.loc 1 97 13 view .LVU94
- 366 0016 9BB2     		uxth	r3, r3
- 367              	.LVL17:
-  97:Core/Src/Lcd.c **** 	}
- 368              		.loc 1 97 13 view .LVU95
- 369 0018 F8E7     		b	.L28
- 370              	.L30:
- 371 001a 00BF     		.align	2
- 372              	.L29:
- 373 001c 00040048 		.word	1207960576
- 374              		.cfi_endproc
- 375              	.LFE140:
- 377              		.section	.text.sendNibble,"ax",%progbits
- 378              		.align	1
- 379              		.global	sendNibble
- 380              		.syntax unified
- 381              		.thumb
- 382              		.thumb_func
- 383              		.fpu fpv4-sp-d16
- 385              	sendNibble:
- 386              	.LVL18:
- 387              	.LFB141:
+ 364              		.loc 1 97 13 view .LVU95
+ 365 0018 F8E7     		b	.L28
+ 366              	.L30:
+ 367 001a 00BF     		.align	2
+ 368              	.L29:
+ 369 001c 00040048 		.word	1207960576
+ 370              		.cfi_endproc
+ 371              	.LFE140:
+ 373              		.section	.text.sendNibble,"ax",%progbits
+ 374              		.align	1
+ 375              		.global	sendNibble
+ 376              		.syntax unified
+ 377              		.thumb
+ 378              		.thumb_func
+ 379              		.fpu fpv4-sp-d16
+ 381              	sendNibble:
+ 382              	.LVL18:
+ 383              	.LFB141:
  102:Core/Src/Lcd.c **** 
  103:Core/Src/Lcd.c **** 
  104:Core/Src/Lcd.c **** #ifndef FOUR_BIT_OPERATION
@@ -538,522 +534,517 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  126:Core/Src/Lcd.c **** 	setE(1);
  127:Core/Src/Lcd.c **** 	setE(0);
  128:Core/Src/Lcd.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 10
-
-
  129:Core/Src/Lcd.c **** 
  130:Core/Src/Lcd.c **** #else
  131:Core/Src/Lcd.c **** 
  132:Core/Src/Lcd.c **** void sendNibble(uint8_t nibble)
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 10
+
+
  133:Core/Src/Lcd.c **** {
- 388              		.loc 1 133 1 is_stmt 1 view -0
- 389              		.cfi_startproc
- 390              		@ args = 0, pretend = 0, frame = 0
- 391              		@ frame_needed = 0, uses_anonymous_args = 0
- 392              		@ link register save eliminated.
+ 384              		.loc 1 133 1 is_stmt 1 view -0
+ 385              		.cfi_startproc
+ 386              		@ args = 0, pretend = 0, frame = 0
+ 387              		@ frame_needed = 0, uses_anonymous_args = 0
+ 388              		@ link register save eliminated.
  134:Core/Src/Lcd.c **** 	uint16_t portOut;
- 393              		.loc 1 134 2 view .LVU97
+ 389              		.loc 1 134 2 view .LVU97
  135:Core/Src/Lcd.c **** 	portOut = DATA_PORT->ODR;
- 394              		.loc 1 135 2 view .LVU98
- 395              		.loc 1 135 21 is_stmt 0 view .LVU99
- 396 0000 0D4A     		ldr	r2, .L32
- 397 0002 5369     		ldr	r3, [r2, #20]
- 398              		.loc 1 135 10 view .LVU100
- 399 0004 9BB2     		uxth	r3, r3
- 400              	.LVL19:
+ 390              		.loc 1 135 2 view .LVU98
+ 391              		.loc 1 135 21 is_stmt 0 view .LVU99
+ 392 0000 0D4A     		ldr	r2, .L32
+ 393 0002 5369     		ldr	r3, [r2, #20]
+ 394              		.loc 1 135 10 view .LVU100
+ 395 0004 9BB2     		uxth	r3, r3
+ 396              	.LVL19:
  136:Core/Src/Lcd.c **** 
  137:Core/Src/Lcd.c **** 	nibble = ((nibble << 4 ) >> 4);
- 401              		.loc 1 137 2 is_stmt 1 view .LVU101
+ 397              		.loc 1 137 2 is_stmt 1 view .LVU101
  138:Core/Src/Lcd.c **** 
  139:Core/Src/Lcd.c **** 	portOut &= ~(1 << DB4) & ~(1<<DB5) & ~(1<<DB6) & ~(1<<DB7);
- 402              		.loc 1 139 2 view .LVU102
- 403              		.loc 1 139 10 is_stmt 0 view .LVU103
- 404 0006 23F07803 		bic	r3, r3, #120
- 405              	.LVL20:
+ 398              		.loc 1 139 2 view .LVU102
+ 399              		.loc 1 139 10 is_stmt 0 view .LVU103
+ 400 0006 23F07803 		bic	r3, r3, #120
+ 401              	.LVL20:
  140:Core/Src/Lcd.c **** 
  141:Core/Src/Lcd.c **** 	portOut |= (nibble & 0b1) << DB4;
- 406              		.loc 1 141 2 is_stmt 1 view .LVU104
- 407              		.loc 1 141 28 is_stmt 0 view .LVU105
- 408 000a C100     		lsls	r1, r0, #3
- 409 000c 01F00801 		and	r1, r1, #8
- 410              		.loc 1 141 10 view .LVU106
- 411 0010 0B43     		orrs	r3, r3, r1
- 412              	.LVL21:
- 413              		.loc 1 141 10 view .LVU107
- 414 0012 1BB2     		sxth	r3, r3
- 415              	.LVL22:
+ 402              		.loc 1 141 2 is_stmt 1 view .LVU104
+ 403              		.loc 1 141 28 is_stmt 0 view .LVU105
+ 404 000a C100     		lsls	r1, r0, #3
+ 405 000c 01F00801 		and	r1, r1, #8
+ 406              		.loc 1 141 10 view .LVU106
+ 407 0010 0B43     		orrs	r3, r3, r1
+ 408              	.LVL21:
+ 409              		.loc 1 141 10 view .LVU107
+ 410 0012 1BB2     		sxth	r3, r3
+ 411              	.LVL22:
  142:Core/Src/Lcd.c **** 	portOut |= (nibble >> 1 & 0b1) << DB5;
- 416              		.loc 1 142 2 is_stmt 1 view .LVU108
- 417              		.loc 1 142 33 is_stmt 0 view .LVU109
- 418 0014 4108     		lsrs	r1, r0, #1
- 419 0016 0901     		lsls	r1, r1, #4
- 420 0018 01F01001 		and	r1, r1, #16
- 421              		.loc 1 142 10 view .LVU110
- 422 001c 0B43     		orrs	r3, r3, r1
- 423              	.LVL23:
+ 412              		.loc 1 142 2 is_stmt 1 view .LVU108
+ 413              		.loc 1 142 33 is_stmt 0 view .LVU109
+ 414 0014 4108     		lsrs	r1, r0, #1
+ 415 0016 0901     		lsls	r1, r1, #4
+ 416 0018 01F01001 		and	r1, r1, #16
+ 417              		.loc 1 142 10 view .LVU110
+ 418 001c 0B43     		orrs	r3, r3, r1
+ 419              	.LVL23:
  143:Core/Src/Lcd.c **** 	portOut |= (nibble >> 2 & 0b1) << DB6;
- 424              		.loc 1 143 2 is_stmt 1 view .LVU111
- 425              		.loc 1 143 33 is_stmt 0 view .LVU112
- 426 001e 8108     		lsrs	r1, r0, #2
- 427 0020 4901     		lsls	r1, r1, #5
- 428 0022 01F02001 		and	r1, r1, #32
- 429              		.loc 1 143 10 view .LVU113
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 11
-
-
- 430 0026 0B43     		orrs	r3, r3, r1
- 431              	.LVL24:
+ 420              		.loc 1 143 2 is_stmt 1 view .LVU111
+ 421              		.loc 1 143 33 is_stmt 0 view .LVU112
+ 422 001e 8108     		lsrs	r1, r0, #2
+ 423 0020 4901     		lsls	r1, r1, #5
+ 424 0022 01F02001 		and	r1, r1, #32
+ 425              		.loc 1 143 10 view .LVU113
+ 426 0026 0B43     		orrs	r3, r3, r1
+ 427              	.LVL24:
  144:Core/Src/Lcd.c **** 	portOut |= (nibble >> 3 & 0b1) << DB7;
- 432              		.loc 1 144 2 is_stmt 1 view .LVU114
- 433              		.loc 1 144 33 is_stmt 0 view .LVU115
- 434 0028 C008     		lsrs	r0, r0, #3
- 435              	.LVL25:
- 436              		.loc 1 144 33 view .LVU116
- 437 002a 8001     		lsls	r0, r0, #6
- 438 002c 00F04000 		and	r0, r0, #64
- 439              		.loc 1 144 10 view .LVU117
- 440 0030 0343     		orrs	r3, r3, r0
- 441              	.LVL26:
- 442              		.loc 1 144 10 view .LVU118
- 443 0032 9BB2     		uxth	r3, r3
- 444              	.LVL27:
+ 428              		.loc 1 144 2 is_stmt 1 view .LVU114
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 11
+
+
+ 429              		.loc 1 144 33 is_stmt 0 view .LVU115
+ 430 0028 C008     		lsrs	r0, r0, #3
+ 431              	.LVL25:
+ 432              		.loc 1 144 33 view .LVU116
+ 433 002a 8001     		lsls	r0, r0, #6
+ 434 002c 00F04000 		and	r0, r0, #64
+ 435              		.loc 1 144 10 view .LVU117
+ 436 0030 0343     		orrs	r3, r3, r0
+ 437              	.LVL26:
+ 438              		.loc 1 144 10 view .LVU118
+ 439 0032 9BB2     		uxth	r3, r3
+ 440              	.LVL27:
  145:Core/Src/Lcd.c **** 
  146:Core/Src/Lcd.c **** 	DATA_PORT->ODR = portOut;
- 445              		.loc 1 146 2 is_stmt 1 view .LVU119
- 446              		.loc 1 146 17 is_stmt 0 view .LVU120
- 447 0034 5361     		str	r3, [r2, #20]
+ 441              		.loc 1 146 2 is_stmt 1 view .LVU119
+ 442              		.loc 1 146 17 is_stmt 0 view .LVU120
+ 443 0034 5361     		str	r3, [r2, #20]
  147:Core/Src/Lcd.c **** 
  148:Core/Src/Lcd.c **** }
- 448              		.loc 1 148 1 view .LVU121
- 449 0036 7047     		bx	lr
- 450              	.L33:
- 451              		.align	2
- 452              	.L32:
- 453 0038 00040048 		.word	1207960576
- 454              		.cfi_endproc
- 455              	.LFE141:
- 457              		.section	.text.sendByte,"ax",%progbits
- 458              		.align	1
- 459              		.global	sendByte
- 460              		.syntax unified
- 461              		.thumb
- 462              		.thumb_func
- 463              		.fpu fpv4-sp-d16
- 465              	sendByte:
- 466              	.LVL28:
- 467              	.LFB142:
+ 444              		.loc 1 148 1 view .LVU121
+ 445 0036 7047     		bx	lr
+ 446              	.L33:
+ 447              		.align	2
+ 448              	.L32:
+ 449 0038 00040048 		.word	1207960576
+ 450              		.cfi_endproc
+ 451              	.LFE141:
+ 453              		.section	.text.sendByte,"ax",%progbits
+ 454              		.align	1
+ 455              		.global	sendByte
+ 456              		.syntax unified
+ 457              		.thumb
+ 458              		.thumb_func
+ 459              		.fpu fpv4-sp-d16
+ 461              	sendByte:
+ 462              	.LVL28:
+ 463              	.LFB142:
  149:Core/Src/Lcd.c **** 
  150:Core/Src/Lcd.c **** void sendByte(uint8_t data)
  151:Core/Src/Lcd.c **** {
- 468              		.loc 1 151 1 is_stmt 1 view -0
- 469              		.cfi_startproc
- 470              		@ args = 0, pretend = 0, frame = 0
- 471              		@ frame_needed = 0, uses_anonymous_args = 0
- 472              		.loc 1 151 1 is_stmt 0 view .LVU123
- 473 0000 10B5     		push	{r4, lr}
- 474              	.LCFI4:
- 475              		.cfi_def_cfa_offset 8
- 476              		.cfi_offset 4, -8
- 477              		.cfi_offset 14, -4
- 478 0002 0446     		mov	r4, r0
+ 464              		.loc 1 151 1 is_stmt 1 view -0
+ 465              		.cfi_startproc
+ 466              		@ args = 0, pretend = 0, frame = 0
+ 467              		@ frame_needed = 0, uses_anonymous_args = 0
+ 468              		.loc 1 151 1 is_stmt 0 view .LVU123
+ 469 0000 10B5     		push	{r4, lr}
+ 470              		.cfi_def_cfa_offset 8
+ 471              		.cfi_offset 4, -8
+ 472              		.cfi_offset 14, -4
+ 473 0002 0446     		mov	r4, r0
  152:Core/Src/Lcd.c **** 
  153:Core/Src/Lcd.c **** 	sendNibble(data >> 4);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 12
+ 474              		.loc 1 153 2 is_stmt 1 view .LVU124
+ 475 0004 0009     		lsrs	r0, r0, #4
+ 476              	.LVL29:
+ 477              		.loc 1 153 2 is_stmt 0 view .LVU125
+ 478 0006 FFF7FEFF 		bl	sendNibble
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 12
 
 
- 479              		.loc 1 153 2 is_stmt 1 view .LVU124
- 480 0004 0009     		lsrs	r0, r0, #4
- 481              	.LVL29:
- 482              		.loc 1 153 2 is_stmt 0 view .LVU125
- 483 0006 FFF7FEFF 		bl	sendNibble
- 484              	.LVL30:
+ 479              	.LVL30:
  154:Core/Src/Lcd.c **** 
  155:Core/Src/Lcd.c **** 	setE(0);
- 485              		.loc 1 155 2 is_stmt 1 view .LVU126
- 486 000a 0020     		movs	r0, #0
- 487 000c FFF7FEFF 		bl	setE
- 488              	.LVL31:
+ 480              		.loc 1 155 2 is_stmt 1 view .LVU126
+ 481 000a 0020     		movs	r0, #0
+ 482 000c FFF7FEFF 		bl	setE
+ 483              	.LVL31:
  156:Core/Src/Lcd.c **** 	setE(1);
- 489              		.loc 1 156 2 view .LVU127
- 490 0010 0120     		movs	r0, #1
- 491 0012 FFF7FEFF 		bl	setE
- 492              	.LVL32:
+ 484              		.loc 1 156 2 view .LVU127
+ 485 0010 0120     		movs	r0, #1
+ 486 0012 FFF7FEFF 		bl	setE
+ 487              	.LVL32:
  157:Core/Src/Lcd.c **** 	setE(0);
- 493              		.loc 1 157 2 view .LVU128
- 494 0016 0020     		movs	r0, #0
- 495 0018 FFF7FEFF 		bl	setE
- 496              	.LVL33:
+ 488              		.loc 1 157 2 view .LVU128
+ 489 0016 0020     		movs	r0, #0
+ 490 0018 FFF7FEFF 		bl	setE
+ 491              	.LVL33:
  158:Core/Src/Lcd.c **** 
  159:Core/Src/Lcd.c **** 	DWT_Delay_us(300);
- 497              		.loc 1 159 2 view .LVU129
- 498 001c 4FF49670 		mov	r0, #300
- 499 0020 FFF7FEFF 		bl	DWT_Delay_us
- 500              	.LVL34:
+ 492              		.loc 1 159 2 view .LVU129
+ 493 001c 4FF49670 		mov	r0, #300
+ 494 0020 FFF7FEFF 		bl	DWT_Delay_us
+ 495              	.LVL34:
  160:Core/Src/Lcd.c **** 
  161:Core/Src/Lcd.c **** 	sendNibble(data);
- 501              		.loc 1 161 2 view .LVU130
- 502 0024 2046     		mov	r0, r4
- 503 0026 FFF7FEFF 		bl	sendNibble
- 504              	.LVL35:
+ 496              		.loc 1 161 2 view .LVU130
+ 497 0024 2046     		mov	r0, r4
+ 498 0026 FFF7FEFF 		bl	sendNibble
+ 499              	.LVL35:
  162:Core/Src/Lcd.c **** 
  163:Core/Src/Lcd.c **** 	setE(0);
- 505              		.loc 1 163 2 view .LVU131
- 506 002a 0020     		movs	r0, #0
- 507 002c FFF7FEFF 		bl	setE
- 508              	.LVL36:
+ 500              		.loc 1 163 2 view .LVU131
+ 501 002a 0020     		movs	r0, #0
+ 502 002c FFF7FEFF 		bl	setE
+ 503              	.LVL36:
  164:Core/Src/Lcd.c **** 	setE(1);
- 509              		.loc 1 164 2 view .LVU132
- 510 0030 0120     		movs	r0, #1
- 511 0032 FFF7FEFF 		bl	setE
- 512              	.LVL37:
+ 504              		.loc 1 164 2 view .LVU132
+ 505 0030 0120     		movs	r0, #1
+ 506 0032 FFF7FEFF 		bl	setE
+ 507              	.LVL37:
  165:Core/Src/Lcd.c **** 	setE(0);
- 513              		.loc 1 165 2 view .LVU133
- 514 0036 0020     		movs	r0, #0
- 515 0038 FFF7FEFF 		bl	setE
- 516              	.LVL38:
+ 508              		.loc 1 165 2 view .LVU133
+ 509 0036 0020     		movs	r0, #0
+ 510 0038 FFF7FEFF 		bl	setE
+ 511              	.LVL38:
  166:Core/Src/Lcd.c **** 
  167:Core/Src/Lcd.c **** 	DWT_Delay_us(300);
- 517              		.loc 1 167 2 view .LVU134
- 518 003c 4FF49670 		mov	r0, #300
- 519 0040 FFF7FEFF 		bl	DWT_Delay_us
- 520              	.LVL39:
+ 512              		.loc 1 167 2 view .LVU134
+ 513 003c 4FF49670 		mov	r0, #300
+ 514 0040 FFF7FEFF 		bl	DWT_Delay_us
+ 515              	.LVL39:
  168:Core/Src/Lcd.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 13
-
-
  169:Core/Src/Lcd.c **** }
- 521              		.loc 1 169 1 is_stmt 0 view .LVU135
- 522 0044 10BD     		pop	{r4, pc}
- 523              		.cfi_endproc
- 524              	.LFE142:
- 526              		.section	.text.isBusy,"ax",%progbits
- 527              		.align	1
- 528              		.global	isBusy
- 529              		.syntax unified
- 530              		.thumb
- 531              		.thumb_func
- 532              		.fpu fpv4-sp-d16
- 534              	isBusy:
- 535              	.LFB143:
+ 516              		.loc 1 169 1 is_stmt 0 view .LVU135
+ 517 0044 10BD     		pop	{r4, pc}
+ 518              		.cfi_endproc
+ 519              	.LFE142:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 13
+
+
+ 521              		.section	.text.isBusy,"ax",%progbits
+ 522              		.align	1
+ 523              		.global	isBusy
+ 524              		.syntax unified
+ 525              		.thumb
+ 526              		.thumb_func
+ 527              		.fpu fpv4-sp-d16
+ 529              	isBusy:
+ 530              	.LFB143:
  170:Core/Src/Lcd.c **** 
  171:Core/Src/Lcd.c **** #endif
  172:Core/Src/Lcd.c **** 
  173:Core/Src/Lcd.c **** int isBusy()
  174:Core/Src/Lcd.c **** {
- 536              		.loc 1 174 1 is_stmt 1 view -0
- 537              		.cfi_startproc
- 538              		@ args = 0, pretend = 0, frame = 0
- 539              		@ frame_needed = 0, uses_anonymous_args = 0
- 540 0000 10B5     		push	{r4, lr}
- 541              	.LCFI5:
- 542              		.cfi_def_cfa_offset 8
- 543              		.cfi_offset 4, -8
- 544              		.cfi_offset 14, -4
+ 531              		.loc 1 174 1 is_stmt 1 view -0
+ 532              		.cfi_startproc
+ 533              		@ args = 0, pretend = 0, frame = 0
+ 534              		@ frame_needed = 0, uses_anonymous_args = 0
+ 535 0000 10B5     		push	{r4, lr}
+ 536              		.cfi_def_cfa_offset 8
+ 537              		.cfi_offset 4, -8
+ 538              		.cfi_offset 14, -4
  175:Core/Src/Lcd.c **** 	DATA_PORT->MODER &= ~(0b11 << ((DB7 << 1)));
- 545              		.loc 1 175 2 view .LVU137
- 546              		.loc 1 175 19 is_stmt 0 view .LVU138
- 547 0002 0F4C     		ldr	r4, .L40
- 548 0004 2368     		ldr	r3, [r4]
- 549 0006 23F44053 		bic	r3, r3, #12288
- 550 000a 2360     		str	r3, [r4]
+ 539              		.loc 1 175 2 view .LVU137
+ 540              		.loc 1 175 19 is_stmt 0 view .LVU138
+ 541 0002 0F4C     		ldr	r4, .L40
+ 542 0004 2368     		ldr	r3, [r4]
+ 543 0006 23F44053 		bic	r3, r3, #12288
+ 544 000a 2360     		str	r3, [r4]
  176:Core/Src/Lcd.c **** 
  177:Core/Src/Lcd.c **** 	setRW(1);
- 551              		.loc 1 177 2 is_stmt 1 view .LVU139
- 552 000c 0120     		movs	r0, #1
- 553 000e FFF7FEFF 		bl	setRW
- 554              	.LVL40:
+ 545              		.loc 1 177 2 is_stmt 1 view .LVU139
+ 546 000c 0120     		movs	r0, #1
+ 547 000e FFF7FEFF 		bl	setRW
+ 548              	.LVL40:
  178:Core/Src/Lcd.c **** 	setRS(0);
- 555              		.loc 1 178 2 view .LVU140
- 556 0012 0020     		movs	r0, #0
- 557 0014 FFF7FEFF 		bl	setRS
- 558              	.LVL41:
+ 549              		.loc 1 178 2 view .LVU140
+ 550 0012 0020     		movs	r0, #0
+ 551 0014 FFF7FEFF 		bl	setRS
+ 552              	.LVL41:
  179:Core/Src/Lcd.c **** 	setE(1);
- 559              		.loc 1 179 2 view .LVU141
- 560 0018 0120     		movs	r0, #1
- 561 001a FFF7FEFF 		bl	setE
- 562              	.LVL42:
+ 553              		.loc 1 179 2 view .LVU141
+ 554 0018 0120     		movs	r0, #1
+ 555 001a FFF7FEFF 		bl	setE
+ 556              	.LVL42:
  180:Core/Src/Lcd.c **** 
  181:Core/Src/Lcd.c **** 	int isBusy = 0;
- 563              		.loc 1 181 2 view .LVU142
+ 557              		.loc 1 181 2 view .LVU142
  182:Core/Src/Lcd.c **** 
  183:Core/Src/Lcd.c **** 	if (DATA_PORT->IDR & (1<<DB7))
- 564              		.loc 1 183 2 view .LVU143
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 14
-
-
- 565              		.loc 1 183 15 is_stmt 0 view .LVU144
- 566 001e 2369     		ldr	r3, [r4, #16]
- 567              		.loc 1 183 5 view .LVU145
- 568 0020 13F0400F 		tst	r3, #64
- 569 0024 0AD1     		bne	.L38
+ 558              		.loc 1 183 2 view .LVU143
+ 559              		.loc 1 183 15 is_stmt 0 view .LVU144
+ 560 001e 2369     		ldr	r3, [r4, #16]
+ 561              		.loc 1 183 5 view .LVU145
+ 562 0020 13F0400F 		tst	r3, #64
+ 563 0024 0AD1     		bne	.L38
  181:Core/Src/Lcd.c **** 
- 570              		.loc 1 181 6 view .LVU146
- 571 0026 0024     		movs	r4, #0
- 572              	.L37:
- 573              	.LVL43:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 14
+
+
+ 564              		.loc 1 181 6 view .LVU146
+ 565 0026 0024     		movs	r4, #0
+ 566              	.L37:
+ 567              	.LVL43:
  184:Core/Src/Lcd.c **** 		isBusy = 1;
  185:Core/Src/Lcd.c **** 
  186:Core/Src/Lcd.c **** 	setE(0);
- 574              		.loc 1 186 2 is_stmt 1 view .LVU147
- 575 0028 0020     		movs	r0, #0
- 576 002a FFF7FEFF 		bl	setE
- 577              	.LVL44:
+ 568              		.loc 1 186 2 is_stmt 1 view .LVU147
+ 569 0028 0020     		movs	r0, #0
+ 570 002a FFF7FEFF 		bl	setE
+ 571              	.LVL44:
  187:Core/Src/Lcd.c **** 	DATA_PORT->MODER |= (0b01 << ((DB7 << 1)));
- 578              		.loc 1 187 2 view .LVU148
- 579              		.loc 1 187 19 is_stmt 0 view .LVU149
- 580 002e 044A     		ldr	r2, .L40
- 581 0030 1368     		ldr	r3, [r2]
- 582 0032 43F48053 		orr	r3, r3, #4096
- 583 0036 1360     		str	r3, [r2]
+ 572              		.loc 1 187 2 view .LVU148
+ 573              		.loc 1 187 19 is_stmt 0 view .LVU149
+ 574 002e 044A     		ldr	r2, .L40
+ 575 0030 1368     		ldr	r3, [r2]
+ 576 0032 43F48053 		orr	r3, r3, #4096
+ 577 0036 1360     		str	r3, [r2]
  188:Core/Src/Lcd.c **** 	
  189:Core/Src/Lcd.c **** 	return isBusy;
- 584              		.loc 1 189 2 is_stmt 1 view .LVU150
+ 578              		.loc 1 189 2 is_stmt 1 view .LVU150
  190:Core/Src/Lcd.c **** }
- 585              		.loc 1 190 1 is_stmt 0 view .LVU151
- 586 0038 2046     		mov	r0, r4
- 587 003a 10BD     		pop	{r4, pc}
- 588              	.LVL45:
- 589              	.L38:
+ 579              		.loc 1 190 1 is_stmt 0 view .LVU151
+ 580 0038 2046     		mov	r0, r4
+ 581 003a 10BD     		pop	{r4, pc}
+ 582              	.LVL45:
+ 583              	.L38:
  184:Core/Src/Lcd.c **** 
- 590              		.loc 1 184 10 view .LVU152
- 591 003c 0124     		movs	r4, #1
- 592 003e F3E7     		b	.L37
- 593              	.L41:
- 594              		.align	2
- 595              	.L40:
- 596 0040 00040048 		.word	1207960576
- 597              		.cfi_endproc
- 598              	.LFE143:
- 600              		.section	.text.waitWhileBusy,"ax",%progbits
- 601              		.align	1
- 602              		.global	waitWhileBusy
- 603              		.syntax unified
- 604              		.thumb
- 605              		.thumb_func
- 606              		.fpu fpv4-sp-d16
- 608              	waitWhileBusy:
- 609              	.LFB144:
+ 584              		.loc 1 184 10 view .LVU152
+ 585 003c 0124     		movs	r4, #1
+ 586 003e F3E7     		b	.L37
+ 587              	.L41:
+ 588              		.align	2
+ 589              	.L40:
+ 590 0040 00040048 		.word	1207960576
+ 591              		.cfi_endproc
+ 592              	.LFE143:
+ 594              		.section	.text.waitWhileBusy,"ax",%progbits
+ 595              		.align	1
+ 596              		.global	waitWhileBusy
+ 597              		.syntax unified
+ 598              		.thumb
+ 599              		.thumb_func
+ 600              		.fpu fpv4-sp-d16
+ 602              	waitWhileBusy:
+ 603              	.LFB144:
  191:Core/Src/Lcd.c **** 
  192:Core/Src/Lcd.c **** void waitWhileBusy()
  193:Core/Src/Lcd.c **** {
- 610              		.loc 1 193 1 is_stmt 1 view -0
- 611              		.cfi_startproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 15
+ 604              		.loc 1 193 1 is_stmt 1 view -0
+ 605              		.cfi_startproc
+ 606              		@ args = 0, pretend = 0, frame = 0
+ 607              		@ frame_needed = 0, uses_anonymous_args = 0
+ 608 0000 08B5     		push	{r3, lr}
+ 609              		.cfi_def_cfa_offset 8
+ 610              		.cfi_offset 3, -8
+ 611              		.cfi_offset 14, -4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 15
 
 
- 612              		@ args = 0, pretend = 0, frame = 0
- 613              		@ frame_needed = 0, uses_anonymous_args = 0
- 614 0000 08B5     		push	{r3, lr}
- 615              	.LCFI6:
- 616              		.cfi_def_cfa_offset 8
- 617              		.cfi_offset 3, -8
- 618              		.cfi_offset 14, -4
  194:Core/Src/Lcd.c **** 	DATA_PORT->MODER &= ~(0b11 << ((DB7 << 1)));
- 619              		.loc 1 194 2 view .LVU154
- 620              		.loc 1 194 19 is_stmt 0 view .LVU155
- 621 0002 144A     		ldr	r2, .L46
- 622 0004 1368     		ldr	r3, [r2]
- 623 0006 23F44053 		bic	r3, r3, #12288
- 624 000a 1360     		str	r3, [r2]
+ 612              		.loc 1 194 2 view .LVU154
+ 613              		.loc 1 194 19 is_stmt 0 view .LVU155
+ 614 0002 144A     		ldr	r2, .L46
+ 615 0004 1368     		ldr	r3, [r2]
+ 616 0006 23F44053 		bic	r3, r3, #12288
+ 617 000a 1360     		str	r3, [r2]
  195:Core/Src/Lcd.c **** 
  196:Core/Src/Lcd.c **** 	setRW(1);
- 625              		.loc 1 196 2 is_stmt 1 view .LVU156
- 626 000c 0120     		movs	r0, #1
- 627 000e FFF7FEFF 		bl	setRW
- 628              	.LVL46:
+ 618              		.loc 1 196 2 is_stmt 1 view .LVU156
+ 619 000c 0120     		movs	r0, #1
+ 620 000e FFF7FEFF 		bl	setRW
+ 621              	.LVL46:
  197:Core/Src/Lcd.c **** 	setRS(0);
- 629              		.loc 1 197 2 view .LVU157
- 630 0012 0020     		movs	r0, #0
- 631 0014 FFF7FEFF 		bl	setRS
- 632              	.LVL47:
+ 622              		.loc 1 197 2 view .LVU157
+ 623 0012 0020     		movs	r0, #0
+ 624 0014 FFF7FEFF 		bl	setRS
+ 625              	.LVL47:
  198:Core/Src/Lcd.c **** 	setE(1);
- 633              		.loc 1 198 2 view .LVU158
- 634 0018 0120     		movs	r0, #1
- 635 001a FFF7FEFF 		bl	setE
- 636              	.LVL48:
+ 626              		.loc 1 198 2 view .LVU158
+ 627 0018 0120     		movs	r0, #1
+ 628 001a FFF7FEFF 		bl	setE
+ 629              	.LVL48:
  199:Core/Src/Lcd.c **** 	while(DATA_PORT->IDR & (1<<DB7))
- 637              		.loc 1 199 2 view .LVU159
- 638              		.loc 1 199 7 is_stmt 0 view .LVU160
- 639 001e 0BE0     		b	.L43
- 640              	.L44:
+ 630              		.loc 1 199 2 view .LVU159
+ 631              		.loc 1 199 7 is_stmt 0 view .LVU160
+ 632 001e 0BE0     		b	.L43
+ 633              	.L44:
  200:Core/Src/Lcd.c **** 	{
  201:Core/Src/Lcd.c **** 		setE(0);
- 641              		.loc 1 201 3 is_stmt 1 view .LVU161
- 642 0020 0020     		movs	r0, #0
- 643 0022 FFF7FEFF 		bl	setE
- 644              	.LVL49:
+ 634              		.loc 1 201 3 is_stmt 1 view .LVU161
+ 635 0020 0020     		movs	r0, #0
+ 636 0022 FFF7FEFF 		bl	setE
+ 637              	.LVL49:
  202:Core/Src/Lcd.c **** 		setE(1);
- 645              		.loc 1 202 3 view .LVU162
- 646 0026 0120     		movs	r0, #1
- 647 0028 FFF7FEFF 		bl	setE
- 648              	.LVL50:
+ 638              		.loc 1 202 3 view .LVU162
+ 639 0026 0120     		movs	r0, #1
+ 640 0028 FFF7FEFF 		bl	setE
+ 641              	.LVL50:
  203:Core/Src/Lcd.c **** 		setE(0);
- 649              		.loc 1 203 3 view .LVU163
- 650 002c 0020     		movs	r0, #0
- 651 002e FFF7FEFF 		bl	setE
- 652              	.LVL51:
+ 642              		.loc 1 203 3 view .LVU163
+ 643 002c 0020     		movs	r0, #0
+ 644 002e FFF7FEFF 		bl	setE
+ 645              	.LVL51:
  204:Core/Src/Lcd.c **** 		setE(1);
- 653              		.loc 1 204 3 view .LVU164
- 654 0032 0120     		movs	r0, #1
- 655 0034 FFF7FEFF 		bl	setE
- 656              	.LVL52:
- 657              	.L43:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 16
+ 646              		.loc 1 204 3 view .LVU164
+ 647 0032 0120     		movs	r0, #1
+ 648 0034 FFF7FEFF 		bl	setE
+ 649              	.LVL52:
+ 650              	.L43:
+ 199:Core/Src/Lcd.c **** 	{
+ 651              		.loc 1 199 7 view .LVU165
+ 199:Core/Src/Lcd.c **** 	{
+ 652              		.loc 1 199 17 is_stmt 0 view .LVU166
+ 653 0038 064B     		ldr	r3, .L46
+ 654 003a 1B69     		ldr	r3, [r3, #16]
+ 199:Core/Src/Lcd.c **** 	{
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 16
 
 
- 199:Core/Src/Lcd.c **** 	{
- 658              		.loc 1 199 7 view .LVU165
- 199:Core/Src/Lcd.c **** 	{
- 659              		.loc 1 199 17 is_stmt 0 view .LVU166
- 660 0038 064B     		ldr	r3, .L46
- 661 003a 1B69     		ldr	r3, [r3, #16]
- 199:Core/Src/Lcd.c **** 	{
- 662              		.loc 1 199 7 view .LVU167
- 663 003c 13F0400F 		tst	r3, #64
- 664 0040 EED1     		bne	.L44
+ 655              		.loc 1 199 7 view .LVU167
+ 656 003c 13F0400F 		tst	r3, #64
+ 657 0040 EED1     		bne	.L44
  205:Core/Src/Lcd.c **** 	}
  206:Core/Src/Lcd.c **** 
  207:Core/Src/Lcd.c **** 	setE(0);
- 665              		.loc 1 207 2 is_stmt 1 view .LVU168
- 666 0042 0020     		movs	r0, #0
- 667 0044 FFF7FEFF 		bl	setE
- 668              	.LVL53:
+ 658              		.loc 1 207 2 is_stmt 1 view .LVU168
+ 659 0042 0020     		movs	r0, #0
+ 660 0044 FFF7FEFF 		bl	setE
+ 661              	.LVL53:
  208:Core/Src/Lcd.c **** 	DATA_PORT->MODER |= (0b01 << ((DB7 << 1)));
- 669              		.loc 1 208 2 view .LVU169
- 670              		.loc 1 208 19 is_stmt 0 view .LVU170
- 671 0048 024A     		ldr	r2, .L46
- 672 004a 1368     		ldr	r3, [r2]
- 673 004c 43F48053 		orr	r3, r3, #4096
- 674 0050 1360     		str	r3, [r2]
+ 662              		.loc 1 208 2 view .LVU169
+ 663              		.loc 1 208 19 is_stmt 0 view .LVU170
+ 664 0048 024A     		ldr	r2, .L46
+ 665 004a 1368     		ldr	r3, [r2]
+ 666 004c 43F48053 		orr	r3, r3, #4096
+ 667 0050 1360     		str	r3, [r2]
  209:Core/Src/Lcd.c **** }
- 675              		.loc 1 209 1 view .LVU171
- 676 0052 08BD     		pop	{r3, pc}
- 677              	.L47:
- 678              		.align	2
- 679              	.L46:
- 680 0054 00040048 		.word	1207960576
- 681              		.cfi_endproc
- 682              	.LFE144:
- 684              		.section	.text.sendInstruction,"ax",%progbits
- 685              		.align	1
- 686              		.global	sendInstruction
- 687              		.syntax unified
- 688              		.thumb
- 689              		.thumb_func
- 690              		.fpu fpv4-sp-d16
- 692              	sendInstruction:
- 693              	.LVL54:
- 694              	.LFB145:
+ 668              		.loc 1 209 1 view .LVU171
+ 669 0052 08BD     		pop	{r3, pc}
+ 670              	.L47:
+ 671              		.align	2
+ 672              	.L46:
+ 673 0054 00040048 		.word	1207960576
+ 674              		.cfi_endproc
+ 675              	.LFE144:
+ 677              		.section	.text.sendInstruction,"ax",%progbits
+ 678              		.align	1
+ 679              		.global	sendInstruction
+ 680              		.syntax unified
+ 681              		.thumb
+ 682              		.thumb_func
+ 683              		.fpu fpv4-sp-d16
+ 685              	sendInstruction:
+ 686              	.LVL54:
+ 687              	.LFB145:
  210:Core/Src/Lcd.c **** 
  211:Core/Src/Lcd.c **** void sendInstruction(uint8_t data)
  212:Core/Src/Lcd.c **** {
- 695              		.loc 1 212 1 is_stmt 1 view -0
- 696              		.cfi_startproc
- 697              		@ args = 0, pretend = 0, frame = 0
- 698              		@ frame_needed = 0, uses_anonymous_args = 0
- 699              		.loc 1 212 1 is_stmt 0 view .LVU173
- 700 0000 10B5     		push	{r4, lr}
- 701              	.LCFI7:
- 702              		.cfi_def_cfa_offset 8
- 703              		.cfi_offset 4, -8
- 704              		.cfi_offset 14, -4
- 705 0002 0446     		mov	r4, r0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 17
-
-
+ 688              		.loc 1 212 1 is_stmt 1 view -0
+ 689              		.cfi_startproc
+ 690              		@ args = 0, pretend = 0, frame = 0
+ 691              		@ frame_needed = 0, uses_anonymous_args = 0
+ 692              		.loc 1 212 1 is_stmt 0 view .LVU173
+ 693 0000 10B5     		push	{r4, lr}
+ 694              		.cfi_def_cfa_offset 8
+ 695              		.cfi_offset 4, -8
+ 696              		.cfi_offset 14, -4
+ 697 0002 0446     		mov	r4, r0
  213:Core/Src/Lcd.c **** 	// Make sure the display isn't busy
  214:Core/Src/Lcd.c **** 	waitWhileBusy();
- 706              		.loc 1 214 2 is_stmt 1 view .LVU174
- 707 0004 FFF7FEFF 		bl	waitWhileBusy
- 708              	.LVL55:
+ 698              		.loc 1 214 2 is_stmt 1 view .LVU174
+ 699 0004 FFF7FEFF 		bl	waitWhileBusy
+ 700              	.LVL55:
  215:Core/Src/Lcd.c **** 	
  216:Core/Src/Lcd.c **** 	setRW(0);
- 709              		.loc 1 216 2 view .LVU175
- 710 0008 0020     		movs	r0, #0
- 711 000a FFF7FEFF 		bl	setRW
- 712              	.LVL56:
+ 701              		.loc 1 216 2 view .LVU175
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 17
+
+
+ 702 0008 0020     		movs	r0, #0
+ 703 000a FFF7FEFF 		bl	setRW
+ 704              	.LVL56:
  217:Core/Src/Lcd.c **** 	setRS(0);
- 713              		.loc 1 217 2 view .LVU176
- 714 000e 0020     		movs	r0, #0
- 715 0010 FFF7FEFF 		bl	setRS
- 716              	.LVL57:
+ 705              		.loc 1 217 2 view .LVU176
+ 706 000e 0020     		movs	r0, #0
+ 707 0010 FFF7FEFF 		bl	setRS
+ 708              	.LVL57:
  218:Core/Src/Lcd.c **** 
  219:Core/Src/Lcd.c **** 	sendByte(data);
- 717              		.loc 1 219 2 view .LVU177
- 718 0014 2046     		mov	r0, r4
- 719 0016 FFF7FEFF 		bl	sendByte
- 720              	.LVL58:
+ 709              		.loc 1 219 2 view .LVU177
+ 710 0014 2046     		mov	r0, r4
+ 711 0016 FFF7FEFF 		bl	sendByte
+ 712              	.LVL58:
  220:Core/Src/Lcd.c **** 
  221:Core/Src/Lcd.c **** }
- 721              		.loc 1 221 1 is_stmt 0 view .LVU178
- 722 001a 10BD     		pop	{r4, pc}
- 723              		.cfi_endproc
- 724              	.LFE145:
- 726              		.section	.text.writeDisplay,"ax",%progbits
- 727              		.align	1
- 728              		.global	writeDisplay
- 729              		.syntax unified
- 730              		.thumb
- 731              		.thumb_func
- 732              		.fpu fpv4-sp-d16
- 734              	writeDisplay:
- 735              	.LVL59:
- 736              	.LFB146:
+ 713              		.loc 1 221 1 is_stmt 0 view .LVU178
+ 714 001a 10BD     		pop	{r4, pc}
+ 715              		.cfi_endproc
+ 716              	.LFE145:
+ 718              		.section	.text.writeDisplay,"ax",%progbits
+ 719              		.align	1
+ 720              		.global	writeDisplay
+ 721              		.syntax unified
+ 722              		.thumb
+ 723              		.thumb_func
+ 724              		.fpu fpv4-sp-d16
+ 726              	writeDisplay:
+ 727              	.LVL59:
+ 728              	.LFB146:
  222:Core/Src/Lcd.c **** 
  223:Core/Src/Lcd.c **** 
  224:Core/Src/Lcd.c **** void writeDisplay(uint8_t data)
  225:Core/Src/Lcd.c **** {
- 737              		.loc 1 225 1 is_stmt 1 view -0
- 738              		.cfi_startproc
- 739              		@ args = 0, pretend = 0, frame = 0
- 740              		@ frame_needed = 0, uses_anonymous_args = 0
- 741              		.loc 1 225 1 is_stmt 0 view .LVU180
- 742 0000 10B5     		push	{r4, lr}
- 743              	.LCFI8:
- 744              		.cfi_def_cfa_offset 8
- 745              		.cfi_offset 4, -8
- 746              		.cfi_offset 14, -4
- 747 0002 0446     		mov	r4, r0
+ 729              		.loc 1 225 1 is_stmt 1 view -0
+ 730              		.cfi_startproc
+ 731              		@ args = 0, pretend = 0, frame = 0
+ 732              		@ frame_needed = 0, uses_anonymous_args = 0
+ 733              		.loc 1 225 1 is_stmt 0 view .LVU180
+ 734 0000 10B5     		push	{r4, lr}
+ 735              		.cfi_def_cfa_offset 8
+ 736              		.cfi_offset 4, -8
+ 737              		.cfi_offset 14, -4
+ 738 0002 0446     		mov	r4, r0
  226:Core/Src/Lcd.c **** 	// Make sure the display isn't busy
  227:Core/Src/Lcd.c **** 	waitWhileBusy();
- 748              		.loc 1 227 2 is_stmt 1 view .LVU181
- 749 0004 FFF7FEFF 		bl	waitWhileBusy
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 18
-
-
- 750              	.LVL60:
+ 739              		.loc 1 227 2 is_stmt 1 view .LVU181
+ 740 0004 FFF7FEFF 		bl	waitWhileBusy
+ 741              	.LVL60:
  228:Core/Src/Lcd.c **** 
  229:Core/Src/Lcd.c **** 	setRW(0);
- 751              		.loc 1 229 2 view .LVU182
- 752 0008 0020     		movs	r0, #0
- 753 000a FFF7FEFF 		bl	setRW
- 754              	.LVL61:
+ 742              		.loc 1 229 2 view .LVU182
+ 743 0008 0020     		movs	r0, #0
+ 744 000a FFF7FEFF 		bl	setRW
+ 745              	.LVL61:
  230:Core/Src/Lcd.c **** 	setRS(1);
- 755              		.loc 1 230 2 view .LVU183
- 756 000e 0120     		movs	r0, #1
- 757 0010 FFF7FEFF 		bl	setRS
- 758              	.LVL62:
+ 746              		.loc 1 230 2 view .LVU183
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 18
+
+
+ 747 000e 0120     		movs	r0, #1
+ 748 0010 FFF7FEFF 		bl	setRS
+ 749              	.LVL62:
  231:Core/Src/Lcd.c **** 
  232:Core/Src/Lcd.c **** 	sendByte(data);
- 759              		.loc 1 232 2 view .LVU184
- 760 0014 2046     		mov	r0, r4
- 761 0016 FFF7FEFF 		bl	sendByte
- 762              	.LVL63:
+ 750              		.loc 1 232 2 view .LVU184
+ 751 0014 2046     		mov	r0, r4
+ 752 0016 FFF7FEFF 		bl	sendByte
+ 753              	.LVL63:
  233:Core/Src/Lcd.c **** 
  234:Core/Src/Lcd.c **** }
- 763              		.loc 1 234 1 is_stmt 0 view .LVU185
- 764 001a 10BD     		pop	{r4, pc}
- 765              		.cfi_endproc
- 766              	.LFE146:
- 768              		.section	.text.initDisplay,"ax",%progbits
- 769              		.align	1
- 770              		.global	initDisplay
- 771              		.syntax unified
- 772              		.thumb
- 773              		.thumb_func
- 774              		.fpu fpv4-sp-d16
- 776              	initDisplay:
- 777              	.LFB147:
+ 754              		.loc 1 234 1 is_stmt 0 view .LVU185
+ 755 001a 10BD     		pop	{r4, pc}
+ 756              		.cfi_endproc
+ 757              	.LFE146:
+ 759              		.section	.text.initDisplay,"ax",%progbits
+ 760              		.align	1
+ 761              		.global	initDisplay
+ 762              		.syntax unified
+ 763              		.thumb
+ 764              		.thumb_func
+ 765              		.fpu fpv4-sp-d16
+ 767              	initDisplay:
+ 768              	.LFB147:
  235:Core/Src/Lcd.c **** 
  236:Core/Src/Lcd.c **** #ifndef FOUR_BIT_OPERATION
  237:Core/Src/Lcd.c **** 
@@ -1078,9 +1069,6 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  256:Core/Src/Lcd.c **** 	// Enable the GPIO for the RS port
  257:Core/Src/Lcd.c **** 	RCC->AHB1ENR |= (1<<RCC_RS_ENR);
  258:Core/Src/Lcd.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 19
-
-
  259:Core/Src/Lcd.c **** 	// Set the rs line to output
  260:Core/Src/Lcd.c **** 	RS_PORT->MODER &= ~(0b11 << (RS_PIN << 1));
  261:Core/Src/Lcd.c **** 	RS_PORT->MODER |= (0b01 << (RS_PIN << 1));
@@ -1090,6 +1078,9 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  265:Core/Src/Lcd.c **** 
  266:Core/Src/Lcd.c **** 	// Set the e line to output
  267:Core/Src/Lcd.c **** 	E_PORT->MODER &= ~(0b11 << (E_PIN << 1));
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 19
+
+
  268:Core/Src/Lcd.c **** 	E_PORT->MODER |= (0b01 << (E_PIN << 1));
  269:Core/Src/Lcd.c **** 
  270:Core/Src/Lcd.c **** 
@@ -1136,1014 +1127,995 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  311:Core/Src/Lcd.c **** */
  312:Core/Src/Lcd.c **** void initDisplay(void)
  313:Core/Src/Lcd.c **** {
- 778              		.loc 1 313 1 is_stmt 1 view -0
- 779              		.cfi_startproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 20
-
-
- 780              		@ args = 0, pretend = 0, frame = 0
- 781              		@ frame_needed = 0, uses_anonymous_args = 0
- 782 0000 08B5     		push	{r3, lr}
- 783              	.LCFI9:
- 784              		.cfi_def_cfa_offset 8
- 785              		.cfi_offset 3, -8
- 786              		.cfi_offset 14, -4
+ 769              		.loc 1 313 1 is_stmt 1 view -0
+ 770              		.cfi_startproc
+ 771              		@ args = 0, pretend = 0, frame = 0
+ 772              		@ frame_needed = 0, uses_anonymous_args = 0
+ 773 0000 08B5     		push	{r3, lr}
+ 774              		.cfi_def_cfa_offset 8
+ 775              		.cfi_offset 3, -8
+ 776              		.cfi_offset 14, -4
  314:Core/Src/Lcd.c **** 
  315:Core/Src/Lcd.c **** 	DWT_Delay_Init();
- 787              		.loc 1 315 2 view .LVU187
- 788 0002 FFF7FEFF 		bl	DWT_Delay_Init
- 789              	.LVL64:
+ 777              		.loc 1 315 2 view .LVU187
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 20
+
+
+ 778 0002 FFF7FEFF 		bl	DWT_Delay_Init
+ 779              	.LVL64:
  316:Core/Src/Lcd.c **** 
  317:Core/Src/Lcd.c **** 	
  318:Core/Src/Lcd.c **** 
  319:Core/Src/Lcd.c **** 	// Enable the GPIO for the data port
  320:Core/Src/Lcd.c **** 	RCC->AHB1ENR |= (1<<RCC_DATA_ENR);
- 790              		.loc 1 320 2 view .LVU188
- 791              		.loc 1 320 15 is_stmt 0 view .LVU189
- 792 0006 364A     		ldr	r2, .L54
- 793 0008 936C     		ldr	r3, [r2, #72]
- 794 000a 43F00203 		orr	r3, r3, #2
- 795 000e 9364     		str	r3, [r2, #72]
+ 780              		.loc 1 320 2 view .LVU188
+ 781              		.loc 1 320 15 is_stmt 0 view .LVU189
+ 782 0006 364A     		ldr	r2, .L54
+ 783 0008 936C     		ldr	r3, [r2, #72]
+ 784 000a 43F00203 		orr	r3, r3, #2
+ 785 000e 9364     		str	r3, [r2, #72]
  321:Core/Src/Lcd.c **** 
  322:Core/Src/Lcd.c **** 	// Set each of the data lines to outputs
  323:Core/Src/Lcd.c **** 	DATA_PORT->MODER &= ~(0b11 << (DB4 << 1)) & ~(0b11 << (DB5 << 1)) & ~(0b11 << (DB6 << 1)) & ~(0b11
- 796              		.loc 1 323 2 is_stmt 1 view .LVU190
- 797              		.loc 1 323 19 is_stmt 0 view .LVU191
- 798 0010 344B     		ldr	r3, .L54+4
- 799 0012 1968     		ldr	r1, [r3]
- 800 0014 21F47F51 		bic	r1, r1, #16320
- 801 0018 1960     		str	r1, [r3]
+ 786              		.loc 1 323 2 is_stmt 1 view .LVU190
+ 787              		.loc 1 323 19 is_stmt 0 view .LVU191
+ 788 0010 344B     		ldr	r3, .L54+4
+ 789 0012 1968     		ldr	r1, [r3]
+ 790 0014 21F47F51 		bic	r1, r1, #16320
+ 791 0018 1960     		str	r1, [r3]
  324:Core/Src/Lcd.c **** 	DATA_PORT->MODER |= (0b01 << (DB4 << 1)) | (0b01 << (DB5 << 1)) | (0b01 << (DB6 << 1)) | (0b01 << 
- 802              		.loc 1 324 2 is_stmt 1 view .LVU192
- 803              		.loc 1 324 19 is_stmt 0 view .LVU193
- 804 001a 1968     		ldr	r1, [r3]
- 805 001c 41F4AA51 		orr	r1, r1, #5440
- 806 0020 1960     		str	r1, [r3]
+ 792              		.loc 1 324 2 is_stmt 1 view .LVU192
+ 793              		.loc 1 324 19 is_stmt 0 view .LVU193
+ 794 001a 1968     		ldr	r1, [r3]
+ 795 001c 41F4AA51 		orr	r1, r1, #5440
+ 796 0020 1960     		str	r1, [r3]
  325:Core/Src/Lcd.c **** 	
  326:Core/Src/Lcd.c **** 	// Enable the GPIO for the RW port
  327:Core/Src/Lcd.c **** 	RCC->AHB1ENR |= (1<<RCC_RW_ENR);
- 807              		.loc 1 327 2 is_stmt 1 view .LVU194
- 808              		.loc 1 327 15 is_stmt 0 view .LVU195
- 809 0022 916C     		ldr	r1, [r2, #72]
- 810 0024 41F00201 		orr	r1, r1, #2
- 811 0028 9164     		str	r1, [r2, #72]
+ 797              		.loc 1 327 2 is_stmt 1 view .LVU194
+ 798              		.loc 1 327 15 is_stmt 0 view .LVU195
+ 799 0022 916C     		ldr	r1, [r2, #72]
+ 800 0024 41F00201 		orr	r1, r1, #2
+ 801 0028 9164     		str	r1, [r2, #72]
  328:Core/Src/Lcd.c **** 
  329:Core/Src/Lcd.c **** 	// Set the rw line to output
  330:Core/Src/Lcd.c **** 	RW_PORT->MODER &= ~(0b11 << (RW_PIN << 1));
- 812              		.loc 1 330 2 is_stmt 1 view .LVU196
- 813              		.loc 1 330 17 is_stmt 0 view .LVU197
- 814 002a 1968     		ldr	r1, [r3]
- 815 002c 21F00301 		bic	r1, r1, #3
- 816 0030 1960     		str	r1, [r3]
+ 802              		.loc 1 330 2 is_stmt 1 view .LVU196
+ 803              		.loc 1 330 17 is_stmt 0 view .LVU197
+ 804 002a 1968     		ldr	r1, [r3]
+ 805 002c 21F00301 		bic	r1, r1, #3
+ 806 0030 1960     		str	r1, [r3]
  331:Core/Src/Lcd.c **** 	RW_PORT->MODER |= (0b01 << (RW_PIN << 1));
- 817              		.loc 1 331 2 is_stmt 1 view .LVU198
- 818              		.loc 1 331 17 is_stmt 0 view .LVU199
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 21
-
-
- 819 0032 1968     		ldr	r1, [r3]
- 820 0034 41F00101 		orr	r1, r1, #1
- 821 0038 1960     		str	r1, [r3]
+ 807              		.loc 1 331 2 is_stmt 1 view .LVU198
+ 808              		.loc 1 331 17 is_stmt 0 view .LVU199
+ 809 0032 1968     		ldr	r1, [r3]
+ 810 0034 41F00101 		orr	r1, r1, #1
+ 811 0038 1960     		str	r1, [r3]
  332:Core/Src/Lcd.c **** 
  333:Core/Src/Lcd.c **** 	// Enable the GPIO for the RS port
  334:Core/Src/Lcd.c **** 	RCC->AHB1ENR |= (1<<RCC_RS_ENR);
- 822              		.loc 1 334 2 is_stmt 1 view .LVU200
- 823              		.loc 1 334 15 is_stmt 0 view .LVU201
- 824 003a 916C     		ldr	r1, [r2, #72]
- 825 003c 41F00201 		orr	r1, r1, #2
- 826 0040 9164     		str	r1, [r2, #72]
+ 812              		.loc 1 334 2 is_stmt 1 view .LVU200
+ 813              		.loc 1 334 15 is_stmt 0 view .LVU201
+ 814 003a 916C     		ldr	r1, [r2, #72]
+ 815 003c 41F00201 		orr	r1, r1, #2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 21
+
+
+ 816 0040 9164     		str	r1, [r2, #72]
  335:Core/Src/Lcd.c **** 
  336:Core/Src/Lcd.c **** 	// Set the rs line to output
  337:Core/Src/Lcd.c **** 	RS_PORT->MODER &= ~(0b11 << (RS_PIN << 1));
- 827              		.loc 1 337 2 is_stmt 1 view .LVU202
- 828              		.loc 1 337 17 is_stmt 0 view .LVU203
- 829 0042 1968     		ldr	r1, [r3]
- 830 0044 21F00C01 		bic	r1, r1, #12
- 831 0048 1960     		str	r1, [r3]
+ 817              		.loc 1 337 2 is_stmt 1 view .LVU202
+ 818              		.loc 1 337 17 is_stmt 0 view .LVU203
+ 819 0042 1968     		ldr	r1, [r3]
+ 820 0044 21F00C01 		bic	r1, r1, #12
+ 821 0048 1960     		str	r1, [r3]
  338:Core/Src/Lcd.c **** 	RS_PORT->MODER |= (0b01 << (RS_PIN << 1));
- 832              		.loc 1 338 2 is_stmt 1 view .LVU204
- 833              		.loc 1 338 17 is_stmt 0 view .LVU205
- 834 004a 1968     		ldr	r1, [r3]
- 835 004c 41F00401 		orr	r1, r1, #4
- 836 0050 1960     		str	r1, [r3]
+ 822              		.loc 1 338 2 is_stmt 1 view .LVU204
+ 823              		.loc 1 338 17 is_stmt 0 view .LVU205
+ 824 004a 1968     		ldr	r1, [r3]
+ 825 004c 41F00401 		orr	r1, r1, #4
+ 826 0050 1960     		str	r1, [r3]
  339:Core/Src/Lcd.c **** 
  340:Core/Src/Lcd.c **** 	// Enable the GPIO for the E port
  341:Core/Src/Lcd.c **** 	RCC->AHB1ENR |= (1<<RCC_E_ENR);
- 837              		.loc 1 341 2 is_stmt 1 view .LVU206
- 838              		.loc 1 341 15 is_stmt 0 view .LVU207
- 839 0052 916C     		ldr	r1, [r2, #72]
- 840 0054 41F00201 		orr	r1, r1, #2
- 841 0058 9164     		str	r1, [r2, #72]
+ 827              		.loc 1 341 2 is_stmt 1 view .LVU206
+ 828              		.loc 1 341 15 is_stmt 0 view .LVU207
+ 829 0052 916C     		ldr	r1, [r2, #72]
+ 830 0054 41F00201 		orr	r1, r1, #2
+ 831 0058 9164     		str	r1, [r2, #72]
  342:Core/Src/Lcd.c **** 
  343:Core/Src/Lcd.c **** 	// Set the e line to output
  344:Core/Src/Lcd.c **** 	E_PORT->MODER &= ~(0b11 << (E_PIN << 1));
- 842              		.loc 1 344 2 is_stmt 1 view .LVU208
- 843              		.loc 1 344 16 is_stmt 0 view .LVU209
- 844 005a 1A68     		ldr	r2, [r3]
- 845 005c 22F03002 		bic	r2, r2, #48
- 846 0060 1A60     		str	r2, [r3]
+ 832              		.loc 1 344 2 is_stmt 1 view .LVU208
+ 833              		.loc 1 344 16 is_stmt 0 view .LVU209
+ 834 005a 1A68     		ldr	r2, [r3]
+ 835 005c 22F03002 		bic	r2, r2, #48
+ 836 0060 1A60     		str	r2, [r3]
  345:Core/Src/Lcd.c **** 	E_PORT->MODER |= (0b01 << (E_PIN << 1));
- 847              		.loc 1 345 2 is_stmt 1 view .LVU210
- 848              		.loc 1 345 16 is_stmt 0 view .LVU211
- 849 0062 1A68     		ldr	r2, [r3]
- 850 0064 42F01002 		orr	r2, r2, #16
- 851 0068 1A60     		str	r2, [r3]
+ 837              		.loc 1 345 2 is_stmt 1 view .LVU210
+ 838              		.loc 1 345 16 is_stmt 0 view .LVU211
+ 839 0062 1A68     		ldr	r2, [r3]
+ 840 0064 42F01002 		orr	r2, r2, #16
+ 841 0068 1A60     		str	r2, [r3]
  346:Core/Src/Lcd.c **** 
  347:Core/Src/Lcd.c **** 
  348:Core/Src/Lcd.c **** 
  349:Core/Src/Lcd.c **** 	// When initializing they recommend 15 ms delay until after vcc rises above 4.5V
  350:Core/Src/Lcd.c **** 	DWT_Delay_ms(15);
- 852              		.loc 1 350 2 is_stmt 1 view .LVU212
- 853 006a 0F20     		movs	r0, #15
- 854 006c FFF7FEFF 		bl	DWT_Delay_ms
- 855              	.LVL65:
+ 842              		.loc 1 350 2 is_stmt 1 view .LVU212
+ 843 006a 0F20     		movs	r0, #15
+ 844 006c FFF7FEFF 		bl	DWT_Delay_ms
+ 845              	.LVL65:
  351:Core/Src/Lcd.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 22
-
-
  352:Core/Src/Lcd.c **** 	// Set RS and RW for Writing (RW) Instructions (RS)
  353:Core/Src/Lcd.c **** 	setRW(0);
- 856              		.loc 1 353 2 view .LVU213
- 857 0070 0020     		movs	r0, #0
- 858 0072 FFF7FEFF 		bl	setRW
- 859              	.LVL66:
+ 846              		.loc 1 353 2 view .LVU213
+ 847 0070 0020     		movs	r0, #0
+ 848 0072 FFF7FEFF 		bl	setRW
+ 849              	.LVL66:
  354:Core/Src/Lcd.c **** 	setRS(0);
- 860              		.loc 1 354 2 view .LVU214
- 861 0076 0020     		movs	r0, #0
- 862 0078 FFF7FEFF 		bl	setRS
- 863              	.LVL67:
+ 850              		.loc 1 354 2 view .LVU214
+ 851 0076 0020     		movs	r0, #0
+ 852 0078 FFF7FEFF 		bl	setRS
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 22
+
+
+ 853              	.LVL67:
  355:Core/Src/Lcd.c **** 
  356:Core/Src/Lcd.c **** 	// Function set see data sheet
  357:Core/Src/Lcd.c **** 	sendNibble(0b0011);
- 864              		.loc 1 357 2 view .LVU215
- 865 007c 0320     		movs	r0, #3
- 866 007e FFF7FEFF 		bl	sendNibble
- 867              	.LVL68:
+ 854              		.loc 1 357 2 view .LVU215
+ 855 007c 0320     		movs	r0, #3
+ 856 007e FFF7FEFF 		bl	sendNibble
+ 857              	.LVL68:
  358:Core/Src/Lcd.c **** 	setE(0);
- 868              		.loc 1 358 2 view .LVU216
- 869 0082 0020     		movs	r0, #0
- 870 0084 FFF7FEFF 		bl	setE
- 871              	.LVL69:
+ 858              		.loc 1 358 2 view .LVU216
+ 859 0082 0020     		movs	r0, #0
+ 860 0084 FFF7FEFF 		bl	setE
+ 861              	.LVL69:
  359:Core/Src/Lcd.c **** 	setE(1);
- 872              		.loc 1 359 2 view .LVU217
- 873 0088 0120     		movs	r0, #1
- 874 008a FFF7FEFF 		bl	setE
- 875              	.LVL70:
+ 862              		.loc 1 359 2 view .LVU217
+ 863 0088 0120     		movs	r0, #1
+ 864 008a FFF7FEFF 		bl	setE
+ 865              	.LVL70:
  360:Core/Src/Lcd.c **** 	setE(0);
- 876              		.loc 1 360 2 view .LVU218
- 877 008e 0020     		movs	r0, #0
- 878 0090 FFF7FEFF 		bl	setE
- 879              	.LVL71:
+ 866              		.loc 1 360 2 view .LVU218
+ 867 008e 0020     		movs	r0, #0
+ 868 0090 FFF7FEFF 		bl	setE
+ 869              	.LVL71:
  361:Core/Src/Lcd.c **** 
  362:Core/Src/Lcd.c **** 	// Datasheet recommends 4.1ms delay here
  363:Core/Src/Lcd.c **** 	DWT_Delay_us(4100);
- 880              		.loc 1 363 2 view .LVU219
- 881 0094 41F20400 		movw	r0, #4100
- 882 0098 FFF7FEFF 		bl	DWT_Delay_us
- 883              	.LVL72:
+ 870              		.loc 1 363 2 view .LVU219
+ 871 0094 41F20400 		movw	r0, #4100
+ 872 0098 FFF7FEFF 		bl	DWT_Delay_us
+ 873              	.LVL72:
  364:Core/Src/Lcd.c **** 
  365:Core/Src/Lcd.c **** 	// Function set see data sheet
  366:Core/Src/Lcd.c **** 	sendNibble(0b0011);
- 884              		.loc 1 366 2 view .LVU220
- 885 009c 0320     		movs	r0, #3
- 886 009e FFF7FEFF 		bl	sendNibble
- 887              	.LVL73:
+ 874              		.loc 1 366 2 view .LVU220
+ 875 009c 0320     		movs	r0, #3
+ 876 009e FFF7FEFF 		bl	sendNibble
+ 877              	.LVL73:
  367:Core/Src/Lcd.c **** 	setE(0);
- 888              		.loc 1 367 2 view .LVU221
- 889 00a2 0020     		movs	r0, #0
- 890 00a4 FFF7FEFF 		bl	setE
- 891              	.LVL74:
+ 878              		.loc 1 367 2 view .LVU221
+ 879 00a2 0020     		movs	r0, #0
+ 880 00a4 FFF7FEFF 		bl	setE
+ 881              	.LVL74:
  368:Core/Src/Lcd.c **** 	setE(1);
- 892              		.loc 1 368 2 view .LVU222
- 893 00a8 0120     		movs	r0, #1
- 894 00aa FFF7FEFF 		bl	setE
- 895              	.LVL75:
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 23
-
-
+ 882              		.loc 1 368 2 view .LVU222
+ 883 00a8 0120     		movs	r0, #1
+ 884 00aa FFF7FEFF 		bl	setE
+ 885              	.LVL75:
  369:Core/Src/Lcd.c **** 	setE(0);
- 896              		.loc 1 369 2 view .LVU223
- 897 00ae 0020     		movs	r0, #0
- 898 00b0 FFF7FEFF 		bl	setE
- 899              	.LVL76:
+ 886              		.loc 1 369 2 view .LVU223
+ 887 00ae 0020     		movs	r0, #0
+ 888 00b0 FFF7FEFF 		bl	setE
+ 889              	.LVL76:
  370:Core/Src/Lcd.c **** 
  371:Core/Src/Lcd.c **** 	// Datasheet recommends 100us delay here
  372:Core/Src/Lcd.c **** 	DWT_Delay_us(100);
- 900              		.loc 1 372 2 view .LVU224
- 901 00b4 6420     		movs	r0, #100
- 902 00b6 FFF7FEFF 		bl	DWT_Delay_us
- 903              	.LVL77:
+ 890              		.loc 1 372 2 view .LVU224
+ 891 00b4 6420     		movs	r0, #100
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 23
+
+
+ 892 00b6 FFF7FEFF 		bl	DWT_Delay_us
+ 893              	.LVL77:
  373:Core/Src/Lcd.c **** 
  374:Core/Src/Lcd.c **** 	// This takes the form of two function sets
  375:Core/Src/Lcd.c **** 	// The first is another 0011 as the datasheet requires
  376:Core/Src/Lcd.c **** 	// The second is 0010 to set 4 bit mode
  377:Core/Src/Lcd.c **** 	sendInstruction(0b00110010);
- 904              		.loc 1 377 2 view .LVU225
- 905 00ba 3220     		movs	r0, #50
- 906 00bc FFF7FEFF 		bl	sendInstruction
- 907              	.LVL78:
+ 894              		.loc 1 377 2 view .LVU225
+ 895 00ba 3220     		movs	r0, #50
+ 896 00bc FFF7FEFF 		bl	sendInstruction
+ 897              	.LVL78:
  378:Core/Src/Lcd.c **** 
  379:Core/Src/Lcd.c **** 	//Function set, 4 bit mode, 2 lines, 8x5 dots
  380:Core/Src/Lcd.c **** 	sendInstruction(0b00101000);
- 908              		.loc 1 380 2 view .LVU226
- 909 00c0 2820     		movs	r0, #40
- 910 00c2 FFF7FEFF 		bl	sendInstruction
- 911              	.LVL79:
+ 898              		.loc 1 380 2 view .LVU226
+ 899 00c0 2820     		movs	r0, #40
+ 900 00c2 FFF7FEFF 		bl	sendInstruction
+ 901              	.LVL79:
  381:Core/Src/Lcd.c **** 	
  382:Core/Src/Lcd.c **** 	// Display off
  383:Core/Src/Lcd.c **** 	sendInstruction(0b00001000);
- 912              		.loc 1 383 2 view .LVU227
- 913 00c6 0820     		movs	r0, #8
- 914 00c8 FFF7FEFF 		bl	sendInstruction
- 915              	.LVL80:
+ 902              		.loc 1 383 2 view .LVU227
+ 903 00c6 0820     		movs	r0, #8
+ 904 00c8 FFF7FEFF 		bl	sendInstruction
+ 905              	.LVL80:
  384:Core/Src/Lcd.c **** 
  385:Core/Src/Lcd.c **** 	// Display clear
  386:Core/Src/Lcd.c **** 	sendInstruction(0b00000001);
- 916              		.loc 1 386 2 view .LVU228
- 917 00cc 0120     		movs	r0, #1
- 918 00ce FFF7FEFF 		bl	sendInstruction
- 919              	.LVL81:
+ 906              		.loc 1 386 2 view .LVU228
+ 907 00cc 0120     		movs	r0, #1
+ 908 00ce FFF7FEFF 		bl	sendInstruction
+ 909              	.LVL81:
  387:Core/Src/Lcd.c **** 
  388:Core/Src/Lcd.c **** 	// Entry set
  389:Core/Src/Lcd.c **** 	sendInstruction(0b00000110);
- 920              		.loc 1 389 2 view .LVU229
- 921 00d2 0620     		movs	r0, #6
- 922 00d4 FFF7FEFF 		bl	sendInstruction
- 923              	.LVL82:
+ 910              		.loc 1 389 2 view .LVU229
+ 911 00d2 0620     		movs	r0, #6
+ 912 00d4 FFF7FEFF 		bl	sendInstruction
+ 913              	.LVL82:
  390:Core/Src/Lcd.c **** 
  391:Core/Src/Lcd.c **** 	// Display mode starts with display off, cursor off, blinking off.
  392:Core/Src/Lcd.c **** 	displayMode = 0;
- 924              		.loc 1 392 2 view .LVU230
- 925              		.loc 1 392 14 is_stmt 0 view .LVU231
- 926 00d8 034B     		ldr	r3, .L54+8
- 927 00da 0022     		movs	r2, #0
- 928 00dc 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 24
-
-
+ 914              		.loc 1 392 2 view .LVU230
+ 915              		.loc 1 392 14 is_stmt 0 view .LVU231
+ 916 00d8 034B     		ldr	r3, .L54+8
+ 917 00da 0022     		movs	r2, #0
+ 918 00dc 1A70     		strb	r2, [r3]
  393:Core/Src/Lcd.c **** 
  394:Core/Src/Lcd.c **** 
  395:Core/Src/Lcd.c **** 
  396:Core/Src/Lcd.c **** }
- 929              		.loc 1 396 1 view .LVU232
- 930 00de 08BD     		pop	{r3, pc}
- 931              	.L55:
- 932              		.align	2
- 933              	.L54:
- 934 00e0 00100240 		.word	1073876992
- 935 00e4 00040048 		.word	1207960576
- 936 00e8 00000000 		.word	.LANCHOR0
- 937              		.cfi_endproc
- 938              	.LFE147:
- 940              		.section	.text.clearDisplay,"ax",%progbits
- 941              		.align	1
- 942              		.global	clearDisplay
- 943              		.syntax unified
- 944              		.thumb
- 945              		.thumb_func
- 946              		.fpu fpv4-sp-d16
- 948              	clearDisplay:
- 949              	.LFB148:
+ 919              		.loc 1 396 1 view .LVU232
+ 920 00de 08BD     		pop	{r3, pc}
+ 921              	.L55:
+ 922              		.align	2
+ 923              	.L54:
+ 924 00e0 00100240 		.word	1073876992
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 24
+
+
+ 925 00e4 00040048 		.word	1207960576
+ 926 00e8 00000000 		.word	.LANCHOR0
+ 927              		.cfi_endproc
+ 928              	.LFE147:
+ 930              		.section	.text.clearDisplay,"ax",%progbits
+ 931              		.align	1
+ 932              		.global	clearDisplay
+ 933              		.syntax unified
+ 934              		.thumb
+ 935              		.thumb_func
+ 936              		.fpu fpv4-sp-d16
+ 938              	clearDisplay:
+ 939              	.LFB148:
  397:Core/Src/Lcd.c **** 
  398:Core/Src/Lcd.c **** #endif
  399:Core/Src/Lcd.c **** 
  400:Core/Src/Lcd.c **** void clearDisplay(void)
  401:Core/Src/Lcd.c **** {
- 950              		.loc 1 401 1 is_stmt 1 view -0
- 951              		.cfi_startproc
- 952              		@ args = 0, pretend = 0, frame = 0
- 953              		@ frame_needed = 0, uses_anonymous_args = 0
- 954 0000 08B5     		push	{r3, lr}
- 955              	.LCFI10:
- 956              		.cfi_def_cfa_offset 8
- 957              		.cfi_offset 3, -8
- 958              		.cfi_offset 14, -4
+ 940              		.loc 1 401 1 is_stmt 1 view -0
+ 941              		.cfi_startproc
+ 942              		@ args = 0, pretend = 0, frame = 0
+ 943              		@ frame_needed = 0, uses_anonymous_args = 0
+ 944 0000 08B5     		push	{r3, lr}
+ 945              		.cfi_def_cfa_offset 8
+ 946              		.cfi_offset 3, -8
+ 947              		.cfi_offset 14, -4
  402:Core/Src/Lcd.c **** 	sendInstruction(0b00000001);
- 959              		.loc 1 402 2 view .LVU234
- 960 0002 0120     		movs	r0, #1
- 961 0004 FFF7FEFF 		bl	sendInstruction
- 962              	.LVL83:
+ 948              		.loc 1 402 2 view .LVU234
+ 949 0002 0120     		movs	r0, #1
+ 950 0004 FFF7FEFF 		bl	sendInstruction
+ 951              	.LVL83:
  403:Core/Src/Lcd.c **** }
- 963              		.loc 1 403 1 is_stmt 0 view .LVU235
- 964 0008 08BD     		pop	{r3, pc}
- 965              		.cfi_endproc
- 966              	.LFE148:
- 968              		.section	.text.returnHome,"ax",%progbits
- 969              		.align	1
- 970              		.global	returnHome
- 971              		.syntax unified
- 972              		.thumb
- 973              		.thumb_func
- 974              		.fpu fpv4-sp-d16
- 976              	returnHome:
- 977              	.LFB149:
+ 952              		.loc 1 403 1 is_stmt 0 view .LVU235
+ 953 0008 08BD     		pop	{r3, pc}
+ 954              		.cfi_endproc
+ 955              	.LFE148:
+ 957              		.section	.text.returnHome,"ax",%progbits
+ 958              		.align	1
+ 959              		.global	returnHome
+ 960              		.syntax unified
+ 961              		.thumb
+ 962              		.thumb_func
+ 963              		.fpu fpv4-sp-d16
+ 965              	returnHome:
+ 966              	.LFB149:
  404:Core/Src/Lcd.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 25
-
-
  405:Core/Src/Lcd.c **** void returnHome(void)
  406:Core/Src/Lcd.c **** {
- 978              		.loc 1 406 1 is_stmt 1 view -0
- 979              		.cfi_startproc
- 980              		@ args = 0, pretend = 0, frame = 0
- 981              		@ frame_needed = 0, uses_anonymous_args = 0
- 982 0000 08B5     		push	{r3, lr}
- 983              	.LCFI11:
- 984              		.cfi_def_cfa_offset 8
- 985              		.cfi_offset 3, -8
- 986              		.cfi_offset 14, -4
+ 967              		.loc 1 406 1 is_stmt 1 view -0
+ 968              		.cfi_startproc
+ 969              		@ args = 0, pretend = 0, frame = 0
+ 970              		@ frame_needed = 0, uses_anonymous_args = 0
+ 971 0000 08B5     		push	{r3, lr}
+ 972              		.cfi_def_cfa_offset 8
+ 973              		.cfi_offset 3, -8
+ 974              		.cfi_offset 14, -4
  407:Core/Src/Lcd.c **** 	sendInstruction(0b00000010);
- 987              		.loc 1 407 2 view .LVU237
- 988 0002 0220     		movs	r0, #2
- 989 0004 FFF7FEFF 		bl	sendInstruction
- 990              	.LVL84:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 25
+
+
+ 975              		.loc 1 407 2 view .LVU237
+ 976 0002 0220     		movs	r0, #2
+ 977 0004 FFF7FEFF 		bl	sendInstruction
+ 978              	.LVL84:
  408:Core/Src/Lcd.c **** }
- 991              		.loc 1 408 1 is_stmt 0 view .LVU238
- 992 0008 08BD     		pop	{r3, pc}
- 993              		.cfi_endproc
- 994              	.LFE149:
- 996              		.section	.text.entryModeSet,"ax",%progbits
- 997              		.align	1
- 998              		.global	entryModeSet
- 999              		.syntax unified
- 1000              		.thumb
- 1001              		.thumb_func
- 1002              		.fpu fpv4-sp-d16
- 1004              	entryModeSet:
- 1005              	.LVL85:
- 1006              	.LFB150:
+ 979              		.loc 1 408 1 is_stmt 0 view .LVU238
+ 980 0008 08BD     		pop	{r3, pc}
+ 981              		.cfi_endproc
+ 982              	.LFE149:
+ 984              		.section	.text.entryModeSet,"ax",%progbits
+ 985              		.align	1
+ 986              		.global	entryModeSet
+ 987              		.syntax unified
+ 988              		.thumb
+ 989              		.thumb_func
+ 990              		.fpu fpv4-sp-d16
+ 992              	entryModeSet:
+ 993              	.LVL85:
+ 994              	.LFB150:
  409:Core/Src/Lcd.c **** 
  410:Core/Src/Lcd.c **** void entryModeSet(int incOrDec, int S)
  411:Core/Src/Lcd.c **** {
- 1007              		.loc 1 411 1 is_stmt 1 view -0
- 1008              		.cfi_startproc
- 1009              		@ args = 0, pretend = 0, frame = 0
- 1010              		@ frame_needed = 0, uses_anonymous_args = 0
- 1011              		.loc 1 411 1 is_stmt 0 view .LVU240
- 1012 0000 08B5     		push	{r3, lr}
- 1013              	.LCFI12:
- 1014              		.cfi_def_cfa_offset 8
- 1015              		.cfi_offset 3, -8
- 1016              		.cfi_offset 14, -4
+ 995              		.loc 1 411 1 is_stmt 1 view -0
+ 996              		.cfi_startproc
+ 997              		@ args = 0, pretend = 0, frame = 0
+ 998              		@ frame_needed = 0, uses_anonymous_args = 0
+ 999              		.loc 1 411 1 is_stmt 0 view .LVU240
+ 1000 0000 08B5     		push	{r3, lr}
+ 1001              		.cfi_def_cfa_offset 8
+ 1002              		.cfi_offset 3, -8
+ 1003              		.cfi_offset 14, -4
  412:Core/Src/Lcd.c **** 	uint8_t instruction = (0b00000100 | (incOrDec << 1) | (S << 0));
- 1017              		.loc 1 412 2 is_stmt 1 view .LVU241
- 1018              		.loc 1 412 48 is_stmt 0 view .LVU242
- 1019 0002 4000     		lsls	r0, r0, #1
- 1020              	.LVL86:
- 1021              		.loc 1 412 36 view .LVU243
- 1022 0004 40F00400 		orr	r0, r0, #4
- 1023 0008 40B2     		sxtb	r0, r0
- 1024              		.loc 1 412 54 view .LVU244
- 1025 000a 0843     		orrs	r0, r0, r1
- 1026              	.LVL87:
+ 1004              		.loc 1 412 2 is_stmt 1 view .LVU241
+ 1005              		.loc 1 412 48 is_stmt 0 view .LVU242
+ 1006 0002 4000     		lsls	r0, r0, #1
+ 1007              	.LVL86:
+ 1008              		.loc 1 412 36 view .LVU243
+ 1009 0004 40F00400 		orr	r0, r0, #4
+ 1010 0008 40B2     		sxtb	r0, r0
+ 1011              		.loc 1 412 54 view .LVU244
+ 1012 000a 0843     		orrs	r0, r0, r1
+ 1013              	.LVL87:
  413:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1027              		.loc 1 413 2 is_stmt 1 view .LVU245
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 26
-
-
- 1028 000c C0B2     		uxtb	r0, r0
- 1029              		.loc 1 413 2 is_stmt 0 view .LVU246
- 1030 000e FFF7FEFF 		bl	sendInstruction
- 1031              	.LVL88:
+ 1014              		.loc 1 413 2 is_stmt 1 view .LVU245
+ 1015 000c C0B2     		uxtb	r0, r0
+ 1016              		.loc 1 413 2 is_stmt 0 view .LVU246
+ 1017 000e FFF7FEFF 		bl	sendInstruction
+ 1018              	.LVL88:
  414:Core/Src/Lcd.c **** }
- 1032              		.loc 1 414 1 view .LVU247
- 1033 0012 08BD     		pop	{r3, pc}
- 1034              		.cfi_endproc
- 1035              	.LFE150:
- 1037              		.section	.text.displayControl,"ax",%progbits
- 1038              		.align	1
- 1039              		.global	displayControl
- 1040              		.syntax unified
- 1041              		.thumb
- 1042              		.thumb_func
- 1043              		.fpu fpv4-sp-d16
- 1045              	displayControl:
- 1046              	.LVL89:
- 1047              	.LFB151:
+ 1019              		.loc 1 414 1 view .LVU247
+ 1020 0012 08BD     		pop	{r3, pc}
+ 1021              		.cfi_endproc
+ 1022              	.LFE150:
+ 1024              		.section	.text.displayControl,"ax",%progbits
+ 1025              		.align	1
+ 1026              		.global	displayControl
+ 1027              		.syntax unified
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 26
+
+
+ 1028              		.thumb
+ 1029              		.thumb_func
+ 1030              		.fpu fpv4-sp-d16
+ 1032              	displayControl:
+ 1033              	.LVL89:
+ 1034              	.LFB151:
  415:Core/Src/Lcd.c **** 
  416:Core/Src/Lcd.c **** void displayControl(uint8_t displayOn, uint8_t cursorOn, uint8_t blinkingOn)
  417:Core/Src/Lcd.c **** {
- 1048              		.loc 1 417 1 is_stmt 1 view -0
- 1049              		.cfi_startproc
- 1050              		@ args = 0, pretend = 0, frame = 0
- 1051              		@ frame_needed = 0, uses_anonymous_args = 0
- 1052              		.loc 1 417 1 is_stmt 0 view .LVU249
- 1053 0000 08B5     		push	{r3, lr}
- 1054              	.LCFI13:
- 1055              		.cfi_def_cfa_offset 8
- 1056              		.cfi_offset 3, -8
- 1057              		.cfi_offset 14, -4
+ 1035              		.loc 1 417 1 is_stmt 1 view -0
+ 1036              		.cfi_startproc
+ 1037              		@ args = 0, pretend = 0, frame = 0
+ 1038              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1039              		.loc 1 417 1 is_stmt 0 view .LVU249
+ 1040 0000 08B5     		push	{r3, lr}
+ 1041              		.cfi_def_cfa_offset 8
+ 1042              		.cfi_offset 3, -8
+ 1043              		.cfi_offset 14, -4
  418:Core/Src/Lcd.c **** 	displayMode = 0b1000;
- 1058              		.loc 1 418 2 is_stmt 1 view .LVU250
- 1059              		.loc 1 418 14 is_stmt 0 view .LVU251
- 1060 0002 094B     		ldr	r3, .L64
- 1061 0004 4FF0080C 		mov	ip, #8
- 1062 0008 83F800C0 		strb	ip, [r3]
+ 1044              		.loc 1 418 2 is_stmt 1 view .LVU250
+ 1045              		.loc 1 418 14 is_stmt 0 view .LVU251
+ 1046 0002 094B     		ldr	r3, .L64
+ 1047 0004 4FF0080C 		mov	ip, #8
+ 1048 0008 83F800C0 		strb	ip, [r3]
  419:Core/Src/Lcd.c **** 	displayMode |= (displayOn << 2) | (cursorOn << 1) | (blinkingOn << 0);
- 1063              		.loc 1 419 2 is_stmt 1 view .LVU252
- 1064              		.loc 1 419 46 is_stmt 0 view .LVU253
- 1065 000c 4900     		lsls	r1, r1, #1
- 1066              	.LVL90:
- 1067              		.loc 1 419 34 view .LVU254
- 1068 000e 41EA8001 		orr	r1, r1, r0, lsl #2
- 1069 0012 49B2     		sxtb	r1, r1
- 1070              		.loc 1 419 52 view .LVU255
- 1071 0014 41EA0200 		orr	r0, r1, r2
- 1072              	.LVL91:
- 1073              		.loc 1 419 52 view .LVU256
- 1074 0018 40B2     		sxtb	r0, r0
- 1075              		.loc 1 419 14 view .LVU257
- 1076 001a 40EA0C00 		orr	r0, r0, ip
- 1077 001e C0B2     		uxtb	r0, r0
- 1078 0020 1870     		strb	r0, [r3]
+ 1049              		.loc 1 419 2 is_stmt 1 view .LVU252
+ 1050              		.loc 1 419 46 is_stmt 0 view .LVU253
+ 1051 000c 4900     		lsls	r1, r1, #1
+ 1052              	.LVL90:
+ 1053              		.loc 1 419 34 view .LVU254
+ 1054 000e 41EA8001 		orr	r1, r1, r0, lsl #2
+ 1055 0012 49B2     		sxtb	r1, r1
+ 1056              		.loc 1 419 52 view .LVU255
+ 1057 0014 41EA0200 		orr	r0, r1, r2
+ 1058              	.LVL91:
+ 1059              		.loc 1 419 52 view .LVU256
+ 1060 0018 40B2     		sxtb	r0, r0
+ 1061              		.loc 1 419 14 view .LVU257
+ 1062 001a 40EA0C00 		orr	r0, r0, ip
+ 1063 001e C0B2     		uxtb	r0, r0
+ 1064 0020 1870     		strb	r0, [r3]
  420:Core/Src/Lcd.c **** 	sendInstruction(displayMode);
- 1079              		.loc 1 420 2 is_stmt 1 view .LVU258
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 27
-
-
- 1080 0022 FFF7FEFF 		bl	sendInstruction
- 1081              	.LVL92:
+ 1065              		.loc 1 420 2 is_stmt 1 view .LVU258
+ 1066 0022 FFF7FEFF 		bl	sendInstruction
+ 1067              	.LVL92:
  421:Core/Src/Lcd.c **** }
- 1082              		.loc 1 421 1 is_stmt 0 view .LVU259
- 1083 0026 08BD     		pop	{r3, pc}
- 1084              	.L65:
- 1085              		.align	2
- 1086              	.L64:
- 1087 0028 00000000 		.word	.LANCHOR0
- 1088              		.cfi_endproc
- 1089              	.LFE151:
- 1091              		.section	.text.displayControlHelper,"ax",%progbits
- 1092              		.align	1
- 1093              		.global	displayControlHelper
- 1094              		.syntax unified
- 1095              		.thumb
- 1096              		.thumb_func
- 1097              		.fpu fpv4-sp-d16
- 1099              	displayControlHelper:
- 1100              	.LFB152:
+ 1068              		.loc 1 421 1 is_stmt 0 view .LVU259
+ 1069 0026 08BD     		pop	{r3, pc}
+ 1070              	.L65:
+ 1071              		.align	2
+ 1072              	.L64:
+ 1073 0028 00000000 		.word	.LANCHOR0
+ 1074              		.cfi_endproc
+ 1075              	.LFE151:
+ 1077              		.section	.text.displayControlHelper,"ax",%progbits
+ 1078              		.align	1
+ 1079              		.global	displayControlHelper
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 27
+
+
+ 1080              		.syntax unified
+ 1081              		.thumb
+ 1082              		.thumb_func
+ 1083              		.fpu fpv4-sp-d16
+ 1085              	displayControlHelper:
+ 1086              	.LFB152:
  422:Core/Src/Lcd.c **** 
  423:Core/Src/Lcd.c **** void displayControlHelper()
  424:Core/Src/Lcd.c **** {
- 1101              		.loc 1 424 1 is_stmt 1 view -0
- 1102              		.cfi_startproc
- 1103              		@ args = 0, pretend = 0, frame = 0
- 1104              		@ frame_needed = 0, uses_anonymous_args = 0
- 1105 0000 08B5     		push	{r3, lr}
- 1106              	.LCFI14:
- 1107              		.cfi_def_cfa_offset 8
- 1108              		.cfi_offset 3, -8
- 1109              		.cfi_offset 14, -4
+ 1087              		.loc 1 424 1 is_stmt 1 view -0
+ 1088              		.cfi_startproc
+ 1089              		@ args = 0, pretend = 0, frame = 0
+ 1090              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1091 0000 08B5     		push	{r3, lr}
+ 1092              		.cfi_def_cfa_offset 8
+ 1093              		.cfi_offset 3, -8
+ 1094              		.cfi_offset 14, -4
  425:Core/Src/Lcd.c **** 	uint8_t instruction = (0b00001000 | displayMode);
- 1110              		.loc 1 425 2 view .LVU261
- 1111              		.loc 1 425 10 is_stmt 0 view .LVU262
- 1112 0002 034B     		ldr	r3, .L68
- 1113 0004 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
- 1114              	.LVL93:
+ 1095              		.loc 1 425 2 view .LVU261
+ 1096              		.loc 1 425 10 is_stmt 0 view .LVU262
+ 1097 0002 034B     		ldr	r3, .L68
+ 1098 0004 1878     		ldrb	r0, [r3]	@ zero_extendqisi2
+ 1099              	.LVL93:
  426:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1115              		.loc 1 426 2 is_stmt 1 view .LVU263
- 1116 0006 40F00800 		orr	r0, r0, #8
- 1117              	.LVL94:
- 1118              		.loc 1 426 2 is_stmt 0 view .LVU264
- 1119 000a FFF7FEFF 		bl	sendInstruction
- 1120              	.LVL95:
+ 1100              		.loc 1 426 2 is_stmt 1 view .LVU263
+ 1101 0006 40F00800 		orr	r0, r0, #8
+ 1102              	.LVL94:
+ 1103              		.loc 1 426 2 is_stmt 0 view .LVU264
+ 1104 000a FFF7FEFF 		bl	sendInstruction
+ 1105              	.LVL95:
  427:Core/Src/Lcd.c **** }
- 1121              		.loc 1 427 1 view .LVU265
- 1122 000e 08BD     		pop	{r3, pc}
- 1123              	.L69:
- 1124              		.align	2
- 1125              	.L68:
- 1126 0010 00000000 		.word	.LANCHOR0
- 1127              		.cfi_endproc
- 1128              	.LFE152:
- 1130              		.section	.text.displayOn,"ax",%progbits
- 1131              		.align	1
- 1132              		.global	displayOn
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 28
-
-
- 1133              		.syntax unified
- 1134              		.thumb
- 1135              		.thumb_func
- 1136              		.fpu fpv4-sp-d16
- 1138              	displayOn:
- 1139              	.LFB153:
+ 1106              		.loc 1 427 1 view .LVU265
+ 1107 000e 08BD     		pop	{r3, pc}
+ 1108              	.L69:
+ 1109              		.align	2
+ 1110              	.L68:
+ 1111 0010 00000000 		.word	.LANCHOR0
+ 1112              		.cfi_endproc
+ 1113              	.LFE152:
+ 1115              		.section	.text.displayOn,"ax",%progbits
+ 1116              		.align	1
+ 1117              		.global	displayOn
+ 1118              		.syntax unified
+ 1119              		.thumb
+ 1120              		.thumb_func
+ 1121              		.fpu fpv4-sp-d16
+ 1123              	displayOn:
+ 1124              	.LFB153:
  428:Core/Src/Lcd.c **** 
  429:Core/Src/Lcd.c **** void displayOn()
  430:Core/Src/Lcd.c **** {
- 1140              		.loc 1 430 1 is_stmt 1 view -0
- 1141              		.cfi_startproc
- 1142              		@ args = 0, pretend = 0, frame = 0
- 1143              		@ frame_needed = 0, uses_anonymous_args = 0
- 1144 0000 08B5     		push	{r3, lr}
- 1145              	.LCFI15:
- 1146              		.cfi_def_cfa_offset 8
- 1147              		.cfi_offset 3, -8
- 1148              		.cfi_offset 14, -4
+ 1125              		.loc 1 430 1 is_stmt 1 view -0
+ 1126              		.cfi_startproc
+ 1127              		@ args = 0, pretend = 0, frame = 0
+ 1128              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1129 0000 08B5     		push	{r3, lr}
+ 1130              		.cfi_def_cfa_offset 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 28
+
+
+ 1131              		.cfi_offset 3, -8
+ 1132              		.cfi_offset 14, -4
  431:Core/Src/Lcd.c **** 	displayMode |= (1<<2);
- 1149              		.loc 1 431 2 view .LVU267
- 1150              		.loc 1 431 14 is_stmt 0 view .LVU268
- 1151 0002 044A     		ldr	r2, .L72
- 1152 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 1153 0006 43F00403 		orr	r3, r3, #4
- 1154 000a 1370     		strb	r3, [r2]
+ 1133              		.loc 1 431 2 view .LVU267
+ 1134              		.loc 1 431 14 is_stmt 0 view .LVU268
+ 1135 0002 044A     		ldr	r2, .L72
+ 1136 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1137 0006 43F00403 		orr	r3, r3, #4
+ 1138 000a 1370     		strb	r3, [r2]
  432:Core/Src/Lcd.c **** 	displayControlHelper();
- 1155              		.loc 1 432 2 is_stmt 1 view .LVU269
- 1156 000c FFF7FEFF 		bl	displayControlHelper
- 1157              	.LVL96:
+ 1139              		.loc 1 432 2 is_stmt 1 view .LVU269
+ 1140 000c FFF7FEFF 		bl	displayControlHelper
+ 1141              	.LVL96:
  433:Core/Src/Lcd.c **** }
- 1158              		.loc 1 433 1 is_stmt 0 view .LVU270
- 1159 0010 08BD     		pop	{r3, pc}
- 1160              	.L73:
- 1161 0012 00BF     		.align	2
- 1162              	.L72:
- 1163 0014 00000000 		.word	.LANCHOR0
- 1164              		.cfi_endproc
- 1165              	.LFE153:
- 1167              		.section	.text.displayOff,"ax",%progbits
- 1168              		.align	1
- 1169              		.global	displayOff
- 1170              		.syntax unified
- 1171              		.thumb
- 1172              		.thumb_func
- 1173              		.fpu fpv4-sp-d16
- 1175              	displayOff:
- 1176              	.LFB154:
+ 1142              		.loc 1 433 1 is_stmt 0 view .LVU270
+ 1143 0010 08BD     		pop	{r3, pc}
+ 1144              	.L73:
+ 1145 0012 00BF     		.align	2
+ 1146              	.L72:
+ 1147 0014 00000000 		.word	.LANCHOR0
+ 1148              		.cfi_endproc
+ 1149              	.LFE153:
+ 1151              		.section	.text.displayOff,"ax",%progbits
+ 1152              		.align	1
+ 1153              		.global	displayOff
+ 1154              		.syntax unified
+ 1155              		.thumb
+ 1156              		.thumb_func
+ 1157              		.fpu fpv4-sp-d16
+ 1159              	displayOff:
+ 1160              	.LFB154:
  434:Core/Src/Lcd.c **** 
  435:Core/Src/Lcd.c **** void displayOff()
  436:Core/Src/Lcd.c **** {
- 1177              		.loc 1 436 1 is_stmt 1 view -0
- 1178              		.cfi_startproc
- 1179              		@ args = 0, pretend = 0, frame = 0
- 1180              		@ frame_needed = 0, uses_anonymous_args = 0
- 1181 0000 08B5     		push	{r3, lr}
- 1182              	.LCFI16:
- 1183              		.cfi_def_cfa_offset 8
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 29
-
-
- 1184              		.cfi_offset 3, -8
- 1185              		.cfi_offset 14, -4
+ 1161              		.loc 1 436 1 is_stmt 1 view -0
+ 1162              		.cfi_startproc
+ 1163              		@ args = 0, pretend = 0, frame = 0
+ 1164              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1165 0000 08B5     		push	{r3, lr}
+ 1166              		.cfi_def_cfa_offset 8
+ 1167              		.cfi_offset 3, -8
+ 1168              		.cfi_offset 14, -4
  437:Core/Src/Lcd.c **** 	displayMode &= ~(1<<2);
- 1186              		.loc 1 437 2 view .LVU272
- 1187              		.loc 1 437 14 is_stmt 0 view .LVU273
- 1188 0002 044A     		ldr	r2, .L76
- 1189 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 1190 0006 23F00403 		bic	r3, r3, #4
- 1191 000a 1370     		strb	r3, [r2]
+ 1169              		.loc 1 437 2 view .LVU272
+ 1170              		.loc 1 437 14 is_stmt 0 view .LVU273
+ 1171 0002 044A     		ldr	r2, .L76
+ 1172 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1173 0006 23F00403 		bic	r3, r3, #4
+ 1174 000a 1370     		strb	r3, [r2]
  438:Core/Src/Lcd.c **** 	displayControlHelper();
- 1192              		.loc 1 438 2 is_stmt 1 view .LVU274
- 1193 000c FFF7FEFF 		bl	displayControlHelper
- 1194              	.LVL97:
+ 1175              		.loc 1 438 2 is_stmt 1 view .LVU274
+ 1176 000c FFF7FEFF 		bl	displayControlHelper
+ 1177              	.LVL97:
  439:Core/Src/Lcd.c **** }
- 1195              		.loc 1 439 1 is_stmt 0 view .LVU275
- 1196 0010 08BD     		pop	{r3, pc}
- 1197              	.L77:
- 1198 0012 00BF     		.align	2
- 1199              	.L76:
- 1200 0014 00000000 		.word	.LANCHOR0
- 1201              		.cfi_endproc
- 1202              	.LFE154:
- 1204              		.section	.text.cursorOn,"ax",%progbits
- 1205              		.align	1
- 1206              		.global	cursorOn
- 1207              		.syntax unified
- 1208              		.thumb
- 1209              		.thumb_func
- 1210              		.fpu fpv4-sp-d16
- 1212              	cursorOn:
- 1213              	.LFB155:
+ 1178              		.loc 1 439 1 is_stmt 0 view .LVU275
+ 1179 0010 08BD     		pop	{r3, pc}
+ 1180              	.L77:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 29
+
+
+ 1181 0012 00BF     		.align	2
+ 1182              	.L76:
+ 1183 0014 00000000 		.word	.LANCHOR0
+ 1184              		.cfi_endproc
+ 1185              	.LFE154:
+ 1187              		.section	.text.cursorOn,"ax",%progbits
+ 1188              		.align	1
+ 1189              		.global	cursorOn
+ 1190              		.syntax unified
+ 1191              		.thumb
+ 1192              		.thumb_func
+ 1193              		.fpu fpv4-sp-d16
+ 1195              	cursorOn:
+ 1196              	.LFB155:
  440:Core/Src/Lcd.c **** 
  441:Core/Src/Lcd.c **** void cursorOn()
  442:Core/Src/Lcd.c **** {
- 1214              		.loc 1 442 1 is_stmt 1 view -0
- 1215              		.cfi_startproc
- 1216              		@ args = 0, pretend = 0, frame = 0
- 1217              		@ frame_needed = 0, uses_anonymous_args = 0
- 1218 0000 08B5     		push	{r3, lr}
- 1219              	.LCFI17:
- 1220              		.cfi_def_cfa_offset 8
- 1221              		.cfi_offset 3, -8
- 1222              		.cfi_offset 14, -4
+ 1197              		.loc 1 442 1 is_stmt 1 view -0
+ 1198              		.cfi_startproc
+ 1199              		@ args = 0, pretend = 0, frame = 0
+ 1200              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1201 0000 08B5     		push	{r3, lr}
+ 1202              		.cfi_def_cfa_offset 8
+ 1203              		.cfi_offset 3, -8
+ 1204              		.cfi_offset 14, -4
  443:Core/Src/Lcd.c **** 	displayMode |= (1<<1);
- 1223              		.loc 1 443 2 view .LVU277
- 1224              		.loc 1 443 14 is_stmt 0 view .LVU278
- 1225 0002 044A     		ldr	r2, .L80
- 1226 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 1227 0006 43F00203 		orr	r3, r3, #2
- 1228 000a 1370     		strb	r3, [r2]
+ 1205              		.loc 1 443 2 view .LVU277
+ 1206              		.loc 1 443 14 is_stmt 0 view .LVU278
+ 1207 0002 044A     		ldr	r2, .L80
+ 1208 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1209 0006 43F00203 		orr	r3, r3, #2
+ 1210 000a 1370     		strb	r3, [r2]
  444:Core/Src/Lcd.c **** 	displayControlHelper();
- 1229              		.loc 1 444 2 is_stmt 1 view .LVU279
- 1230 000c FFF7FEFF 		bl	displayControlHelper
- 1231              	.LVL98:
+ 1211              		.loc 1 444 2 is_stmt 1 view .LVU279
+ 1212 000c FFF7FEFF 		bl	displayControlHelper
+ 1213              	.LVL98:
  445:Core/Src/Lcd.c **** }
- 1232              		.loc 1 445 1 is_stmt 0 view .LVU280
- 1233 0010 08BD     		pop	{r3, pc}
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 30
-
-
- 1234              	.L81:
- 1235 0012 00BF     		.align	2
- 1236              	.L80:
- 1237 0014 00000000 		.word	.LANCHOR0
- 1238              		.cfi_endproc
- 1239              	.LFE155:
- 1241              		.section	.text.cursorOff,"ax",%progbits
- 1242              		.align	1
- 1243              		.global	cursorOff
- 1244              		.syntax unified
- 1245              		.thumb
- 1246              		.thumb_func
- 1247              		.fpu fpv4-sp-d16
- 1249              	cursorOff:
- 1250              	.LFB156:
+ 1214              		.loc 1 445 1 is_stmt 0 view .LVU280
+ 1215 0010 08BD     		pop	{r3, pc}
+ 1216              	.L81:
+ 1217 0012 00BF     		.align	2
+ 1218              	.L80:
+ 1219 0014 00000000 		.word	.LANCHOR0
+ 1220              		.cfi_endproc
+ 1221              	.LFE155:
+ 1223              		.section	.text.cursorOff,"ax",%progbits
+ 1224              		.align	1
+ 1225              		.global	cursorOff
+ 1226              		.syntax unified
+ 1227              		.thumb
+ 1228              		.thumb_func
+ 1229              		.fpu fpv4-sp-d16
+ 1231              	cursorOff:
+ 1232              	.LFB156:
  446:Core/Src/Lcd.c **** 
  447:Core/Src/Lcd.c **** void cursorOff()
  448:Core/Src/Lcd.c **** {
- 1251              		.loc 1 448 1 is_stmt 1 view -0
- 1252              		.cfi_startproc
- 1253              		@ args = 0, pretend = 0, frame = 0
- 1254              		@ frame_needed = 0, uses_anonymous_args = 0
- 1255 0000 08B5     		push	{r3, lr}
- 1256              	.LCFI18:
- 1257              		.cfi_def_cfa_offset 8
- 1258              		.cfi_offset 3, -8
- 1259              		.cfi_offset 14, -4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 30
+
+
+ 1233              		.loc 1 448 1 is_stmt 1 view -0
+ 1234              		.cfi_startproc
+ 1235              		@ args = 0, pretend = 0, frame = 0
+ 1236              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1237 0000 08B5     		push	{r3, lr}
+ 1238              		.cfi_def_cfa_offset 8
+ 1239              		.cfi_offset 3, -8
+ 1240              		.cfi_offset 14, -4
  449:Core/Src/Lcd.c **** 	displayMode &= ~(1<<1);
- 1260              		.loc 1 449 2 view .LVU282
- 1261              		.loc 1 449 14 is_stmt 0 view .LVU283
- 1262 0002 044A     		ldr	r2, .L84
- 1263 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 1264 0006 23F00203 		bic	r3, r3, #2
- 1265 000a 1370     		strb	r3, [r2]
+ 1241              		.loc 1 449 2 view .LVU282
+ 1242              		.loc 1 449 14 is_stmt 0 view .LVU283
+ 1243 0002 044A     		ldr	r2, .L84
+ 1244 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1245 0006 23F00203 		bic	r3, r3, #2
+ 1246 000a 1370     		strb	r3, [r2]
  450:Core/Src/Lcd.c **** 	displayControlHelper();
- 1266              		.loc 1 450 2 is_stmt 1 view .LVU284
- 1267 000c FFF7FEFF 		bl	displayControlHelper
- 1268              	.LVL99:
+ 1247              		.loc 1 450 2 is_stmt 1 view .LVU284
+ 1248 000c FFF7FEFF 		bl	displayControlHelper
+ 1249              	.LVL99:
  451:Core/Src/Lcd.c **** }
- 1269              		.loc 1 451 1 is_stmt 0 view .LVU285
- 1270 0010 08BD     		pop	{r3, pc}
- 1271              	.L85:
- 1272 0012 00BF     		.align	2
- 1273              	.L84:
- 1274 0014 00000000 		.word	.LANCHOR0
- 1275              		.cfi_endproc
- 1276              	.LFE156:
- 1278              		.section	.text.blinkingOn,"ax",%progbits
- 1279              		.align	1
- 1280              		.global	blinkingOn
- 1281              		.syntax unified
- 1282              		.thumb
- 1283              		.thumb_func
- 1284              		.fpu fpv4-sp-d16
- 1286              	blinkingOn:
- 1287              	.LFB157:
+ 1250              		.loc 1 451 1 is_stmt 0 view .LVU285
+ 1251 0010 08BD     		pop	{r3, pc}
+ 1252              	.L85:
+ 1253 0012 00BF     		.align	2
+ 1254              	.L84:
+ 1255 0014 00000000 		.word	.LANCHOR0
+ 1256              		.cfi_endproc
+ 1257              	.LFE156:
+ 1259              		.section	.text.blinkingOn,"ax",%progbits
+ 1260              		.align	1
+ 1261              		.global	blinkingOn
+ 1262              		.syntax unified
+ 1263              		.thumb
+ 1264              		.thumb_func
+ 1265              		.fpu fpv4-sp-d16
+ 1267              	blinkingOn:
+ 1268              	.LFB157:
  452:Core/Src/Lcd.c **** 
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 31
-
-
  453:Core/Src/Lcd.c **** void blinkingOn()
  454:Core/Src/Lcd.c **** {
- 1288              		.loc 1 454 1 is_stmt 1 view -0
- 1289              		.cfi_startproc
- 1290              		@ args = 0, pretend = 0, frame = 0
- 1291              		@ frame_needed = 0, uses_anonymous_args = 0
- 1292 0000 08B5     		push	{r3, lr}
- 1293              	.LCFI19:
- 1294              		.cfi_def_cfa_offset 8
- 1295              		.cfi_offset 3, -8
- 1296              		.cfi_offset 14, -4
+ 1269              		.loc 1 454 1 is_stmt 1 view -0
+ 1270              		.cfi_startproc
+ 1271              		@ args = 0, pretend = 0, frame = 0
+ 1272              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1273 0000 08B5     		push	{r3, lr}
+ 1274              		.cfi_def_cfa_offset 8
+ 1275              		.cfi_offset 3, -8
+ 1276              		.cfi_offset 14, -4
  455:Core/Src/Lcd.c **** 	displayMode |= (1<<0);
- 1297              		.loc 1 455 2 view .LVU287
- 1298              		.loc 1 455 14 is_stmt 0 view .LVU288
- 1299 0002 044A     		ldr	r2, .L88
- 1300 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
- 1301 0006 43F00103 		orr	r3, r3, #1
- 1302 000a 1370     		strb	r3, [r2]
+ 1277              		.loc 1 455 2 view .LVU287
+ 1278              		.loc 1 455 14 is_stmt 0 view .LVU288
+ 1279 0002 044A     		ldr	r2, .L88
+ 1280 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1281 0006 43F00103 		orr	r3, r3, #1
+ 1282 000a 1370     		strb	r3, [r2]
  456:Core/Src/Lcd.c **** 	displayControlHelper();
- 1303              		.loc 1 456 2 is_stmt 1 view .LVU289
- 1304 000c FFF7FEFF 		bl	displayControlHelper
- 1305              	.LVL100:
+ 1283              		.loc 1 456 2 is_stmt 1 view .LVU289
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 31
+
+
+ 1284 000c FFF7FEFF 		bl	displayControlHelper
+ 1285              	.LVL100:
  457:Core/Src/Lcd.c **** }
- 1306              		.loc 1 457 1 is_stmt 0 view .LVU290
- 1307 0010 08BD     		pop	{r3, pc}
- 1308              	.L89:
- 1309 0012 00BF     		.align	2
- 1310              	.L88:
- 1311 0014 00000000 		.word	.LANCHOR0
- 1312              		.cfi_endproc
- 1313              	.LFE157:
- 1315              		.section	.text.blinkingOff,"ax",%progbits
- 1316              		.align	1
- 1317              		.global	blinkingOff
- 1318              		.syntax unified
- 1319              		.thumb
- 1320              		.thumb_func
- 1321              		.fpu fpv4-sp-d16
- 1323              	blinkingOff:
- 1324              	.LFB158:
+ 1286              		.loc 1 457 1 is_stmt 0 view .LVU290
+ 1287 0010 08BD     		pop	{r3, pc}
+ 1288              	.L89:
+ 1289 0012 00BF     		.align	2
+ 1290              	.L88:
+ 1291 0014 00000000 		.word	.LANCHOR0
+ 1292              		.cfi_endproc
+ 1293              	.LFE157:
+ 1295              		.section	.text.blinkingOff,"ax",%progbits
+ 1296              		.align	1
+ 1297              		.global	blinkingOff
+ 1298              		.syntax unified
+ 1299              		.thumb
+ 1300              		.thumb_func
+ 1301              		.fpu fpv4-sp-d16
+ 1303              	blinkingOff:
+ 1304              	.LFB158:
  458:Core/Src/Lcd.c **** 
  459:Core/Src/Lcd.c **** void blinkingOff()
  460:Core/Src/Lcd.c **** {
- 1325              		.loc 1 460 1 is_stmt 1 view -0
- 1326              		.cfi_startproc
- 1327              		@ args = 0, pretend = 0, frame = 0
- 1328              		@ frame_needed = 0, uses_anonymous_args = 0
- 1329 0000 08B5     		push	{r3, lr}
- 1330              	.LCFI20:
- 1331              		.cfi_def_cfa_offset 8
- 1332              		.cfi_offset 3, -8
- 1333              		.cfi_offset 14, -4
+ 1305              		.loc 1 460 1 is_stmt 1 view -0
+ 1306              		.cfi_startproc
+ 1307              		@ args = 0, pretend = 0, frame = 0
+ 1308              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1309 0000 08B5     		push	{r3, lr}
+ 1310              		.cfi_def_cfa_offset 8
+ 1311              		.cfi_offset 3, -8
+ 1312              		.cfi_offset 14, -4
  461:Core/Src/Lcd.c **** 	displayMode &= ~(1<<0);
- 1334              		.loc 1 461 2 view .LVU292
- 1335              		.loc 1 461 14 is_stmt 0 view .LVU293
- 1336 0002 044A     		ldr	r2, .L92
- 1337 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 32
-
-
- 1338 0006 23F00103 		bic	r3, r3, #1
- 1339 000a 1370     		strb	r3, [r2]
+ 1313              		.loc 1 461 2 view .LVU292
+ 1314              		.loc 1 461 14 is_stmt 0 view .LVU293
+ 1315 0002 044A     		ldr	r2, .L92
+ 1316 0004 1378     		ldrb	r3, [r2]	@ zero_extendqisi2
+ 1317 0006 23F00103 		bic	r3, r3, #1
+ 1318 000a 1370     		strb	r3, [r2]
  462:Core/Src/Lcd.c **** 	displayControlHelper();
- 1340              		.loc 1 462 2 is_stmt 1 view .LVU294
- 1341 000c FFF7FEFF 		bl	displayControlHelper
- 1342              	.LVL101:
+ 1319              		.loc 1 462 2 is_stmt 1 view .LVU294
+ 1320 000c FFF7FEFF 		bl	displayControlHelper
+ 1321              	.LVL101:
  463:Core/Src/Lcd.c **** }
- 1343              		.loc 1 463 1 is_stmt 0 view .LVU295
- 1344 0010 08BD     		pop	{r3, pc}
- 1345              	.L93:
- 1346 0012 00BF     		.align	2
- 1347              	.L92:
- 1348 0014 00000000 		.word	.LANCHOR0
- 1349              		.cfi_endproc
- 1350              	.LFE158:
- 1352              		.section	.text.cursorOrDisplayShift,"ax",%progbits
- 1353              		.align	1
- 1354              		.global	cursorOrDisplayShift
- 1355              		.syntax unified
- 1356              		.thumb
- 1357              		.thumb_func
- 1358              		.fpu fpv4-sp-d16
- 1360              	cursorOrDisplayShift:
- 1361              	.LVL102:
- 1362              	.LFB159:
+ 1322              		.loc 1 463 1 is_stmt 0 view .LVU295
+ 1323 0010 08BD     		pop	{r3, pc}
+ 1324              	.L93:
+ 1325 0012 00BF     		.align	2
+ 1326              	.L92:
+ 1327 0014 00000000 		.word	.LANCHOR0
+ 1328              		.cfi_endproc
+ 1329              	.LFE158:
+ 1331              		.section	.text.cursorOrDisplayShift,"ax",%progbits
+ 1332              		.align	1
+ 1333              		.global	cursorOrDisplayShift
+ 1334              		.syntax unified
+ 1335              		.thumb
+ 1336              		.thumb_func
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 32
+
+
+ 1337              		.fpu fpv4-sp-d16
+ 1339              	cursorOrDisplayShift:
+ 1340              	.LVL102:
+ 1341              	.LFB159:
  464:Core/Src/Lcd.c **** 
  465:Core/Src/Lcd.c **** void cursorOrDisplayShift(int cOrD, int rOrL)
  466:Core/Src/Lcd.c **** {
- 1363              		.loc 1 466 1 is_stmt 1 view -0
- 1364              		.cfi_startproc
- 1365              		@ args = 0, pretend = 0, frame = 0
- 1366              		@ frame_needed = 0, uses_anonymous_args = 0
- 1367              		.loc 1 466 1 is_stmt 0 view .LVU297
- 1368 0000 08B5     		push	{r3, lr}
- 1369              	.LCFI21:
- 1370              		.cfi_def_cfa_offset 8
- 1371              		.cfi_offset 3, -8
- 1372              		.cfi_offset 14, -4
+ 1342              		.loc 1 466 1 is_stmt 1 view -0
+ 1343              		.cfi_startproc
+ 1344              		@ args = 0, pretend = 0, frame = 0
+ 1345              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1346              		.loc 1 466 1 is_stmt 0 view .LVU297
+ 1347 0000 08B5     		push	{r3, lr}
+ 1348              		.cfi_def_cfa_offset 8
+ 1349              		.cfi_offset 3, -8
+ 1350              		.cfi_offset 14, -4
  467:Core/Src/Lcd.c **** 	uint8_t instruction = (0b00010000 | (cOrD << 3) | (rOrL << 2));
- 1373              		.loc 1 467 2 is_stmt 1 view .LVU298
- 1374              		.loc 1 467 44 is_stmt 0 view .LVU299
- 1375 0002 C000     		lsls	r0, r0, #3
- 1376              	.LVL103:
- 1377              		.loc 1 467 36 view .LVU300
- 1378 0004 40F01000 		orr	r0, r0, #16
- 1379 0008 40B2     		sxtb	r0, r0
- 1380              		.loc 1 467 50 view .LVU301
- 1381 000a 40EA8100 		orr	r0, r0, r1, lsl #2
- 1382              	.LVL104:
+ 1351              		.loc 1 467 2 is_stmt 1 view .LVU298
+ 1352              		.loc 1 467 44 is_stmt 0 view .LVU299
+ 1353 0002 C000     		lsls	r0, r0, #3
+ 1354              	.LVL103:
+ 1355              		.loc 1 467 36 view .LVU300
+ 1356 0004 40F01000 		orr	r0, r0, #16
+ 1357 0008 40B2     		sxtb	r0, r0
+ 1358              		.loc 1 467 50 view .LVU301
+ 1359 000a 40EA8100 		orr	r0, r0, r1, lsl #2
+ 1360              	.LVL104:
  468:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1383              		.loc 1 468 2 is_stmt 1 view .LVU302
- 1384 000e 00F0FC00 		and	r0, r0, #252
- 1385              	.LVL105:
- 1386              		.loc 1 468 2 is_stmt 0 view .LVU303
- 1387 0012 FFF7FEFF 		bl	sendInstruction
- 1388              	.LVL106:
+ 1361              		.loc 1 468 2 is_stmt 1 view .LVU302
+ 1362 000e 00F0FC00 		and	r0, r0, #252
+ 1363              	.LVL105:
+ 1364              		.loc 1 468 2 is_stmt 0 view .LVU303
+ 1365 0012 FFF7FEFF 		bl	sendInstruction
+ 1366              	.LVL106:
  469:Core/Src/Lcd.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 33
-
-
- 1389              		.loc 1 469 1 view .LVU304
- 1390 0016 08BD     		pop	{r3, pc}
- 1391              		.cfi_endproc
- 1392              	.LFE159:
- 1394              		.section	.text.cursorShift,"ax",%progbits
- 1395              		.align	1
- 1396              		.global	cursorShift
- 1397              		.syntax unified
- 1398              		.thumb
- 1399              		.thumb_func
- 1400              		.fpu fpv4-sp-d16
- 1402              	cursorShift:
- 1403              	.LVL107:
- 1404              	.LFB160:
+ 1367              		.loc 1 469 1 view .LVU304
+ 1368 0016 08BD     		pop	{r3, pc}
+ 1369              		.cfi_endproc
+ 1370              	.LFE159:
+ 1372              		.section	.text.cursorShift,"ax",%progbits
+ 1373              		.align	1
+ 1374              		.global	cursorShift
+ 1375              		.syntax unified
+ 1376              		.thumb
+ 1377              		.thumb_func
+ 1378              		.fpu fpv4-sp-d16
+ 1380              	cursorShift:
+ 1381              	.LVL107:
+ 1382              	.LFB160:
  470:Core/Src/Lcd.c **** 
  471:Core/Src/Lcd.c **** void cursorShift(int rOrL)
  472:Core/Src/Lcd.c **** {
- 1405              		.loc 1 472 1 is_stmt 1 view -0
- 1406              		.cfi_startproc
- 1407              		@ args = 0, pretend = 0, frame = 0
- 1408              		@ frame_needed = 0, uses_anonymous_args = 0
- 1409              		.loc 1 472 1 is_stmt 0 view .LVU306
- 1410 0000 08B5     		push	{r3, lr}
- 1411              	.LCFI22:
- 1412              		.cfi_def_cfa_offset 8
- 1413              		.cfi_offset 3, -8
- 1414              		.cfi_offset 14, -4
- 1415 0002 0146     		mov	r1, r0
+ 1383              		.loc 1 472 1 is_stmt 1 view -0
+ 1384              		.cfi_startproc
+ 1385              		@ args = 0, pretend = 0, frame = 0
+ 1386              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1387              		.loc 1 472 1 is_stmt 0 view .LVU306
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 33
+
+
+ 1388 0000 08B5     		push	{r3, lr}
+ 1389              		.cfi_def_cfa_offset 8
+ 1390              		.cfi_offset 3, -8
+ 1391              		.cfi_offset 14, -4
+ 1392 0002 0146     		mov	r1, r0
  473:Core/Src/Lcd.c **** 	cursorOrDisplayShift(0, rOrL);
- 1416              		.loc 1 473 2 is_stmt 1 view .LVU307
- 1417 0004 0020     		movs	r0, #0
- 1418              	.LVL108:
- 1419              		.loc 1 473 2 is_stmt 0 view .LVU308
- 1420 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1421              	.LVL109:
+ 1393              		.loc 1 473 2 is_stmt 1 view .LVU307
+ 1394 0004 0020     		movs	r0, #0
+ 1395              	.LVL108:
+ 1396              		.loc 1 473 2 is_stmt 0 view .LVU308
+ 1397 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1398              	.LVL109:
  474:Core/Src/Lcd.c **** }
- 1422              		.loc 1 474 1 view .LVU309
- 1423 000a 08BD     		pop	{r3, pc}
- 1424              		.cfi_endproc
- 1425              	.LFE160:
- 1427              		.section	.text.displayShift,"ax",%progbits
- 1428              		.align	1
- 1429              		.global	displayShift
- 1430              		.syntax unified
- 1431              		.thumb
- 1432              		.thumb_func
- 1433              		.fpu fpv4-sp-d16
- 1435              	displayShift:
- 1436              	.LVL110:
- 1437              	.LFB161:
+ 1399              		.loc 1 474 1 view .LVU309
+ 1400 000a 08BD     		pop	{r3, pc}
+ 1401              		.cfi_endproc
+ 1402              	.LFE160:
+ 1404              		.section	.text.displayShift,"ax",%progbits
+ 1405              		.align	1
+ 1406              		.global	displayShift
+ 1407              		.syntax unified
+ 1408              		.thumb
+ 1409              		.thumb_func
+ 1410              		.fpu fpv4-sp-d16
+ 1412              	displayShift:
+ 1413              	.LVL110:
+ 1414              	.LFB161:
  475:Core/Src/Lcd.c **** 
  476:Core/Src/Lcd.c **** void displayShift(int rOrL)
  477:Core/Src/Lcd.c **** {
- 1438              		.loc 1 477 1 is_stmt 1 view -0
- 1439              		.cfi_startproc
- 1440              		@ args = 0, pretend = 0, frame = 0
- 1441              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 34
-
-
- 1442              		.loc 1 477 1 is_stmt 0 view .LVU311
- 1443 0000 08B5     		push	{r3, lr}
- 1444              	.LCFI23:
- 1445              		.cfi_def_cfa_offset 8
- 1446              		.cfi_offset 3, -8
- 1447              		.cfi_offset 14, -4
- 1448 0002 0146     		mov	r1, r0
+ 1415              		.loc 1 477 1 is_stmt 1 view -0
+ 1416              		.cfi_startproc
+ 1417              		@ args = 0, pretend = 0, frame = 0
+ 1418              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1419              		.loc 1 477 1 is_stmt 0 view .LVU311
+ 1420 0000 08B5     		push	{r3, lr}
+ 1421              		.cfi_def_cfa_offset 8
+ 1422              		.cfi_offset 3, -8
+ 1423              		.cfi_offset 14, -4
+ 1424 0002 0146     		mov	r1, r0
  478:Core/Src/Lcd.c **** 	cursorOrDisplayShift(1, rOrL);
- 1449              		.loc 1 478 2 is_stmt 1 view .LVU312
- 1450 0004 0120     		movs	r0, #1
- 1451              	.LVL111:
- 1452              		.loc 1 478 2 is_stmt 0 view .LVU313
- 1453 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1454              	.LVL112:
+ 1425              		.loc 1 478 2 is_stmt 1 view .LVU312
+ 1426 0004 0120     		movs	r0, #1
+ 1427              	.LVL111:
+ 1428              		.loc 1 478 2 is_stmt 0 view .LVU313
+ 1429 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1430              	.LVL112:
  479:Core/Src/Lcd.c **** }
- 1455              		.loc 1 479 1 view .LVU314
- 1456 000a 08BD     		pop	{r3, pc}
- 1457              		.cfi_endproc
- 1458              	.LFE161:
- 1460              		.section	.text.cursorShiftRight,"ax",%progbits
- 1461              		.align	1
- 1462              		.global	cursorShiftRight
- 1463              		.syntax unified
- 1464              		.thumb
- 1465              		.thumb_func
- 1466              		.fpu fpv4-sp-d16
- 1468              	cursorShiftRight:
- 1469              	.LFB162:
+ 1431              		.loc 1 479 1 view .LVU314
+ 1432 000a 08BD     		pop	{r3, pc}
+ 1433              		.cfi_endproc
+ 1434              	.LFE161:
+ 1436              		.section	.text.cursorShiftRight,"ax",%progbits
+ 1437              		.align	1
+ 1438              		.global	cursorShiftRight
+ 1439              		.syntax unified
+ 1440              		.thumb
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 34
+
+
+ 1441              		.thumb_func
+ 1442              		.fpu fpv4-sp-d16
+ 1444              	cursorShiftRight:
+ 1445              	.LFB162:
  480:Core/Src/Lcd.c **** 
  481:Core/Src/Lcd.c **** void cursorShiftRight()
  482:Core/Src/Lcd.c **** {
- 1470              		.loc 1 482 1 is_stmt 1 view -0
- 1471              		.cfi_startproc
- 1472              		@ args = 0, pretend = 0, frame = 0
- 1473              		@ frame_needed = 0, uses_anonymous_args = 0
- 1474 0000 08B5     		push	{r3, lr}
- 1475              	.LCFI24:
- 1476              		.cfi_def_cfa_offset 8
- 1477              		.cfi_offset 3, -8
- 1478              		.cfi_offset 14, -4
+ 1446              		.loc 1 482 1 is_stmt 1 view -0
+ 1447              		.cfi_startproc
+ 1448              		@ args = 0, pretend = 0, frame = 0
+ 1449              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1450 0000 08B5     		push	{r3, lr}
+ 1451              		.cfi_def_cfa_offset 8
+ 1452              		.cfi_offset 3, -8
+ 1453              		.cfi_offset 14, -4
  483:Core/Src/Lcd.c **** 	cursorOrDisplayShift(0, 1);
- 1479              		.loc 1 483 2 view .LVU316
- 1480 0002 0121     		movs	r1, #1
- 1481 0004 0020     		movs	r0, #0
- 1482 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1483              	.LVL113:
+ 1454              		.loc 1 483 2 view .LVU316
+ 1455 0002 0121     		movs	r1, #1
+ 1456 0004 0020     		movs	r0, #0
+ 1457 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1458              	.LVL113:
  484:Core/Src/Lcd.c **** }
- 1484              		.loc 1 484 1 is_stmt 0 view .LVU317
- 1485 000a 08BD     		pop	{r3, pc}
- 1486              		.cfi_endproc
- 1487              	.LFE162:
- 1489              		.section	.text.cursorShiftLeft,"ax",%progbits
- 1490              		.align	1
- 1491              		.global	cursorShiftLeft
- 1492              		.syntax unified
- 1493              		.thumb
- 1494              		.thumb_func
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 35
-
-
- 1495              		.fpu fpv4-sp-d16
- 1497              	cursorShiftLeft:
- 1498              	.LFB163:
+ 1459              		.loc 1 484 1 is_stmt 0 view .LVU317
+ 1460 000a 08BD     		pop	{r3, pc}
+ 1461              		.cfi_endproc
+ 1462              	.LFE162:
+ 1464              		.section	.text.cursorShiftLeft,"ax",%progbits
+ 1465              		.align	1
+ 1466              		.global	cursorShiftLeft
+ 1467              		.syntax unified
+ 1468              		.thumb
+ 1469              		.thumb_func
+ 1470              		.fpu fpv4-sp-d16
+ 1472              	cursorShiftLeft:
+ 1473              	.LFB163:
  485:Core/Src/Lcd.c **** 
  486:Core/Src/Lcd.c **** void cursorShiftLeft()
  487:Core/Src/Lcd.c **** {
- 1499              		.loc 1 487 1 is_stmt 1 view -0
- 1500              		.cfi_startproc
- 1501              		@ args = 0, pretend = 0, frame = 0
- 1502              		@ frame_needed = 0, uses_anonymous_args = 0
- 1503 0000 08B5     		push	{r3, lr}
- 1504              	.LCFI25:
- 1505              		.cfi_def_cfa_offset 8
- 1506              		.cfi_offset 3, -8
- 1507              		.cfi_offset 14, -4
+ 1474              		.loc 1 487 1 is_stmt 1 view -0
+ 1475              		.cfi_startproc
+ 1476              		@ args = 0, pretend = 0, frame = 0
+ 1477              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1478 0000 08B5     		push	{r3, lr}
+ 1479              		.cfi_def_cfa_offset 8
+ 1480              		.cfi_offset 3, -8
+ 1481              		.cfi_offset 14, -4
  488:Core/Src/Lcd.c **** 	cursorOrDisplayShift(0, 0);
- 1508              		.loc 1 488 2 view .LVU319
- 1509 0002 0021     		movs	r1, #0
- 1510 0004 0846     		mov	r0, r1
- 1511 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1512              	.LVL114:
+ 1482              		.loc 1 488 2 view .LVU319
+ 1483 0002 0021     		movs	r1, #0
+ 1484 0004 0846     		mov	r0, r1
+ 1485 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1486              	.LVL114:
  489:Core/Src/Lcd.c **** }
- 1513              		.loc 1 489 1 is_stmt 0 view .LVU320
- 1514 000a 08BD     		pop	{r3, pc}
- 1515              		.cfi_endproc
- 1516              	.LFE163:
- 1518              		.section	.text.displayShiftRight,"ax",%progbits
- 1519              		.align	1
- 1520              		.global	displayShiftRight
- 1521              		.syntax unified
- 1522              		.thumb
- 1523              		.thumb_func
- 1524              		.fpu fpv4-sp-d16
- 1526              	displayShiftRight:
- 1527              	.LFB164:
+ 1487              		.loc 1 489 1 is_stmt 0 view .LVU320
+ 1488 000a 08BD     		pop	{r3, pc}
+ 1489              		.cfi_endproc
+ 1490              	.LFE163:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 35
+
+
+ 1492              		.section	.text.displayShiftRight,"ax",%progbits
+ 1493              		.align	1
+ 1494              		.global	displayShiftRight
+ 1495              		.syntax unified
+ 1496              		.thumb
+ 1497              		.thumb_func
+ 1498              		.fpu fpv4-sp-d16
+ 1500              	displayShiftRight:
+ 1501              	.LFB164:
  490:Core/Src/Lcd.c **** 
  491:Core/Src/Lcd.c **** void displayShiftRight()
  492:Core/Src/Lcd.c **** {
- 1528              		.loc 1 492 1 is_stmt 1 view -0
- 1529              		.cfi_startproc
- 1530              		@ args = 0, pretend = 0, frame = 0
- 1531              		@ frame_needed = 0, uses_anonymous_args = 0
- 1532 0000 08B5     		push	{r3, lr}
- 1533              	.LCFI26:
- 1534              		.cfi_def_cfa_offset 8
- 1535              		.cfi_offset 3, -8
- 1536              		.cfi_offset 14, -4
+ 1502              		.loc 1 492 1 is_stmt 1 view -0
+ 1503              		.cfi_startproc
+ 1504              		@ args = 0, pretend = 0, frame = 0
+ 1505              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1506 0000 08B5     		push	{r3, lr}
+ 1507              		.cfi_def_cfa_offset 8
+ 1508              		.cfi_offset 3, -8
+ 1509              		.cfi_offset 14, -4
  493:Core/Src/Lcd.c **** 	cursorOrDisplayShift(1, 1);
- 1537              		.loc 1 493 2 view .LVU322
- 1538 0002 0121     		movs	r1, #1
- 1539 0004 0846     		mov	r0, r1
- 1540 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1541              	.LVL115:
+ 1510              		.loc 1 493 2 view .LVU322
+ 1511 0002 0121     		movs	r1, #1
+ 1512 0004 0846     		mov	r0, r1
+ 1513 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1514              	.LVL115:
  494:Core/Src/Lcd.c **** }
- 1542              		.loc 1 494 1 is_stmt 0 view .LVU323
- 1543 000a 08BD     		pop	{r3, pc}
- 1544              		.cfi_endproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 36
-
-
- 1545              	.LFE164:
- 1547              		.section	.text.displayShiftLeft,"ax",%progbits
- 1548              		.align	1
- 1549              		.global	displayShiftLeft
- 1550              		.syntax unified
- 1551              		.thumb
- 1552              		.thumb_func
- 1553              		.fpu fpv4-sp-d16
- 1555              	displayShiftLeft:
- 1556              	.LFB165:
+ 1515              		.loc 1 494 1 is_stmt 0 view .LVU323
+ 1516 000a 08BD     		pop	{r3, pc}
+ 1517              		.cfi_endproc
+ 1518              	.LFE164:
+ 1520              		.section	.text.displayShiftLeft,"ax",%progbits
+ 1521              		.align	1
+ 1522              		.global	displayShiftLeft
+ 1523              		.syntax unified
+ 1524              		.thumb
+ 1525              		.thumb_func
+ 1526              		.fpu fpv4-sp-d16
+ 1528              	displayShiftLeft:
+ 1529              	.LFB165:
  495:Core/Src/Lcd.c **** 
  496:Core/Src/Lcd.c **** void displayShiftLeft()
  497:Core/Src/Lcd.c **** {
- 1557              		.loc 1 497 1 is_stmt 1 view -0
- 1558              		.cfi_startproc
- 1559              		@ args = 0, pretend = 0, frame = 0
- 1560              		@ frame_needed = 0, uses_anonymous_args = 0
- 1561 0000 08B5     		push	{r3, lr}
- 1562              	.LCFI27:
- 1563              		.cfi_def_cfa_offset 8
- 1564              		.cfi_offset 3, -8
- 1565              		.cfi_offset 14, -4
+ 1530              		.loc 1 497 1 is_stmt 1 view -0
+ 1531              		.cfi_startproc
+ 1532              		@ args = 0, pretend = 0, frame = 0
+ 1533              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1534 0000 08B5     		push	{r3, lr}
+ 1535              		.cfi_def_cfa_offset 8
+ 1536              		.cfi_offset 3, -8
+ 1537              		.cfi_offset 14, -4
  498:Core/Src/Lcd.c **** 	cursorOrDisplayShift(1, 0);
- 1566              		.loc 1 498 2 view .LVU325
- 1567 0002 0021     		movs	r1, #0
- 1568 0004 0120     		movs	r0, #1
- 1569 0006 FFF7FEFF 		bl	cursorOrDisplayShift
- 1570              	.LVL116:
+ 1538              		.loc 1 498 2 view .LVU325
+ 1539 0002 0021     		movs	r1, #0
+ 1540 0004 0120     		movs	r0, #1
+ 1541 0006 FFF7FEFF 		bl	cursorOrDisplayShift
+ 1542              	.LVL116:
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 36
+
+
  499:Core/Src/Lcd.c **** }
- 1571              		.loc 1 499 1 is_stmt 0 view .LVU326
- 1572 000a 08BD     		pop	{r3, pc}
- 1573              		.cfi_endproc
- 1574              	.LFE165:
- 1576              		.section	.text.functionSet,"ax",%progbits
- 1577              		.align	1
- 1578              		.global	functionSet
- 1579              		.syntax unified
- 1580              		.thumb
- 1581              		.thumb_func
- 1582              		.fpu fpv4-sp-d16
- 1584              	functionSet:
- 1585              	.LVL117:
- 1586              	.LFB166:
+ 1543              		.loc 1 499 1 is_stmt 0 view .LVU326
+ 1544 000a 08BD     		pop	{r3, pc}
+ 1545              		.cfi_endproc
+ 1546              	.LFE165:
+ 1548              		.section	.text.functionSet,"ax",%progbits
+ 1549              		.align	1
+ 1550              		.global	functionSet
+ 1551              		.syntax unified
+ 1552              		.thumb
+ 1553              		.thumb_func
+ 1554              		.fpu fpv4-sp-d16
+ 1556              	functionSet:
+ 1557              	.LVL117:
+ 1558              	.LFB166:
  500:Core/Src/Lcd.c **** 
  501:Core/Src/Lcd.c **** #ifndef FOUR_BIT_OPERATION
  502:Core/Src/Lcd.c **** 
@@ -2158,9 +2130,6 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  511:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (1 << 3) | (0 << 2);
  512:Core/Src/Lcd.c **** 	sendInstruction(instruction);
  513:Core/Src/Lcd.c **** }
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 37
-
-
  514:Core/Src/Lcd.c **** 
  515:Core/Src/Lcd.c **** void functionSet1Line5By8()
  516:Core/Src/Lcd.c **** {
@@ -2184,450 +2153,438 @@ ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 1
  534:Core/Src/Lcd.c **** 
  535:Core/Src/Lcd.c **** void functionSet(int lines, int font)
  536:Core/Src/Lcd.c **** {
- 1587              		.loc 1 536 1 is_stmt 1 view -0
- 1588              		.cfi_startproc
- 1589              		@ args = 0, pretend = 0, frame = 0
- 1590              		@ frame_needed = 0, uses_anonymous_args = 0
- 1591              		.loc 1 536 1 is_stmt 0 view .LVU328
- 1592 0000 08B5     		push	{r3, lr}
- 1593              	.LCFI28:
- 1594              		.cfi_def_cfa_offset 8
- 1595              		.cfi_offset 3, -8
- 1596              		.cfi_offset 14, -4
+ 1559              		.loc 1 536 1 is_stmt 1 view -0
+ 1560              		.cfi_startproc
+ 1561              		@ args = 0, pretend = 0, frame = 0
+ 1562              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1563              		.loc 1 536 1 is_stmt 0 view .LVU328
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 37
+
+
+ 1564 0000 08B5     		push	{r3, lr}
+ 1565              		.cfi_def_cfa_offset 8
+ 1566              		.cfi_offset 3, -8
+ 1567              		.cfi_offset 14, -4
  537:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (lines << 3) | (font << 2);
- 1597              		.loc 1 537 2 is_stmt 1 view .LVU329
- 1598              		.loc 1 537 51 is_stmt 0 view .LVU330
- 1599 0002 C000     		lsls	r0, r0, #3
- 1600              	.LVL118:
- 1601              		.loc 1 537 42 view .LVU331
- 1602 0004 40F02000 		orr	r0, r0, #32
- 1603              		.loc 1 537 6 view .LVU332
- 1604 0008 40EA8100 		orr	r0, r0, r1, lsl #2
- 1605              	.LVL119:
+ 1568              		.loc 1 537 2 is_stmt 1 view .LVU329
+ 1569              		.loc 1 537 51 is_stmt 0 view .LVU330
+ 1570 0002 C000     		lsls	r0, r0, #3
+ 1571              	.LVL118:
+ 1572              		.loc 1 537 42 view .LVU331
+ 1573 0004 40F02000 		orr	r0, r0, #32
+ 1574              		.loc 1 537 6 view .LVU332
+ 1575 0008 40EA8100 		orr	r0, r0, r1, lsl #2
+ 1576              	.LVL119:
  538:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1606              		.loc 1 538 2 is_stmt 1 view .LVU333
- 1607 000c 00F0FC00 		and	r0, r0, #252
- 1608              	.LVL120:
- 1609              		.loc 1 538 2 is_stmt 0 view .LVU334
- 1610 0010 FFF7FEFF 		bl	sendInstruction
- 1611              	.LVL121:
+ 1577              		.loc 1 538 2 is_stmt 1 view .LVU333
+ 1578 000c 00F0FC00 		and	r0, r0, #252
+ 1579              	.LVL120:
+ 1580              		.loc 1 538 2 is_stmt 0 view .LVU334
+ 1581 0010 FFF7FEFF 		bl	sendInstruction
+ 1582              	.LVL121:
  539:Core/Src/Lcd.c **** }
- 1612              		.loc 1 539 1 view .LVU335
- 1613 0014 08BD     		pop	{r3, pc}
+ 1583              		.loc 1 539 1 view .LVU335
+ 1584 0014 08BD     		pop	{r3, pc}
+ 1585              		.cfi_endproc
+ 1586              	.LFE166:
+ 1588              		.section	.text.functionSet2Lines5By8,"ax",%progbits
+ 1589              		.align	1
+ 1590              		.global	functionSet2Lines5By8
+ 1591              		.syntax unified
+ 1592              		.thumb
+ 1593              		.thumb_func
+ 1594              		.fpu fpv4-sp-d16
+ 1596              	functionSet2Lines5By8:
+ 1597              	.LFB167:
+ 540:Core/Src/Lcd.c **** 
+ 541:Core/Src/Lcd.c **** void functionSet2Lines5By8()
+ 542:Core/Src/Lcd.c **** {
+ 1598              		.loc 1 542 1 is_stmt 1 view -0
+ 1599              		.cfi_startproc
+ 1600              		@ args = 0, pretend = 0, frame = 0
+ 1601              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1602 0000 08B5     		push	{r3, lr}
+ 1603              		.cfi_def_cfa_offset 8
+ 1604              		.cfi_offset 3, -8
+ 1605              		.cfi_offset 14, -4
+ 543:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (1 << 3) | (0 << 2);
+ 1606              		.loc 1 543 2 view .LVU337
+ 1607              	.LVL122:
+ 544:Core/Src/Lcd.c **** 	sendInstruction(instruction);
+ 1608              		.loc 1 544 2 view .LVU338
+ 1609 0002 2820     		movs	r0, #40
+ 1610 0004 FFF7FEFF 		bl	sendInstruction
+ 1611              	.LVL123:
+ 545:Core/Src/Lcd.c **** }
+ 1612              		.loc 1 545 1 is_stmt 0 view .LVU339
+ 1613 0008 08BD     		pop	{r3, pc}
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 38
+
+
  1614              		.cfi_endproc
- 1615              	.LFE166:
- 1617              		.section	.text.functionSet2Lines5By8,"ax",%progbits
+ 1615              	.LFE167:
+ 1617              		.section	.text.functionSet1Line5By8,"ax",%progbits
  1618              		.align	1
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 38
-
-
- 1619              		.global	functionSet2Lines5By8
+ 1619              		.global	functionSet1Line5By8
  1620              		.syntax unified
  1621              		.thumb
  1622              		.thumb_func
  1623              		.fpu fpv4-sp-d16
- 1625              	functionSet2Lines5By8:
- 1626              	.LFB167:
- 540:Core/Src/Lcd.c **** 
- 541:Core/Src/Lcd.c **** void functionSet2Lines5By8()
- 542:Core/Src/Lcd.c **** {
- 1627              		.loc 1 542 1 is_stmt 1 view -0
+ 1625              	functionSet1Line5By8:
+ 1626              	.LFB168:
+ 546:Core/Src/Lcd.c **** 
+ 547:Core/Src/Lcd.c **** void functionSet1Line5By8()
+ 548:Core/Src/Lcd.c **** {
+ 1627              		.loc 1 548 1 is_stmt 1 view -0
  1628              		.cfi_startproc
  1629              		@ args = 0, pretend = 0, frame = 0
  1630              		@ frame_needed = 0, uses_anonymous_args = 0
  1631 0000 08B5     		push	{r3, lr}
- 1632              	.LCFI29:
- 1633              		.cfi_def_cfa_offset 8
- 1634              		.cfi_offset 3, -8
- 1635              		.cfi_offset 14, -4
- 543:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (1 << 3) | (0 << 2);
- 1636              		.loc 1 543 2 view .LVU337
- 1637              	.LVL122:
- 544:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1638              		.loc 1 544 2 view .LVU338
- 1639 0002 2820     		movs	r0, #40
- 1640 0004 FFF7FEFF 		bl	sendInstruction
- 1641              	.LVL123:
- 545:Core/Src/Lcd.c **** }
- 1642              		.loc 1 545 1 is_stmt 0 view .LVU339
- 1643 0008 08BD     		pop	{r3, pc}
- 1644              		.cfi_endproc
- 1645              	.LFE167:
- 1647              		.section	.text.functionSet1Line5By8,"ax",%progbits
- 1648              		.align	1
- 1649              		.global	functionSet1Line5By8
- 1650              		.syntax unified
- 1651              		.thumb
- 1652              		.thumb_func
- 1653              		.fpu fpv4-sp-d16
- 1655              	functionSet1Line5By8:
- 1656              	.LFB168:
- 546:Core/Src/Lcd.c **** 
- 547:Core/Src/Lcd.c **** void functionSet1Line5By8()
- 548:Core/Src/Lcd.c **** {
- 1657              		.loc 1 548 1 is_stmt 1 view -0
- 1658              		.cfi_startproc
- 1659              		@ args = 0, pretend = 0, frame = 0
- 1660              		@ frame_needed = 0, uses_anonymous_args = 0
- 1661 0000 08B5     		push	{r3, lr}
- 1662              	.LCFI30:
- 1663              		.cfi_def_cfa_offset 8
- 1664              		.cfi_offset 3, -8
- 1665              		.cfi_offset 14, -4
+ 1632              		.cfi_def_cfa_offset 8
+ 1633              		.cfi_offset 3, -8
+ 1634              		.cfi_offset 14, -4
  549:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (0 << 3) | (0 << 2);
- 1666              		.loc 1 549 2 view .LVU341
- 1667              	.LVL124:
+ 1635              		.loc 1 549 2 view .LVU341
+ 1636              	.LVL124:
  550:Core/Src/Lcd.c **** 	sendInstruction(instruction);
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 39
-
-
- 1668              		.loc 1 550 2 view .LVU342
- 1669 0002 2020     		movs	r0, #32
- 1670 0004 FFF7FEFF 		bl	sendInstruction
- 1671              	.LVL125:
+ 1637              		.loc 1 550 2 view .LVU342
+ 1638 0002 2020     		movs	r0, #32
+ 1639 0004 FFF7FEFF 		bl	sendInstruction
+ 1640              	.LVL125:
  551:Core/Src/Lcd.c **** }
- 1672              		.loc 1 551 1 is_stmt 0 view .LVU343
- 1673 0008 08BD     		pop	{r3, pc}
- 1674              		.cfi_endproc
- 1675              	.LFE168:
- 1677              		.section	.text.functionSet2Lines5By10,"ax",%progbits
- 1678              		.align	1
- 1679              		.global	functionSet2Lines5By10
- 1680              		.syntax unified
- 1681              		.thumb
- 1682              		.thumb_func
- 1683              		.fpu fpv4-sp-d16
- 1685              	functionSet2Lines5By10:
- 1686              	.LFB169:
+ 1641              		.loc 1 551 1 is_stmt 0 view .LVU343
+ 1642 0008 08BD     		pop	{r3, pc}
+ 1643              		.cfi_endproc
+ 1644              	.LFE168:
+ 1646              		.section	.text.functionSet2Lines5By10,"ax",%progbits
+ 1647              		.align	1
+ 1648              		.global	functionSet2Lines5By10
+ 1649              		.syntax unified
+ 1650              		.thumb
+ 1651              		.thumb_func
+ 1652              		.fpu fpv4-sp-d16
+ 1654              	functionSet2Lines5By10:
+ 1655              	.LFB169:
  552:Core/Src/Lcd.c **** 
  553:Core/Src/Lcd.c **** void functionSet2Lines5By10()
  554:Core/Src/Lcd.c **** {
- 1687              		.loc 1 554 1 is_stmt 1 view -0
- 1688              		.cfi_startproc
- 1689              		@ args = 0, pretend = 0, frame = 0
- 1690              		@ frame_needed = 0, uses_anonymous_args = 0
- 1691 0000 08B5     		push	{r3, lr}
- 1692              	.LCFI31:
- 1693              		.cfi_def_cfa_offset 8
- 1694              		.cfi_offset 3, -8
- 1695              		.cfi_offset 14, -4
+ 1656              		.loc 1 554 1 is_stmt 1 view -0
+ 1657              		.cfi_startproc
+ 1658              		@ args = 0, pretend = 0, frame = 0
+ 1659              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1660 0000 08B5     		push	{r3, lr}
+ 1661              		.cfi_def_cfa_offset 8
+ 1662              		.cfi_offset 3, -8
+ 1663              		.cfi_offset 14, -4
  555:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (1 << 3) | (1 << 2);
- 1696              		.loc 1 555 2 view .LVU345
- 1697              	.LVL126:
+ 1664              		.loc 1 555 2 view .LVU345
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 39
+
+
+ 1665              	.LVL126:
  556:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1698              		.loc 1 556 2 view .LVU346
- 1699 0002 2C20     		movs	r0, #44
- 1700 0004 FFF7FEFF 		bl	sendInstruction
- 1701              	.LVL127:
+ 1666              		.loc 1 556 2 view .LVU346
+ 1667 0002 2C20     		movs	r0, #44
+ 1668 0004 FFF7FEFF 		bl	sendInstruction
+ 1669              	.LVL127:
  557:Core/Src/Lcd.c **** }
- 1702              		.loc 1 557 1 is_stmt 0 view .LVU347
- 1703 0008 08BD     		pop	{r3, pc}
- 1704              		.cfi_endproc
- 1705              	.LFE169:
- 1707              		.section	.text.functionSet1Line5By10,"ax",%progbits
- 1708              		.align	1
- 1709              		.global	functionSet1Line5By10
- 1710              		.syntax unified
- 1711              		.thumb
- 1712              		.thumb_func
- 1713              		.fpu fpv4-sp-d16
- 1715              	functionSet1Line5By10:
- 1716              	.LFB170:
+ 1670              		.loc 1 557 1 is_stmt 0 view .LVU347
+ 1671 0008 08BD     		pop	{r3, pc}
+ 1672              		.cfi_endproc
+ 1673              	.LFE169:
+ 1675              		.section	.text.functionSet1Line5By10,"ax",%progbits
+ 1676              		.align	1
+ 1677              		.global	functionSet1Line5By10
+ 1678              		.syntax unified
+ 1679              		.thumb
+ 1680              		.thumb_func
+ 1681              		.fpu fpv4-sp-d16
+ 1683              	functionSet1Line5By10:
+ 1684              	.LFB170:
  558:Core/Src/Lcd.c **** 
  559:Core/Src/Lcd.c **** void functionSet1Line5By10()
  560:Core/Src/Lcd.c **** {
- 1717              		.loc 1 560 1 is_stmt 1 view -0
- 1718              		.cfi_startproc
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 40
-
-
- 1719              		@ args = 0, pretend = 0, frame = 0
- 1720              		@ frame_needed = 0, uses_anonymous_args = 0
- 1721 0000 08B5     		push	{r3, lr}
- 1722              	.LCFI32:
- 1723              		.cfi_def_cfa_offset 8
- 1724              		.cfi_offset 3, -8
- 1725              		.cfi_offset 14, -4
+ 1685              		.loc 1 560 1 is_stmt 1 view -0
+ 1686              		.cfi_startproc
+ 1687              		@ args = 0, pretend = 0, frame = 0
+ 1688              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1689 0000 08B5     		push	{r3, lr}
+ 1690              		.cfi_def_cfa_offset 8
+ 1691              		.cfi_offset 3, -8
+ 1692              		.cfi_offset 14, -4
  561:Core/Src/Lcd.c **** 	int instruction = 0b00100000 | (0 << 4) | (0 << 3) | (1 << 2);
- 1726              		.loc 1 561 2 view .LVU349
- 1727              	.LVL128:
+ 1693              		.loc 1 561 2 view .LVU349
+ 1694              	.LVL128:
  562:Core/Src/Lcd.c **** 	sendInstruction(instruction);
- 1728              		.loc 1 562 2 view .LVU350
- 1729 0002 2420     		movs	r0, #36
- 1730 0004 FFF7FEFF 		bl	sendInstruction
- 1731              	.LVL129:
+ 1695              		.loc 1 562 2 view .LVU350
+ 1696 0002 2420     		movs	r0, #36
+ 1697 0004 FFF7FEFF 		bl	sendInstruction
+ 1698              	.LVL129:
  563:Core/Src/Lcd.c **** }
- 1732              		.loc 1 563 1 is_stmt 0 view .LVU351
- 1733 0008 08BD     		pop	{r3, pc}
- 1734              		.cfi_endproc
- 1735              	.LFE170:
- 1737              		.section	.text.lcdPrintString,"ax",%progbits
- 1738              		.align	1
- 1739              		.global	lcdPrintString
- 1740              		.syntax unified
- 1741              		.thumb
- 1742              		.thumb_func
- 1743              		.fpu fpv4-sp-d16
- 1745              	lcdPrintString:
- 1746              	.LVL130:
- 1747              	.LFB171:
+ 1699              		.loc 1 563 1 is_stmt 0 view .LVU351
+ 1700 0008 08BD     		pop	{r3, pc}
+ 1701              		.cfi_endproc
+ 1702              	.LFE170:
+ 1704              		.section	.text.lcdPrintString,"ax",%progbits
+ 1705              		.align	1
+ 1706              		.global	lcdPrintString
+ 1707              		.syntax unified
+ 1708              		.thumb
+ 1709              		.thumb_func
+ 1710              		.fpu fpv4-sp-d16
+ 1712              	lcdPrintString:
+ 1713              	.LVL130:
+ 1714              	.LFB171:
  564:Core/Src/Lcd.c **** 
  565:Core/Src/Lcd.c **** #endif
  566:Core/Src/Lcd.c **** 
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 40
+
+
  567:Core/Src/Lcd.c **** void lcdPrintString(char* string)
  568:Core/Src/Lcd.c **** {
- 1748              		.loc 1 568 1 is_stmt 1 view -0
- 1749              		.cfi_startproc
- 1750              		@ args = 0, pretend = 0, frame = 0
- 1751              		@ frame_needed = 0, uses_anonymous_args = 0
- 1752              		.loc 1 568 1 is_stmt 0 view .LVU353
- 1753 0000 38B5     		push	{r3, r4, r5, lr}
- 1754              	.LCFI33:
- 1755              		.cfi_def_cfa_offset 16
- 1756              		.cfi_offset 3, -16
- 1757              		.cfi_offset 4, -12
- 1758              		.cfi_offset 5, -8
- 1759              		.cfi_offset 14, -4
- 1760 0002 0546     		mov	r5, r0
+ 1715              		.loc 1 568 1 is_stmt 1 view -0
+ 1716              		.cfi_startproc
+ 1717              		@ args = 0, pretend = 0, frame = 0
+ 1718              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1719              		.loc 1 568 1 is_stmt 0 view .LVU353
+ 1720 0000 38B5     		push	{r3, r4, r5, lr}
+ 1721              		.cfi_def_cfa_offset 16
+ 1722              		.cfi_offset 3, -16
+ 1723              		.cfi_offset 4, -12
+ 1724              		.cfi_offset 5, -8
+ 1725              		.cfi_offset 14, -4
+ 1726 0002 0546     		mov	r5, r0
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1761              		.loc 1 569 2 is_stmt 1 view .LVU354
- 1762              	.LBB2:
- 1763              		.loc 1 569 7 view .LVU355
- 1764              	.LVL131:
- 1765              		.loc 1 569 11 is_stmt 0 view .LVU356
- 1766 0004 0024     		movs	r4, #0
- 1767              		.loc 1 569 2 view .LVU357
- 1768 0006 02E0     		b	.L119
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 41
-
-
- 1769              	.LVL132:
- 1770              	.L120:
+ 1727              		.loc 1 569 2 is_stmt 1 view .LVU354
+ 1728              	.LBB2:
+ 1729              		.loc 1 569 7 view .LVU355
+ 1730              	.LVL131:
+ 1731              		.loc 1 569 11 is_stmt 0 view .LVU356
+ 1732 0004 0024     		movs	r4, #0
+ 1733              		.loc 1 569 2 view .LVU357
+ 1734 0006 02E0     		b	.L119
+ 1735              	.LVL132:
+ 1736              	.L120:
  570:Core/Src/Lcd.c **** 	{
  571:Core/Src/Lcd.c **** 		writeDisplay(string[i]);
- 1771              		.loc 1 571 3 is_stmt 1 discriminator 3 view .LVU358
- 1772 0008 FFF7FEFF 		bl	writeDisplay
- 1773              	.LVL133:
+ 1737              		.loc 1 571 3 is_stmt 1 discriminator 3 view .LVU358
+ 1738 0008 FFF7FEFF 		bl	writeDisplay
+ 1739              	.LVL133:
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1774              		.loc 1 569 37 discriminator 3 view .LVU359
+ 1740              		.loc 1 569 37 discriminator 3 view .LVU359
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1775              		.loc 1 569 38 is_stmt 0 discriminator 3 view .LVU360
- 1776 000c 0134     		adds	r4, r4, #1
- 1777              	.LVL134:
- 1778              	.L119:
+ 1741              		.loc 1 569 38 is_stmt 0 discriminator 3 view .LVU360
+ 1742 000c 0134     		adds	r4, r4, #1
+ 1743              	.LVL134:
+ 1744              	.L119:
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1779              		.loc 1 569 18 is_stmt 1 discriminator 1 view .LVU361
+ 1745              		.loc 1 569 18 is_stmt 1 discriminator 1 view .LVU361
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1780              		.loc 1 569 24 is_stmt 0 discriminator 1 view .LVU362
- 1781 000e 285D     		ldrb	r0, [r5, r4]	@ zero_extendqisi2
+ 1746              		.loc 1 569 24 is_stmt 0 discriminator 1 view .LVU362
+ 1747 000e 285D     		ldrb	r0, [r5, r4]	@ zero_extendqisi2
  569:Core/Src/Lcd.c **** 	for (int i = 0; string[i] != '\0'; i++)
- 1782              		.loc 1 569 2 discriminator 1 view .LVU363
- 1783 0010 0028     		cmp	r0, #0
- 1784 0012 F9D1     		bne	.L120
- 1785              	.LBE2:
+ 1748              		.loc 1 569 2 discriminator 1 view .LVU363
+ 1749 0010 0028     		cmp	r0, #0
+ 1750 0012 F9D1     		bne	.L120
+ 1751              	.LBE2:
  572:Core/Src/Lcd.c **** 	}
  573:Core/Src/Lcd.c **** }
- 1786              		.loc 1 573 1 view .LVU364
- 1787 0014 38BD     		pop	{r3, r4, r5, pc}
- 1788              		.loc 1 573 1 view .LVU365
- 1789              		.cfi_endproc
- 1790              	.LFE171:
- 1792              		.section	.text.lcdPrintf,"ax",%progbits
- 1793              		.align	1
- 1794              		.global	lcdPrintf
- 1795              		.syntax unified
- 1796              		.thumb
- 1797              		.thumb_func
- 1798              		.fpu fpv4-sp-d16
- 1800              	lcdPrintf:
- 1801              	.LVL135:
- 1802              	.LFB172:
+ 1752              		.loc 1 573 1 view .LVU364
+ 1753 0014 38BD     		pop	{r3, r4, r5, pc}
+ 1754              		.loc 1 573 1 view .LVU365
+ 1755              		.cfi_endproc
+ 1756              	.LFE171:
+ 1758              		.section	.text.lcdPrintf,"ax",%progbits
+ 1759              		.align	1
+ 1760              		.global	lcdPrintf
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 41
+
+
+ 1761              		.syntax unified
+ 1762              		.thumb
+ 1763              		.thumb_func
+ 1764              		.fpu fpv4-sp-d16
+ 1766              	lcdPrintf:
+ 1767              	.LVL135:
+ 1768              	.LFB172:
  574:Core/Src/Lcd.c **** 
  575:Core/Src/Lcd.c **** void lcdPrintf(char *format, ...)
  576:Core/Src/Lcd.c **** {
- 1803              		.loc 1 576 1 is_stmt 1 view -0
- 1804              		.cfi_startproc
- 1805              		@ args = 4, pretend = 16, frame = 24
- 1806              		@ frame_needed = 0, uses_anonymous_args = 1
- 1807              		.loc 1 576 1 is_stmt 0 view .LVU367
- 1808 0000 0FB4     		push	{r0, r1, r2, r3}
- 1809              	.LCFI34:
- 1810              		.cfi_def_cfa_offset 16
- 1811              		.cfi_offset 0, -16
- 1812              		.cfi_offset 1, -12
- 1813              		.cfi_offset 2, -8
- 1814              		.cfi_offset 3, -4
- 1815 0002 00B5     		push	{lr}
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 42
-
-
- 1816              	.LCFI35:
- 1817              		.cfi_def_cfa_offset 20
- 1818              		.cfi_offset 14, -20
- 1819 0004 87B0     		sub	sp, sp, #28
- 1820              	.LCFI36:
- 1821              		.cfi_def_cfa_offset 48
- 1822 0006 08AB     		add	r3, sp, #32
- 1823 0008 53F8042B 		ldr	r2, [r3], #4
+ 1769              		.loc 1 576 1 is_stmt 1 view -0
+ 1770              		.cfi_startproc
+ 1771              		@ args = 4, pretend = 16, frame = 24
+ 1772              		@ frame_needed = 0, uses_anonymous_args = 1
+ 1773              		.loc 1 576 1 is_stmt 0 view .LVU367
+ 1774 0000 0FB4     		push	{r0, r1, r2, r3}
+ 1775              		.cfi_def_cfa_offset 16
+ 1776              		.cfi_offset 0, -16
+ 1777              		.cfi_offset 1, -12
+ 1778              		.cfi_offset 2, -8
+ 1779              		.cfi_offset 3, -4
+ 1780 0002 00B5     		push	{lr}
+ 1781              		.cfi_def_cfa_offset 20
+ 1782              		.cfi_offset 14, -20
+ 1783 0004 87B0     		sub	sp, sp, #28
+ 1784              		.cfi_def_cfa_offset 48
+ 1785 0006 08AB     		add	r3, sp, #32
+ 1786 0008 53F8042B 		ldr	r2, [r3], #4
  577:Core/Src/Lcd.c **** 	va_list args;
- 1824              		.loc 1 577 2 is_stmt 1 view .LVU368
+ 1787              		.loc 1 577 2 is_stmt 1 view .LVU368
  578:Core/Src/Lcd.c **** 	va_start(args, format);
- 1825              		.loc 1 578 2 view .LVU369
- 1826 000c 0593     		str	r3, [sp, #20]
+ 1788              		.loc 1 578 2 view .LVU369
+ 1789 000c 0593     		str	r3, [sp, #20]
  579:Core/Src/Lcd.c **** 	char string[LCD_COL_COUNT];
- 1827              		.loc 1 579 2 view .LVU370
+ 1790              		.loc 1 579 2 view .LVU370
  580:Core/Src/Lcd.c **** 	vsnprintf(string, LCD_COL_COUNT, format, args);
- 1828              		.loc 1 580 2 view .LVU371
- 1829 000e 1021     		movs	r1, #16
- 1830 0010 01A8     		add	r0, sp, #4
- 1831 0012 FFF7FEFF 		bl	vsnprintf
- 1832              	.LVL136:
+ 1791              		.loc 1 580 2 view .LVU371
+ 1792 000e 1021     		movs	r1, #16
+ 1793 0010 01A8     		add	r0, sp, #4
+ 1794 0012 FFF7FEFF 		bl	vsnprintf
+ 1795              	.LVL136:
  581:Core/Src/Lcd.c **** 
  582:Core/Src/Lcd.c **** 	lcdPrintString(string);
- 1833              		.loc 1 582 2 view .LVU372
- 1834 0016 01A8     		add	r0, sp, #4
- 1835 0018 FFF7FEFF 		bl	lcdPrintString
- 1836              	.LVL137:
+ 1796              		.loc 1 582 2 view .LVU372
+ 1797 0016 01A8     		add	r0, sp, #4
+ 1798 0018 FFF7FEFF 		bl	lcdPrintString
+ 1799              	.LVL137:
  583:Core/Src/Lcd.c **** }...
- 1837              		.loc 1 583 1 is_stmt 0 view .LVU373
- 1838 001c 07B0     		add	sp, sp, #28
- 1839              	.LCFI37:
- 1840              		.cfi_def_cfa_offset 20
- 1841              		@ sp needed
- 1842 001e 5DF804EB 		ldr	lr, [sp], #4
- 1843              	.LCFI38:
- 1844              		.cfi_restore 14
- 1845              		.cfi_def_cfa_offset 16
- 1846 0022 04B0     		add	sp, sp, #16
- 1847              	.LCFI39:
- 1848              		.cfi_restore 3
- 1849              		.cfi_restore 2
- 1850              		.cfi_restore 1
- 1851              		.cfi_restore 0
- 1852              		.cfi_def_cfa_offset 0
- 1853 0024 7047     		bx	lr
- 1854              		.cfi_endproc
- 1855              	.LFE172:
- 1857              		.global	displayMode
- 1858              		.section	.data.displayMode,"aw"
- 1859              		.set	.LANCHOR0,. + 0
- 1862              	displayMode:
- 1863 0000 08       		.byte	8
- 1864              		.text
- 1865              	.Letext0:
- 1866              		.file 2 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1867              		.file 3 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1868              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 43
+ 1800              		.loc 1 583 1 is_stmt 0 view .LVU373
+ 1801 001c 07B0     		add	sp, sp, #28
+ 1802              		.cfi_def_cfa_offset 20
+ 1803              		@ sp needed
+ 1804 001e 5DF804EB 		ldr	lr, [sp], #4
+ 1805              		.cfi_restore 14
+ 1806              		.cfi_def_cfa_offset 16
+ 1807 0022 04B0     		add	sp, sp, #16
+ 1808              		.cfi_restore 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 42
 
 
- 1869              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
- 1870              		.file 6 "e:\\arm\\10 2020-q4-major\\lib\\gcc\\arm-none-eabi\\10.2.1\\include\\stdarg.h"
- 1871              		.file 7 "<built-in>"
- 1872              		.file 8 "e:\\arm\\10 2020-q4-major\\arm-none-eabi\\include\\stdio.h"
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 44
+ 1809              		.cfi_restore 2
+ 1810              		.cfi_restore 1
+ 1811              		.cfi_restore 0
+ 1812              		.cfi_def_cfa_offset 0
+ 1813 0024 7047     		bx	lr
+ 1814              		.cfi_endproc
+ 1815              	.LFE172:
+ 1817              		.global	displayMode
+ 1818              		.section	.data.displayMode,"aw"
+ 1819              		.set	.LANCHOR0,. + 0
+ 1822              	displayMode:
+ 1823 0000 08       		.byte	8
+ 1824              		.text
+ 1825              	.Letext0:
+ 1826              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1827              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1828              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 1829              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ 1830              		.file 6 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1831              		.file 7 "<built-in>"
+ 1832              		.file 8 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 43
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Lcd.c
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:18     .text.DWT_Delay_Init:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:26     .text.DWT_Delay_Init:00000000 DWT_Delay_Init
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:91     .text.DWT_Delay_Init:00000044 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:96     .text.DWT_Delay_us:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:103    .text.DWT_Delay_us:00000000 DWT_Delay_us
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:152    .text.DWT_Delay_us:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:157    .text.DWT_Delay_ms:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:164    .text.DWT_Delay_ms:00000000 DWT_Delay_ms
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:212    .text.DWT_Delay_ms:00000024 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:218    .text.setE:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:225    .text.setE:00000000 setE
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:263    .text.setE:00000018 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:268    .text.setRW:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:275    .text.setRW:00000000 setRW
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:318    .text.setRW:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:323    .text.setRS:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:330    .text.setRS:00000000 setRS
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:373    .text.setRS:0000001c $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:378    .text.sendNibble:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:385    .text.sendNibble:00000000 sendNibble
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:453    .text.sendNibble:00000038 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:458    .text.sendByte:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:465    .text.sendByte:00000000 sendByte
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:527    .text.isBusy:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:534    .text.isBusy:00000000 isBusy
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:596    .text.isBusy:00000040 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:601    .text.waitWhileBusy:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:608    .text.waitWhileBusy:00000000 waitWhileBusy
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:680    .text.waitWhileBusy:00000054 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:685    .text.sendInstruction:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:692    .text.sendInstruction:00000000 sendInstruction
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:727    .text.writeDisplay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:734    .text.writeDisplay:00000000 writeDisplay
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:769    .text.initDisplay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:776    .text.initDisplay:00000000 initDisplay
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:934    .text.initDisplay:000000e0 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:941    .text.clearDisplay:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:948    .text.clearDisplay:00000000 clearDisplay
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:969    .text.returnHome:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:976    .text.returnHome:00000000 returnHome
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:997    .text.entryModeSet:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1004   .text.entryModeSet:00000000 entryModeSet
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1038   .text.displayControl:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1045   .text.displayControl:00000000 displayControl
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1087   .text.displayControl:00000028 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1092   .text.displayControlHelper:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1099   .text.displayControlHelper:00000000 displayControlHelper
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1126   .text.displayControlHelper:00000010 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1131   .text.displayOn:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1138   .text.displayOn:00000000 displayOn
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1163   .text.displayOn:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1168   .text.displayOff:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1175   .text.displayOff:00000000 displayOff
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1200   .text.displayOff:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1205   .text.cursorOn:00000000 $t
-ARM GAS  C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s 			page 45
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:18     .text.DWT_Delay_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:26     .text.DWT_Delay_Init:00000000 DWT_Delay_Init
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:91     .text.DWT_Delay_Init:00000044 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:96     .text.DWT_Delay_us:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:103    .text.DWT_Delay_us:00000000 DWT_Delay_us
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:150    .text.DWT_Delay_us:00000024 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:155    .text.DWT_Delay_ms:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:162    .text.DWT_Delay_ms:00000000 DWT_Delay_ms
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:208    .text.DWT_Delay_ms:00000024 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:214    .text.setE:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:221    .text.setE:00000000 setE
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:259    .text.setE:00000018 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:264    .text.setRW:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:271    .text.setRW:00000000 setRW
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:314    .text.setRW:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:319    .text.setRS:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:326    .text.setRS:00000000 setRS
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:369    .text.setRS:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:374    .text.sendNibble:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:381    .text.sendNibble:00000000 sendNibble
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:449    .text.sendNibble:00000038 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:454    .text.sendByte:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:461    .text.sendByte:00000000 sendByte
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:522    .text.isBusy:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:529    .text.isBusy:00000000 isBusy
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:590    .text.isBusy:00000040 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:595    .text.waitWhileBusy:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:602    .text.waitWhileBusy:00000000 waitWhileBusy
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:673    .text.waitWhileBusy:00000054 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:678    .text.sendInstruction:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:685    .text.sendInstruction:00000000 sendInstruction
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:719    .text.writeDisplay:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:726    .text.writeDisplay:00000000 writeDisplay
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:760    .text.initDisplay:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:767    .text.initDisplay:00000000 initDisplay
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:924    .text.initDisplay:000000e0 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:931    .text.clearDisplay:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:938    .text.clearDisplay:00000000 clearDisplay
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:958    .text.returnHome:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:965    .text.returnHome:00000000 returnHome
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:985    .text.entryModeSet:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:992    .text.entryModeSet:00000000 entryModeSet
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1025   .text.displayControl:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1032   .text.displayControl:00000000 displayControl
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1073   .text.displayControl:00000028 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1078   .text.displayControlHelper:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1085   .text.displayControlHelper:00000000 displayControlHelper
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1111   .text.displayControlHelper:00000010 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1116   .text.displayOn:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1123   .text.displayOn:00000000 displayOn
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1147   .text.displayOn:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1152   .text.displayOff:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1159   .text.displayOff:00000000 displayOff
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1183   .text.displayOff:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1188   .text.cursorOn:00000000 $t
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s 			page 44
 
 
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1212   .text.cursorOn:00000000 cursorOn
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1237   .text.cursorOn:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1242   .text.cursorOff:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1249   .text.cursorOff:00000000 cursorOff
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1274   .text.cursorOff:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1279   .text.blinkingOn:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1286   .text.blinkingOn:00000000 blinkingOn
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1311   .text.blinkingOn:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1316   .text.blinkingOff:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1323   .text.blinkingOff:00000000 blinkingOff
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1348   .text.blinkingOff:00000014 $d
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1353   .text.cursorOrDisplayShift:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1360   .text.cursorOrDisplayShift:00000000 cursorOrDisplayShift
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1395   .text.cursorShift:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1402   .text.cursorShift:00000000 cursorShift
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1428   .text.displayShift:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1435   .text.displayShift:00000000 displayShift
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1461   .text.cursorShiftRight:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1468   .text.cursorShiftRight:00000000 cursorShiftRight
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1490   .text.cursorShiftLeft:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1497   .text.cursorShiftLeft:00000000 cursorShiftLeft
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1519   .text.displayShiftRight:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1526   .text.displayShiftRight:00000000 displayShiftRight
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1548   .text.displayShiftLeft:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1555   .text.displayShiftLeft:00000000 displayShiftLeft
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1577   .text.functionSet:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1584   .text.functionSet:00000000 functionSet
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1618   .text.functionSet2Lines5By8:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1625   .text.functionSet2Lines5By8:00000000 functionSet2Lines5By8
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1648   .text.functionSet1Line5By8:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1655   .text.functionSet1Line5By8:00000000 functionSet1Line5By8
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1678   .text.functionSet2Lines5By10:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1685   .text.functionSet2Lines5By10:00000000 functionSet2Lines5By10
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1708   .text.functionSet1Line5By10:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1715   .text.functionSet1Line5By10:00000000 functionSet1Line5By10
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1738   .text.lcdPrintString:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1745   .text.lcdPrintString:00000000 lcdPrintString
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1793   .text.lcdPrintf:00000000 $t
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1800   .text.lcdPrintf:00000000 lcdPrintf
-C:\Users\Jack2bs\AppData\Local\Temp\cc6GEGMC.s:1862   .data.displayMode:00000000 displayMode
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1195   .text.cursorOn:00000000 cursorOn
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1219   .text.cursorOn:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1224   .text.cursorOff:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1231   .text.cursorOff:00000000 cursorOff
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1255   .text.cursorOff:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1260   .text.blinkingOn:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1267   .text.blinkingOn:00000000 blinkingOn
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1291   .text.blinkingOn:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1296   .text.blinkingOff:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1303   .text.blinkingOff:00000000 blinkingOff
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1327   .text.blinkingOff:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1332   .text.cursorOrDisplayShift:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1339   .text.cursorOrDisplayShift:00000000 cursorOrDisplayShift
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1373   .text.cursorShift:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1380   .text.cursorShift:00000000 cursorShift
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1405   .text.displayShift:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1412   .text.displayShift:00000000 displayShift
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1437   .text.cursorShiftRight:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1444   .text.cursorShiftRight:00000000 cursorShiftRight
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1465   .text.cursorShiftLeft:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1472   .text.cursorShiftLeft:00000000 cursorShiftLeft
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1493   .text.displayShiftRight:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1500   .text.displayShiftRight:00000000 displayShiftRight
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1521   .text.displayShiftLeft:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1528   .text.displayShiftLeft:00000000 displayShiftLeft
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1549   .text.functionSet:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1556   .text.functionSet:00000000 functionSet
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1589   .text.functionSet2Lines5By8:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1596   .text.functionSet2Lines5By8:00000000 functionSet2Lines5By8
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1618   .text.functionSet1Line5By8:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1625   .text.functionSet1Line5By8:00000000 functionSet1Line5By8
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1647   .text.functionSet2Lines5By10:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1654   .text.functionSet2Lines5By10:00000000 functionSet2Lines5By10
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1676   .text.functionSet1Line5By10:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1683   .text.functionSet1Line5By10:00000000 functionSet1Line5By10
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1705   .text.lcdPrintString:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1712   .text.lcdPrintString:00000000 lcdPrintString
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1759   .text.lcdPrintf:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1766   .text.lcdPrintf:00000000 lcdPrintf
+C:\Users\jack2\AppData\Local\Temp\ccQDisGo.s:1822   .data.displayMode:00000000 displayMode
 
 UNDEFINED SYMBOLS
 vsnprintf

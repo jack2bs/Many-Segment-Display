@@ -38,7 +38,7 @@ const int fiveDraw[4][4] =
 {
 	{ALL_SEVEN,	TOP_O	, TOP_O	  , TOP_O	  },
 	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
-	{BOTTOM_O ,	NONE	, NONE	  , TOP_O	  },
+	{BOTTOM_O ,	NONE	, NONE	  , ALL_SEVEN },
 	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE   }
 };
 
@@ -85,15 +85,27 @@ const int zeroDraw[4][4] =
 const int (* numDraws[10])[4][4] = {&zeroDraw, &oneDraw, &twoDraw, &threeDraw, &fourDraw, &fiveDraw, &sixDraw, &sevenDraw, &eightDraw, &nineDraw};
 
 const int displayAddresses[4][17] = {
-    {0x30, 0x28, 0x08, 0x10, 0x31, 0x29, 0x09, 0x11, 0x34, 0x32, 0x2a, 0x0a, 0x12, 0x33, 0x2b, 0x0b, 0x13},
-    {0x38, 0x20, 0x18, 0x00, 0x39, 0x21, 0x19, 0x01, 0x3c, 0x3a, 0x22, 0x1a, 0x02, 0x3b, 0x23, 0x1b, 0x03},
-    {0x58, 0x50, 0x68, 0x60, 0x59, 0x51, 0x69, 0x61, 0x5c, 0x5a, 0x52, 0x6a, 0x62, 0x5b, 0x53, 0x6b, 0x63},
-    {0x40, 0x48, 0x70, 0x78, 0x41, 0x49, 0x71, 0x79, 0x44, 0x42, 0x4a, 0x72, 0x7a, 0x43, 0x4b, 0x73, 0x7b}
+    // 0     1    2      3      4    5     6     7     8     9    10     11    12    13   14     15    16
+    {0x30, 0x28, 0x08, 0x10, 0x31, 0x29, 0x09, 0x11, 0x34, 0x32, 0x2a, 0x0a, 0x12, 0x33, 0x2b, 0x0b, 0x13}, // 0
+    {0x38, 0x20, 0x18, 0x00, 0x39, 0x21, 0x19, 0x01, 0x3c, 0x3a, 0x22, 0x1a, 0x02, 0x3b, 0x23, 0x1b, 0x03}, // 1
+    {0x58, 0x50, 0x68, 0x60, 0x59, 0x51, 0x69, 0x61, 0x5c, 0x5a, 0x52, 0x6a, 0x62, 0x5b, 0x53, 0x6b, 0x63}, // 2
+    {0x40, 0x48, 0x70, 0x78, 0x41, 0x49, 0x71, 0x79, 0x44, 0x42, 0x4a, 0x72, 0x7a, 0x43, 0x4b, 0x73, 0x7b}  // 3
 };
 
-int lastDisplayState[4][17] = {};
+const int secretOrder[2][68] = 
+{
+    {3, 7,12,16, 2, 6,11,15, 3, 7,12,16, 2, 6,11,15, 1, 5,10,14, 1, 5,10,14, 0, 4, 9,13, 8, 0, 4, 9,13, 8, 0, 4, 9,13, 8, 1, 5,10,14, 1, 5,10,14, 0, 4, 9,13, 8, 3, 7,12,16, 2, 6,11,15, 2, 6,11,15, 3, 7,12,16},
+    {1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3}
+};
 
-int displayState[4][17] = {};
+int lastDisplayState[4][17] = { 
+    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
+    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
+    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
+    {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1},
+ };
+
+int displayState[4][17] = { 0 };
 
 void updateDisplayCell(int data, int row, int col)
 {
@@ -145,35 +157,37 @@ void updateDisplayWithTime(int hr, int min)
 /* This is what will change with different computing units*/
 void setDisplayCell(int row, int col)
 {
-    int pOut = (displayState[row][col] << 8) | ((displayAddresses[row][col] & 0b1110000) << 1) | (displayAddresses[row][col] &  0b0001111);
-    uint16_t pA = pOut & (0b1110011111101111);
-	uint16_t pB = pOut & ~(0b1110011111101111);
-	GPIOA->ODR = pA;
+    int pOut = (displayState[row][col] << 0) | ((displayAddresses[row][col] << 9));
+    //uint16_t pA = pOut & (0b0000000000000000);
+	uint16_t pB = pOut & (0b1111111011111111);
+	//GPIOA->ODR = pA;
+    GPIOB->ODR = pB;
+
+    HAL_Delay(1);
+
+    pOut |= (0b0000111000000000);
+    //pA = pOut & (0b1110011111101111);
+	pB = pOut & (0b1111111011111111);
+	//GPIOA->ODR = pA;
 	GPIOB->ODR = pB;
 
-    HAL_Delay(5);
-
-    pOut |= (0b1111111);
-    pA = pOut & (0b1110011111101111);
-	pB = pOut & ~(0b1110011111101111);
-	GPIOA->ODR = pA;
-	GPIOB->ODR = pB;
-
-    HAL_Delay(5);
+    HAL_Delay(1);
 }
 
 void setDisplay()
 {
-    for (int i = 0; i < 17; i++)
+    for (int i = 0; i < 68; i++)
     {
-        for (int j = 0; j < 4; j++)
-        {
-            //if (displayState[j][i] != lastDisplayState[j][i])
-            //{
-                setDisplayCell(j, i);
-                lastDisplayState[j][i] = displayState[j][i];
-            //}
-        }
+        //for (int j = 0; j < 4; j++)
+        //{
+            int r = secretOrder[1][i];
+            int c = secretOrder[0][i];
+            if (displayState[r][c] != lastDisplayState[r][c])
+            {
+                setDisplayCell(r, c);
+                lastDisplayState[r][c] = displayState[r][c];
+            }
+        //}
     }
     return;
 }
