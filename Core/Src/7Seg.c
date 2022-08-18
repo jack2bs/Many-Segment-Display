@@ -12,47 +12,51 @@ const int oneDraw[4][4] =
 
 const int twoDraw[4][4] =
 {
-	{BOTTOM_O, TOP_O   , TOP_O	 , BOTTOM_O},
-	{NONE	 , NONE	   , D_SHAPE , P_SHAPE },
-	{NONE	 , D_SHAPE , P_SHAPE , NONE	   },
-	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
+    {NONE, D_SHAPE, TOP_O, B_SHAPE},
+    {NONE, NONE, NONE, ALL_SEVEN},
+    {NONE, D_SHAPE, P_SHAPE, T_L_CORNER},
+    {NONE, ALL_SEVEN, BOTTOM_O, BOTTOM_O}
+	// {BOTTOM_O, TOP_O   , TOP_O	 , BOTTOM_O},
+	// {NONE	 , NONE	   , D_SHAPE , P_SHAPE },
+	// {NONE	 , D_SHAPE , P_SHAPE , NONE	   },
+	// {Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
 };
 
 const int threeDraw[4][4] =
 {
-	{D_SHAPE, TOP_O		, TOP_O	  , B_SHAPE},
+	{NONE, TOP_O		, TOP_O	  , B_SHAPE},
 	{NONE	, B_R_CORNER, BOTTOM_O, P_SHAPE},
 	{NONE	, T_R_CORNER, TOP_O	  , B_SHAPE},
-	{Q_SHAPE, BOTTOM_O	, BOTTOM_O, P_SHAPE}
+	{NONE, BOTTOM_O	, BOTTOM_O, P_SHAPE}
 };
 
 const int fourDraw[4][4] =
 {
-	{NONE	, NONE	  , D_SHAPE	, ALL_SEVEN},
-	{NONE	, D_SHAPE , NONE	, ALL_SEVEN},
-	{D_SHAPE, BOTTOM_O, BOTTOM_O, ALL_SEVEN},
+	{NONE	, ALL_SEVEN	  , NONE	, ALL_SEVEN},
+	{NONE	, ALL_SEVEN , NONE	, ALL_SEVEN},
+	{NONE, TOP_O, TOP_O, ALL_SEVEN},
 	{NONE	, NONE	  , NONE	, ALL_SEVEN}
 };
 
 const int fiveDraw[4][4] =
 {
-	{ALL_SEVEN,	TOP_O	, TOP_O	  , TOP_O	  },
-	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
-	{BOTTOM_O ,	NONE	, NONE	  , ALL_SEVEN },
-	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE   }
+	{NONE,	ALL_SEVEN	, TOP_O	  , TOP_O	  },
+	{NONE,	ALL_SEVEN, BOTTOM_O, B_L_CORNER},
+	{NONE ,	BOTTOM_O	, NONE	  , ALL_SEVEN },
+	{NONE  ,	Q_SHAPE, BOTTOM_O, P_SHAPE   }
 };
 
 const int sixDraw[4][4] =
 {
-	{D_SHAPE  ,	P_SHAPE	, Q_SHAPE , B_SHAPE	  },
-	{ALL_SEVEN,	BOTTOM_O, BOTTOM_O, B_L_CORNER},
-	{ALL_SEVEN,	NONE	, NONE	  , ALL_SEVEN },
-	{Q_SHAPE  ,	BOTTOM_O, BOTTOM_O, P_SHAPE	  }
+	{NONE  ,	D_SHAPE	, Q_SHAPE , B_SHAPE	  },
+	{NONE,	ALL_SEVEN, BOTTOM_O, B_L_CORNER},
+	{NONE,	ALL_SEVEN	, NONE	  , ALL_SEVEN },
+	{NONE  ,	Q_SHAPE, BOTTOM_O, P_SHAPE	  }
 };
 
 const int sevenDraw[4][4] =
 {
-	{TOP_O, TOP_O	 , TOP_O  , ALL_SEVEN},
+	{NONE, TOP_O	 , TOP_O  , ALL_SEVEN},
 	{NONE ,	NONE	 , D_SHAPE, NONE	 },
 	{NONE ,	ALL_SEVEN, NONE   , NONE	 },
 	{NONE ,	ALL_SEVEN, NONE   , NONE	 }
@@ -60,18 +64,18 @@ const int sevenDraw[4][4] =
 
 const int eightDraw[4][4] =
 {
-	{D_SHAPE , TOP_O   , TOP_O   , B_SHAPE },
-	{TOP_O 	 , BOTTOM_O, BOTTOM_O, TOP_O   },
-	{BOTTOM_O, TOP_O   , TOP_O   , BOTTOM_O},
-	{Q_SHAPE , BOTTOM_O, BOTTOM_O, P_SHAPE }
+	{NONE , D_SHAPE   , TOP_O   , B_SHAPE },
+	{NONE 	 , Q_SHAPE, BOTTOM_O, P_SHAPE   },
+	{NONE, D_SHAPE   , TOP_O   , B_SHAPE},
+	{NONE , Q_SHAPE, BOTTOM_O, P_SHAPE }
 };
 
 const int nineDraw[4][4] =
 {
-	{D_SHAPE   , TOP_O  , TOP_O  , B_SHAPE  },
-	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
-	{T_R_CORNER, TOP_O  , TOP_O  , ALL_SEVEN},
-	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
+	{NONE   , D_SHAPE  , TOP_O  , B_SHAPE  },
+	{NONE , ALL_SEVEN	, NONE   , ALL_SEVEN},
+	{NONE, T_R_CORNER  , TOP_O  , ALL_SEVEN},
+	{NONE   , BOTTOM_O, D_SHAPE, P_SHAPE  }
 };
 
 const int zeroDraw[4][4] =
@@ -132,8 +136,8 @@ void updateDisplayWithTime(int hr, int min)
     }
     
     updateDisplayCell(0x00, 0, 8);
-    updateDisplayCell(TOP_O, 1, 8);
-    updateDisplayCell(BOTTOM_O, 2, 8);
+    updateDisplayCell(DEC_POINT, 1, 8);
+    updateDisplayCell(DEC_POINT, 2, 8);
     updateDisplayCell(0x00, 3, 8);
 
     for (int i = 9; i < 13; i++)
@@ -163,7 +167,7 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
     GPIOB->ODR = pB;
 
-    HAL_Delay(1);
+    HAL_Delay(2);
 
     pOut |= (0b0000111000000000);
     //pA = pOut & (0b1110011111101111);
@@ -171,7 +175,7 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
 	GPIOB->ODR = pB;
 
-    HAL_Delay(1);
+    HAL_Delay(2);
 }
 
 void setDisplay()

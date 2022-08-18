@@ -90,20 +90,20 @@ void rtcInit(int sec, int min, int hour)
 
 	
 
-	// Enable the LSE and wait for it to work
-	//RCC->BDCR |= (0b11 << RCC_BDCR_LSEDRV_Pos);
-	//RCC->BDCR |= (1<<RCC_BDCR_LSEON_Pos);
-	//while (!(RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos))); 
+	//Enable the LSE and wait for it to work
+	RCC->BDCR |= (0b11 << RCC_BDCR_LSEDRV_Pos);
+	RCC->BDCR |= (1<<RCC_BDCR_LSEON_Pos);
+	while (!(RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos))); 
 
 	// Enable the LSI and wait for it to work
-	RCC->CSR |= (1<<RCC_CSR_LSION_Pos);
-	while (!(RCC->CSR & (1<<RCC_CSR_LSIRDY_Pos))); 
+	//RCC->CSR |= (1<<RCC_CSR_LSION_Pos);
+	//while (!(RCC->CSR & (1<<RCC_CSR_LSIRDY_Pos))); 
 
 	GPIOB->BSRR |= (1<<GPIO_BSRR_BR9_Pos);
 
-	// Select LSI for the RTC and Enable the RTC
+	// Select LSE for the RTC and Enable the RTC
 	RCC->BDCR &= ~(0b11<<RCC_BDCR_RTCSEL_Pos);
-	RCC->BDCR |= (0b10<<RCC_BDCR_RTCSEL_Pos);
+	RCC->BDCR |= (0b01<<RCC_BDCR_RTCSEL_Pos);
 	RCC->BDCR |= (1<<RCC_BDCR_RTCEN_Pos);
 
 	// Get rid of the write protection
@@ -120,7 +120,7 @@ void rtcInit(int sec, int min, int hour)
 	RTC->TR = 0x0;
 	RTC->TR = (0b1<<RTC_TR_PM_Pos) | ((hour / 10)<<RTC_TR_HT_Pos) | ((hour % 10)<<RTC_TR_HU_Pos) | ((min / 10)<<RTC_TR_MNT_Pos) | ((min % 10)<<RTC_TR_MNU_Pos) | ((sec / 10)<<RTC_TR_ST_Pos) | ((sec % 10)<<RTC_TR_SU_Pos);
 
-	RTC->PRER = (127 << RTC_PRER_PREDIV_A_Pos) | (249 << RTC_PRER_PREDIV_S_Pos);
+	//RTC->PRER = (127 << RTC_PRER_PREDIV_A_Pos) | (249 << RTC_PRER_PREDIV_S_Pos);
 
 	//RTC->DR |= ();
 
@@ -249,7 +249,7 @@ int main(void)
 		{
 			txBuf[i] = rxBuf[i];
 		}
-		//sprintf(txBuf, "%d\t", RTC->SR);
+		sprintf(txBuf, "%d:%d:%d\t", hour, min, sec);
 		txBuf[14] = (min % 10) + 48;
 		txBuf[15] = (sec % 10) + 48;
 		txBuf[16] = (RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos));
@@ -269,7 +269,7 @@ int main(void)
 		updateDisplayWithTime(hour, min);
 		setDisplay();
 
-		//GPIOB->ODR = 0b1111111011111111;
+		//GPIOB->ODR = 0b0111000011111111;
 		//HAL_Delay(5);
 
 		//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);

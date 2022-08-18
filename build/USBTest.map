@@ -8,10 +8,12 @@ c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q
                               c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
                               c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+                              build/main.o (sprintf)
 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
                               build/Lcd.o (vsnprintf)
 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
-                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o) (_svfprintf_r)
+                              c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
                               c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
@@ -921,14 +923,8 @@ Discarded input sections
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
- .data._impure_ptr
-                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
- .data.impure_data
-                0x00000000       0x60 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .rodata._global_impure_ptr
                 0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
- .ARM.attributes
-                0x00000000       0x32 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
@@ -939,6 +935,11 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
  .ARM.attributes
                 0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x38 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
@@ -952,100 +953,37 @@ Discarded input sections
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .text.__ssputs_r
-                0x00000000       0xb6 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .text.__ssprint_r
                 0x00000000       0xf6 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .rodata._svfprintf_r.str1.1
-                0x00000000       0x11 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .text._svfprintf_r
-                0x00000000      0x200 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .debug_frame   0x00000000       0x90 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .text._printf_common
-                0x00000000       0xda c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .rodata._printf_i.str1.1
-                0x00000000       0x22 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .text._printf_i
-                0x00000000      0x24c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x00000000       0x60 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
- .text          0x00000000       0xa0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
- .ARM.attributes
-                0x00000000       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x00000000       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00000000       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
- .text.memmove  0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
- .debug_frame   0x00000000       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
- .text._free_r  0x00000000       0x98 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x00000000       0x38 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .text._malloc_r
-                0x00000000       0xb4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .bss.__malloc_free_list
-                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .bss.__malloc_sbrk_start
-                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x00000000       0x30 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
- .text._realloc_r
-                0x00000000       0x4c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x00000000       0x3c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
- .text._sbrk_r  0x00000000       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
- .debug_frame   0x00000000       0x2c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
- .text.__malloc_lock
-                0x00000000        0xc c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
- .text.__malloc_unlock
-                0x00000000        0xc c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
- .debug_frame   0x00000000       0x30 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
- .text._malloc_usable_size_r
-                0x00000000       0x10 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x00000000       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
@@ -1053,10 +991,6 @@ Discarded input sections
                 0x00000000       0x1a c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
  .text._reclaim_reent
                 0x00000000       0xb8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
- .bss.errno     0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
- .debug_frame   0x00000000       0x5c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
@@ -1070,15 +1004,11 @@ Discarded input sections
                 0x00000000        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_acquire
                 0x00000000        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
- .text.__retarget_lock_acquire_recursive
-                0x00000000        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire
                 0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_try_acquire_recursive
                 0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .text.__retarget_lock_release
-                0x00000000        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
- .text.__retarget_lock_release_recursive
                 0x00000000        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss.__lock___arc4random_mutex
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
@@ -1090,26 +1020,15 @@ Discarded input sections
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss.__lock___env_recursive_mutex
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
- .bss.__lock___malloc_recursive_mutex
-                0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss.__lock___sfp_recursive_mutex
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss.__lock___sinit_recursive_mutex
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .bss.__lock___tz_mutex
                 0x00000000        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
- .debug_frame   0x00000000       0xb0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
- .text._sbrk    0x00000000       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
- .bss.heap_end.0
-                0x00000000        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
- .debug_frame   0x00000000       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
- .ARM.attributes
-                0x00000000       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  .text          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
  .data          0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
  .bss           0x00000000        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(_exit.o)
@@ -1198,627 +1117,685 @@ LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2
                 0x08000000                g_pfnVectors
                 0x080001d8                . = ALIGN (0x4)
 
-.text           0x080001d8     0x39bc
-                0x080001d8                . = ALIGN (0x4)
+.text           0x080001e0     0x42dc
+                0x080001e0                . = ALIGN (0x4)
  *(.text)
- .text          0x080001d8       0x40 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x080001e0       0x40 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x08000220       0xa0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+                0x08000220                memchr
  *(.text*)
  .text.updateDisplayCell
-                0x08000218       0x14 build/7Seg.o
-                0x08000218                updateDisplayCell
+                0x080002c0       0x14 build/7Seg.o
+                0x080002c0                updateDisplayCell
  .text.updateDisplayWithTime
-                0x0800022c      0x12c build/7Seg.o
-                0x0800022c                updateDisplayWithTime
+                0x080002d4      0x12c build/7Seg.o
+                0x080002d4                updateDisplayWithTime
  .text.setDisplayCell
-                0x08000358       0x4c build/7Seg.o
-                0x08000358                setDisplayCell
+                0x08000400       0x4c build/7Seg.o
+                0x08000400                setDisplayCell
  .text.setDisplay
-                0x080003a4       0x5c build/7Seg.o
-                0x080003a4                setDisplay
+                0x0800044c       0x5c build/7Seg.o
+                0x0800044c                setDisplay
  .text.gpioB_Init
-                0x08000400       0x1c build/main.o
-                0x08000400                gpioB_Init
+                0x080004a8       0x1c build/main.o
+                0x080004a8                gpioB_Init
  .text.gpioA_Init
-                0x0800041c       0x20 build/main.o
-                0x0800041c                gpioA_Init
+                0x080004c4       0x20 build/main.o
+                0x080004c4                gpioA_Init
  .text.mainRCCInit
-                0x0800043c       0x4c build/main.o
-                0x0800043c                mainRCCInit
- .text.rtcInit  0x08000488      0x134 build/main.o
-                0x08000488                rtcInit
+                0x080004e4       0x4c build/main.o
+                0x080004e4                mainRCCInit
+ .text.rtcInit  0x08000530      0x130 build/main.o
+                0x08000530                rtcInit
  .text.checkSetTime
-                0x080005bc       0x7c build/main.o
-                0x080005bc                checkSetTime
- .text.main     0x08000638      0x104 build/main.o
-                0x08000638                main
+                0x08000660       0x7c build/main.o
+                0x08000660                checkSetTime
+ .text.main     0x080006dc      0x118 build/main.o
+                0x080006dc                main
  .text.Error_Handler
-                0x0800073c        0x4 build/main.o
-                0x0800073c                Error_Handler
+                0x080007f4        0x4 build/main.o
+                0x080007f4                Error_Handler
  .text.HAL_MspInit
-                0x08000740       0x38 build/stm32g4xx_hal_msp.o
-                0x08000740                HAL_MspInit
+                0x080007f8       0x38 build/stm32g4xx_hal_msp.o
+                0x080007f8                HAL_MspInit
  .text.NMI_Handler
-                0x08000778        0x2 build/stm32g4xx_it.o
-                0x08000778                NMI_Handler
+                0x08000830        0x2 build/stm32g4xx_it.o
+                0x08000830                NMI_Handler
  .text.HardFault_Handler
-                0x0800077a        0x2 build/stm32g4xx_it.o
-                0x0800077a                HardFault_Handler
+                0x08000832        0x2 build/stm32g4xx_it.o
+                0x08000832                HardFault_Handler
  .text.MemManage_Handler
-                0x0800077c        0x2 build/stm32g4xx_it.o
-                0x0800077c                MemManage_Handler
+                0x08000834        0x2 build/stm32g4xx_it.o
+                0x08000834                MemManage_Handler
  .text.BusFault_Handler
-                0x0800077e        0x2 build/stm32g4xx_it.o
-                0x0800077e                BusFault_Handler
+                0x08000836        0x2 build/stm32g4xx_it.o
+                0x08000836                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000780        0x2 build/stm32g4xx_it.o
-                0x08000780                UsageFault_Handler
+                0x08000838        0x2 build/stm32g4xx_it.o
+                0x08000838                UsageFault_Handler
  .text.SVC_Handler
-                0x08000782        0x2 build/stm32g4xx_it.o
-                0x08000782                SVC_Handler
+                0x0800083a        0x2 build/stm32g4xx_it.o
+                0x0800083a                SVC_Handler
  .text.DebugMon_Handler
-                0x08000784        0x2 build/stm32g4xx_it.o
-                0x08000784                DebugMon_Handler
+                0x0800083c        0x2 build/stm32g4xx_it.o
+                0x0800083c                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000786        0x2 build/stm32g4xx_it.o
-                0x08000786                PendSV_Handler
+                0x0800083e        0x2 build/stm32g4xx_it.o
+                0x0800083e                PendSV_Handler
  .text.SysTick_Handler
-                0x08000788        0x8 build/stm32g4xx_it.o
-                0x08000788                SysTick_Handler
+                0x08000840        0x8 build/stm32g4xx_it.o
+                0x08000840                SysTick_Handler
  .text.USB_LP_IRQHandler
-                0x08000790       0x10 build/stm32g4xx_it.o
-                0x08000790                USB_LP_IRQHandler
+                0x08000848       0x10 build/stm32g4xx_it.o
+                0x08000848                USB_LP_IRQHandler
  .text.SystemInit
-                0x080007a0       0x14 build/system_stm32g4xx.o
-                0x080007a0                SystemInit
+                0x08000858       0x14 build/system_stm32g4xx.o
+                0x08000858                SystemInit
  .text.HAL_InitTick
-                0x080007b4       0x50 build/stm32g4xx_hal.o
-                0x080007b4                HAL_InitTick
+                0x0800086c       0x50 build/stm32g4xx_hal.o
+                0x0800086c                HAL_InitTick
  .text.HAL_Init
-                0x08000804       0x1e build/stm32g4xx_hal.o
-                0x08000804                HAL_Init
- *fill*         0x08000822        0x2 
+                0x080008bc       0x1e build/stm32g4xx_hal.o
+                0x080008bc                HAL_Init
+ *fill*         0x080008da        0x2 
  .text.HAL_IncTick
-                0x08000824       0x18 build/stm32g4xx_hal.o
-                0x08000824                HAL_IncTick
+                0x080008dc       0x18 build/stm32g4xx_hal.o
+                0x080008dc                HAL_IncTick
  .text.HAL_GetTick
-                0x0800083c        0xc build/stm32g4xx_hal.o
-                0x0800083c                HAL_GetTick
+                0x080008f4        0xc build/stm32g4xx_hal.o
+                0x080008f4                HAL_GetTick
  .text.HAL_Delay
-                0x08000848       0x28 build/stm32g4xx_hal.o
-                0x08000848                HAL_Delay
+                0x08000900       0x28 build/stm32g4xx_hal.o
+                0x08000900                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000870       0x24 build/stm32g4xx_hal_cortex.o
-                0x08000870                HAL_NVIC_SetPriorityGrouping
+                0x08000928       0x24 build/stm32g4xx_hal_cortex.o
+                0x08000928                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000894       0x70 build/stm32g4xx_hal_cortex.o
-                0x08000894                HAL_NVIC_SetPriority
+                0x0800094c       0x70 build/stm32g4xx_hal_cortex.o
+                0x0800094c                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08000904       0x1c build/stm32g4xx_hal_cortex.o
-                0x08000904                HAL_NVIC_EnableIRQ
+                0x080009bc       0x1c build/stm32g4xx_hal_cortex.o
+                0x080009bc                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x08000920       0x28 build/stm32g4xx_hal_cortex.o
-                0x08000920                HAL_SYSTICK_Config
+                0x080009d8       0x28 build/stm32g4xx_hal_cortex.o
+                0x080009d8                HAL_SYSTICK_Config
  .text.HAL_PCD_EP_DB_Receive
-                0x08000948      0x118 build/stm32g4xx_hal_pcd.o
+                0x08000a00      0x118 build/stm32g4xx_hal_pcd.o
  .text.HAL_PCD_Init
-                0x08000a60       0xe4 build/stm32g4xx_hal_pcd.o
-                0x08000a60                HAL_PCD_Init
+                0x08000b18       0xe4 build/stm32g4xx_hal_pcd.o
+                0x08000b18                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x08000b44       0x2a build/stm32g4xx_hal_pcd.o
-                0x08000b44                HAL_PCD_Start
+                0x08000bfc       0x2a build/stm32g4xx_hal_pcd.o
+                0x08000bfc                HAL_PCD_Start
  .text.HAL_PCD_EP_DB_Transmit
-                0x08000b6e      0x410 build/stm32g4xx_hal_pcd.o
+                0x08000c26      0x410 build/stm32g4xx_hal_pcd.o
  .text.PCD_EP_ISR_Handler
-                0x08000f7e      0x416 build/stm32g4xx_hal_pcd.o
+                0x08001036      0x416 build/stm32g4xx_hal_pcd.o
  .text.HAL_PCD_SetAddress
-                0x08001394       0x28 build/stm32g4xx_hal_pcd.o
-                0x08001394                HAL_PCD_SetAddress
+                0x0800144c       0x28 build/stm32g4xx_hal_pcd.o
+                0x0800144c                HAL_PCD_SetAddress
  .text.HAL_PCD_IRQHandler
-                0x080013bc      0x1dc build/stm32g4xx_hal_pcd.o
-                0x080013bc                HAL_PCD_IRQHandler
+                0x08001474      0x1dc build/stm32g4xx_hal_pcd.o
+                0x08001474                HAL_PCD_IRQHandler
  .text.HAL_PCD_EP_Open
-                0x08001598       0x84 build/stm32g4xx_hal_pcd.o
-                0x08001598                HAL_PCD_EP_Open
+                0x08001650       0x84 build/stm32g4xx_hal_pcd.o
+                0x08001650                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x0800161c       0x64 build/stm32g4xx_hal_pcd.o
-                0x0800161c                HAL_PCD_EP_Close
+                0x080016d4       0x64 build/stm32g4xx_hal_pcd.o
+                0x080016d4                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x08001680       0x44 build/stm32g4xx_hal_pcd.o
-                0x08001680                HAL_PCD_EP_Receive
+                0x08001738       0x44 build/stm32g4xx_hal_pcd.o
+                0x08001738                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_GetRxCount
-                0x080016c4       0x12 build/stm32g4xx_hal_pcd.o
-                0x080016c4                HAL_PCD_EP_GetRxCount
+                0x0800177c       0x12 build/stm32g4xx_hal_pcd.o
+                0x0800177c                HAL_PCD_EP_GetRxCount
  .text.HAL_PCD_EP_Transmit
-                0x080016d6       0x50 build/stm32g4xx_hal_pcd.o
-                0x080016d6                HAL_PCD_EP_Transmit
+                0x0800178e       0x50 build/stm32g4xx_hal_pcd.o
+                0x0800178e                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x08001726       0x6a build/stm32g4xx_hal_pcd.o
-                0x08001726                HAL_PCD_EP_SetStall
+                0x080017de       0x6a build/stm32g4xx_hal_pcd.o
+                0x080017de                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x08001790       0x76 build/stm32g4xx_hal_pcd.o
-                0x08001790                HAL_PCD_EP_ClrStall
+                0x08001848       0x76 build/stm32g4xx_hal_pcd.o
+                0x08001848                HAL_PCD_EP_ClrStall
  .text.HAL_PCDEx_PMAConfig
-                0x08001806       0x38 build/stm32g4xx_hal_pcd_ex.o
-                0x08001806                HAL_PCDEx_PMAConfig
+                0x080018be       0x38 build/stm32g4xx_hal_pcd_ex.o
+                0x080018be                HAL_PCDEx_PMAConfig
  .text.HAL_PCDEx_ActivateLPM
-                0x0800183e       0x2c build/stm32g4xx_hal_pcd_ex.o
-                0x0800183e                HAL_PCDEx_ActivateLPM
- *fill*         0x0800186a        0x2 
+                0x080018f6       0x2c build/stm32g4xx_hal_pcd_ex.o
+                0x080018f6                HAL_PCDEx_ActivateLPM
+ *fill*         0x08001922        0x2 
  .text.HAL_PWREx_DisableUCPDDeadBattery
-                0x0800186c       0x10 build/stm32g4xx_hal_pwr_ex.o
-                0x0800186c                HAL_PWREx_DisableUCPDDeadBattery
+                0x08001924       0x10 build/stm32g4xx_hal_pwr_ex.o
+                0x08001924                HAL_PWREx_DisableUCPDDeadBattery
  .text.USB_EnableGlobalInt
-                0x0800187c       0x12 build/stm32g4xx_ll_usb.o
-                0x0800187c                USB_EnableGlobalInt
+                0x08001934       0x12 build/stm32g4xx_ll_usb.o
+                0x08001934                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x0800188e       0x14 build/stm32g4xx_ll_usb.o
-                0x0800188e                USB_DisableGlobalInt
+                0x08001946       0x14 build/stm32g4xx_ll_usb.o
+                0x08001946                USB_DisableGlobalInt
  .text.USB_DevInit
-                0x080018a2       0x22 build/stm32g4xx_ll_usb.o
-                0x080018a2                USB_DevInit
+                0x0800195a       0x22 build/stm32g4xx_ll_usb.o
+                0x0800195a                USB_DevInit
  .text.USB_ActivateEndpoint
-                0x080018c4      0x37c build/stm32g4xx_ll_usb.o
-                0x080018c4                USB_ActivateEndpoint
+                0x0800197c      0x37c build/stm32g4xx_ll_usb.o
+                0x0800197c                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x08001c40      0x1d6 build/stm32g4xx_ll_usb.o
-                0x08001c40                USB_DeactivateEndpoint
+                0x08001cf8      0x1d6 build/stm32g4xx_ll_usb.o
+                0x08001cf8                USB_DeactivateEndpoint
  .text.USB_EPSetStall
-                0x08001e16       0x4a build/stm32g4xx_ll_usb.o
-                0x08001e16                USB_EPSetStall
+                0x08001ece       0x4a build/stm32g4xx_ll_usb.o
+                0x08001ece                USB_EPSetStall
  .text.USB_EPClearStall
-                0x08001e60       0xa2 build/stm32g4xx_ll_usb.o
-                0x08001e60                USB_EPClearStall
+                0x08001f18       0xa2 build/stm32g4xx_ll_usb.o
+                0x08001f18                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x08001f02        0xc build/stm32g4xx_ll_usb.o
-                0x08001f02                USB_SetDevAddress
+                0x08001fba        0xc build/stm32g4xx_ll_usb.o
+                0x08001fba                USB_SetDevAddress
  .text.USB_DevConnect
-                0x08001f0e       0x16 build/stm32g4xx_ll_usb.o
-                0x08001f0e                USB_DevConnect
+                0x08001fc6       0x16 build/stm32g4xx_ll_usb.o
+                0x08001fc6                USB_DevConnect
  .text.USB_ReadInterrupts
-                0x08001f24        0x8 build/stm32g4xx_ll_usb.o
-                0x08001f24                USB_ReadInterrupts
+                0x08001fdc        0x8 build/stm32g4xx_ll_usb.o
+                0x08001fdc                USB_ReadInterrupts
  .text.USB_WritePMA
-                0x08001f2c       0x28 build/stm32g4xx_ll_usb.o
-                0x08001f2c                USB_WritePMA
+                0x08001fe4       0x28 build/stm32g4xx_ll_usb.o
+                0x08001fe4                USB_WritePMA
  .text.USB_EPStartXfer
-                0x08001f54      0x8b2 build/stm32g4xx_ll_usb.o
-                0x08001f54                USB_EPStartXfer
+                0x0800200c      0x8b2 build/stm32g4xx_ll_usb.o
+                0x0800200c                USB_EPStartXfer
  .text.USB_ReadPMA
-                0x08002806       0x30 build/stm32g4xx_ll_usb.o
-                0x08002806                USB_ReadPMA
+                0x080028be       0x30 build/stm32g4xx_ll_usb.o
+                0x080028be                USB_ReadPMA
  .text.USBD_CDC_EP0_RxReady
-                0x08002836       0x36 build/usbd_cdc.o
+                0x080028ee       0x36 build/usbd_cdc.o
  .text.USBD_CDC_GetFSCfgDesc
-                0x0800286c        0xc build/usbd_cdc.o
+                0x08002924        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetHSCfgDesc
-                0x08002878        0xc build/usbd_cdc.o
+                0x08002930        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-                0x08002884        0xc build/usbd_cdc.o
+                0x0800293c        0xc build/usbd_cdc.o
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-                0x08002890        0xc build/usbd_cdc.o
-                0x08002890                USBD_CDC_GetDeviceQualifierDescriptor
+                0x08002948        0xc build/usbd_cdc.o
+                0x08002948                USBD_CDC_GetDeviceQualifierDescriptor
  .text.USBD_CDC_DataOut
-                0x0800289c       0x2a build/usbd_cdc.o
+                0x08002954       0x2a build/usbd_cdc.o
  .text.USBD_CDC_DataIn
-                0x080028c6       0x6a build/usbd_cdc.o
+                0x0800297e       0x6a build/usbd_cdc.o
  .text.USBD_CDC_Setup
-                0x08002930       0xf4 build/usbd_cdc.o
+                0x080029e8       0xf4 build/usbd_cdc.o
  .text.USBD_CDC_DeInit
-                0x08002a24       0x48 build/usbd_cdc.o
+                0x08002adc       0x48 build/usbd_cdc.o
  .text.USBD_CDC_Init
-                0x08002a6c       0xc2 build/usbd_cdc.o
+                0x08002b24       0xc2 build/usbd_cdc.o
  .text.USBD_CDC_RegisterInterface
-                0x08002b2e        0xe build/usbd_cdc.o
-                0x08002b2e                USBD_CDC_RegisterInterface
+                0x08002be6        0xe build/usbd_cdc.o
+                0x08002be6                USBD_CDC_RegisterInterface
  .text.USBD_CDC_SetTxBuffer
-                0x08002b3c       0x16 build/usbd_cdc.o
-                0x08002b3c                USBD_CDC_SetTxBuffer
+                0x08002bf4       0x16 build/usbd_cdc.o
+                0x08002bf4                USBD_CDC_SetTxBuffer
  .text.USBD_CDC_SetRxBuffer
-                0x08002b52       0x12 build/usbd_cdc.o
-                0x08002b52                USBD_CDC_SetRxBuffer
+                0x08002c0a       0x12 build/usbd_cdc.o
+                0x08002c0a                USBD_CDC_SetRxBuffer
  .text.USBD_CDC_TransmitPacket
-                0x08002b64       0x34 build/usbd_cdc.o
-                0x08002b64                USBD_CDC_TransmitPacket
+                0x08002c1c       0x34 build/usbd_cdc.o
+                0x08002c1c                USBD_CDC_TransmitPacket
  .text.USBD_CDC_ReceivePacket
-                0x08002b98       0x32 build/usbd_cdc.o
-                0x08002b98                USBD_CDC_ReceivePacket
+                0x08002c50       0x32 build/usbd_cdc.o
+                0x08002c50                USBD_CDC_ReceivePacket
  .text.USBD_Init
-                0x08002bca       0x2e build/usbd_core.o
-                0x08002bca                USBD_Init
+                0x08002c82       0x2e build/usbd_core.o
+                0x08002c82                USBD_Init
  .text.USBD_RegisterClass
-                0x08002bf8       0x2e build/usbd_core.o
-                0x08002bf8                USBD_RegisterClass
+                0x08002cb0       0x2e build/usbd_core.o
+                0x08002cb0                USBD_RegisterClass
  .text.USBD_Start
-                0x08002c26        0x8 build/usbd_core.o
-                0x08002c26                USBD_Start
+                0x08002cde        0x8 build/usbd_core.o
+                0x08002cde                USBD_Start
  .text.USBD_SetClassConfig
-                0x08002c2e       0x12 build/usbd_core.o
-                0x08002c2e                USBD_SetClassConfig
+                0x08002ce6       0x12 build/usbd_core.o
+                0x08002ce6                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x08002c40       0x10 build/usbd_core.o
-                0x08002c40                USBD_ClrClassConfig
+                0x08002cf8       0x10 build/usbd_core.o
+                0x08002cf8                USBD_ClrClassConfig
  .text.USBD_LL_SetupStage
-                0x08002c50       0x58 build/usbd_core.o
-                0x08002c50                USBD_LL_SetupStage
+                0x08002d08       0x58 build/usbd_core.o
+                0x08002d08                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x08002ca8       0x78 build/usbd_core.o
-                0x08002ca8                USBD_LL_DataOutStage
+                0x08002d60       0x78 build/usbd_core.o
+                0x08002d60                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x08002d20       0xbe build/usbd_core.o
-                0x08002d20                USBD_LL_DataInStage
+                0x08002dd8       0xbe build/usbd_core.o
+                0x08002dd8                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x08002dde       0x5a build/usbd_core.o
-                0x08002dde                USBD_LL_Reset
+                0x08002e96       0x5a build/usbd_core.o
+                0x08002e96                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x08002e38        0x6 build/usbd_core.o
-                0x08002e38                USBD_LL_SetSpeed
+                0x08002ef0        0x6 build/usbd_core.o
+                0x08002ef0                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x08002e3e       0x14 build/usbd_core.o
-                0x08002e3e                USBD_LL_Suspend
+                0x08002ef6       0x14 build/usbd_core.o
+                0x08002ef6                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x08002e52       0x1a build/usbd_core.o
-                0x08002e52                USBD_LL_Resume
+                0x08002f0a       0x1a build/usbd_core.o
+                0x08002f0a                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x08002e6c       0x28 build/usbd_core.o
-                0x08002e6c                USBD_LL_SOF
+                0x08002f24       0x28 build/usbd_core.o
+                0x08002f24                USBD_LL_SOF
  .text.USBD_GetLen
-                0x08002e94       0x14 build/usbd_ctlreq.o
+                0x08002f4c       0x14 build/usbd_ctlreq.o
  .text.USBD_SetFeature
-                0x08002ea8       0x14 build/usbd_ctlreq.o
+                0x08002f60       0x14 build/usbd_ctlreq.o
  .text.USBD_ParseSetupRequest
-                0x08002ebc       0x28 build/usbd_ctlreq.o
-                0x08002ebc                USBD_ParseSetupRequest
+                0x08002f74       0x28 build/usbd_ctlreq.o
+                0x08002f74                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x08002ee4       0x14 build/usbd_ctlreq.o
-                0x08002ee4                USBD_CtlError
+                0x08002f9c       0x14 build/usbd_ctlreq.o
+                0x08002f9c                USBD_CtlError
  .text.USBD_GetDescriptor
-                0x08002ef8      0x1ac build/usbd_ctlreq.o
+                0x08002fb0      0x1ac build/usbd_ctlreq.o
  .text.USBD_SetAddress
-                0x080030a4       0x50 build/usbd_ctlreq.o
+                0x0800315c       0x50 build/usbd_ctlreq.o
  .text.USBD_SetConfig
-                0x080030f4       0xc8 build/usbd_ctlreq.o
+                0x080031ac       0xc8 build/usbd_ctlreq.o
  .text.USBD_GetConfig
-                0x080031bc       0x40 build/usbd_ctlreq.o
+                0x08003274       0x40 build/usbd_ctlreq.o
  .text.USBD_GetStatus
-                0x080031fc       0x38 build/usbd_ctlreq.o
+                0x080032b4       0x38 build/usbd_ctlreq.o
  .text.USBD_ClrFeature
-                0x08003234       0x26 build/usbd_ctlreq.o
+                0x080032ec       0x26 build/usbd_ctlreq.o
  .text.USBD_StdDevReq
-                0x0800325a       0x70 build/usbd_ctlreq.o
-                0x0800325a                USBD_StdDevReq
+                0x08003312       0x70 build/usbd_ctlreq.o
+                0x08003312                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x080032ca       0x68 build/usbd_ctlreq.o
-                0x080032ca                USBD_StdItfReq
+                0x08003382       0x68 build/usbd_ctlreq.o
+                0x08003382                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x08003332      0x1ec build/usbd_ctlreq.o
-                0x08003332                USBD_StdEPReq
+                0x080033ea      0x1ec build/usbd_ctlreq.o
+                0x080033ea                USBD_StdEPReq
  .text.USBD_GetString
-                0x0800351e       0x3a build/usbd_ctlreq.o
-                0x0800351e                USBD_GetString
+                0x080035d6       0x3a build/usbd_ctlreq.o
+                0x080035d6                USBD_GetString
  .text.USBD_CtlSendData
-                0x08003558       0x1a build/usbd_ioreq.o
-                0x08003558                USBD_CtlSendData
+                0x08003610       0x1a build/usbd_ioreq.o
+                0x08003610                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x08003572       0x10 build/usbd_ioreq.o
-                0x08003572                USBD_CtlContinueSendData
+                0x0800362a       0x10 build/usbd_ioreq.o
+                0x0800362a                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x08003582       0x1e build/usbd_ioreq.o
-                0x08003582                USBD_CtlPrepareRx
+                0x0800363a       0x1e build/usbd_ioreq.o
+                0x0800363a                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x080035a0       0x10 build/usbd_ioreq.o
-                0x080035a0                USBD_CtlContinueRx
+                0x08003658       0x10 build/usbd_ioreq.o
+                0x08003658                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x080035b0       0x16 build/usbd_ioreq.o
-                0x080035b0                USBD_CtlSendStatus
+                0x08003668       0x16 build/usbd_ioreq.o
+                0x08003668                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x080035c6       0x16 build/usbd_ioreq.o
-                0x080035c6                USBD_CtlReceiveStatus
+                0x0800367e       0x16 build/usbd_ioreq.o
+                0x0800367e                USBD_CtlReceiveStatus
  .text.MX_USB_Device_Init
-                0x080035dc       0x70 build/usb_device.o
-                0x080035dc                MX_USB_Device_Init
+                0x08003694       0x70 build/usb_device.o
+                0x08003694                MX_USB_Device_Init
  .text.CDC_DeInit_FS
-                0x0800364c        0x4 build/usbd_cdc_if.o
+                0x08003704        0x4 build/usbd_cdc_if.o
  .text.CDC_Control_FS
-                0x08003650        0x4 build/usbd_cdc_if.o
+                0x08003708        0x4 build/usbd_cdc_if.o
  .text.CDC_TransmitCplt_FS
-                0x08003654        0x4 build/usbd_cdc_if.o
+                0x0800370c        0x4 build/usbd_cdc_if.o
  .text.CDC_Receive_FS
-                0x08003658       0x50 build/usbd_cdc_if.o
+                0x08003710       0x50 build/usbd_cdc_if.o
  .text.CDC_Init_FS
-                0x080036a8       0x28 build/usbd_cdc_if.o
+                0x08003760       0x28 build/usbd_cdc_if.o
  .text.CDC_Transmit_FS
-                0x080036d0       0x2c build/usbd_cdc_if.o
-                0x080036d0                CDC_Transmit_FS
+                0x08003788       0x2c build/usbd_cdc_if.o
+                0x08003788                CDC_Transmit_FS
  .text.USBD_CDC_DeviceDescriptor
-                0x080036fc        0xc build/usbd_desc.o
-                0x080036fc                USBD_CDC_DeviceDescriptor
+                0x080037b4        0xc build/usbd_desc.o
+                0x080037b4                USBD_CDC_DeviceDescriptor
  .text.USBD_CDC_LangIDStrDescriptor
-                0x08003708        0xc build/usbd_desc.o
-                0x08003708                USBD_CDC_LangIDStrDescriptor
+                0x080037c0        0xc build/usbd_desc.o
+                0x080037c0                USBD_CDC_LangIDStrDescriptor
  .text.IntToUnicode
-                0x08003714       0x46 build/usbd_desc.o
- *fill*         0x0800375a        0x2 
+                0x080037cc       0x46 build/usbd_desc.o
+ *fill*         0x08003812        0x2 
  .text.Get_SerialNum
-                0x0800375c       0x38 build/usbd_desc.o
+                0x08003814       0x38 build/usbd_desc.o
  .text.USBD_CDC_SerialStrDescriptor
-                0x08003794       0x14 build/usbd_desc.o
-                0x08003794                USBD_CDC_SerialStrDescriptor
+                0x0800384c       0x14 build/usbd_desc.o
+                0x0800384c                USBD_CDC_SerialStrDescriptor
  .text.USBD_CDC_ProductStrDescriptor
-                0x080037a8       0x24 build/usbd_desc.o
-                0x080037a8                USBD_CDC_ProductStrDescriptor
+                0x08003860       0x24 build/usbd_desc.o
+                0x08003860                USBD_CDC_ProductStrDescriptor
  .text.USBD_CDC_ManufacturerStrDescriptor
-                0x080037cc       0x1c build/usbd_desc.o
-                0x080037cc                USBD_CDC_ManufacturerStrDescriptor
+                0x08003884       0x1c build/usbd_desc.o
+                0x08003884                USBD_CDC_ManufacturerStrDescriptor
  .text.USBD_CDC_ConfigStrDescriptor
-                0x080037e8       0x24 build/usbd_desc.o
-                0x080037e8                USBD_CDC_ConfigStrDescriptor
+                0x080038a0       0x24 build/usbd_desc.o
+                0x080038a0                USBD_CDC_ConfigStrDescriptor
  .text.USBD_CDC_InterfaceStrDescriptor
-                0x0800380c       0x24 build/usbd_desc.o
-                0x0800380c                USBD_CDC_InterfaceStrDescriptor
+                0x080038c4       0x24 build/usbd_desc.o
+                0x080038c4                USBD_CDC_InterfaceStrDescriptor
  .text.USBD_Get_USB_Status
-                0x08003830       0x14 build/usbd_conf.o
+                0x080038e8       0x14 build/usbd_conf.o
  .text.SystemClockConfig_Resume
-                0x08003844        0x8 build/usbd_conf.o
+                0x080038fc        0x8 build/usbd_conf.o
  .text.HAL_PCD_MspInit
-                0x0800384c       0x40 build/usbd_conf.o
-                0x0800384c                HAL_PCD_MspInit
+                0x08003904       0x40 build/usbd_conf.o
+                0x08003904                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x0800388c       0x10 build/usbd_conf.o
-                0x0800388c                HAL_PCD_SetupStageCallback
+                0x08003944       0x10 build/usbd_conf.o
+                0x08003944                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x0800389c       0x18 build/usbd_conf.o
-                0x0800389c                HAL_PCD_DataOutStageCallback
+                0x08003954       0x18 build/usbd_conf.o
+                0x08003954                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x080038b4       0x16 build/usbd_conf.o
-                0x080038b4                HAL_PCD_DataInStageCallback
+                0x0800396c       0x16 build/usbd_conf.o
+                0x0800396c                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x080038ca        0xc build/usbd_conf.o
-                0x080038ca                HAL_PCD_SOFCallback
+                0x08003982        0xc build/usbd_conf.o
+                0x08003982                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x080038d6       0x24 build/usbd_conf.o
-                0x080038d6                HAL_PCD_ResetCallback
- *fill*         0x080038fa        0x2 
+                0x0800398e       0x24 build/usbd_conf.o
+                0x0800398e                HAL_PCD_ResetCallback
+ *fill*         0x080039b2        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x080038fc       0x20 build/usbd_conf.o
-                0x080038fc                HAL_PCD_SuspendCallback
+                0x080039b4       0x20 build/usbd_conf.o
+                0x080039b4                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x0800391c       0x28 build/usbd_conf.o
-                0x0800391c                HAL_PCD_ResumeCallback
+                0x080039d4       0x28 build/usbd_conf.o
+                0x080039d4                HAL_PCD_ResumeCallback
  .text.USBD_LL_Init
-                0x08003944       0x88 build/usbd_conf.o
-                0x08003944                USBD_LL_Init
+                0x080039fc       0x88 build/usbd_conf.o
+                0x080039fc                USBD_LL_Init
  .text.USBD_LL_Start
-                0x080039cc       0x10 build/usbd_conf.o
-                0x080039cc                USBD_LL_Start
+                0x08003a84       0x10 build/usbd_conf.o
+                0x08003a84                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x080039dc       0x16 build/usbd_conf.o
-                0x080039dc                USBD_LL_OpenEP
+                0x08003a94       0x16 build/usbd_conf.o
+                0x08003a94                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x080039f2       0x10 build/usbd_conf.o
-                0x080039f2                USBD_LL_CloseEP
+                0x08003aaa       0x10 build/usbd_conf.o
+                0x08003aaa                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x08003a02       0x10 build/usbd_conf.o
-                0x08003a02                USBD_LL_StallEP
+                0x08003aba       0x10 build/usbd_conf.o
+                0x08003aba                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x08003a12       0x10 build/usbd_conf.o
-                0x08003a12                USBD_LL_ClearStallEP
+                0x08003aca       0x10 build/usbd_conf.o
+                0x08003aca                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x08003a22       0x2e build/usbd_conf.o
-                0x08003a22                USBD_LL_IsStallEP
+                0x08003ada       0x2e build/usbd_conf.o
+                0x08003ada                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x08003a50       0x10 build/usbd_conf.o
-                0x08003a50                USBD_LL_SetUSBAddress
+                0x08003b08       0x10 build/usbd_conf.o
+                0x08003b08                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x08003a60       0x10 build/usbd_conf.o
-                0x08003a60                USBD_LL_Transmit
+                0x08003b18       0x10 build/usbd_conf.o
+                0x08003b18                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x08003a70       0x10 build/usbd_conf.o
-                0x08003a70                USBD_LL_PrepareReceive
+                0x08003b28       0x10 build/usbd_conf.o
+                0x08003b28                USBD_LL_PrepareReceive
  .text.USBD_LL_GetRxDataSize
-                0x08003a80        0xc build/usbd_conf.o
-                0x08003a80                USBD_LL_GetRxDataSize
+                0x08003b38        0xc build/usbd_conf.o
+                0x08003b38                USBD_LL_GetRxDataSize
  .text.HAL_PCDEx_LPM_Callback
-                0x08003a8c       0x48 build/usbd_conf.o
-                0x08003a8c                HAL_PCDEx_LPM_Callback
+                0x08003b44       0x48 build/usbd_conf.o
+                0x08003b44                HAL_PCDEx_LPM_Callback
  .text.USBD_static_malloc
-                0x08003ad4        0x8 build/usbd_conf.o
-                0x08003ad4                USBD_static_malloc
+                0x08003b8c        0x8 build/usbd_conf.o
+                0x08003b8c                USBD_static_malloc
  .text.USBD_static_free
-                0x08003adc        0x2 build/usbd_conf.o
-                0x08003adc                USBD_static_free
- *fill*         0x08003ade        0x2 
+                0x08003b94        0x2 build/usbd_conf.o
+                0x08003b94                USBD_static_free
+ *fill*         0x08003b96        0x2 
  .text.Reset_Handler
-                0x08003ae0       0x50 build/startup_stm32g441xx.o
-                0x08003ae0                Reset_Handler
+                0x08003b98       0x50 build/startup_stm32g441xx.o
+                0x08003b98                Reset_Handler
  .text.Default_Handler
-                0x08003b30        0x2 build/startup_stm32g441xx.o
-                0x08003b30                RTC_Alarm_IRQHandler
-                0x08003b30                EXTI2_IRQHandler
-                0x08003b30                TIM8_TRG_COM_IRQHandler
-                0x08003b30                TIM8_CC_IRQHandler
-                0x08003b30                TIM1_CC_IRQHandler
-                0x08003b30                USB_HP_IRQHandler
-                0x08003b30                CORDIC_IRQHandler
-                0x08003b30                EXTI3_IRQHandler
-                0x08003b30                I2C3_ER_IRQHandler
-                0x08003b30                EXTI0_IRQHandler
-                0x08003b30                I2C2_EV_IRQHandler
-                0x08003b30                FPU_IRQHandler
-                0x08003b30                FDCAN1_IT1_IRQHandler
-                0x08003b30                TIM1_UP_TIM16_IRQHandler
-                0x08003b30                ADC1_2_IRQHandler
-                0x08003b30                SPI1_IRQHandler
-                0x08003b30                TIM6_DAC_IRQHandler
-                0x08003b30                TIM8_UP_IRQHandler
-                0x08003b30                DMA2_Channel2_IRQHandler
-                0x08003b30                DMA1_Channel4_IRQHandler
-                0x08003b30                USART3_IRQHandler
-                0x08003b30                TIM4_IRQHandler
-                0x08003b30                DMA2_Channel1_IRQHandler
-                0x08003b30                I2C1_EV_IRQHandler
-                0x08003b30                DMA1_Channel6_IRQHandler
-                0x08003b30                UART4_IRQHandler
-                0x08003b30                DMA2_Channel4_IRQHandler
-                0x08003b30                TIM3_IRQHandler
-                0x08003b30                RCC_IRQHandler
-                0x08003b30                DMA1_Channel1_IRQHandler
-                0x08003b30                Default_Handler
-                0x08003b30                RTC_TAMP_LSECSS_IRQHandler
-                0x08003b30                FMAC_IRQHandler
-                0x08003b30                EXTI15_10_IRQHandler
-                0x08003b30                TIM7_IRQHandler
-                0x08003b30                UCPD1_IRQHandler
-                0x08003b30                I2C3_EV_IRQHandler
-                0x08003b30                EXTI9_5_IRQHandler
-                0x08003b30                RTC_WKUP_IRQHandler
-                0x08003b30                PVD_PVM_IRQHandler
-                0x08003b30                SPI2_IRQHandler
-                0x08003b30                DMA2_Channel5_IRQHandler
-                0x08003b30                CRS_IRQHandler
-                0x08003b30                DMA1_Channel5_IRQHandler
-                0x08003b30                EXTI4_IRQHandler
-                0x08003b30                RNG_IRQHandler
-                0x08003b30                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08003b30                DMA1_Channel3_IRQHandler
-                0x08003b30                WWDG_IRQHandler
-                0x08003b30                LPUART1_IRQHandler
-                0x08003b30                DMA2_Channel6_IRQHandler
-                0x08003b30                FDCAN1_IT0_IRQHandler
-                0x08003b30                TIM2_IRQHandler
-                0x08003b30                COMP1_2_3_IRQHandler
-                0x08003b30                EXTI1_IRQHandler
-                0x08003b30                AES_IRQHandler
-                0x08003b30                USART2_IRQHandler
-                0x08003b30                I2C2_ER_IRQHandler
-                0x08003b30                DMA1_Channel2_IRQHandler
-                0x08003b30                TIM8_BRK_IRQHandler
-                0x08003b30                FLASH_IRQHandler
-                0x08003b30                USART1_IRQHandler
-                0x08003b30                SPI3_IRQHandler
-                0x08003b30                I2C1_ER_IRQHandler
-                0x08003b30                LPTIM1_IRQHandler
-                0x08003b30                DMAMUX_OVR_IRQHandler
-                0x08003b30                USBWakeUp_IRQHandler
-                0x08003b30                SAI1_IRQHandler
-                0x08003b30                DMA2_Channel3_IRQHandler
-                0x08003b30                COMP4_IRQHandler
-                0x08003b30                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x08003b32        0x2 
+                0x08003be8        0x2 build/startup_stm32g441xx.o
+                0x08003be8                RTC_Alarm_IRQHandler
+                0x08003be8                EXTI2_IRQHandler
+                0x08003be8                TIM8_TRG_COM_IRQHandler
+                0x08003be8                TIM8_CC_IRQHandler
+                0x08003be8                TIM1_CC_IRQHandler
+                0x08003be8                USB_HP_IRQHandler
+                0x08003be8                CORDIC_IRQHandler
+                0x08003be8                EXTI3_IRQHandler
+                0x08003be8                I2C3_ER_IRQHandler
+                0x08003be8                EXTI0_IRQHandler
+                0x08003be8                I2C2_EV_IRQHandler
+                0x08003be8                FPU_IRQHandler
+                0x08003be8                FDCAN1_IT1_IRQHandler
+                0x08003be8                TIM1_UP_TIM16_IRQHandler
+                0x08003be8                ADC1_2_IRQHandler
+                0x08003be8                SPI1_IRQHandler
+                0x08003be8                TIM6_DAC_IRQHandler
+                0x08003be8                TIM8_UP_IRQHandler
+                0x08003be8                DMA2_Channel2_IRQHandler
+                0x08003be8                DMA1_Channel4_IRQHandler
+                0x08003be8                USART3_IRQHandler
+                0x08003be8                TIM4_IRQHandler
+                0x08003be8                DMA2_Channel1_IRQHandler
+                0x08003be8                I2C1_EV_IRQHandler
+                0x08003be8                DMA1_Channel6_IRQHandler
+                0x08003be8                UART4_IRQHandler
+                0x08003be8                DMA2_Channel4_IRQHandler
+                0x08003be8                TIM3_IRQHandler
+                0x08003be8                RCC_IRQHandler
+                0x08003be8                DMA1_Channel1_IRQHandler
+                0x08003be8                Default_Handler
+                0x08003be8                RTC_TAMP_LSECSS_IRQHandler
+                0x08003be8                FMAC_IRQHandler
+                0x08003be8                EXTI15_10_IRQHandler
+                0x08003be8                TIM7_IRQHandler
+                0x08003be8                UCPD1_IRQHandler
+                0x08003be8                I2C3_EV_IRQHandler
+                0x08003be8                EXTI9_5_IRQHandler
+                0x08003be8                RTC_WKUP_IRQHandler
+                0x08003be8                PVD_PVM_IRQHandler
+                0x08003be8                SPI2_IRQHandler
+                0x08003be8                DMA2_Channel5_IRQHandler
+                0x08003be8                CRS_IRQHandler
+                0x08003be8                DMA1_Channel5_IRQHandler
+                0x08003be8                EXTI4_IRQHandler
+                0x08003be8                RNG_IRQHandler
+                0x08003be8                TIM1_TRG_COM_TIM17_IRQHandler
+                0x08003be8                DMA1_Channel3_IRQHandler
+                0x08003be8                WWDG_IRQHandler
+                0x08003be8                LPUART1_IRQHandler
+                0x08003be8                DMA2_Channel6_IRQHandler
+                0x08003be8                FDCAN1_IT0_IRQHandler
+                0x08003be8                TIM2_IRQHandler
+                0x08003be8                COMP1_2_3_IRQHandler
+                0x08003be8                EXTI1_IRQHandler
+                0x08003be8                AES_IRQHandler
+                0x08003be8                USART2_IRQHandler
+                0x08003be8                I2C2_ER_IRQHandler
+                0x08003be8                DMA1_Channel2_IRQHandler
+                0x08003be8                TIM8_BRK_IRQHandler
+                0x08003be8                FLASH_IRQHandler
+                0x08003be8                USART1_IRQHandler
+                0x08003be8                SPI3_IRQHandler
+                0x08003be8                I2C1_ER_IRQHandler
+                0x08003be8                LPTIM1_IRQHandler
+                0x08003be8                DMAMUX_OVR_IRQHandler
+                0x08003be8                USBWakeUp_IRQHandler
+                0x08003be8                SAI1_IRQHandler
+                0x08003be8                DMA2_Channel3_IRQHandler
+                0x08003be8                COMP4_IRQHandler
+                0x08003be8                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x08003bea        0x2 
  .text.__libc_init_array
-                0x08003b34       0x48 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
-                0x08003b34                __libc_init_array
+                0x08003bec       0x48 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x08003bec                __libc_init_array
+ .text.sprintf  0x08003c34       0x40 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+                0x08003c34                siprintf
+                0x08003c34                sprintf
+ .text.__ssputs_r
+                0x08003c74       0xb6 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08003c74                __ssputs_r
+ *fill*         0x08003d2a        0x2 
+ .text._svfprintf_r
+                0x08003d2c      0x200 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08003d2c                _svfiprintf_r
+                0x08003d2c                _svfprintf_r
+ .text._printf_common
+                0x08003f2c       0xda c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08003f2c                _printf_common
+ *fill*         0x08004006        0x2 
+ .text._printf_i
+                0x08004008      0x24c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08004008                _printf_i
+ .text.memcpy   0x08004254       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+                0x08004254                memcpy
+ .text.memmove  0x08004270       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+                0x08004270                memmove
+ .text._free_r  0x080042a4       0x98 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+                0x080042a4                _free_r
+ .text._malloc_r
+                0x0800433c       0xb4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x0800433c                _malloc_r
+ .text._realloc_r
+                0x080043f0       0x4c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+                0x080043f0                _realloc_r
+ .text._sbrk_r  0x0800443c       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+                0x0800443c                _sbrk_r
+ .text.__malloc_lock
+                0x0800445c        0xc c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x0800445c                __malloc_lock
+ .text.__malloc_unlock
+                0x08004468        0xc c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+                0x08004468                __malloc_unlock
+ .text._malloc_usable_size_r
+                0x08004474       0x10 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+                0x08004474                _malloc_usable_size_r
+ .text.__retarget_lock_acquire_recursive
+                0x08004484        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x08004484                __retarget_lock_acquire_recursive
+ .text.__retarget_lock_release_recursive
+                0x08004486        0x2 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x08004486                __retarget_lock_release_recursive
+ .text._sbrk    0x08004488       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+                0x08004488                _sbrk
  *(.glue_7)
- .glue_7        0x08003b7c        0x0 linker stubs
+ .glue_7        0x080044a4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08003b7c        0x0 linker stubs
+ .glue_7t       0x080044a4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08003b7c        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x080044a4        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x08003b7c        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08003b7c                _init
- .init          0x08003b80        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x080044a4        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x080044a4                _init
+ .init          0x080044a8        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08003b88        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
-                0x08003b88                _fini
- .fini          0x08003b8c        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08003b94                . = ALIGN (0x4)
-                0x08003b94                _etext = .
+ .fini          0x080044b0        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
+                0x080044b0                _fini
+ .fini          0x080044b4        0x8 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080044bc                . = ALIGN (0x4)
+                0x080044bc                _etext = .
 
-.vfp11_veneer   0x08003b94        0x0
- .vfp11_veneer  0x08003b94        0x0 linker stubs
+.vfp11_veneer   0x080044bc        0x0
+ .vfp11_veneer  0x080044bc        0x0 linker stubs
 
-.v4_bx          0x08003b94        0x0
- .v4_bx         0x08003b94        0x0 linker stubs
+.v4_bx          0x080044bc        0x0
+ .v4_bx         0x080044bc        0x0 linker stubs
 
-.iplt           0x08003b94        0x0
- .iplt          0x08003b94        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x080044bc        0x0
+ .iplt          0x080044bc        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08003b94      0x5f8
-                0x08003b94                . = ALIGN (0x4)
+.rodata         0x080044bc      0x638
+                0x080044bc                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.displayAddresses
-                0x08003b94      0x110 build/7Seg.o
-                0x08003b94                displayAddresses
+                0x080044bc      0x110 build/7Seg.o
+                0x080044bc                displayAddresses
  .rodata.eightDraw
-                0x08003ca4       0x40 build/7Seg.o
-                0x08003ca4                eightDraw
+                0x080045cc       0x40 build/7Seg.o
+                0x080045cc                eightDraw
  .rodata.fiveDraw
-                0x08003ce4       0x40 build/7Seg.o
-                0x08003ce4                fiveDraw
+                0x0800460c       0x40 build/7Seg.o
+                0x0800460c                fiveDraw
  .rodata.fourDraw
-                0x08003d24       0x40 build/7Seg.o
-                0x08003d24                fourDraw
+                0x0800464c       0x40 build/7Seg.o
+                0x0800464c                fourDraw
  .rodata.nineDraw
-                0x08003d64       0x40 build/7Seg.o
-                0x08003d64                nineDraw
+                0x0800468c       0x40 build/7Seg.o
+                0x0800468c                nineDraw
  .rodata.oneDraw
-                0x08003da4       0x40 build/7Seg.o
-                0x08003da4                oneDraw
+                0x080046cc       0x40 build/7Seg.o
+                0x080046cc                oneDraw
  .rodata.secretOrder
-                0x08003de4      0x220 build/7Seg.o
-                0x08003de4                secretOrder
+                0x0800470c      0x220 build/7Seg.o
+                0x0800470c                secretOrder
  .rodata.sevenDraw
-                0x08004004       0x40 build/7Seg.o
-                0x08004004                sevenDraw
+                0x0800492c       0x40 build/7Seg.o
+                0x0800492c                sevenDraw
  .rodata.sixDraw
-                0x08004044       0x40 build/7Seg.o
-                0x08004044                sixDraw
+                0x0800496c       0x40 build/7Seg.o
+                0x0800496c                sixDraw
  .rodata.threeDraw
-                0x08004084       0x40 build/7Seg.o
-                0x08004084                threeDraw
+                0x080049ac       0x40 build/7Seg.o
+                0x080049ac                threeDraw
  .rodata.twoDraw
-                0x080040c4       0x40 build/7Seg.o
-                0x080040c4                twoDraw
+                0x080049ec       0x40 build/7Seg.o
+                0x080049ec                twoDraw
  .rodata.zeroDraw
-                0x08004104       0x40 build/7Seg.o
-                0x08004104                zeroDraw
+                0x08004a2c       0x40 build/7Seg.o
+                0x08004a2c                zeroDraw
+ .rodata.main.str1.4
+                0x08004a6c        0xa build/main.o
+ *fill*         0x08004a76        0x2 
  .rodata.USBD_CDC_ProductStrDescriptor.str1.4
-                0x08004144       0x16 build/usbd_desc.o
- *fill*         0x0800415a        0x2 
+                0x08004a78       0x16 build/usbd_desc.o
+ *fill*         0x08004a8e        0x2 
  .rodata.USBD_CDC_ManufacturerStrDescriptor.str1.4
-                0x0800415c       0x13 build/usbd_desc.o
- *fill*         0x0800416f        0x1 
+                0x08004a90       0x13 build/usbd_desc.o
+ *fill*         0x08004aa3        0x1 
  .rodata.USBD_CDC_ConfigStrDescriptor.str1.4
-                0x08004170        0xb build/usbd_desc.o
- *fill*         0x0800417b        0x1 
+                0x08004aa4        0xb build/usbd_desc.o
+ *fill*         0x08004aaf        0x1 
  .rodata.USBD_CDC_InterfaceStrDescriptor.str1.4
-                0x0800417c        0xe build/usbd_desc.o
-                0x0800418c                . = ALIGN (0x4)
- *fill*         0x0800418a        0x2 
+                0x08004ab0        0xe build/usbd_desc.o
+ .rodata._svfprintf_r.str1.1
+                0x08004abe       0x11 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata._printf_i.str1.1
+                0x08004acf       0x22 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08004af4                . = ALIGN (0x4)
+ *fill*         0x08004af1        0x3 
 
-.rel.dyn        0x0800418c        0x0
- .rel.iplt      0x0800418c        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08004af4        0x0
+ .rel.iplt      0x08004af4        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0800418c        0x0
-                0x0800418c                __exidx_start = .
+.ARM            0x08004af4        0x0
+                0x08004af4                __exidx_start = .
  *(.ARM.exidx*)
-                0x0800418c                __exidx_end = .
+                0x08004af4                __exidx_end = .
 
-.preinit_array  0x0800418c        0x0
-                0x0800418c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004af4        0x0
+                0x08004af4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0800418c                PROVIDE (__preinit_array_end = .)
+                0x08004af4                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0800418c        0x4
-                0x0800418c                PROVIDE (__init_array_start = .)
+.init_array     0x08004af4        0x4
+                0x08004af4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0800418c        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08004190                PROVIDE (__init_array_end = .)
+ .init_array    0x08004af4        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08004af8                PROVIDE (__init_array_end = .)
 
-.fini_array     0x08004190        0x4
+.fini_array     0x08004af8        0x4
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08004190        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08004af8        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x08004194                _sidata = LOADADDR (.data)
+                0x08004afc                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x2dc load address 0x08004194
+.data           0x20000000      0x340 load address 0x08004afc
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1871,63 +1848,82 @@ LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2
  .data.USBD_StringSerial
                 0x200002c0       0x1a build/usbd_desc.o
                 0x200002c0                USBD_StringSerial
-                0x200002dc                . = ALIGN (0x4)
  *fill*         0x200002da        0x2 
-                0x200002dc                _edata = .
+ .data._impure_ptr
+                0x200002dc        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                0x200002dc                _impure_ptr
+ .data.impure_data
+                0x200002e0       0x60 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
+                0x20000340                . = ALIGN (0x4)
+                0x20000340                _edata = .
 
-.igot.plt       0x200002dc        0x0 load address 0x08004470
- .igot.plt      0x200002dc        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x200002dc                . = ALIGN (0x4)
+.igot.plt       0x20000340        0x0 load address 0x08004e3c
+ .igot.plt      0x20000340        0x0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000340                . = ALIGN (0x4)
 
-.bss            0x200002dc     0x132c load address 0x08004470
-                0x200002dc                _sbss = .
-                0x200002dc                __bss_start__ = _sbss
+.bss            0x20000340     0x1340 load address 0x08004e3c
+                0x20000340                _sbss = .
+                0x20000340                __bss_start__ = _sbss
  *(.bss)
- .bss           0x200002dc       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x20000340       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.displayState
-                0x200002f8      0x110 build/7Seg.o
-                0x200002f8                displayState
- .bss.rxBuf     0x20000408       0x40 build/main.o
-                0x20000408                rxBuf
+                0x2000035c      0x110 build/7Seg.o
+                0x2000035c                displayState
+ .bss.rxBuf     0x2000046c       0x40 build/main.o
+                0x2000046c                rxBuf
  .bss.usbHandler
-                0x20000448        0x4 build/main.o
-                0x20000448                usbHandler
- .bss.uwTick    0x2000044c        0x4 build/stm32g4xx_hal.o
-                0x2000044c                uwTick
- .bss.cfgidx.0  0x20000450        0x1 build/usbd_ctlreq.o
- *fill*         0x20000451        0x3 
+                0x200004ac        0x4 build/main.o
+                0x200004ac                usbHandler
+ .bss.uwTick    0x200004b0        0x4 build/stm32g4xx_hal.o
+                0x200004b0                uwTick
+ .bss.cfgidx.0  0x200004b4        0x1 build/usbd_ctlreq.o
+ *fill*         0x200004b5        0x3 
  .bss.hUsbDeviceFS
-                0x20000454      0x2d0 build/usb_device.o
-                0x20000454                hUsbDeviceFS
+                0x200004b8      0x2d0 build/usb_device.o
+                0x200004b8                hUsbDeviceFS
  .bss.UserRxBufferFS
-                0x20000724      0x3e8 build/usbd_cdc_if.o
-                0x20000724                UserRxBufferFS
+                0x20000788      0x3e8 build/usbd_cdc_if.o
+                0x20000788                UserRxBufferFS
  .bss.UserTxBufferFS
-                0x20000b0c      0x3e8 build/usbd_cdc_if.o
-                0x20000b0c                UserTxBufferFS
+                0x20000b70      0x3e8 build/usbd_cdc_if.o
+                0x20000b70                UserTxBufferFS
  .bss.USBD_StrDesc
-                0x20000ef4      0x200 build/usbd_desc.o
-                0x20000ef4                USBD_StrDesc
+                0x20000f58      0x200 build/usbd_desc.o
+                0x20000f58                USBD_StrDesc
  .bss.hpcd_USB_FS
-                0x200010f4      0x2f4 build/usbd_conf.o
-                0x200010f4                hpcd_USB_FS
- .bss.mem.0     0x200013e8      0x220 build/usbd_conf.o
+                0x20001158      0x2f4 build/usbd_conf.o
+                0x20001158                hpcd_USB_FS
+ .bss.mem.0     0x2000144c      0x220 build/usbd_conf.o
+ .bss.__malloc_free_list
+                0x2000166c        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x2000166c                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x20001670        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+                0x20001670                __malloc_sbrk_start
+ .bss.errno     0x20001674        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+                0x20001674                errno
+ .bss.__lock___malloc_recursive_mutex
+                0x20001678        0x1 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+                0x20001678                __lock___malloc_recursive_mutex
+ *fill*         0x20001679        0x3 
+ .bss.heap_end.0
+                0x2000167c        0x4 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
  *(COMMON)
-                0x20001608                . = ALIGN (0x4)
-                0x20001608                _ebss = .
-                0x20001608                __bss_end__ = _ebss
+                0x20001680                . = ALIGN (0x4)
+                0x20001680                _ebss = .
+                0x20001680                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20001608      0x600 load address 0x08004470
-                0x20001608                . = ALIGN (0x8)
-                0x20001608                PROVIDE (end = .)
+                0x20001680      0x600 load address 0x08004e3c
+                0x20001680                . = ALIGN (0x8)
+                0x20001680                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
-                0x20001808                . = (. + _Min_Heap_Size)
- *fill*         0x20001608      0x200 
-                0x20001c08                . = (. + _Min_Stack_Size)
- *fill*         0x20001808      0x400 
-                0x20001c08                . = ALIGN (0x8)
+                0x20001880                . = (. + _Min_Heap_Size)
+ *fill*         0x20001680      0x200 
+                0x20001c80                . = (. + _Min_Stack_Size)
+ *fill*         0x20001880      0x400 
+                0x20001c80                . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -1982,36 +1978,68 @@ LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2
  .ARM.attributes
                 0x0000042e       0x21 build/startup_stm32g441xx.o
  .ARM.attributes
-                0x0000044f       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+                0x0000044f       0x32 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000483       0x1e c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
+                0x00000481       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000004b5       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x000004e9       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x0000051d       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000551       0x1c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x0000056d       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000005a1       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x000005d5       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x00000609       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000063d       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x00000671       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x000006a5       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x000006d9       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000070d       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x00000741       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .ARM.attributes
+                0x00000775       0x34 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
+ .ARM.attributes
+                0x000007a9       0x1e c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(build/USBTest.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
 LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x1025b
- .debug_info    0x00000000      0x6a3 build/7Seg.o
- .debug_info    0x000006a3     0x1240 build/main.o
- .debug_info    0x000018e3      0x33e build/stm32g4xx_hal_msp.o
- .debug_info    0x00001c21      0x6b6 build/stm32g4xx_it.o
- .debug_info    0x000022d7      0x5b4 build/system_stm32g4xx.o
- .debug_info    0x0000288b      0xb7b build/stm32g4xx_hal.o
- .debug_info    0x00003406     0x1047 build/stm32g4xx_hal_cortex.o
- .debug_info    0x0000444d     0x1a08 build/stm32g4xx_hal_pcd.o
- .debug_info    0x00005e55      0x9f2 build/stm32g4xx_hal_pcd_ex.o
- .debug_info    0x00006847      0xa07 build/stm32g4xx_hal_pwr_ex.o
- .debug_info    0x0000724e     0x1aee build/stm32g4xx_ll_usb.o
- .debug_info    0x00008d3c     0x1467 build/usbd_cdc.o
- .debug_info    0x0000a1a3      0xe47 build/usbd_core.o
- .debug_info    0x0000afea     0x1324 build/usbd_ctlreq.o
- .debug_info    0x0000c30e      0x87f build/usbd_ioreq.o
- .debug_info    0x0000cb8d      0x7d9 build/usb_device.o
- .debug_info    0x0000d366      0x9cb build/usbd_cdc_if.o
- .debug_info    0x0000dd31      0x602 build/usbd_desc.o
- .debug_info    0x0000e333     0x1f06 build/usbd_conf.o
- .debug_info    0x00010239       0x22 build/startup_stm32g441xx.o
+.debug_info     0x00000000    0x10293
+ .debug_info    0x00000000      0x6a2 build/7Seg.o
+ .debug_info    0x000006a2     0x1279 build/main.o
+ .debug_info    0x0000191b      0x33e build/stm32g4xx_hal_msp.o
+ .debug_info    0x00001c59      0x6b6 build/stm32g4xx_it.o
+ .debug_info    0x0000230f      0x5b4 build/system_stm32g4xx.o
+ .debug_info    0x000028c3      0xb7b build/stm32g4xx_hal.o
+ .debug_info    0x0000343e     0x1047 build/stm32g4xx_hal_cortex.o
+ .debug_info    0x00004485     0x1a08 build/stm32g4xx_hal_pcd.o
+ .debug_info    0x00005e8d      0x9f2 build/stm32g4xx_hal_pcd_ex.o
+ .debug_info    0x0000687f      0xa07 build/stm32g4xx_hal_pwr_ex.o
+ .debug_info    0x00007286     0x1aee build/stm32g4xx_ll_usb.o
+ .debug_info    0x00008d74     0x1467 build/usbd_cdc.o
+ .debug_info    0x0000a1db      0xe47 build/usbd_core.o
+ .debug_info    0x0000b022     0x1324 build/usbd_ctlreq.o
+ .debug_info    0x0000c346      0x87f build/usbd_ioreq.o
+ .debug_info    0x0000cbc5      0x7d9 build/usb_device.o
+ .debug_info    0x0000d39e      0x9cb build/usbd_cdc_if.o
+ .debug_info    0x0000dd69      0x602 build/usbd_desc.o
+ .debug_info    0x0000e36b     0x1f06 build/usbd_conf.o
+ .debug_info    0x00010271       0x22 build/startup_stm32g441xx.o
 
 .debug_abbrev   0x00000000     0x2a8c
  .debug_abbrev  0x00000000      0x19b build/7Seg.o
@@ -2118,68 +2146,68 @@ LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2
  .debug_ranges  0x00000d00      0x110 build/usbd_conf.o
  .debug_ranges  0x00000e10       0x20 build/startup_stm32g441xx.o
 
-.debug_line     0x00000000     0x952d
+.debug_line     0x00000000     0x95a6
  .debug_line    0x00000000      0x4b5 build/7Seg.o
- .debug_line    0x000004b5      0x673 build/main.o
- .debug_line    0x00000b28      0x1e1 build/stm32g4xx_hal_msp.o
- .debug_line    0x00000d09      0x318 build/stm32g4xx_it.o
- .debug_line    0x00001021      0x287 build/system_stm32g4xx.o
- .debug_line    0x000012a8      0x6c8 build/stm32g4xx_hal.o
- .debug_line    0x00001970      0x7a8 build/stm32g4xx_hal_cortex.o
- .debug_line    0x00002118     0x17a5 build/stm32g4xx_hal_pcd.o
- .debug_line    0x000038bd      0x46c build/stm32g4xx_hal_pcd_ex.o
- .debug_line    0x00003d29      0xaba build/stm32g4xx_hal_pwr_ex.o
- .debug_line    0x000047e3     0x19f4 build/stm32g4xx_ll_usb.o
- .debug_line    0x000061d7      0x8bf build/usbd_cdc.o
- .debug_line    0x00006a96      0x8a8 build/usbd_core.o
- .debug_line    0x0000733e      0xd10 build/usbd_ctlreq.o
- .debug_line    0x0000804e      0x2f4 build/usbd_ioreq.o
- .debug_line    0x00008342      0x24c build/usb_device.o
- .debug_line    0x0000858e      0x323 build/usbd_cdc_if.o
- .debug_line    0x000088b1      0x3a7 build/usbd_desc.o
- .debug_line    0x00008c58      0x85e build/usbd_conf.o
- .debug_line    0x000094b6       0x77 build/startup_stm32g441xx.o
+ .debug_line    0x000004b5      0x6ec build/main.o
+ .debug_line    0x00000ba1      0x1e1 build/stm32g4xx_hal_msp.o
+ .debug_line    0x00000d82      0x318 build/stm32g4xx_it.o
+ .debug_line    0x0000109a      0x287 build/system_stm32g4xx.o
+ .debug_line    0x00001321      0x6c8 build/stm32g4xx_hal.o
+ .debug_line    0x000019e9      0x7a8 build/stm32g4xx_hal_cortex.o
+ .debug_line    0x00002191     0x17a5 build/stm32g4xx_hal_pcd.o
+ .debug_line    0x00003936      0x46c build/stm32g4xx_hal_pcd_ex.o
+ .debug_line    0x00003da2      0xaba build/stm32g4xx_hal_pwr_ex.o
+ .debug_line    0x0000485c     0x19f4 build/stm32g4xx_ll_usb.o
+ .debug_line    0x00006250      0x8bf build/usbd_cdc.o
+ .debug_line    0x00006b0f      0x8a8 build/usbd_core.o
+ .debug_line    0x000073b7      0xd10 build/usbd_ctlreq.o
+ .debug_line    0x000080c7      0x2f4 build/usbd_ioreq.o
+ .debug_line    0x000083bb      0x24c build/usb_device.o
+ .debug_line    0x00008607      0x323 build/usbd_cdc_if.o
+ .debug_line    0x0000892a      0x3a7 build/usbd_desc.o
+ .debug_line    0x00008cd1      0x85e build/usbd_conf.o
+ .debug_line    0x0000952f       0x77 build/startup_stm32g441xx.o
 
-.debug_str      0x00000000     0x335b
+.debug_str      0x00000000     0x3363
  .debug_str     0x00000000      0x27f build/7Seg.o
                                 0x2ca (size before relaxing)
- .debug_str     0x0000027f      0x75f build/main.o
-                                0x9fd (size before relaxing)
- .debug_str     0x000009de       0x51 build/stm32g4xx_hal_msp.o
+ .debug_str     0x0000027f      0x767 build/main.o
+                                0xa05 (size before relaxing)
+ .debug_str     0x000009e6       0x51 build/stm32g4xx_hal_msp.o
                                 0x323 (size before relaxing)
- .debug_str     0x00000a2f      0x3e3 build/stm32g4xx_it.o
+ .debug_str     0x00000a37      0x3e3 build/stm32g4xx_it.o
                                 0x619 (size before relaxing)
- .debug_str     0x00000e12       0xd3 build/system_stm32g4xx.o
+ .debug_str     0x00000e1a       0xd3 build/system_stm32g4xx.o
                                 0x3bc (size before relaxing)
- .debug_str     0x00000ee5      0x906 build/stm32g4xx_hal.o
+ .debug_str     0x00000eed      0x906 build/stm32g4xx_hal.o
                                 0xc39 (size before relaxing)
- .debug_str     0x000017eb      0x461 build/stm32g4xx_hal_cortex.o
+ .debug_str     0x000017f3      0x461 build/stm32g4xx_hal_cortex.o
                                 0xb88 (size before relaxing)
- .debug_str     0x00001c4c      0x510 build/stm32g4xx_hal_pcd.o
+ .debug_str     0x00001c54      0x510 build/stm32g4xx_hal_pcd.o
                                 0xaa4 (size before relaxing)
- .debug_str     0x0000215c      0x196 build/stm32g4xx_hal_pcd_ex.o
+ .debug_str     0x00002164      0x196 build/stm32g4xx_hal_pcd_ex.o
                                 0x780 (size before relaxing)
- .debug_str     0x000022f2      0x4e6 build/stm32g4xx_hal_pwr_ex.o
+ .debug_str     0x000022fa      0x4e6 build/stm32g4xx_hal_pwr_ex.o
                                 0x7d7 (size before relaxing)
- .debug_str     0x000027d8       0xd5 build/stm32g4xx_ll_usb.o
+ .debug_str     0x000027e0       0xd5 build/stm32g4xx_ll_usb.o
                                 0x651 (size before relaxing)
- .debug_str     0x000028ad      0x37e build/usbd_cdc.o
+ .debug_str     0x000028b5      0x37e build/usbd_cdc.o
                                 0xca7 (size before relaxing)
- .debug_str     0x00002c2b      0x291 build/usbd_core.o
+ .debug_str     0x00002c33      0x291 build/usbd_core.o
                                 0x86f (size before relaxing)
- .debug_str     0x00002ebc      0x144 build/usbd_ctlreq.o
+ .debug_str     0x00002ec4      0x144 build/usbd_ctlreq.o
                                 0x7c1 (size before relaxing)
- .debug_str     0x00003000       0x4e build/usbd_ioreq.o
+ .debug_str     0x00003008       0x4e build/usbd_ioreq.o
                                 0x6b6 (size before relaxing)
- .debug_str     0x0000304e       0x49 build/usb_device.o
+ .debug_str     0x00003056       0x49 build/usb_device.o
                                 0x6c8 (size before relaxing)
- .debug_str     0x00003097       0x8e build/usbd_cdc_if.o
+ .debug_str     0x0000309f       0x8e build/usbd_cdc_if.o
                                 0x778 (size before relaxing)
- .debug_str     0x00003125      0x175 build/usbd_desc.o
+ .debug_str     0x0000312d      0x175 build/usbd_desc.o
                                 0x469 (size before relaxing)
- .debug_str     0x0000329a       0x9d build/usbd_conf.o
+ .debug_str     0x000032a2       0x9d build/usbd_conf.o
                                0x14a5 (size before relaxing)
- .debug_str     0x00003337       0x24 build/startup_stm32g441xx.o
+ .debug_str     0x0000333f       0x24 build/startup_stm32g441xx.o
                                  0x57 (size before relaxing)
 
 .comment        0x00000000       0x4d
@@ -2204,27 +2232,41 @@ LOAD c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2
  .comment       0x0000004d       0x4e build/usbd_desc.o
  .comment       0x0000004d       0x4e build/usbd_conf.o
 
-.debug_frame    0x00000000     0x182c
+.debug_frame    0x00000000     0x1c28
  .debug_frame   0x00000000       0x78 build/7Seg.o
- .debug_frame   0x00000078       0xb8 build/main.o
- .debug_frame   0x00000130       0x2c build/stm32g4xx_hal_msp.o
- .debug_frame   0x0000015c       0xc0 build/stm32g4xx_it.o
- .debug_frame   0x0000021c       0x30 build/system_stm32g4xx.o
- .debug_frame   0x0000024c      0x274 build/stm32g4xx_hal.o
- .debug_frame   0x000004c0      0x148 build/stm32g4xx_hal_cortex.o
- .debug_frame   0x00000608      0x32c build/stm32g4xx_hal_pcd.o
- .debug_frame   0x00000934       0x9c build/stm32g4xx_hal_pcd_ex.o
- .debug_frame   0x000009d0      0x268 build/stm32g4xx_hal_pwr_ex.o
- .debug_frame   0x00000c38      0x17c build/stm32g4xx_ll_usb.o
- .debug_frame   0x00000db4      0x160 build/usbd_cdc.o
- .debug_frame   0x00000f14      0x210 build/usbd_core.o
- .debug_frame   0x00001124      0x180 build/usbd_ctlreq.o
- .debug_frame   0x000012a4       0xb8 build/usbd_ioreq.o
- .debug_frame   0x0000135c       0x2c build/usb_device.o
- .debug_frame   0x00001388       0x8c build/usbd_cdc_if.o
- .debug_frame   0x00001414       0xe0 build/usbd_desc.o
- .debug_frame   0x000014f4      0x30c build/usbd_conf.o
- .debug_frame   0x00001800       0x2c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000078       0xbc build/main.o
+ .debug_frame   0x00000134       0x2c build/stm32g4xx_hal_msp.o
+ .debug_frame   0x00000160       0xc0 build/stm32g4xx_it.o
+ .debug_frame   0x00000220       0x30 build/system_stm32g4xx.o
+ .debug_frame   0x00000250      0x274 build/stm32g4xx_hal.o
+ .debug_frame   0x000004c4      0x148 build/stm32g4xx_hal_cortex.o
+ .debug_frame   0x0000060c      0x32c build/stm32g4xx_hal_pcd.o
+ .debug_frame   0x00000938       0x9c build/stm32g4xx_hal_pcd_ex.o
+ .debug_frame   0x000009d4      0x268 build/stm32g4xx_hal_pwr_ex.o
+ .debug_frame   0x00000c3c      0x17c build/stm32g4xx_ll_usb.o
+ .debug_frame   0x00000db8      0x160 build/usbd_cdc.o
+ .debug_frame   0x00000f18      0x210 build/usbd_core.o
+ .debug_frame   0x00001128      0x180 build/usbd_ctlreq.o
+ .debug_frame   0x000012a8       0xb8 build/usbd_ioreq.o
+ .debug_frame   0x00001360       0x2c build/usb_device.o
+ .debug_frame   0x0000138c       0x8c build/usbd_cdc_if.o
+ .debug_frame   0x00001418       0xe0 build/usbd_desc.o
+ .debug_frame   0x000014f8      0x30c build/usbd_conf.o
+ .debug_frame   0x00001804       0x2c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00001830       0x6c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000189c       0x90 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000192c       0x60 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000198c       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000019b4       0x28 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x000019dc       0x38 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00001a14       0x30 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00001a44       0x3c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00001a80       0x2c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00001aac       0x30 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x00001adc       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00001afc       0x5c c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00001b58       0xb0 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00001c08       0x20 c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libnosys.a(sbrk.o)
 
 Cross Reference Table
 
@@ -2871,6 +2913,7 @@ _global_impure_ptr                                c:/programdata/chocolatey/lib/
 _impure_ptr                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-impure.o)
                                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-reent.o)
                                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
 _init                                             c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/thumb/v7e-m+fp/hard/crti.o
                                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-init.o)
 _mainCRTStartup                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
@@ -2893,11 +2936,14 @@ _sbrk_r                                           c:/programdata/chocolatey/lib/
 _sbss                                             build/startup_stm32g441xx.o
 _sdata                                            build/startup_stm32g441xx.o
 _sidata                                           build/startup_stm32g441xx.o
+_siprintf_r                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+_sprintf_r                                        c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
 _stack_init                                       c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 _start                                            c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 _svfiprintf_r                                     c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
 _svfprintf_r                                      c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-nano-svfprintf.o)
                                                   c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
+                                                  c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
 _vsniprintf_r                                     c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
 _vsnprintf_r                                      c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-vsnprintf.o)
 atexit                                            c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
@@ -2985,8 +3031,11 @@ setE                                              build/Lcd.o
 setRS                                             build/Lcd.o
 setRW                                             build/Lcd.o
 sevenDraw                                         build/7Seg.o
+siprintf                                          c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
 sixDraw                                           build/7Seg.o
 software_init_hook                                c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+sprintf                                           c:/programdata/chocolatey/lib/gcc-arm-embedded/tools/gcc-arm-none-eabi-10-2020-q4-major/bin/../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(lib_a-sprintf.o)
+                                                  build/main.o
 threeDraw                                         build/7Seg.o
 twoDraw                                           build/7Seg.o
 txBuf                                             build/main.o

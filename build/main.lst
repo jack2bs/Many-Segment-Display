@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
   39 0008 D364     		str	r3, [r2, #76]
   18:Core/Src/main.c **** 
   19:Core/Src/main.c **** 	// Set of PB9 to output
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 2
 
 
   20:Core/Src/main.c **** 	GPIOB->MODER = 0x55555555;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
   84 0016 1A60     		str	r2, [r3]
   32:Core/Src/main.c **** }
   85              		.loc 1 32 1 view .LVU13
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 3
 
 
   86 0018 7047     		bx	lr
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  126 001e DA60     		str	r2, [r3, #12]
   49:Core/Src/main.c **** 		| (0b11 << RCC_PLLCFGR_PLLM_Pos) 
   50:Core/Src/main.c **** 		| (0b110000 << RCC_PLLCFGR_PLLN_Pos)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 4
 
 
   51:Core/Src/main.c ****     	| (0b01 << RCC_PLLCFGR_PLLQ_Pos)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  170              		.cfi_startproc
  171              		@ args = 0, pretend = 0, frame = 0
  172              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 5
 
 
  173              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  216              	.LFB140:
   77:Core/Src/main.c **** 
   78:Core/Src/main.c **** void rtcInit(int sec, int min, int hour)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 6
 
 
   79:Core/Src/main.c **** {
@@ -308,362 +308,364 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  220              		@ frame_needed = 0, uses_anonymous_args = 0
  221              		@ link register save eliminated.
  222              		.loc 1 79 1 is_stmt 0 view .LVU42
- 223 0000 30B4     		push	{r4, r5}
- 224              		.cfi_def_cfa_offset 8
- 225              		.cfi_offset 4, -8
- 226              		.cfi_offset 5, -4
+ 223 0000 70B4     		push	{r4, r5, r6}
+ 224              		.cfi_def_cfa_offset 12
+ 225              		.cfi_offset 4, -12
+ 226              		.cfi_offset 5, -8
+ 227              		.cfi_offset 6, -4
   80:Core/Src/main.c **** 	
   81:Core/Src/main.c **** 
   82:Core/Src/main.c **** 	// Enable the peripheral bus clk to the RTC
   83:Core/Src/main.c **** 	RCC->APB1ENR1 |= (1<<RCC_APB1ENR1_PWREN_Pos);
- 227              		.loc 1 83 2 is_stmt 1 view .LVU43
- 228              		.loc 1 83 16 is_stmt 0 view .LVU44
- 229 0002 464B     		ldr	r3, .L20
- 230 0004 9C6D     		ldr	r4, [r3, #88]
- 231 0006 44F08054 		orr	r4, r4, #268435456
- 232 000a 9C65     		str	r4, [r3, #88]
+ 228              		.loc 1 83 2 is_stmt 1 view .LVU43
+ 229              		.loc 1 83 16 is_stmt 0 view .LVU44
+ 230 0002 464C     		ldr	r4, .L20
+ 231 0004 A36D     		ldr	r3, [r4, #88]
+ 232 0006 43F08053 		orr	r3, r3, #268435456
+ 233 000a A365     		str	r3, [r4, #88]
   84:Core/Src/main.c **** 
   85:Core/Src/main.c **** 	PWR->CR1 |= (1<<PWR_CR1_DBP_Pos);
- 233              		.loc 1 85 2 is_stmt 1 view .LVU45
- 234              		.loc 1 85 11 is_stmt 0 view .LVU46
- 235 000c 444D     		ldr	r5, .L20+4
- 236 000e 2C68     		ldr	r4, [r5]
- 237 0010 44F48074 		orr	r4, r4, #256
- 238 0014 2C60     		str	r4, [r5]
+ 234              		.loc 1 85 2 is_stmt 1 view .LVU45
+ 235              		.loc 1 85 11 is_stmt 0 view .LVU46
+ 236 000c 444D     		ldr	r5, .L20+4
+ 237 000e 2B68     		ldr	r3, [r5]
+ 238 0010 43F48073 		orr	r3, r3, #256
+ 239 0014 2B60     		str	r3, [r5]
   86:Core/Src/main.c **** 
   87:Core/Src/main.c **** 	RCC->APB1ENR1 |= (1<<RCC_APB1ENR1_RTCAPBEN_Pos);
- 239              		.loc 1 87 2 is_stmt 1 view .LVU47
- 240              		.loc 1 87 16 is_stmt 0 view .LVU48
- 241 0016 9C6D     		ldr	r4, [r3, #88]
- 242 0018 44F48064 		orr	r4, r4, #1024
- 243 001c 9C65     		str	r4, [r3, #88]
+ 240              		.loc 1 87 2 is_stmt 1 view .LVU47
+ 241              		.loc 1 87 16 is_stmt 0 view .LVU48
+ 242 0016 A36D     		ldr	r3, [r4, #88]
+ 243 0018 43F48063 		orr	r3, r3, #1024
+ 244 001c A365     		str	r3, [r4, #88]
   88:Core/Src/main.c **** 
   89:Core/Src/main.c **** 	
   90:Core/Src/main.c **** 
   91:Core/Src/main.c **** 	
   92:Core/Src/main.c **** 
-  93:Core/Src/main.c **** 	// Enable the LSE and wait for it to work
-  94:Core/Src/main.c **** 	//RCC->BDCR |= (0b11 << RCC_BDCR_LSEDRV_Pos);
-  95:Core/Src/main.c **** 	//RCC->BDCR |= (1<<RCC_BDCR_LSEON_Pos);
-  96:Core/Src/main.c **** 	//while (!(RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos))); 
+  93:Core/Src/main.c **** 	//Enable the LSE and wait for it to work
+  94:Core/Src/main.c **** 	RCC->BDCR |= (0b11 << RCC_BDCR_LSEDRV_Pos);
+ 245              		.loc 1 94 2 is_stmt 1 view .LVU49
+ 246              		.loc 1 94 12 is_stmt 0 view .LVU50
+ 247 001e D4F89030 		ldr	r3, [r4, #144]
+ 248 0022 43F01803 		orr	r3, r3, #24
+ 249 0026 C4F89030 		str	r3, [r4, #144]
+  95:Core/Src/main.c **** 	RCC->BDCR |= (1<<RCC_BDCR_LSEON_Pos);
+ 250              		.loc 1 95 2 is_stmt 1 view .LVU51
+ 251              		.loc 1 95 12 is_stmt 0 view .LVU52
+ 252 002a D4F89030 		ldr	r3, [r4, #144]
+ 253 002e 43F00103 		orr	r3, r3, #1
+ 254 0032 C4F89030 		str	r3, [r4, #144]
+  96:Core/Src/main.c **** 	while (!(RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos))); 
+ 255              		.loc 1 96 2 is_stmt 1 view .LVU53
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 7
+
+
+ 256              	.L15:
+ 257              		.loc 1 96 49 discriminator 1 view .LVU54
+ 258              		.loc 1 96 8 discriminator 1 view .LVU55
+ 259              		.loc 1 96 14 is_stmt 0 discriminator 1 view .LVU56
+ 260 0036 394B     		ldr	r3, .L20
+ 261 0038 D3F89030 		ldr	r3, [r3, #144]
+ 262              		.loc 1 96 8 discriminator 1 view .LVU57
+ 263 003c 13F0020F 		tst	r3, #2
+ 264 0040 F9D0     		beq	.L15
   97:Core/Src/main.c **** 
   98:Core/Src/main.c **** 	// Enable the LSI and wait for it to work
-  99:Core/Src/main.c **** 	RCC->CSR |= (1<<RCC_CSR_LSION_Pos);
- 244              		.loc 1 99 2 is_stmt 1 view .LVU49
- 245              		.loc 1 99 11 is_stmt 0 view .LVU50
- 246 001e D3F89440 		ldr	r4, [r3, #148]
- 247 0022 44F00104 		orr	r4, r4, #1
- 248 0026 C3F89440 		str	r4, [r3, #148]
- 100:Core/Src/main.c **** 	while (!(RCC->CSR & (1<<RCC_CSR_LSIRDY_Pos))); 
- 249              		.loc 1 100 2 is_stmt 1 view .LVU51
- 250              	.L15:
- 251              		.loc 1 100 47 discriminator 1 view .LVU52
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 7
-
-
- 252              		.loc 1 100 8 discriminator 1 view .LVU53
- 253              		.loc 1 100 14 is_stmt 0 discriminator 1 view .LVU54
- 254 002a 3C4B     		ldr	r3, .L20
- 255 002c D3F89430 		ldr	r3, [r3, #148]
- 256              		.loc 1 100 8 discriminator 1 view .LVU55
- 257 0030 13F0020F 		tst	r3, #2
- 258 0034 F9D0     		beq	.L15
+  99:Core/Src/main.c **** 	//RCC->CSR |= (1<<RCC_CSR_LSION_Pos);
+ 100:Core/Src/main.c **** 	//while (!(RCC->CSR & (1<<RCC_CSR_LSIRDY_Pos))); 
  101:Core/Src/main.c **** 
  102:Core/Src/main.c **** 	GPIOB->BSRR |= (1<<GPIO_BSRR_BR9_Pos);
- 259              		.loc 1 102 2 is_stmt 1 view .LVU56
- 260              		.loc 1 102 14 is_stmt 0 view .LVU57
- 261 0036 3B4C     		ldr	r4, .L20+8
- 262 0038 A369     		ldr	r3, [r4, #24]
- 263 003a 43F00073 		orr	r3, r3, #33554432
- 264 003e A361     		str	r3, [r4, #24]
+ 265              		.loc 1 102 2 is_stmt 1 view .LVU58
+ 266              		.loc 1 102 14 is_stmt 0 view .LVU59
+ 267 0042 384C     		ldr	r4, .L20+8
+ 268 0044 A369     		ldr	r3, [r4, #24]
+ 269 0046 43F00073 		orr	r3, r3, #33554432
+ 270 004a A361     		str	r3, [r4, #24]
  103:Core/Src/main.c **** 
- 104:Core/Src/main.c **** 	// Select LSI for the RTC and Enable the RTC
+ 104:Core/Src/main.c **** 	// Select LSE for the RTC and Enable the RTC
  105:Core/Src/main.c **** 	RCC->BDCR &= ~(0b11<<RCC_BDCR_RTCSEL_Pos);
- 265              		.loc 1 105 2 is_stmt 1 view .LVU58
- 266              		.loc 1 105 12 is_stmt 0 view .LVU59
- 267 0040 364B     		ldr	r3, .L20
- 268 0042 D3F89040 		ldr	r4, [r3, #144]
- 269 0046 24F44074 		bic	r4, r4, #768
- 270 004a C3F89040 		str	r4, [r3, #144]
- 106:Core/Src/main.c **** 	RCC->BDCR |= (0b10<<RCC_BDCR_RTCSEL_Pos);
- 271              		.loc 1 106 2 is_stmt 1 view .LVU60
- 272              		.loc 1 106 12 is_stmt 0 view .LVU61
- 273 004e D3F89040 		ldr	r4, [r3, #144]
- 274 0052 44F40074 		orr	r4, r4, #512
- 275 0056 C3F89040 		str	r4, [r3, #144]
+ 271              		.loc 1 105 2 is_stmt 1 view .LVU60
+ 272              		.loc 1 105 12 is_stmt 0 view .LVU61
+ 273 004c 334B     		ldr	r3, .L20
+ 274 004e D3F89040 		ldr	r4, [r3, #144]
+ 275 0052 24F44074 		bic	r4, r4, #768
+ 276 0056 C3F89040 		str	r4, [r3, #144]
+ 106:Core/Src/main.c **** 	RCC->BDCR |= (0b01<<RCC_BDCR_RTCSEL_Pos);
+ 277              		.loc 1 106 2 is_stmt 1 view .LVU62
+ 278              		.loc 1 106 12 is_stmt 0 view .LVU63
+ 279 005a D3F89040 		ldr	r4, [r3, #144]
+ 280 005e 44F48074 		orr	r4, r4, #256
+ 281 0062 C3F89040 		str	r4, [r3, #144]
  107:Core/Src/main.c **** 	RCC->BDCR |= (1<<RCC_BDCR_RTCEN_Pos);
- 276              		.loc 1 107 2 is_stmt 1 view .LVU62
- 277              		.loc 1 107 12 is_stmt 0 view .LVU63
- 278 005a D3F89040 		ldr	r4, [r3, #144]
- 279 005e 44F40044 		orr	r4, r4, #32768
- 280 0062 C3F89040 		str	r4, [r3, #144]
+ 282              		.loc 1 107 2 is_stmt 1 view .LVU64
+ 283              		.loc 1 107 12 is_stmt 0 view .LVU65
+ 284 0066 D3F89040 		ldr	r4, [r3, #144]
+ 285 006a 44F40044 		orr	r4, r4, #32768
+ 286 006e C3F89040 		str	r4, [r3, #144]
  108:Core/Src/main.c **** 
  109:Core/Src/main.c **** 	// Get rid of the write protection
  110:Core/Src/main.c **** 	RTC->WPR = 0xCA;
- 281              		.loc 1 110 2 is_stmt 1 view .LVU64
- 282              		.loc 1 110 11 is_stmt 0 view .LVU65
- 283 0066 A3F5F433 		sub	r3, r3, #124928
- 284 006a CA24     		movs	r4, #202
- 285 006c 5C62     		str	r4, [r3, #36]
+ 287              		.loc 1 110 2 is_stmt 1 view .LVU66
+ 288              		.loc 1 110 11 is_stmt 0 view .LVU67
+ 289 0072 A3F5F433 		sub	r3, r3, #124928
+ 290 0076 CA24     		movs	r4, #202
+ 291 0078 5C62     		str	r4, [r3, #36]
  111:Core/Src/main.c **** 	RTC->WPR = 0x53;
- 286              		.loc 1 111 2 is_stmt 1 view .LVU66
- 287              		.loc 1 111 11 is_stmt 0 view .LVU67
- 288 006e 5324     		movs	r4, #83
- 289 0070 5C62     		str	r4, [r3, #36]
+ 292              		.loc 1 111 2 is_stmt 1 view .LVU68
+ 293              		.loc 1 111 11 is_stmt 0 view .LVU69
+ 294 007a 5324     		movs	r4, #83
+ 295 007c 5C62     		str	r4, [r3, #36]
  112:Core/Src/main.c **** 	
  113:Core/Src/main.c **** 	// Put the RTC into initialization mode
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 8
+
+
  114:Core/Src/main.c **** 	RTC->ICSR |= (1<<RTC_ICSR_INIT_Pos);
- 290              		.loc 1 114 2 is_stmt 1 view .LVU68
- 291              		.loc 1 114 12 is_stmt 0 view .LVU69
- 292 0072 DC68     		ldr	r4, [r3, #12]
- 293 0074 44F08004 		orr	r4, r4, #128
- 294 0078 DC60     		str	r4, [r3, #12]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 8
-
-
+ 296              		.loc 1 114 2 is_stmt 1 view .LVU70
+ 297              		.loc 1 114 12 is_stmt 0 view .LVU71
+ 298 007e DC68     		ldr	r4, [r3, #12]
+ 299 0080 44F08004 		orr	r4, r4, #128
+ 300 0084 DC60     		str	r4, [r3, #12]
  115:Core/Src/main.c **** 	while (!(RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
- 295              		.loc 1 115 2 is_stmt 1 view .LVU70
- 296              	.L16:
- 297              		.loc 1 115 48 discriminator 1 view .LVU71
- 298              		.loc 1 115 8 discriminator 1 view .LVU72
- 299              		.loc 1 115 14 is_stmt 0 discriminator 1 view .LVU73
- 300 007a 2B4B     		ldr	r3, .L20+12
- 301 007c DB68     		ldr	r3, [r3, #12]
- 302              		.loc 1 115 8 discriminator 1 view .LVU74
- 303 007e 13F0400F 		tst	r3, #64
- 304 0082 FAD0     		beq	.L16
+ 301              		.loc 1 115 2 is_stmt 1 view .LVU72
+ 302              	.L16:
+ 303              		.loc 1 115 48 discriminator 1 view .LVU73
+ 304              		.loc 1 115 8 discriminator 1 view .LVU74
+ 305              		.loc 1 115 14 is_stmt 0 discriminator 1 view .LVU75
+ 306 0086 284B     		ldr	r3, .L20+12
+ 307 0088 DB68     		ldr	r3, [r3, #12]
+ 308              		.loc 1 115 8 discriminator 1 view .LVU76
+ 309 008a 13F0400F 		tst	r3, #64
+ 310 008e FAD0     		beq	.L16
  116:Core/Src/main.c **** 
  117:Core/Src/main.c **** 	// Set the current time and date
  118:Core/Src/main.c **** 	RTC->CR |= (1<<RTC_CR_FMT_Pos);
- 305              		.loc 1 118 2 is_stmt 1 view .LVU75
- 306              		.loc 1 118 10 is_stmt 0 view .LVU76
- 307 0084 284C     		ldr	r4, .L20+12
- 308 0086 A369     		ldr	r3, [r4, #24]
- 309 0088 43F04003 		orr	r3, r3, #64
- 310 008c A361     		str	r3, [r4, #24]
+ 311              		.loc 1 118 2 is_stmt 1 view .LVU77
+ 312              		.loc 1 118 10 is_stmt 0 view .LVU78
+ 313 0090 254D     		ldr	r5, .L20+12
+ 314 0092 AB69     		ldr	r3, [r5, #24]
+ 315 0094 43F04003 		orr	r3, r3, #64
+ 316 0098 AB61     		str	r3, [r5, #24]
  119:Core/Src/main.c **** 
  120:Core/Src/main.c **** 	RTC->TR = 0x0;
- 311              		.loc 1 120 2 is_stmt 1 view .LVU77
- 312              		.loc 1 120 10 is_stmt 0 view .LVU78
- 313 008e 0023     		movs	r3, #0
- 314 0090 2360     		str	r3, [r4]
+ 317              		.loc 1 120 2 is_stmt 1 view .LVU79
+ 318              		.loc 1 120 10 is_stmt 0 view .LVU80
+ 319 009a 0023     		movs	r3, #0
+ 320 009c 2B60     		str	r3, [r5]
  121:Core/Src/main.c **** 	RTC->TR = (0b1<<RTC_TR_PM_Pos) | ((hour / 10)<<RTC_TR_HT_Pos) | ((hour % 10)<<RTC_TR_HU_Pos) | ((m
- 315              		.loc 1 121 2 is_stmt 1 view .LVU79
- 316              		.loc 1 121 42 is_stmt 0 view .LVU80
- 317 0092 264D     		ldr	r5, .L20+16
- 318 0094 85FB02C3 		smull	ip, r3, r5, r2
- 319 0098 4FEAE27C 		asr	ip, r2, #31
- 320 009c CCEBA30C 		rsb	ip, ip, r3, asr #2
- 321              		.loc 1 121 47 view .LVU81
- 322 00a0 4FEA0C53 		lsl	r3, ip, #20
- 323              		.loc 1 121 33 view .LVU82
- 324 00a4 43F48003 		orr	r3, r3, #4194304
- 325              		.loc 1 121 73 view .LVU83
- 326 00a8 0CEB8C0C 		add	ip, ip, ip, lsl #2
- 327 00ac A2EB4C0C 		sub	ip, r2, ip, lsl #1
- 328              		.loc 1 121 64 view .LVU84
- 329 00b0 43EA0C43 		orr	r3, r3, ip, lsl #16
- 330              		.loc 1 121 103 view .LVU85
- 331 00b4 85FB01C2 		smull	ip, r2, r5, r1
- 332              	.LVL1:
- 333              		.loc 1 121 103 view .LVU86
- 334 00b8 4FEAE17C 		asr	ip, r1, #31
- 335 00bc CCEBA20C 		rsb	ip, ip, r2, asr #2
- 336              		.loc 1 121 95 view .LVU87
- 337 00c0 43EA0C33 		orr	r3, r3, ip, lsl #12
- 338              		.loc 1 121 134 view .LVU88
- 339 00c4 0CEB8C0C 		add	ip, ip, ip, lsl #2
- 340 00c8 A1EB4C0C 		sub	ip, r1, ip, lsl #1
- 341              		.loc 1 121 126 view .LVU89
- 342 00cc 43EA0C23 		orr	r3, r3, ip, lsl #8
- 343              		.loc 1 121 165 view .LVU90
- 344 00d0 85FB0025 		smull	r2, r5, r5, r0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 9
+ 321              		.loc 1 121 2 is_stmt 1 view .LVU81
+ 322              		.loc 1 121 42 is_stmt 0 view .LVU82
+ 323 009e 234E     		ldr	r6, .L20+16
+ 324 00a0 86FB0243 		smull	r4, r3, r6, r2
+ 325 00a4 D417     		asrs	r4, r2, #31
+ 326 00a6 C4EBA304 		rsb	r4, r4, r3, asr #2
+ 327              		.loc 1 121 47 view .LVU83
+ 328 00aa 2305     		lsls	r3, r4, #20
+ 329              		.loc 1 121 33 view .LVU84
+ 330 00ac 43F48003 		orr	r3, r3, #4194304
+ 331              		.loc 1 121 73 view .LVU85
+ 332 00b0 04EB8404 		add	r4, r4, r4, lsl #2
+ 333 00b4 A2EB4404 		sub	r4, r2, r4, lsl #1
+ 334              		.loc 1 121 64 view .LVU86
+ 335 00b8 43EA0443 		orr	r3, r3, r4, lsl #16
+ 336              		.loc 1 121 103 view .LVU87
+ 337 00bc 86FB0142 		smull	r4, r2, r6, r1
+ 338              	.LVL1:
+ 339              		.loc 1 121 103 view .LVU88
+ 340 00c0 CC17     		asrs	r4, r1, #31
+ 341 00c2 C4EBA204 		rsb	r4, r4, r2, asr #2
+ 342              		.loc 1 121 95 view .LVU89
+ 343 00c6 43EA0433 		orr	r3, r3, r4, lsl #12
+ 344              		.loc 1 121 134 view .LVU90
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 9
 
 
- 345 00d4 C217     		asrs	r2, r0, #31
- 346 00d6 C2EBA502 		rsb	r2, r2, r5, asr #2
- 347              		.loc 1 121 157 view .LVU91
- 348 00da 43EA0213 		orr	r3, r3, r2, lsl #4
- 349              		.loc 1 121 200 view .LVU92
- 350 00de 02EB8202 		add	r2, r2, r2, lsl #2
- 351 00e2 A0EB4202 		sub	r2, r0, r2, lsl #1
- 352              		.loc 1 121 187 view .LVU93
- 353 00e6 1343     		orrs	r3, r3, r2
- 354              		.loc 1 121 10 view .LVU94
- 355 00e8 2360     		str	r3, [r4]
+ 345 00ca 04EB8404 		add	r4, r4, r4, lsl #2
+ 346 00ce A1EB4404 		sub	r4, r1, r4, lsl #1
+ 347              		.loc 1 121 126 view .LVU91
+ 348 00d2 43EA0423 		orr	r3, r3, r4, lsl #8
+ 349              		.loc 1 121 165 view .LVU92
+ 350 00d6 86FB0026 		smull	r2, r6, r6, r0
+ 351 00da C217     		asrs	r2, r0, #31
+ 352 00dc C2EBA602 		rsb	r2, r2, r6, asr #2
+ 353              		.loc 1 121 157 view .LVU93
+ 354 00e0 43EA0213 		orr	r3, r3, r2, lsl #4
+ 355              		.loc 1 121 200 view .LVU94
+ 356 00e4 02EB8202 		add	r2, r2, r2, lsl #2
+ 357 00e8 A0EB4202 		sub	r2, r0, r2, lsl #1
+ 358              		.loc 1 121 187 view .LVU95
+ 359 00ec 1343     		orrs	r3, r3, r2
+ 360              		.loc 1 121 10 view .LVU96
+ 361 00ee 2B60     		str	r3, [r5]
  122:Core/Src/main.c **** 
- 123:Core/Src/main.c **** 	RTC->PRER = (127 << RTC_PRER_PREDIV_A_Pos) | (249 << RTC_PRER_PREDIV_S_Pos);
- 356              		.loc 1 123 2 is_stmt 1 view .LVU95
- 357              		.loc 1 123 12 is_stmt 0 view .LVU96
- 358 00ea 114B     		ldr	r3, .L20+20
- 359 00ec 2361     		str	r3, [r4, #16]
+ 123:Core/Src/main.c **** 	//RTC->PRER = (127 << RTC_PRER_PREDIV_A_Pos) | (249 << RTC_PRER_PREDIV_S_Pos);
  124:Core/Src/main.c **** 
  125:Core/Src/main.c **** 	//RTC->DR |= ();
  126:Core/Src/main.c **** 
  127:Core/Src/main.c **** 	// Exit initialization mode
  128:Core/Src/main.c **** 	RTC->ICSR &= ~(1<<RTC_ICSR_INIT_Pos);
- 360              		.loc 1 128 2 is_stmt 1 view .LVU97
- 361              		.loc 1 128 12 is_stmt 0 view .LVU98
- 362 00ee E368     		ldr	r3, [r4, #12]
- 363 00f0 23F08003 		bic	r3, r3, #128
- 364 00f4 E360     		str	r3, [r4, #12]
+ 362              		.loc 1 128 2 is_stmt 1 view .LVU97
+ 363              		.loc 1 128 12 is_stmt 0 view .LVU98
+ 364 00f0 EB68     		ldr	r3, [r5, #12]
+ 365 00f2 23F08003 		bic	r3, r3, #128
+ 366 00f6 EB60     		str	r3, [r5, #12]
  129:Core/Src/main.c **** 	while ((RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
- 365              		.loc 1 129 2 is_stmt 1 view .LVU99
- 366              	.L17:
- 367              		.loc 1 129 47 discriminator 1 view .LVU100
- 368              		.loc 1 129 8 discriminator 1 view .LVU101
- 369              		.loc 1 129 13 is_stmt 0 discriminator 1 view .LVU102
- 370 00f6 0C4B     		ldr	r3, .L20+12
- 371 00f8 DB68     		ldr	r3, [r3, #12]
- 372              		.loc 1 129 8 discriminator 1 view .LVU103
- 373 00fa 13F0400F 		tst	r3, #64
- 374 00fe FAD1     		bne	.L17
- 375              	.L18:
+ 367              		.loc 1 129 2 is_stmt 1 view .LVU99
+ 368              	.L17:
+ 369              		.loc 1 129 47 discriminator 1 view .LVU100
+ 370              		.loc 1 129 8 discriminator 1 view .LVU101
+ 371              		.loc 1 129 13 is_stmt 0 discriminator 1 view .LVU102
+ 372 00f8 0B4B     		ldr	r3, .L20+12
+ 373 00fa DB68     		ldr	r3, [r3, #12]
+ 374              		.loc 1 129 8 discriminator 1 view .LVU103
+ 375 00fc 13F0400F 		tst	r3, #64
+ 376 0100 FAD1     		bne	.L17
+ 377              	.L18:
  130:Core/Src/main.c **** 
  131:Core/Src/main.c **** 	// Cannot read until RSF is set
  132:Core/Src/main.c **** 	while (!(RTC->ICSR & (1<<RTC_ICSR_RSF_Pos)));
- 376              		.loc 1 132 46 is_stmt 1 discriminator 1 view .LVU104
- 377              		.loc 1 132 8 discriminator 1 view .LVU105
- 378              		.loc 1 132 14 is_stmt 0 discriminator 1 view .LVU106
- 379 0100 094B     		ldr	r3, .L20+12
- 380 0102 DB68     		ldr	r3, [r3, #12]
- 381              		.loc 1 132 8 discriminator 1 view .LVU107
- 382 0104 13F0200F 		tst	r3, #32
- 383 0108 FAD0     		beq	.L18
+ 378              		.loc 1 132 46 is_stmt 1 discriminator 1 view .LVU104
+ 379              		.loc 1 132 8 discriminator 1 view .LVU105
+ 380              		.loc 1 132 14 is_stmt 0 discriminator 1 view .LVU106
+ 381 0102 094B     		ldr	r3, .L20+12
+ 382 0104 DB68     		ldr	r3, [r3, #12]
+ 383              		.loc 1 132 8 discriminator 1 view .LVU107
+ 384 0106 13F0200F 		tst	r3, #32
+ 385 010a FAD0     		beq	.L18
  133:Core/Src/main.c **** 
  134:Core/Src/main.c **** 	// Reenable write protection
  135:Core/Src/main.c **** 	RTC->WPR = 0x00;
- 384              		.loc 1 135 2 is_stmt 1 view .LVU108
- 385              		.loc 1 135 11 is_stmt 0 view .LVU109
- 386 010a 0023     		movs	r3, #0
- 387 010c 064A     		ldr	r2, .L20+12
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 10
+ 386              		.loc 1 135 2 is_stmt 1 view .LVU108
+ 387              		.loc 1 135 11 is_stmt 0 view .LVU109
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 10
 
 
- 388 010e 5362     		str	r3, [r2, #36]
+ 388 010c 0023     		movs	r3, #0
+ 389 010e 064A     		ldr	r2, .L20+12
+ 390 0110 5362     		str	r3, [r2, #36]
  136:Core/Src/main.c **** 
  137:Core/Src/main.c **** 	TAMP->CR1 = 0x00;
- 389              		.loc 1 137 2 is_stmt 1 view .LVU110
- 390              		.loc 1 137 12 is_stmt 0 view .LVU111
- 391 0110 A2F58062 		sub	r2, r2, #1024
- 392 0114 1360     		str	r3, [r2]
+ 391              		.loc 1 137 2 is_stmt 1 view .LVU110
+ 392              		.loc 1 137 12 is_stmt 0 view .LVU111
+ 393 0112 A2F58062 		sub	r2, r2, #1024
+ 394 0116 1360     		str	r3, [r2]
  138:Core/Src/main.c **** 
  139:Core/Src/main.c **** }
- 393              		.loc 1 139 1 view .LVU112
- 394 0116 30BC     		pop	{r4, r5}
- 395              		.cfi_restore 5
- 396              		.cfi_restore 4
- 397              		.cfi_def_cfa_offset 0
- 398 0118 7047     		bx	lr
- 399              	.L21:
- 400 011a 00BF     		.align	2
- 401              	.L20:
- 402 011c 00100240 		.word	1073876992
- 403 0120 00700040 		.word	1073770496
- 404 0124 00040048 		.word	1207960576
- 405 0128 00280040 		.word	1073752064
- 406 012c 67666666 		.word	1717986919
- 407 0130 F9007F00 		.word	8323321
- 408              		.cfi_endproc
- 409              	.LFE140:
- 411              		.section	.text.checkSetTime,"ax",%progbits
- 412              		.align	1
- 413              		.global	checkSetTime
- 414              		.syntax unified
- 415              		.thumb
- 416              		.thumb_func
- 417              		.fpu fpv4-sp-d16
- 419              	checkSetTime:
- 420              	.LFB141:
+ 395              		.loc 1 139 1 view .LVU112
+ 396 0118 70BC     		pop	{r4, r5, r6}
+ 397              		.cfi_restore 6
+ 398              		.cfi_restore 5
+ 399              		.cfi_restore 4
+ 400              		.cfi_def_cfa_offset 0
+ 401 011a 7047     		bx	lr
+ 402              	.L21:
+ 403              		.align	2
+ 404              	.L20:
+ 405 011c 00100240 		.word	1073876992
+ 406 0120 00700040 		.word	1073770496
+ 407 0124 00040048 		.word	1207960576
+ 408 0128 00280040 		.word	1073752064
+ 409 012c 67666666 		.word	1717986919
+ 410              		.cfi_endproc
+ 411              	.LFE140:
+ 413              		.section	.text.checkSetTime,"ax",%progbits
+ 414              		.align	1
+ 415              		.global	checkSetTime
+ 416              		.syntax unified
+ 417              		.thumb
+ 418              		.thumb_func
+ 419              		.fpu fpv4-sp-d16
+ 421              	checkSetTime:
+ 422              	.LFB141:
  140:Core/Src/main.c **** 
  141:Core/Src/main.c **** int8_t checkSetTime(void)
  142:Core/Src/main.c **** {
- 421              		.loc 1 142 1 is_stmt 1 view -0
- 422              		.cfi_startproc
- 423              		@ args = 0, pretend = 0, frame = 0
- 424              		@ frame_needed = 0, uses_anonymous_args = 0
+ 423              		.loc 1 142 1 is_stmt 1 view -0
+ 424              		.cfi_startproc
+ 425              		@ args = 0, pretend = 0, frame = 0
+ 426              		@ frame_needed = 0, uses_anonymous_args = 0
  143:Core/Src/main.c **** 	if (rxBuf[2] != ':' || rxBuf[5] != ':')
- 425              		.loc 1 143 2 view .LVU114
- 426              		.loc 1 143 11 is_stmt 0 view .LVU115
- 427 0000 1D4B     		ldr	r3, .L35
- 428 0002 9B78     		ldrb	r3, [r3, #2]	@ zero_extendqisi2
- 429              		.loc 1 143 5 view .LVU116
- 430 0004 3A2B     		cmp	r3, #58
- 431 0006 30D1     		bne	.L27
- 432              		.loc 1 143 30 discriminator 1 view .LVU117
- 433 0008 1B4B     		ldr	r3, .L35
- 434 000a 5B79     		ldrb	r3, [r3, #5]	@ zero_extendqisi2
- 435              		.loc 1 143 22 discriminator 1 view .LVU118
- 436 000c 3A2B     		cmp	r3, #58
- 437 000e 2ED1     		bne	.L28
- 438              	.LBB4:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 11
+ 427              		.loc 1 143 2 view .LVU114
+ 428              		.loc 1 143 11 is_stmt 0 view .LVU115
+ 429 0000 1D4B     		ldr	r3, .L35
+ 430 0002 9B78     		ldrb	r3, [r3, #2]	@ zero_extendqisi2
+ 431              		.loc 1 143 5 view .LVU116
+ 432 0004 3A2B     		cmp	r3, #58
+ 433 0006 30D1     		bne	.L27
+ 434              		.loc 1 143 30 discriminator 1 view .LVU117
+ 435 0008 1B4B     		ldr	r3, .L35
+ 436 000a 5B79     		ldrb	r3, [r3, #5]	@ zero_extendqisi2
+ 437              		.loc 1 143 22 discriminator 1 view .LVU118
+ 438 000c 3A2B     		cmp	r3, #58
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 11
 
 
+ 439 000e 2ED1     		bne	.L28
+ 440              	.LBB4:
  144:Core/Src/main.c **** 	{
  145:Core/Src/main.c **** 		return 0;
  146:Core/Src/main.c **** 	}
  147:Core/Src/main.c **** 
  148:Core/Src/main.c **** 	for (int i = 0; i < 8; i++)
- 439              		.loc 1 148 11 view .LVU119
- 440 0010 0023     		movs	r3, #0
- 441 0012 00E0     		b	.L24
- 442              	.LVL2:
- 443              	.L25:
- 444              		.loc 1 148 25 is_stmt 1 discriminator 2 view .LVU120
- 445              		.loc 1 148 26 is_stmt 0 discriminator 2 view .LVU121
- 446 0014 0133     		adds	r3, r3, #1
- 447              	.LVL3:
- 448              	.L24:
- 449              		.loc 1 148 18 is_stmt 1 discriminator 1 view .LVU122
- 450              		.loc 1 148 2 is_stmt 0 discriminator 1 view .LVU123
- 451 0016 072B     		cmp	r3, #7
- 452 0018 0CDC     		bgt	.L34
+ 441              		.loc 1 148 11 view .LVU119
+ 442 0010 0023     		movs	r3, #0
+ 443 0012 00E0     		b	.L24
+ 444              	.LVL2:
+ 445              	.L25:
+ 446              		.loc 1 148 25 is_stmt 1 discriminator 2 view .LVU120
+ 447              		.loc 1 148 26 is_stmt 0 discriminator 2 view .LVU121
+ 448 0014 0133     		adds	r3, r3, #1
+ 449              	.LVL3:
+ 450              	.L24:
+ 451              		.loc 1 148 18 is_stmt 1 discriminator 1 view .LVU122
+ 452              		.loc 1 148 2 is_stmt 0 discriminator 1 view .LVU123
+ 453 0016 072B     		cmp	r3, #7
+ 454 0018 0CDC     		bgt	.L34
  149:Core/Src/main.c **** 	{
  150:Core/Src/main.c **** 		if (i == 2)
- 453              		.loc 1 150 3 is_stmt 1 view .LVU124
- 454              		.loc 1 150 6 is_stmt 0 view .LVU125
- 455 001a 022B     		cmp	r3, #2
- 456 001c FAD0     		beq	.L25
+ 455              		.loc 1 150 3 is_stmt 1 view .LVU124
+ 456              		.loc 1 150 6 is_stmt 0 view .LVU125
+ 457 001a 022B     		cmp	r3, #2
+ 458 001c FAD0     		beq	.L25
  151:Core/Src/main.c **** 			continue;
  152:Core/Src/main.c **** 		if (i == 5)
- 457              		.loc 1 152 3 is_stmt 1 view .LVU126
- 458              		.loc 1 152 6 is_stmt 0 view .LVU127
- 459 001e 052B     		cmp	r3, #5
- 460 0020 F8D0     		beq	.L25
+ 459              		.loc 1 152 3 is_stmt 1 view .LVU126
+ 460              		.loc 1 152 6 is_stmt 0 view .LVU127
+ 461 001e 052B     		cmp	r3, #5
+ 462 0020 F8D0     		beq	.L25
  153:Core/Src/main.c **** 			continue;
  154:Core/Src/main.c **** 		if (rxBuf[i] > 57 || rxBuf[i] < 48)
- 461              		.loc 1 154 3 is_stmt 1 view .LVU128
- 462              		.loc 1 154 12 is_stmt 0 view .LVU129
- 463 0022 154A     		ldr	r2, .L35
- 464 0024 D25C     		ldrb	r2, [r2, r3]	@ zero_extendqisi2
- 465              		.loc 1 154 21 view .LVU130
- 466 0026 303A     		subs	r2, r2, #48
- 467 0028 D2B2     		uxtb	r2, r2
- 468              		.loc 1 154 6 view .LVU131
- 469 002a 092A     		cmp	r2, #9
- 470 002c 21D8     		bhi	.L29
+ 463              		.loc 1 154 3 is_stmt 1 view .LVU128
+ 464              		.loc 1 154 12 is_stmt 0 view .LVU129
+ 465 0022 154A     		ldr	r2, .L35
+ 466 0024 D25C     		ldrb	r2, [r2, r3]	@ zero_extendqisi2
+ 467              		.loc 1 154 21 view .LVU130
+ 468 0026 303A     		subs	r2, r2, #48
+ 469 0028 D2B2     		uxtb	r2, r2
+ 470              		.loc 1 154 6 view .LVU131
+ 471 002a 092A     		cmp	r2, #9
+ 472 002c 21D8     		bhi	.L29
  155:Core/Src/main.c **** 		{
  156:Core/Src/main.c **** 			return 0;
  157:Core/Src/main.c **** 		}
  158:Core/Src/main.c **** 		rxBuf[i] -= 48;
- 471              		.loc 1 158 3 is_stmt 1 view .LVU132
- 472              		.loc 1 158 12 is_stmt 0 view .LVU133
- 473 002e 1249     		ldr	r1, .L35
- 474 0030 CA54     		strb	r2, [r1, r3]
- 475 0032 EFE7     		b	.L25
- 476              	.L34:
- 477              	.LBE4:
+ 473              		.loc 1 158 3 is_stmt 1 view .LVU132
+ 474              		.loc 1 158 12 is_stmt 0 view .LVU133
+ 475 002e 1249     		ldr	r1, .L35
+ 476 0030 CA54     		strb	r2, [r1, r3]
+ 477 0032 EFE7     		b	.L25
+ 478              	.L34:
+ 479              	.LBE4:
  142:Core/Src/main.c **** 	if (rxBuf[2] != ':' || rxBuf[5] != ':')
- 478              		.loc 1 142 1 view .LVU134
- 479 0034 10B5     		push	{r4, lr}
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 12
 
 
- 480              		.cfi_def_cfa_offset 8
- 481              		.cfi_offset 4, -8
- 482              		.cfi_offset 14, -4
+ 480              		.loc 1 142 1 view .LVU134
+ 481 0034 10B5     		push	{r4, lr}
+ 482              		.cfi_def_cfa_offset 8
+ 483              		.cfi_offset 4, -8
+ 484              		.cfi_offset 14, -4
  159:Core/Src/main.c **** 	}
  160:Core/Src/main.c **** 
  161:Core/Src/main.c **** 	// RCC->BDCR=0;
@@ -671,37 +673,37 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  163:Core/Src/main.c **** 	// RCC->BDCR &= ~RCC_BDCR_BDRST;
  164:Core/Src/main.c **** 
  165:Core/Src/main.c **** 	rtcInit(rxBuf[6] * 10 + rxBuf[7], rxBuf[3] * 10 + rxBuf[4], rxBuf[0] * 10 + rxBuf[1]);
- 483              		.loc 1 165 2 is_stmt 1 view .LVU135
- 484              		.loc 1 165 15 is_stmt 0 view .LVU136
- 485 0036 104B     		ldr	r3, .L35
- 486              	.LVL4:
- 487              		.loc 1 165 15 view .LVU137
- 488 0038 9A79     		ldrb	r2, [r3, #6]	@ zero_extendqisi2
- 489              		.loc 1 165 19 view .LVU138
- 490 003a 02EB8202 		add	r2, r2, r2, lsl #2
- 491 003e 5000     		lsls	r0, r2, #1
- 492              		.loc 1 165 31 view .LVU139
- 493 0040 93F807E0 		ldrb	lr, [r3, #7]	@ zero_extendqisi2
- 494              		.loc 1 165 41 view .LVU140
- 495 0044 DA78     		ldrb	r2, [r3, #3]	@ zero_extendqisi2
- 496              		.loc 1 165 45 view .LVU141
- 497 0046 02EB8202 		add	r2, r2, r2, lsl #2
- 498 004a 5100     		lsls	r1, r2, #1
- 499              		.loc 1 165 57 view .LVU142
- 500 004c 1C79     		ldrb	r4, [r3, #4]	@ zero_extendqisi2
- 501              		.loc 1 165 67 view .LVU143
- 502 004e 93F800C0 		ldrb	ip, [r3]	@ zero_extendqisi2
- 503              		.loc 1 165 71 view .LVU144
- 504 0052 0CEB8C0C 		add	ip, ip, ip, lsl #2
- 505 0056 4FEA4C02 		lsl	r2, ip, #1
- 506              		.loc 1 165 83 view .LVU145
- 507 005a 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
- 508              		.loc 1 165 2 view .LVU146
- 509 005c 1A44     		add	r2, r2, r3
- 510 005e 2144     		add	r1, r1, r4
- 511 0060 7044     		add	r0, r0, lr
- 512 0062 FFF7FEFF 		bl	rtcInit
- 513              	.LVL5:
+ 485              		.loc 1 165 2 is_stmt 1 view .LVU135
+ 486              		.loc 1 165 15 is_stmt 0 view .LVU136
+ 487 0036 104B     		ldr	r3, .L35
+ 488              	.LVL4:
+ 489              		.loc 1 165 15 view .LVU137
+ 490 0038 9A79     		ldrb	r2, [r3, #6]	@ zero_extendqisi2
+ 491              		.loc 1 165 19 view .LVU138
+ 492 003a 02EB8202 		add	r2, r2, r2, lsl #2
+ 493 003e 5000     		lsls	r0, r2, #1
+ 494              		.loc 1 165 31 view .LVU139
+ 495 0040 93F807E0 		ldrb	lr, [r3, #7]	@ zero_extendqisi2
+ 496              		.loc 1 165 41 view .LVU140
+ 497 0044 DA78     		ldrb	r2, [r3, #3]	@ zero_extendqisi2
+ 498              		.loc 1 165 45 view .LVU141
+ 499 0046 02EB8202 		add	r2, r2, r2, lsl #2
+ 500 004a 5100     		lsls	r1, r2, #1
+ 501              		.loc 1 165 57 view .LVU142
+ 502 004c 1C79     		ldrb	r4, [r3, #4]	@ zero_extendqisi2
+ 503              		.loc 1 165 67 view .LVU143
+ 504 004e 93F800C0 		ldrb	ip, [r3]	@ zero_extendqisi2
+ 505              		.loc 1 165 71 view .LVU144
+ 506 0052 0CEB8C0C 		add	ip, ip, ip, lsl #2
+ 507 0056 4FEA4C02 		lsl	r2, ip, #1
+ 508              		.loc 1 165 83 view .LVU145
+ 509 005a 5B78     		ldrb	r3, [r3, #1]	@ zero_extendqisi2
+ 510              		.loc 1 165 2 view .LVU146
+ 511 005c 1A44     		add	r2, r2, r3
+ 512 005e 2144     		add	r1, r1, r4
+ 513 0060 7044     		add	r0, r0, lr
+ 514 0062 FFF7FEFF 		bl	rtcInit
+ 515              	.LVL5:
  166:Core/Src/main.c **** 
  167:Core/Src/main.c **** 	// RCC->BDCR = 0;
  168:Core/Src/main.c **** 	// RCC->BDCR |= RCC_BDCR_BDRST;
@@ -716,11 +718,11 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  177:Core/Src/main.c **** 	// while (!(RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
  178:Core/Src/main.c **** 
  179:Core/Src/main.c **** 	// // Set time (CHANGE)
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 13
+
+
  180:Core/Src/main.c **** 	// RTC->TR = 0x0;
  181:Core/Src/main.c **** 	// //RTC->TR = (0b1<<RTC_TR_PM_Pos) | (1<<RTC_TR_HT_Pos) | (2<<RTC_TR_HU_Pos) | (0<<RTC_TR_MNT_Pos
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 13
-
-
  182:Core/Src/main.c **** 
  183:Core/Src/main.c **** 	// // Exit initialization mode
  184:Core/Src/main.c **** 	// RTC->ICSR &= ~(1<<RTC_ICSR_INIT_Pos);
@@ -734,113 +736,122 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  192:Core/Src/main.c **** 
  193:Core/Src/main.c **** 
  194:Core/Src/main.c **** 	return 1;
- 514              		.loc 1 194 2 is_stmt 1 view .LVU147
- 515              		.loc 1 194 9 is_stmt 0 view .LVU148
- 516 0066 0120     		movs	r0, #1
+ 516              		.loc 1 194 2 is_stmt 1 view .LVU147
+ 517              		.loc 1 194 9 is_stmt 0 view .LVU148
+ 518 0066 0120     		movs	r0, #1
  195:Core/Src/main.c **** 
  196:Core/Src/main.c **** }
- 517              		.loc 1 196 1 view .LVU149
- 518 0068 10BD     		pop	{r4, pc}
- 519              	.L27:
- 520              		.cfi_def_cfa_offset 0
- 521              		.cfi_restore 4
- 522              		.cfi_restore 14
+ 519              		.loc 1 196 1 view .LVU149
+ 520 0068 10BD     		pop	{r4, pc}
+ 521              	.L27:
+ 522              		.cfi_def_cfa_offset 0
+ 523              		.cfi_restore 4
+ 524              		.cfi_restore 14
  145:Core/Src/main.c **** 	}
- 523              		.loc 1 145 10 view .LVU150
- 524 006a 0020     		movs	r0, #0
- 525 006c 7047     		bx	lr
- 526              	.L28:
- 527 006e 0020     		movs	r0, #0
- 528 0070 7047     		bx	lr
- 529              	.LVL6:
- 530              	.L29:
- 531              	.LBB5:
+ 525              		.loc 1 145 10 view .LVU150
+ 526 006a 0020     		movs	r0, #0
+ 527 006c 7047     		bx	lr
+ 528              	.L28:
+ 529 006e 0020     		movs	r0, #0
+ 530 0070 7047     		bx	lr
+ 531              	.LVL6:
+ 532              	.L29:
+ 533              	.LBB5:
  156:Core/Src/main.c **** 		}
- 532              		.loc 1 156 11 view .LVU151
- 533 0072 0020     		movs	r0, #0
- 534              	.LBE5:
- 535              		.loc 1 196 1 view .LVU152
- 536 0074 7047     		bx	lr
- 537              	.L36:
- 538 0076 00BF     		.align	2
- 539              	.L35:
- 540 0078 00000000 		.word	.LANCHOR0
- 541              		.cfi_endproc
- 542              	.LFE141:
- 544              		.section	.text.main,"ax",%progbits
- 545              		.align	1
- 546              		.global	main
- 547              		.syntax unified
- 548              		.thumb
- 549              		.thumb_func
- 550              		.fpu fpv4-sp-d16
- 552              	main:
- 553              	.LFB142:
+ 534              		.loc 1 156 11 view .LVU151
+ 535 0072 0020     		movs	r0, #0
+ 536              	.LBE5:
+ 537              		.loc 1 196 1 view .LVU152
+ 538 0074 7047     		bx	lr
+ 539              	.L36:
+ 540 0076 00BF     		.align	2
+ 541              	.L35:
+ 542 0078 00000000 		.word	.LANCHOR0
+ 543              		.cfi_endproc
+ 544              	.LFE141:
+ 546              		.section	.rodata.main.str1.4,"aMS",%progbits,1
+ 547              		.align	2
+ 548              	.LC0:
+ 549 0000 25643A25 		.ascii	"%d:%d:%d\011\000"
+ 549      643A2564 
+ 549      0900
+ 550              		.section	.text.main,"ax",%progbits
+ 551              		.align	1
+ 552              		.global	main
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 14
+
+
+ 553              		.syntax unified
+ 554              		.thumb
+ 555              		.thumb_func
+ 556              		.fpu fpv4-sp-d16
+ 558              	main:
+ 559              	.LFB142:
  197:Core/Src/main.c **** 
  198:Core/Src/main.c **** int main(void)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 14
-
-
  199:Core/Src/main.c **** {
- 554              		.loc 1 199 1 is_stmt 1 view -0
- 555              		.cfi_startproc
- 556              		@ args = 0, pretend = 0, frame = 0
- 557              		@ frame_needed = 0, uses_anonymous_args = 0
- 558 0000 70B5     		push	{r4, r5, r6, lr}
- 559              		.cfi_def_cfa_offset 16
- 560              		.cfi_offset 4, -16
- 561              		.cfi_offset 5, -12
- 562              		.cfi_offset 6, -8
- 563              		.cfi_offset 14, -4
+ 560              		.loc 1 199 1 is_stmt 1 view -0
+ 561              		.cfi_startproc
+ 562              		@ args = 0, pretend = 0, frame = 0
+ 563              		@ frame_needed = 0, uses_anonymous_args = 0
+ 564 0000 F0B5     		push	{r4, r5, r6, r7, lr}
+ 565              		.cfi_def_cfa_offset 20
+ 566              		.cfi_offset 4, -20
+ 567              		.cfi_offset 5, -16
+ 568              		.cfi_offset 6, -12
+ 569              		.cfi_offset 7, -8
+ 570              		.cfi_offset 14, -4
+ 571 0002 83B0     		sub	sp, sp, #12
+ 572              		.cfi_def_cfa_offset 32
  200:Core/Src/main.c **** 
  201:Core/Src/main.c **** 	HAL_Init();
- 564              		.loc 1 201 2 view .LVU154
- 565 0002 FFF7FEFF 		bl	HAL_Init
- 566              	.LVL7:
+ 573              		.loc 1 201 2 view .LVU154
+ 574 0004 FFF7FEFF 		bl	HAL_Init
+ 575              	.LVL7:
  202:Core/Src/main.c **** 
  203:Core/Src/main.c **** 	// Initialize the clock
  204:Core/Src/main.c **** 	mainRCCInit();
- 567              		.loc 1 204 2 view .LVU155
- 568 0006 FFF7FEFF 		bl	mainRCCInit
- 569              	.LVL8:
+ 576              		.loc 1 204 2 view .LVU155
+ 577 0008 FFF7FEFF 		bl	mainRCCInit
+ 578              	.LVL8:
  205:Core/Src/main.c **** 
  206:Core/Src/main.c **** 	// Initialize GPIO Pin B
  207:Core/Src/main.c **** 	gpioB_Init();
- 570              		.loc 1 207 2 view .LVU156
- 571 000a FFF7FEFF 		bl	gpioB_Init
- 572              	.LVL9:
+ 579              		.loc 1 207 2 view .LVU156
+ 580 000c FFF7FEFF 		bl	gpioB_Init
+ 581              	.LVL9:
  208:Core/Src/main.c **** 	gpioA_Init();
- 573              		.loc 1 208 2 view .LVU157
- 574 000e FFF7FEFF 		bl	gpioA_Init
- 575              	.LVL10:
+ 582              		.loc 1 208 2 view .LVU157
+ 583 0010 FFF7FEFF 		bl	gpioA_Init
+ 584              	.LVL10:
  209:Core/Src/main.c **** 
  210:Core/Src/main.c **** 	RCC->APB1ENR1 |= (1<<RCC_APB1ENR1_USBEN_Pos);
- 576              		.loc 1 210 2 view .LVU158
- 577              		.loc 1 210 16 is_stmt 0 view .LVU159
- 578 0012 354A     		ldr	r2, .L42
- 579 0014 936D     		ldr	r3, [r2, #88]
- 580 0016 43F40003 		orr	r3, r3, #8388608
- 581 001a 9365     		str	r3, [r2, #88]
+ 585              		.loc 1 210 2 view .LVU158
+ 586              		.loc 1 210 16 is_stmt 0 view .LVU159
+ 587 0014 384A     		ldr	r2, .L42
+ 588 0016 936D     		ldr	r3, [r2, #88]
+ 589 0018 43F40003 		orr	r3, r3, #8388608
+ 590 001c 9365     		str	r3, [r2, #88]
  211:Core/Src/main.c **** 	
  212:Core/Src/main.c **** 
  213:Core/Src/main.c **** 
  214:Core/Src/main.c **** 	// Initialize the display
  215:Core/Src/main.c **** 	//initDisplay();
  216:Core/Src/main.c **** 	//functionSet2Lines5By8();
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 15
+
+
  217:Core/Src/main.c **** 	//displayControl(1,1,0);
  218:Core/Src/main.c **** 	//entryModeSet(1,0);
  219:Core/Src/main.c **** 	//contrastInit();
  220:Core/Src/main.c **** 
  221:Core/Src/main.c **** 	GPIOB->BSRR |= (1<<GPIO_BSRR_BS9_Pos);
- 582              		.loc 1 221 2 is_stmt 1 view .LVU160
- 583              		.loc 1 221 14 is_stmt 0 view .LVU161
- 584 001c 334A     		ldr	r2, .L42+4
- 585 001e 9369     		ldr	r3, [r2, #24]
- 586 0020 43F40073 		orr	r3, r3, #512
- 587 0024 9361     		str	r3, [r2, #24]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 15
-
-
+ 591              		.loc 1 221 2 is_stmt 1 view .LVU160
+ 592              		.loc 1 221 14 is_stmt 0 view .LVU161
+ 593 001e 374A     		ldr	r2, .L42+4
+ 594 0020 9369     		ldr	r3, [r2, #24]
+ 595 0022 43F40073 		orr	r3, r3, #512
+ 596 0026 9361     		str	r3, [r2, #24]
  222:Core/Src/main.c **** 
  223:Core/Src/main.c **** 	// int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_S
  224:Core/Src/main.c **** 	// int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR
@@ -848,28 +859,28 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  226:Core/Src/main.c **** 	//rtcInit(sec, min, hour);
  227:Core/Src/main.c **** 	//rtcInit();
  228:Core/Src/main.c **** 	usbHandler = MX_USB_Device_Init(rxBuf, txBuf);
- 588              		.loc 1 228 2 is_stmt 1 view .LVU162
- 589              		.loc 1 228 15 is_stmt 0 view .LVU163
- 590 0026 3249     		ldr	r1, .L42+8
- 591 0028 3248     		ldr	r0, .L42+12
- 592 002a FFF7FEFF 		bl	MX_USB_Device_Init
- 593              	.LVL11:
- 594              		.loc 1 228 13 view .LVU164
- 595 002e 324B     		ldr	r3, .L42+16
- 596 0030 1860     		str	r0, [r3]
+ 597              		.loc 1 228 2 is_stmt 1 view .LVU162
+ 598              		.loc 1 228 15 is_stmt 0 view .LVU163
+ 599 0028 3549     		ldr	r1, .L42+8
+ 600 002a 3648     		ldr	r0, .L42+12
+ 601 002c FFF7FEFF 		bl	MX_USB_Device_Init
+ 602              	.LVL11:
+ 603              		.loc 1 228 13 view .LVU164
+ 604 0030 354B     		ldr	r3, .L42+16
+ 605 0032 1860     		str	r0, [r3]
  229:Core/Src/main.c **** 	//lcdPrintf("Test %d", 100);
  230:Core/Src/main.c **** 
  231:Core/Src/main.c ****   	//GPIOB->BSRR |= (1<<GPIO_BSRR_BR9_Pos);
  232:Core/Src/main.c **** 	HAL_Delay(100);
- 597              		.loc 1 232 2 is_stmt 1 view .LVU165
- 598 0032 6420     		movs	r0, #100
- 599 0034 FFF7FEFF 		bl	HAL_Delay
- 600              	.LVL12:
- 601 0038 32E0     		b	.L40
- 602              	.LVL13:
- 603              	.L39:
- 604              	.LBB6:
- 605              	.LBB7:
+ 606              		.loc 1 232 2 is_stmt 1 view .LVU165
+ 607 0034 6420     		movs	r0, #100
+ 608 0036 FFF7FEFF 		bl	HAL_Delay
+ 609              	.LVL12:
+ 610 003a 3AE0     		b	.L40
+ 611              	.LVL13:
+ 612              	.L39:
+ 613              	.LBB6:
+ 614              	.LBB7:
  233:Core/Src/main.c **** 
  234:Core/Src/main.c ****   	// int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR
  235:Core/Src/main.c **** 	// int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR
@@ -887,83 +898,92 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  247:Core/Src/main.c **** 
  248:Core/Src/main.c **** 		for (int i = 0; i < 32; i++)
  249:Core/Src/main.c **** 		{
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 16
+
+
  250:Core/Src/main.c **** 			txBuf[i] = rxBuf[i];
- 606              		.loc 1 250 4 discriminator 3 view .LVU166
- 607              		.loc 1 250 20 is_stmt 0 discriminator 3 view .LVU167
- 608 003a 2E4A     		ldr	r2, .L42+12
- 609 003c D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
- 610              		.loc 1 250 13 discriminator 3 view .LVU168
- 611 003e 2C4A     		ldr	r2, .L42+8
- 612 0040 D154     		strb	r1, [r2, r3]
+ 615              		.loc 1 250 4 discriminator 3 view .LVU166
+ 616              		.loc 1 250 20 is_stmt 0 discriminator 3 view .LVU167
+ 617 003c 314A     		ldr	r2, .L42+12
+ 618 003e D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
+ 619              		.loc 1 250 13 discriminator 3 view .LVU168
+ 620 0040 2F4A     		ldr	r2, .L42+8
+ 621 0042 D154     		strb	r1, [r2, r3]
  248:Core/Src/main.c **** 		{
- 613              		.loc 1 248 27 is_stmt 1 discriminator 3 view .LVU169
+ 622              		.loc 1 248 27 is_stmt 1 discriminator 3 view .LVU169
  248:Core/Src/main.c **** 		{
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 16
-
-
- 614              		.loc 1 248 28 is_stmt 0 discriminator 3 view .LVU170
- 615 0042 0133     		adds	r3, r3, #1
- 616              	.LVL14:
- 617              	.L38:
+ 623              		.loc 1 248 28 is_stmt 0 discriminator 3 view .LVU170
+ 624 0044 0133     		adds	r3, r3, #1
+ 625              	.LVL14:
+ 626              	.L38:
  248:Core/Src/main.c **** 		{
- 618              		.loc 1 248 19 is_stmt 1 discriminator 1 view .LVU171
+ 627              		.loc 1 248 19 is_stmt 1 discriminator 1 view .LVU171
  248:Core/Src/main.c **** 		{
- 619              		.loc 1 248 3 is_stmt 0 discriminator 1 view .LVU172
- 620 0044 1F2B     		cmp	r3, #31
- 621 0046 F8DD     		ble	.L39
- 622              	.LBE7:
+ 628              		.loc 1 248 3 is_stmt 0 discriminator 1 view .LVU172
+ 629 0046 1F2B     		cmp	r3, #31
+ 630 0048 F8DD     		ble	.L39
+ 631              	.LBE7:
  251:Core/Src/main.c **** 		}
- 252:Core/Src/main.c **** 		//sprintf(txBuf, "%d\t", RTC->SR);
+ 252:Core/Src/main.c **** 		sprintf(txBuf, "%d:%d:%d\t", hour, min, sec);
+ 632              		.loc 1 252 3 is_stmt 1 view .LVU173
+ 633 004a 2D4F     		ldr	r7, .L42+8
+ 634 004c 0096     		str	r6, [sp]
+ 635 004e 2346     		mov	r3, r4
+ 636              	.LVL15:
+ 637              		.loc 1 252 3 is_stmt 0 view .LVU174
+ 638 0050 2A46     		mov	r2, r5
+ 639 0052 2E49     		ldr	r1, .L42+20
+ 640 0054 3846     		mov	r0, r7
+ 641 0056 FFF7FEFF 		bl	sprintf
+ 642              	.LVL16:
  253:Core/Src/main.c **** 		txBuf[14] = (min % 10) + 48;
- 623              		.loc 1 253 3 is_stmt 1 view .LVU173
- 624              		.loc 1 253 20 is_stmt 0 view .LVU174
- 625 0048 2C4B     		ldr	r3, .L42+20
- 626              	.LVL15:
- 627              		.loc 1 253 20 view .LVU175
- 628 004a 83FB0421 		smull	r2, r1, r3, r4
- 629 004e E217     		asrs	r2, r4, #31
- 630 0050 C2EBA102 		rsb	r2, r2, r1, asr #2
- 631 0054 02EB8202 		add	r2, r2, r2, lsl #2
- 632 0058 A4EB4202 		sub	r2, r4, r2, lsl #1
- 633              		.loc 1 253 26 view .LVU176
- 634 005c 3032     		adds	r2, r2, #48
- 635              		.loc 1 253 13 view .LVU177
- 636 005e 2448     		ldr	r0, .L42+8
- 637 0060 8273     		strb	r2, [r0, #14]
+ 643              		.loc 1 253 3 is_stmt 1 view .LVU175
+ 644              		.loc 1 253 20 is_stmt 0 view .LVU176
+ 645 005a 2D4B     		ldr	r3, .L42+24
+ 646 005c 83FB0421 		smull	r2, r1, r3, r4
+ 647 0060 E217     		asrs	r2, r4, #31
+ 648 0062 C2EBA102 		rsb	r2, r2, r1, asr #2
+ 649 0066 02EB8202 		add	r2, r2, r2, lsl #2
+ 650 006a A4EB4202 		sub	r2, r4, r2, lsl #1
+ 651              		.loc 1 253 26 view .LVU177
+ 652 006e 3032     		adds	r2, r2, #48
+ 653              		.loc 1 253 13 view .LVU178
+ 654 0070 BA73     		strb	r2, [r7, #14]
  254:Core/Src/main.c **** 		txBuf[15] = (sec % 10) + 48;
- 638              		.loc 1 254 3 is_stmt 1 view .LVU178
- 639              		.loc 1 254 20 is_stmt 0 view .LVU179
- 640 0062 83FB0632 		smull	r3, r2, r3, r6
- 641 0066 F317     		asrs	r3, r6, #31
- 642 0068 C3EBA203 		rsb	r3, r3, r2, asr #2
- 643 006c 03EB8303 		add	r3, r3, r3, lsl #2
- 644 0070 A6EB4303 		sub	r3, r6, r3, lsl #1
- 645              		.loc 1 254 26 view .LVU180
- 646 0074 3033     		adds	r3, r3, #48
- 647              		.loc 1 254 13 view .LVU181
- 648 0076 C373     		strb	r3, [r0, #15]
+ 655              		.loc 1 254 3 is_stmt 1 view .LVU179
+ 656              		.loc 1 254 20 is_stmt 0 view .LVU180
+ 657 0072 83FB0632 		smull	r3, r2, r3, r6
+ 658 0076 F317     		asrs	r3, r6, #31
+ 659 0078 C3EBA203 		rsb	r3, r3, r2, asr #2
+ 660 007c 03EB8303 		add	r3, r3, r3, lsl #2
+ 661 0080 A6EB4303 		sub	r3, r6, r3, lsl #1
+ 662              		.loc 1 254 26 view .LVU181
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 17
+
+
+ 663 0084 3033     		adds	r3, r3, #48
+ 664              		.loc 1 254 13 view .LVU182
+ 665 0086 FB73     		strb	r3, [r7, #15]
  255:Core/Src/main.c **** 		txBuf[16] = (RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos));
- 649              		.loc 1 255 3 is_stmt 1 view .LVU182
- 650              		.loc 1 255 19 is_stmt 0 view .LVU183
- 651 0078 1B4B     		ldr	r3, .L42
- 652 007a D3F89030 		ldr	r3, [r3, #144]
- 653              		.loc 1 255 26 view .LVU184
- 654 007e 03F00203 		and	r3, r3, #2
- 655              		.loc 1 255 13 view .LVU185
- 656 0082 0374     		strb	r3, [r0, #16]
+ 666              		.loc 1 255 3 is_stmt 1 view .LVU183
+ 667              		.loc 1 255 19 is_stmt 0 view .LVU184
+ 668 0088 1B4B     		ldr	r3, .L42
+ 669 008a D3F89030 		ldr	r3, [r3, #144]
+ 670              		.loc 1 255 26 view .LVU185
+ 671 008e 03F00203 		and	r3, r3, #2
+ 672              		.loc 1 255 13 view .LVU186
+ 673 0092 3B74     		strb	r3, [r7, #16]
  256:Core/Src/main.c **** 		txBuf[31] = '\n';
- 657              		.loc 1 256 3 is_stmt 1 view .LVU186
- 658              		.loc 1 256 13 is_stmt 0 view .LVU187
- 659 0084 0A23     		movs	r3, #10
- 660 0086 C377     		strb	r3, [r0, #31]
+ 674              		.loc 1 256 3 is_stmt 1 view .LVU187
+ 675              		.loc 1 256 13 is_stmt 0 view .LVU188
+ 676 0094 0A23     		movs	r3, #10
+ 677 0096 FB77     		strb	r3, [r7, #31]
  257:Core/Src/main.c **** 		CDC_Transmit_FS(txBuf, 32);
- 661              		.loc 1 257 3 is_stmt 1 view .LVU188
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 17
-
-
- 662 0088 2021     		movs	r1, #32
- 663 008a FFF7FEFF 		bl	CDC_Transmit_FS
- 664              	.LVL16:
+ 678              		.loc 1 257 3 is_stmt 1 view .LVU189
+ 679 0098 2021     		movs	r1, #32
+ 680 009a 3846     		mov	r0, r7
+ 681 009c FFF7FEFF 		bl	CDC_Transmit_FS
+ 682              	.LVL17:
  258:Core/Src/main.c **** 
  259:Core/Src/main.c **** 
  260:Core/Src/main.c **** 
@@ -971,141 +991,142 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  262:Core/Src/main.c **** 
  263:Core/Src/main.c **** 		// DELETE THIS EVENTUALLY
  264:Core/Src/main.c **** 		HAL_Delay(250);
- 665              		.loc 1 264 3 view .LVU189
- 666 008e FA20     		movs	r0, #250
- 667 0090 FFF7FEFF 		bl	HAL_Delay
- 668              	.LVL17:
+ 683              		.loc 1 264 3 view .LVU190
+ 684 00a0 FA20     		movs	r0, #250
+ 685 00a2 FFF7FEFF 		bl	HAL_Delay
+ 686              	.LVL18:
  265:Core/Src/main.c **** 		
  266:Core/Src/main.c **** 
  267:Core/Src/main.c **** 		
  268:Core/Src/main.c **** 
  269:Core/Src/main.c **** 		updateDisplayWithTime(hour, min);
- 669              		.loc 1 269 3 view .LVU190
- 670 0094 2146     		mov	r1, r4
- 671 0096 2846     		mov	r0, r5
- 672 0098 FFF7FEFF 		bl	updateDisplayWithTime
- 673              	.LVL18:
+ 687              		.loc 1 269 3 view .LVU191
+ 688 00a6 2146     		mov	r1, r4
+ 689 00a8 2846     		mov	r0, r5
+ 690 00aa FFF7FEFF 		bl	updateDisplayWithTime
+ 691              	.LVL19:
  270:Core/Src/main.c **** 		setDisplay();
- 674              		.loc 1 270 3 view .LVU191
- 675 009c FFF7FEFF 		bl	setDisplay
- 676              	.LVL19:
- 677              	.LBE6:
+ 692              		.loc 1 270 3 view .LVU192
+ 693 00ae FFF7FEFF 		bl	setDisplay
+ 694              	.LVL20:
+ 695              	.LBE6:
  240:Core/Src/main.c **** 	{
- 678              		.loc 1 240 8 view .LVU192
- 679              	.L40:
+ 696              		.loc 1 240 8 view .LVU193
+ 697              	.L40:
  240:Core/Src/main.c **** 	{
- 680              		.loc 1 240 2 view .LVU193
- 681              	.LBB9:
+ 698              		.loc 1 240 2 view .LVU194
+ 699              	.LBB9:
  242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 682              		.loc 1 242 3 view .LVU194
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 683              		.loc 1 242 18 is_stmt 0 view .LVU195
- 684 00a0 174B     		ldr	r3, .L42+24
- 685 00a2 1E68     		ldr	r6, [r3]
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 686              		.loc 1 242 50 view .LVU196
- 687 00a4 06F00F06 		and	r6, r6, #15
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 688              		.loc 1 242 75 view .LVU197
- 689 00a8 1A68     		ldr	r2, [r3]
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 690              		.loc 1 242 106 view .LVU198
- 691 00aa C2F30212 		ubfx	r2, r2, #4, #3
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 692              		.loc 1 242 124 view .LVU199
- 693 00ae 02EB8202 		add	r2, r2, r2, lsl #2
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 694              		.loc 1 242 68 view .LVU200
- 695 00b2 06EB4206 		add	r6, r6, r2, lsl #1
- 696              	.LVL20:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 18
+ 700              		.loc 1 242 3 view .LVU195
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 18
 
 
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 701              		.loc 1 242 18 is_stmt 0 view .LVU196
+ 702 00b2 184B     		ldr	r3, .L42+28
+ 703 00b4 1E68     		ldr	r6, [r3]
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 704              		.loc 1 242 50 view .LVU197
+ 705 00b6 06F00F06 		and	r6, r6, #15
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 706              		.loc 1 242 75 view .LVU198
+ 707 00ba 1A68     		ldr	r2, [r3]
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 708              		.loc 1 242 106 view .LVU199
+ 709 00bc C2F30212 		ubfx	r2, r2, #4, #3
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 710              		.loc 1 242 124 view .LVU200
+ 711 00c0 02EB8202 		add	r2, r2, r2, lsl #2
+ 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 712              		.loc 1 242 68 view .LVU201
+ 713 00c4 06EB4206 		add	r6, r6, r2, lsl #1
+ 714              	.LVL21:
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 697              		.loc 1 243 3 is_stmt 1 view .LVU201
+ 715              		.loc 1 243 3 is_stmt 1 view .LVU202
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 698              		.loc 1 243 18 is_stmt 0 view .LVU202
- 699 00b6 1C68     		ldr	r4, [r3]
+ 716              		.loc 1 243 18 is_stmt 0 view .LVU203
+ 717 00c8 1C68     		ldr	r4, [r3]
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 700              		.loc 1 243 51 view .LVU203
- 701 00b8 C4F30324 		ubfx	r4, r4, #8, #4
+ 718              		.loc 1 243 51 view .LVU204
+ 719 00ca C4F30324 		ubfx	r4, r4, #8, #4
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 702              		.loc 1 243 77 view .LVU204
- 703 00bc 1A68     		ldr	r2, [r3]
+ 720              		.loc 1 243 77 view .LVU205
+ 721 00ce 1A68     		ldr	r2, [r3]
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 704              		.loc 1 243 109 view .LVU205
- 705 00be C2F30232 		ubfx	r2, r2, #12, #3
+ 722              		.loc 1 243 109 view .LVU206
+ 723 00d0 C2F30232 		ubfx	r2, r2, #12, #3
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 706              		.loc 1 243 128 view .LVU206
- 707 00c2 02EB8202 		add	r2, r2, r2, lsl #2
+ 724              		.loc 1 243 128 view .LVU207
+ 725 00d4 02EB8202 		add	r2, r2, r2, lsl #2
  243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 708              		.loc 1 243 70 view .LVU207
- 709 00c6 04EB4204 		add	r4, r4, r2, lsl #1
- 710              	.LVL21:
+ 726              		.loc 1 243 70 view .LVU208
+ 727 00d8 04EB4204 		add	r4, r4, r2, lsl #1
+ 728              	.LVL22:
  244:Core/Src/main.c **** 
- 711              		.loc 1 244 3 is_stmt 1 view .LVU208
+ 729              		.loc 1 244 3 is_stmt 1 view .LVU209
  244:Core/Src/main.c **** 
- 712              		.loc 1 244 19 is_stmt 0 view .LVU209
- 713 00ca 1D68     		ldr	r5, [r3]
+ 730              		.loc 1 244 19 is_stmt 0 view .LVU210
+ 731 00dc 1D68     		ldr	r5, [r3]
  244:Core/Src/main.c **** 
- 714              		.loc 1 244 51 view .LVU210
- 715 00cc C5F30345 		ubfx	r5, r5, #16, #4
+ 732              		.loc 1 244 51 view .LVU211
+ 733 00de C5F30345 		ubfx	r5, r5, #16, #4
  244:Core/Src/main.c **** 
- 716              		.loc 1 244 76 view .LVU211
- 717 00d0 1B68     		ldr	r3, [r3]
+ 734              		.loc 1 244 76 view .LVU212
+ 735 00e2 1B68     		ldr	r3, [r3]
  244:Core/Src/main.c **** 
- 718              		.loc 1 244 106 view .LVU212
- 719 00d2 C3F30153 		ubfx	r3, r3, #20, #2
+ 736              		.loc 1 244 106 view .LVU213
+ 737 00e4 C3F30153 		ubfx	r3, r3, #20, #2
  244:Core/Src/main.c **** 
- 720              		.loc 1 244 124 view .LVU213
- 721 00d6 03EB8303 		add	r3, r3, r3, lsl #2
+ 738              		.loc 1 244 124 view .LVU214
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 19
+
+
+ 739 00e8 03EB8303 		add	r3, r3, r3, lsl #2
  244:Core/Src/main.c **** 
- 722              		.loc 1 244 69 view .LVU214
- 723 00da 05EB4305 		add	r5, r5, r3, lsl #1
- 724              	.LVL22:
+ 740              		.loc 1 244 69 view .LVU215
+ 741 00ec 05EB4305 		add	r5, r5, r3, lsl #1
+ 742              	.LVL23:
  246:Core/Src/main.c **** 
- 725              		.loc 1 246 3 is_stmt 1 view .LVU215
- 726 00de FFF7FEFF 		bl	checkSetTime
- 727              	.LVL23:
+ 743              		.loc 1 246 3 is_stmt 1 view .LVU216
+ 744 00f0 FFF7FEFF 		bl	checkSetTime
+ 745              	.LVL24:
  248:Core/Src/main.c **** 		{
- 728              		.loc 1 248 3 view .LVU216
- 729              	.LBB8:
+ 746              		.loc 1 248 3 view .LVU217
+ 747              	.LBB8:
  248:Core/Src/main.c **** 		{
- 730              		.loc 1 248 8 view .LVU217
+ 748              		.loc 1 248 8 view .LVU218
  248:Core/Src/main.c **** 		{
- 731              		.loc 1 248 12 is_stmt 0 view .LVU218
- 732 00e2 0023     		movs	r3, #0
+ 749              		.loc 1 248 12 is_stmt 0 view .LVU219
+ 750 00f4 0023     		movs	r3, #0
  248:Core/Src/main.c **** 		{
- 733              		.loc 1 248 3 view .LVU219
- 734 00e4 AEE7     		b	.L38
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 19
-
-
- 735              	.L43:
- 736 00e6 00BF     		.align	2
- 737              	.L42:
- 738 00e8 00100240 		.word	1073876992
- 739 00ec 00040048 		.word	1207960576
- 740 00f0 00000000 		.word	.LANCHOR1
- 741 00f4 00000000 		.word	.LANCHOR0
- 742 00f8 00000000 		.word	.LANCHOR2
- 743 00fc 67666666 		.word	1717986919
- 744 0100 00280040 		.word	1073752064
- 745              	.LBE8:
- 746              	.LBE9:
- 747              		.cfi_endproc
- 748              	.LFE142:
- 750              		.section	.text.Error_Handler,"ax",%progbits
- 751              		.align	1
- 752              		.global	Error_Handler
- 753              		.syntax unified
- 754              		.thumb
- 755              		.thumb_func
- 756              		.fpu fpv4-sp-d16
- 758              	Error_Handler:
- 759              	.LFB143:
+ 751              		.loc 1 248 3 view .LVU220
+ 752 00f6 A6E7     		b	.L38
+ 753              	.L43:
+ 754              		.align	2
+ 755              	.L42:
+ 756 00f8 00100240 		.word	1073876992
+ 757 00fc 00040048 		.word	1207960576
+ 758 0100 00000000 		.word	.LANCHOR1
+ 759 0104 00000000 		.word	.LANCHOR0
+ 760 0108 00000000 		.word	.LANCHOR2
+ 761 010c 00000000 		.word	.LC0
+ 762 0110 67666666 		.word	1717986919
+ 763 0114 00280040 		.word	1073752064
+ 764              	.LBE8:
+ 765              	.LBE9:
+ 766              		.cfi_endproc
+ 767              	.LFE142:
+ 769              		.section	.text.Error_Handler,"ax",%progbits
+ 770              		.align	1
+ 771              		.global	Error_Handler
+ 772              		.syntax unified
+ 773              		.thumb
+ 774              		.thumb_func
+ 775              		.fpu fpv4-sp-d16
+ 777              	Error_Handler:
+ 778              	.LFB143:
  271:Core/Src/main.c **** 
- 272:Core/Src/main.c **** 		//GPIOB->ODR = 0b1111111011111111;
+ 272:Core/Src/main.c **** 		//GPIOB->ODR = 0b0111000011111111;
  273:Core/Src/main.c **** 		//HAL_Delay(5);
  274:Core/Src/main.c **** 
  275:Core/Src/main.c **** 		//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
@@ -1116,19 +1137,22 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  280:Core/Src/main.c **** 
  281:Core/Src/main.c **** void Error_Handler(void)
  282:Core/Src/main.c **** {
- 760              		.loc 1 282 1 is_stmt 1 view -0
- 761              		.cfi_startproc
- 762              		@ Volatile: function does not return.
- 763              		@ args = 0, pretend = 0, frame = 0
- 764              		@ frame_needed = 0, uses_anonymous_args = 0
- 765              		@ link register save eliminated.
+ 779              		.loc 1 282 1 is_stmt 1 view -0
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 20
+
+
+ 780              		.cfi_startproc
+ 781              		@ Volatile: function does not return.
+ 782              		@ args = 0, pretend = 0, frame = 0
+ 783              		@ frame_needed = 0, uses_anonymous_args = 0
+ 784              		@ link register save eliminated.
  283:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
  284:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
  285:Core/Src/main.c ****   __disable_irq();
- 766              		.loc 1 285 3 view .LVU221
- 767              	.LBB10:
- 768              	.LBI10:
- 769              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
+ 785              		.loc 1 285 3 view .LVU222
+ 786              	.LBB10:
+ 787              	.LBI10:
+ 788              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
    1:Drivers/CMSIS/Include/cmsis_gcc.h **** /**************************************************************************//**
    2:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @file     cmsis_gcc.h
    3:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @brief    CMSIS compiler GCC header file
@@ -1138,9 +1162,6 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
    7:Drivers/CMSIS/Include/cmsis_gcc.h **** /*
    8:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Copyright (c) 2009-2019 Arm Limited. All rights reserved.
    9:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 20
-
-
   10:Drivers/CMSIS/Include/cmsis_gcc.h ****  * SPDX-License-Identifier: Apache-2.0
   11:Drivers/CMSIS/Include/cmsis_gcc.h ****  *
   12:Drivers/CMSIS/Include/cmsis_gcc.h ****  * Licensed under the Apache License, Version 2.0 (the License); you may
@@ -1177,6 +1198,9 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
   43:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __INLINE
   44:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __INLINE                               inline
   45:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 21
+
+
   46:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __STATIC_INLINE
   47:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __STATIC_INLINE                        static inline
   48:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1198,9 +1222,6 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
   64:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_STRUCT
   65:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED_STRUCT                        struct __attribute__((packed, aligned(1)))
   66:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 21
-
-
   67:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED_UNION
   68:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED_UNION                         union __attribute__((packed, aligned(1)))
   69:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1237,6 +1258,9 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  100:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_WRITE(addr, val)    (void)((((struct T_UINT32_WRITE *)(void *)(addr))-
  101:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  102:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_READ
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 22
+
+
  103:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
  104:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
  105:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
@@ -1258,9 +1282,6 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  121:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  122:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __PROGRAM_START
  123:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 22
-
-
  124:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  125:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Initializes data and bss sections
  126:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details This default implementations initialized all data and additional bss
@@ -1297,6 +1318,9 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  157:Drivers/CMSIS/Include/cmsis_gcc.h ****   for (__zero_table_t const* pTable = &__zero_table_start__; pTable < &__zero_table_end__; ++pTable
  158:Drivers/CMSIS/Include/cmsis_gcc.h ****     for(uint32_t i=0u; i<pTable->wlen; ++i) {
  159:Drivers/CMSIS/Include/cmsis_gcc.h ****       pTable->dest[i] = 0u;
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 23
+
+
  160:Drivers/CMSIS/Include/cmsis_gcc.h ****     }
  161:Drivers/CMSIS/Include/cmsis_gcc.h ****   }
  162:Drivers/CMSIS/Include/cmsis_gcc.h ****  
@@ -1318,9 +1342,6 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  178:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __VECTOR_TABLE            __Vectors
  179:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  180:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 23
-
-
  181:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __VECTOR_TABLE_ATTRIBUTE
  182:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __VECTOR_TABLE_ATTRIBUTE  __attribute((used, section(".vectors")))
  183:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1348,111 +1369,114 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 1
  205:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
  206:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  207:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __disable_irq(void)
- 770              		.loc 2 207 27 view .LVU222
- 771              	.LBB11:
+ 789              		.loc 2 207 27 view .LVU223
+ 790              	.LBB11:
  208:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  209:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("cpsid i" : : : "memory");
- 772              		.loc 2 209 3 view .LVU223
- 773              		.syntax unified
- 774              	@ 209 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
- 775 0000 72B6     		cpsid i
- 776              	@ 0 "" 2
- 777              		.thumb
- 778              		.syntax unified
- 779              	.L45:
- 780              	.LBE11:
- 781              	.LBE10:
+ 791              		.loc 2 209 3 view .LVU224
+ 792              		.syntax unified
+ 793              	@ 209 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
+ 794 0000 72B6     		cpsid i
+ 795              	@ 0 "" 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 24
+
+
+ 796              		.thumb
+ 797              		.syntax unified
+ 798              	.L45:
+ 799              	.LBE11:
+ 800              	.LBE10:
  286:Core/Src/main.c ****   while (1)
- 782              		.loc 1 286 3 discriminator 1 view .LVU224
+ 801              		.loc 1 286 3 discriminator 1 view .LVU225
  287:Core/Src/main.c ****   {
  288:Core/Src/main.c ****   }
- 783              		.loc 1 288 3 discriminator 1 view .LVU225
+ 802              		.loc 1 288 3 discriminator 1 view .LVU226
  286:Core/Src/main.c ****   while (1)
- 784              		.loc 1 286 9 discriminator 1 view .LVU226
- 785 0002 FEE7     		b	.L45
- 786              		.cfi_endproc
- 787              	.LFE143:
- 789              		.global	txBuf
- 790              		.global	rxBuf
- 791              		.global	usbHandler
- 792              		.section	.bss.rxBuf,"aw",%nobits
- 793              		.align	2
- 794              		.set	.LANCHOR0,. + 0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 24
-
-
- 797              	rxBuf:
- 798 0000 00000000 		.space	64
- 798      00000000 
- 798      00000000 
- 798      00000000 
- 798      00000000 
- 799              		.section	.bss.usbHandler,"aw",%nobits
- 800              		.align	2
- 801              		.set	.LANCHOR2,. + 0
- 804              	usbHandler:
- 805 0000 00000000 		.space	4
- 806              		.section	.data.txBuf,"aw"
- 807              		.align	2
- 808              		.set	.LANCHOR1,. + 0
- 811              	txBuf:
- 812 0000 48454C4C 		.ascii	"HELLO THERE FRIEND\012\000"
- 812      4F205448 
- 812      45524520 
- 812      46524945 
- 812      4E440A00 
- 813 0014 00000000 		.space	12
- 813      00000000 
- 813      00000000 
- 814              		.text
- 815              	.Letext0:
- 816              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 817              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
- 818              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
- 819              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
- 820              		.file 7 "USB_Device/App/usbd_cdc_if.h"
- 821              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
- 822              		.file 9 "Core/Inc/7Seg.h"
- 823              		.file 10 "USB_Device/App/usb_device.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s 			page 25
+ 803              		.loc 1 286 9 discriminator 1 view .LVU227
+ 804 0002 FEE7     		b	.L45
+ 805              		.cfi_endproc
+ 806              	.LFE143:
+ 808              		.global	txBuf
+ 809              		.global	rxBuf
+ 810              		.global	usbHandler
+ 811              		.section	.bss.rxBuf,"aw",%nobits
+ 812              		.align	2
+ 813              		.set	.LANCHOR0,. + 0
+ 816              	rxBuf:
+ 817 0000 00000000 		.space	64
+ 817      00000000 
+ 817      00000000 
+ 817      00000000 
+ 817      00000000 
+ 818              		.section	.bss.usbHandler,"aw",%nobits
+ 819              		.align	2
+ 820              		.set	.LANCHOR2,. + 0
+ 823              	usbHandler:
+ 824 0000 00000000 		.space	4
+ 825              		.section	.data.txBuf,"aw"
+ 826              		.align	2
+ 827              		.set	.LANCHOR1,. + 0
+ 830              	txBuf:
+ 831 0000 48454C4C 		.ascii	"HELLO THERE FRIEND\012\000"
+ 831      4F205448 
+ 831      45524520 
+ 831      46524945 
+ 831      4E440A00 
+ 832 0014 00000000 		.space	12
+ 832      00000000 
+ 832      00000000 
+ 833              		.text
+ 834              	.Letext0:
+ 835              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 836              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 837              		.file 5 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
+ 838              		.file 6 "Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h"
+ 839              		.file 7 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 840              		.file 8 "USB_Device/App/usbd_cdc_if.h"
+ 841              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
+ 842              		.file 10 "Core/Inc/7Seg.h"
+ 843              		.file 11 "USB_Device/App/usb_device.h"
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:18     .text.gpioB_Init:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:26     .text.gpioB_Init:00000000 gpioB_Init
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:50     .text.gpioB_Init:00000014 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:56     .text.gpioA_Init:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:63     .text.gpioA_Init:00000000 gpioA_Init
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:90     .text.gpioA_Init:0000001c $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:95     .text.mainRCCInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:102    .text.mainRCCInit:00000000 mainRCCInit
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:153    .text.mainRCCInit:00000040 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:160    .text.contrastInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:167    .text.contrastInit:00000000 contrastInit
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:201    .text.contrastInit:00000028 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:207    .text.rtcInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:214    .text.rtcInit:00000000 rtcInit
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:402    .text.rtcInit:0000011c $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:412    .text.checkSetTime:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:419    .text.checkSetTime:00000000 checkSetTime
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:540    .text.checkSetTime:00000078 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:545    .text.main:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:552    .text.main:00000000 main
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:738    .text.main:000000e8 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:751    .text.Error_Handler:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:758    .text.Error_Handler:00000000 Error_Handler
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:811    .data.txBuf:00000000 txBuf
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:797    .bss.rxBuf:00000000 rxBuf
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:804    .bss.usbHandler:00000000 usbHandler
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:793    .bss.rxBuf:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:800    .bss.usbHandler:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccy8Vils.s:807    .data.txBuf:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:18     .text.gpioB_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:26     .text.gpioB_Init:00000000 gpioB_Init
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:50     .text.gpioB_Init:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:56     .text.gpioA_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:63     .text.gpioA_Init:00000000 gpioA_Init
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:90     .text.gpioA_Init:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:95     .text.mainRCCInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:102    .text.mainRCCInit:00000000 mainRCCInit
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:153    .text.mainRCCInit:00000040 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:160    .text.contrastInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:167    .text.contrastInit:00000000 contrastInit
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:201    .text.contrastInit:00000028 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:207    .text.rtcInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:214    .text.rtcInit:00000000 rtcInit
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:405    .text.rtcInit:0000011c $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:414    .text.checkSetTime:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:421    .text.checkSetTime:00000000 checkSetTime
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:542    .text.checkSetTime:00000078 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:547    .rodata.main.str1.4:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:551    .text.main:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:558    .text.main:00000000 main
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:756    .text.main:000000f8 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:770    .text.Error_Handler:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:777    .text.Error_Handler:00000000 Error_Handler
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:830    .data.txBuf:00000000 txBuf
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:816    .bss.rxBuf:00000000 rxBuf
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:823    .bss.usbHandler:00000000 usbHandler
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:812    .bss.rxBuf:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:819    .bss.usbHandler:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:826    .data.txBuf:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Init
 MX_USB_Device_Init
 HAL_Delay
+sprintf
 CDC_Transmit_FS
 updateDisplayWithTime
 setDisplay
