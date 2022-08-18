@@ -237,6 +237,8 @@ int main(void)
 	//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
 	//returnHome();
 
+	
+
 	while (1)
 	{
 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_Pos)) >> RTC_TR_ST_Pos) * 10;

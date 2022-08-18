@@ -167,7 +167,7 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
     GPIOB->ODR = pB;
 
-    HAL_Delay(2);
+    HAL_Delay(4);
 
     pOut |= (0b0000111000000000);
     //pA = pOut & (0b1110011111101111);
@@ -175,7 +175,23 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
 	GPIOB->ODR = pB;
 
-    HAL_Delay(2);
+    HAL_Delay(4);
+}
+
+void setDisplayForce()
+{
+    for (int i = 0; i < 68; i++)
+    {
+        //for (int j = 0; j < 4; j++)
+        //{
+            int r = secretOrder[1][i];
+            int c = secretOrder[0][i];
+            setDisplayCell(r, c);
+            lastDisplayState[r][c] = displayState[r][c];
+
+        //}
+    }
+    return;
 }
 
 void setDisplay()
@@ -193,5 +209,9 @@ void setDisplay()
             }
         //}
     }
+
+    // WORKAROUND THAT IS STUPID AND IM SORRY BUT IM TIRED AND IT WORKS CONSISTENTLY
+    setDisplayCell(2, 15);
+    // END WORKAROUND
     return;
 }

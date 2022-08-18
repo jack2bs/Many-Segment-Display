@@ -32,3 +32,4 @@ void updateDisplayCell(int data, int row, int col);
 void updateDisplayWithTime(int hr, int min);
 void setDisplayCell(int row, int col);
 void setDisplay();
+void setDisplayForce();

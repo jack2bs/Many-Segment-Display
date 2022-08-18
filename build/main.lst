@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
   39 0008 D364     		str	r3, [r2, #76]
   18:Core/Src/main.c **** 
   19:Core/Src/main.c **** 	// Set of PB9 to output
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 2
 
 
   20:Core/Src/main.c **** 	GPIOB->MODER = 0x55555555;
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
   84 0016 1A60     		str	r2, [r3]
   32:Core/Src/main.c **** }
   85              		.loc 1 32 1 view .LVU13
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 3
 
 
   86 0018 7047     		bx	lr
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  126 001e DA60     		str	r2, [r3, #12]
   49:Core/Src/main.c **** 		| (0b11 << RCC_PLLCFGR_PLLM_Pos) 
   50:Core/Src/main.c **** 		| (0b110000 << RCC_PLLCFGR_PLLN_Pos)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 4
 
 
   51:Core/Src/main.c ****     	| (0b01 << RCC_PLLCFGR_PLLQ_Pos)
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  170              		.cfi_startproc
  171              		@ args = 0, pretend = 0, frame = 0
  172              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 5
 
 
  173              		@ link register save eliminated.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  216              	.LFB140:
   77:Core/Src/main.c **** 
   78:Core/Src/main.c **** void rtcInit(int sec, int min, int hour)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 6
 
 
   79:Core/Src/main.c **** {
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  254 0032 C4F89030 		str	r3, [r4, #144]
   96:Core/Src/main.c **** 	while (!(RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos))); 
  255              		.loc 1 96 2 is_stmt 1 view .LVU53
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 7
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 7
 
 
  256              	.L15:
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  295 007c 5C62     		str	r4, [r3, #36]
  112:Core/Src/main.c **** 	
  113:Core/Src/main.c **** 	// Put the RTC into initialization mode
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 8
 
 
  114:Core/Src/main.c **** 	RTC->ICSR |= (1<<RTC_ICSR_INIT_Pos);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  342              		.loc 1 121 95 view .LVU89
  343 00c6 43EA0433 		orr	r3, r3, r4, lsl #12
  344              		.loc 1 121 134 view .LVU90
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 9
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 9
 
 
  345 00ca 04EB8404 		add	r4, r4, r4, lsl #2
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  135:Core/Src/main.c **** 	RTC->WPR = 0x00;
  386              		.loc 1 135 2 is_stmt 1 view .LVU108
  387              		.loc 1 135 11 is_stmt 0 view .LVU109
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 10
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 10
 
 
  388 010c 0023     		movs	r3, #0
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  436 000a 5B79     		ldrb	r3, [r3, #5]	@ zero_extendqisi2
  437              		.loc 1 143 22 discriminator 1 view .LVU118
  438 000c 3A2B     		cmp	r3, #58
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 11
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 11
 
 
  439 000e 2ED1     		bne	.L28
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  478              	.L34:
  479              	.LBE4:
  142:Core/Src/main.c **** 	if (rxBuf[2] != ':' || rxBuf[5] != ':')
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 12
 
 
  480              		.loc 1 142 1 view .LVU134
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  177:Core/Src/main.c **** 	// while (!(RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
  178:Core/Src/main.c **** 
  179:Core/Src/main.c **** 	// // Set time (CHANGE)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 13
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 13
 
 
  180:Core/Src/main.c **** 	// RTC->TR = 0x0;
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  550              		.section	.text.main,"ax",%progbits
  551              		.align	1
  552              		.global	main
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 14
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 14
 
 
  553              		.syntax unified
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  214:Core/Src/main.c **** 	// Initialize the display
  215:Core/Src/main.c **** 	//initDisplay();
  216:Core/Src/main.c **** 	//functionSet2Lines5By8();
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 15
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 15
 
 
  217:Core/Src/main.c **** 	//displayControl(1,1,0);
@@ -888,218 +888,220 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  237:Core/Src/main.c **** 	//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
  238:Core/Src/main.c **** 	//returnHome();
  239:Core/Src/main.c **** 
- 240:Core/Src/main.c **** 	while (1)
- 241:Core/Src/main.c **** 	{
- 242:Core/Src/main.c **** 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_
- 243:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 244:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 245:Core/Src/main.c **** 
- 246:Core/Src/main.c **** 		checkSetTime();
+ 240:Core/Src/main.c **** 	
+ 241:Core/Src/main.c **** 
+ 242:Core/Src/main.c **** 	while (1)
+ 243:Core/Src/main.c **** 	{
+ 244:Core/Src/main.c **** 		int sec = ((RTC->TR & (0b1111<<RTC_TR_SU_Pos)) >> RTC_TR_SU_Pos) + ((RTC->TR & (0b111<<RTC_TR_ST_
+ 245:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 246:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
  247:Core/Src/main.c **** 
- 248:Core/Src/main.c **** 		for (int i = 0; i < 32; i++)
- 249:Core/Src/main.c **** 		{
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 16
+ 248:Core/Src/main.c **** 		checkSetTime();
+ 249:Core/Src/main.c **** 
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 16
 
 
- 250:Core/Src/main.c **** 			txBuf[i] = rxBuf[i];
- 615              		.loc 1 250 4 discriminator 3 view .LVU166
- 616              		.loc 1 250 20 is_stmt 0 discriminator 3 view .LVU167
+ 250:Core/Src/main.c **** 		for (int i = 0; i < 32; i++)
+ 251:Core/Src/main.c **** 		{
+ 252:Core/Src/main.c **** 			txBuf[i] = rxBuf[i];
+ 615              		.loc 1 252 4 discriminator 3 view .LVU166
+ 616              		.loc 1 252 20 is_stmt 0 discriminator 3 view .LVU167
  617 003c 314A     		ldr	r2, .L42+12
  618 003e D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
- 619              		.loc 1 250 13 discriminator 3 view .LVU168
+ 619              		.loc 1 252 13 discriminator 3 view .LVU168
  620 0040 2F4A     		ldr	r2, .L42+8
  621 0042 D154     		strb	r1, [r2, r3]
- 248:Core/Src/main.c **** 		{
- 622              		.loc 1 248 27 is_stmt 1 discriminator 3 view .LVU169
- 248:Core/Src/main.c **** 		{
- 623              		.loc 1 248 28 is_stmt 0 discriminator 3 view .LVU170
+ 250:Core/Src/main.c **** 		{
+ 622              		.loc 1 250 27 is_stmt 1 discriminator 3 view .LVU169
+ 250:Core/Src/main.c **** 		{
+ 623              		.loc 1 250 28 is_stmt 0 discriminator 3 view .LVU170
  624 0044 0133     		adds	r3, r3, #1
  625              	.LVL14:
  626              	.L38:
- 248:Core/Src/main.c **** 		{
- 627              		.loc 1 248 19 is_stmt 1 discriminator 1 view .LVU171
- 248:Core/Src/main.c **** 		{
- 628              		.loc 1 248 3 is_stmt 0 discriminator 1 view .LVU172
+ 250:Core/Src/main.c **** 		{
+ 627              		.loc 1 250 19 is_stmt 1 discriminator 1 view .LVU171
+ 250:Core/Src/main.c **** 		{
+ 628              		.loc 1 250 3 is_stmt 0 discriminator 1 view .LVU172
  629 0046 1F2B     		cmp	r3, #31
  630 0048 F8DD     		ble	.L39
  631              	.LBE7:
- 251:Core/Src/main.c **** 		}
- 252:Core/Src/main.c **** 		sprintf(txBuf, "%d:%d:%d\t", hour, min, sec);
- 632              		.loc 1 252 3 is_stmt 1 view .LVU173
+ 253:Core/Src/main.c **** 		}
+ 254:Core/Src/main.c **** 		sprintf(txBuf, "%d:%d:%d\t", hour, min, sec);
+ 632              		.loc 1 254 3 is_stmt 1 view .LVU173
  633 004a 2D4F     		ldr	r7, .L42+8
  634 004c 0096     		str	r6, [sp]
  635 004e 2346     		mov	r3, r4
  636              	.LVL15:
- 637              		.loc 1 252 3 is_stmt 0 view .LVU174
+ 637              		.loc 1 254 3 is_stmt 0 view .LVU174
  638 0050 2A46     		mov	r2, r5
  639 0052 2E49     		ldr	r1, .L42+20
  640 0054 3846     		mov	r0, r7
  641 0056 FFF7FEFF 		bl	sprintf
  642              	.LVL16:
- 253:Core/Src/main.c **** 		txBuf[14] = (min % 10) + 48;
- 643              		.loc 1 253 3 is_stmt 1 view .LVU175
- 644              		.loc 1 253 20 is_stmt 0 view .LVU176
+ 255:Core/Src/main.c **** 		txBuf[14] = (min % 10) + 48;
+ 643              		.loc 1 255 3 is_stmt 1 view .LVU175
+ 644              		.loc 1 255 20 is_stmt 0 view .LVU176
  645 005a 2D4B     		ldr	r3, .L42+24
  646 005c 83FB0421 		smull	r2, r1, r3, r4
  647 0060 E217     		asrs	r2, r4, #31
  648 0062 C2EBA102 		rsb	r2, r2, r1, asr #2
  649 0066 02EB8202 		add	r2, r2, r2, lsl #2
  650 006a A4EB4202 		sub	r2, r4, r2, lsl #1
- 651              		.loc 1 253 26 view .LVU177
+ 651              		.loc 1 255 26 view .LVU177
  652 006e 3032     		adds	r2, r2, #48
- 653              		.loc 1 253 13 view .LVU178
+ 653              		.loc 1 255 13 view .LVU178
  654 0070 BA73     		strb	r2, [r7, #14]
- 254:Core/Src/main.c **** 		txBuf[15] = (sec % 10) + 48;
- 655              		.loc 1 254 3 is_stmt 1 view .LVU179
- 656              		.loc 1 254 20 is_stmt 0 view .LVU180
+ 256:Core/Src/main.c **** 		txBuf[15] = (sec % 10) + 48;
+ 655              		.loc 1 256 3 is_stmt 1 view .LVU179
+ 656              		.loc 1 256 20 is_stmt 0 view .LVU180
  657 0072 83FB0632 		smull	r3, r2, r3, r6
  658 0076 F317     		asrs	r3, r6, #31
  659 0078 C3EBA203 		rsb	r3, r3, r2, asr #2
  660 007c 03EB8303 		add	r3, r3, r3, lsl #2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 17
+
+
  661 0080 A6EB4303 		sub	r3, r6, r3, lsl #1
- 662              		.loc 1 254 26 view .LVU181
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 17
-
-
+ 662              		.loc 1 256 26 view .LVU181
  663 0084 3033     		adds	r3, r3, #48
- 664              		.loc 1 254 13 view .LVU182
+ 664              		.loc 1 256 13 view .LVU182
  665 0086 FB73     		strb	r3, [r7, #15]
- 255:Core/Src/main.c **** 		txBuf[16] = (RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos));
- 666              		.loc 1 255 3 is_stmt 1 view .LVU183
- 667              		.loc 1 255 19 is_stmt 0 view .LVU184
+ 257:Core/Src/main.c **** 		txBuf[16] = (RCC->BDCR & (1<<RCC_BDCR_LSERDY_Pos));
+ 666              		.loc 1 257 3 is_stmt 1 view .LVU183
+ 667              		.loc 1 257 19 is_stmt 0 view .LVU184
  668 0088 1B4B     		ldr	r3, .L42
  669 008a D3F89030 		ldr	r3, [r3, #144]
- 670              		.loc 1 255 26 view .LVU185
+ 670              		.loc 1 257 26 view .LVU185
  671 008e 03F00203 		and	r3, r3, #2
- 672              		.loc 1 255 13 view .LVU186
+ 672              		.loc 1 257 13 view .LVU186
  673 0092 3B74     		strb	r3, [r7, #16]
- 256:Core/Src/main.c **** 		txBuf[31] = '\n';
- 674              		.loc 1 256 3 is_stmt 1 view .LVU187
- 675              		.loc 1 256 13 is_stmt 0 view .LVU188
+ 258:Core/Src/main.c **** 		txBuf[31] = '\n';
+ 674              		.loc 1 258 3 is_stmt 1 view .LVU187
+ 675              		.loc 1 258 13 is_stmt 0 view .LVU188
  676 0094 0A23     		movs	r3, #10
  677 0096 FB77     		strb	r3, [r7, #31]
- 257:Core/Src/main.c **** 		CDC_Transmit_FS(txBuf, 32);
- 678              		.loc 1 257 3 is_stmt 1 view .LVU189
+ 259:Core/Src/main.c **** 		CDC_Transmit_FS(txBuf, 32);
+ 678              		.loc 1 259 3 is_stmt 1 view .LVU189
  679 0098 2021     		movs	r1, #32
  680 009a 3846     		mov	r0, r7
  681 009c FFF7FEFF 		bl	CDC_Transmit_FS
  682              	.LVL17:
- 258:Core/Src/main.c **** 
- 259:Core/Src/main.c **** 
  260:Core/Src/main.c **** 
  261:Core/Src/main.c **** 
  262:Core/Src/main.c **** 
- 263:Core/Src/main.c **** 		// DELETE THIS EVENTUALLY
- 264:Core/Src/main.c **** 		HAL_Delay(250);
- 683              		.loc 1 264 3 view .LVU190
+ 263:Core/Src/main.c **** 
+ 264:Core/Src/main.c **** 
+ 265:Core/Src/main.c **** 		// DELETE THIS EVENTUALLY
+ 266:Core/Src/main.c **** 		HAL_Delay(250);
+ 683              		.loc 1 266 3 view .LVU190
  684 00a0 FA20     		movs	r0, #250
  685 00a2 FFF7FEFF 		bl	HAL_Delay
  686              	.LVL18:
- 265:Core/Src/main.c **** 		
- 266:Core/Src/main.c **** 
  267:Core/Src/main.c **** 		
  268:Core/Src/main.c **** 
- 269:Core/Src/main.c **** 		updateDisplayWithTime(hour, min);
- 687              		.loc 1 269 3 view .LVU191
+ 269:Core/Src/main.c **** 		
+ 270:Core/Src/main.c **** 
+ 271:Core/Src/main.c **** 		updateDisplayWithTime(hour, min);
+ 687              		.loc 1 271 3 view .LVU191
  688 00a6 2146     		mov	r1, r4
  689 00a8 2846     		mov	r0, r5
  690 00aa FFF7FEFF 		bl	updateDisplayWithTime
  691              	.LVL19:
- 270:Core/Src/main.c **** 		setDisplay();
- 692              		.loc 1 270 3 view .LVU192
+ 272:Core/Src/main.c **** 		setDisplay();
+ 692              		.loc 1 272 3 view .LVU192
  693 00ae FFF7FEFF 		bl	setDisplay
  694              	.LVL20:
  695              	.LBE6:
- 240:Core/Src/main.c **** 	{
- 696              		.loc 1 240 8 view .LVU193
+ 242:Core/Src/main.c **** 	{
+ 696              		.loc 1 242 8 view .LVU193
  697              	.L40:
- 240:Core/Src/main.c **** 	{
- 698              		.loc 1 240 2 view .LVU194
+ 242:Core/Src/main.c **** 	{
+ 698              		.loc 1 242 2 view .LVU194
  699              	.LBB9:
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 700              		.loc 1 242 3 view .LVU195
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 18
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 18
 
 
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 701              		.loc 1 242 18 is_stmt 0 view .LVU196
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 700              		.loc 1 244 3 view .LVU195
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 701              		.loc 1 244 18 is_stmt 0 view .LVU196
  702 00b2 184B     		ldr	r3, .L42+28
  703 00b4 1E68     		ldr	r6, [r3]
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 704              		.loc 1 242 50 view .LVU197
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 704              		.loc 1 244 50 view .LVU197
  705 00b6 06F00F06 		and	r6, r6, #15
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 706              		.loc 1 242 75 view .LVU198
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 706              		.loc 1 244 75 view .LVU198
  707 00ba 1A68     		ldr	r2, [r3]
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 708              		.loc 1 242 106 view .LVU199
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 708              		.loc 1 244 106 view .LVU199
  709 00bc C2F30212 		ubfx	r2, r2, #4, #3
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 710              		.loc 1 242 124 view .LVU200
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 710              		.loc 1 244 124 view .LVU200
  711 00c0 02EB8202 		add	r2, r2, r2, lsl #2
- 242:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
- 712              		.loc 1 242 68 view .LVU201
+ 244:Core/Src/main.c **** 		int min = ((RTC->TR & (0b1111<<RTC_TR_MNU_Pos)) >> RTC_TR_MNU_Pos) + ((RTC->TR & (0b111<<RTC_TR_M
+ 712              		.loc 1 244 68 view .LVU201
  713 00c4 06EB4206 		add	r6, r6, r2, lsl #1
  714              	.LVL21:
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 715              		.loc 1 243 3 is_stmt 1 view .LVU202
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 716              		.loc 1 243 18 is_stmt 0 view .LVU203
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 715              		.loc 1 245 3 is_stmt 1 view .LVU202
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 716              		.loc 1 245 18 is_stmt 0 view .LVU203
  717 00c8 1C68     		ldr	r4, [r3]
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 718              		.loc 1 243 51 view .LVU204
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 718              		.loc 1 245 51 view .LVU204
  719 00ca C4F30324 		ubfx	r4, r4, #8, #4
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 720              		.loc 1 243 77 view .LVU205
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 720              		.loc 1 245 77 view .LVU205
  721 00ce 1A68     		ldr	r2, [r3]
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 722              		.loc 1 243 109 view .LVU206
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 722              		.loc 1 245 109 view .LVU206
  723 00d0 C2F30232 		ubfx	r2, r2, #12, #3
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 724              		.loc 1 243 128 view .LVU207
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 724              		.loc 1 245 128 view .LVU207
  725 00d4 02EB8202 		add	r2, r2, r2, lsl #2
- 243:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
- 726              		.loc 1 243 70 view .LVU208
+ 245:Core/Src/main.c **** 		int hour = ((RTC->TR & (0b1111<<RTC_TR_HU_Pos)) >> RTC_TR_HU_Pos) + ((RTC->TR & (0b11<<RTC_TR_HT_
+ 726              		.loc 1 245 70 view .LVU208
  727 00d8 04EB4204 		add	r4, r4, r2, lsl #1
  728              	.LVL22:
- 244:Core/Src/main.c **** 
- 729              		.loc 1 244 3 is_stmt 1 view .LVU209
- 244:Core/Src/main.c **** 
- 730              		.loc 1 244 19 is_stmt 0 view .LVU210
+ 246:Core/Src/main.c **** 
+ 729              		.loc 1 246 3 is_stmt 1 view .LVU209
+ 246:Core/Src/main.c **** 
+ 730              		.loc 1 246 19 is_stmt 0 view .LVU210
  731 00dc 1D68     		ldr	r5, [r3]
- 244:Core/Src/main.c **** 
- 732              		.loc 1 244 51 view .LVU211
+ 246:Core/Src/main.c **** 
+ 732              		.loc 1 246 51 view .LVU211
  733 00de C5F30345 		ubfx	r5, r5, #16, #4
- 244:Core/Src/main.c **** 
- 734              		.loc 1 244 76 view .LVU212
+ 246:Core/Src/main.c **** 
+ 734              		.loc 1 246 76 view .LVU212
  735 00e2 1B68     		ldr	r3, [r3]
- 244:Core/Src/main.c **** 
- 736              		.loc 1 244 106 view .LVU213
+ 246:Core/Src/main.c **** 
+ 736              		.loc 1 246 106 view .LVU213
  737 00e4 C3F30153 		ubfx	r3, r3, #20, #2
- 244:Core/Src/main.c **** 
- 738              		.loc 1 244 124 view .LVU214
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 19
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 19
 
 
+ 246:Core/Src/main.c **** 
+ 738              		.loc 1 246 124 view .LVU214
  739 00e8 03EB8303 		add	r3, r3, r3, lsl #2
- 244:Core/Src/main.c **** 
- 740              		.loc 1 244 69 view .LVU215
+ 246:Core/Src/main.c **** 
+ 740              		.loc 1 246 69 view .LVU215
  741 00ec 05EB4305 		add	r5, r5, r3, lsl #1
  742              	.LVL23:
- 246:Core/Src/main.c **** 
- 743              		.loc 1 246 3 is_stmt 1 view .LVU216
+ 248:Core/Src/main.c **** 
+ 743              		.loc 1 248 3 is_stmt 1 view .LVU216
  744 00f0 FFF7FEFF 		bl	checkSetTime
  745              	.LVL24:
- 248:Core/Src/main.c **** 		{
- 746              		.loc 1 248 3 view .LVU217
+ 250:Core/Src/main.c **** 		{
+ 746              		.loc 1 250 3 view .LVU217
  747              	.LBB8:
- 248:Core/Src/main.c **** 		{
- 748              		.loc 1 248 8 view .LVU218
- 248:Core/Src/main.c **** 		{
- 749              		.loc 1 248 12 is_stmt 0 view .LVU219
+ 250:Core/Src/main.c **** 		{
+ 748              		.loc 1 250 8 view .LVU218
+ 250:Core/Src/main.c **** 		{
+ 749              		.loc 1 250 12 is_stmt 0 view .LVU219
  750 00f4 0023     		movs	r3, #0
- 248:Core/Src/main.c **** 		{
- 751              		.loc 1 248 3 view .LVU220
+ 250:Core/Src/main.c **** 		{
+ 751              		.loc 1 250 3 view .LVU220
  752 00f6 A6E7     		b	.L38
  753              	.L43:
  754              		.align	2
@@ -1125,31 +1127,31 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  775              		.fpu fpv4-sp-d16
  777              	Error_Handler:
  778              	.LFB143:
- 271:Core/Src/main.c **** 
- 272:Core/Src/main.c **** 		//GPIOB->ODR = 0b0111000011111111;
- 273:Core/Src/main.c **** 		//HAL_Delay(5);
- 274:Core/Src/main.c **** 
- 275:Core/Src/main.c **** 		//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
- 276:Core/Src/main.c **** 		//returnHome();
- 277:Core/Src/main.c **** 	}
- 278:Core/Src/main.c **** 	
- 279:Core/Src/main.c **** }
- 280:Core/Src/main.c **** 
- 281:Core/Src/main.c **** void Error_Handler(void)
- 282:Core/Src/main.c **** {
- 779              		.loc 1 282 1 is_stmt 1 view -0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 20
+ 273:Core/Src/main.c **** 
+ 274:Core/Src/main.c **** 		//GPIOB->ODR = 0b0111000011111111;
+ 275:Core/Src/main.c **** 		//HAL_Delay(5);
+ 276:Core/Src/main.c **** 
+ 277:Core/Src/main.c **** 		//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
+ 278:Core/Src/main.c **** 		//returnHome();
+ 279:Core/Src/main.c **** 	}
+ 280:Core/Src/main.c **** 	
+ 281:Core/Src/main.c **** }
+ 282:Core/Src/main.c **** 
+ 283:Core/Src/main.c **** void Error_Handler(void)
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 20
 
 
+ 284:Core/Src/main.c **** {
+ 779              		.loc 1 284 1 is_stmt 1 view -0
  780              		.cfi_startproc
  781              		@ Volatile: function does not return.
  782              		@ args = 0, pretend = 0, frame = 0
  783              		@ frame_needed = 0, uses_anonymous_args = 0
  784              		@ link register save eliminated.
- 283:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
- 284:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
- 285:Core/Src/main.c ****   __disable_irq();
- 785              		.loc 1 285 3 view .LVU222
+ 285:Core/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
+ 286:Core/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
+ 287:Core/Src/main.c ****   __disable_irq();
+ 785              		.loc 1 287 3 view .LVU222
  786              	.LBB10:
  787              	.LBI10:
  788              		.file 2 "Drivers/CMSIS/Include/cmsis_gcc.h"
@@ -1196,11 +1198,11 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
   41:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __ASM                                  __asm
   42:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   43:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __INLINE
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 21
+
+
   44:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __INLINE                               inline
   45:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 21
-
-
   46:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __STATIC_INLINE
   47:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __STATIC_INLINE                        static inline
   48:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -1256,11 +1258,11 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
   98:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT32_WRITE { uint32_t v; };
   99:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic pop
  100:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __UNALIGNED_UINT32_WRITE(addr, val)    (void)((((struct T_UINT32_WRITE *)(void *)(addr))-
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 22
+
+
  101:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  102:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __UNALIGNED_UINT32_READ
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 22
-
-
  103:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
  104:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
  105:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
@@ -1316,11 +1318,11 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  155:Drivers/CMSIS/Include/cmsis_gcc.h ****   }
  156:Drivers/CMSIS/Include/cmsis_gcc.h ****  
  157:Drivers/CMSIS/Include/cmsis_gcc.h ****   for (__zero_table_t const* pTable = &__zero_table_start__; pTable < &__zero_table_end__; ++pTable
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 23
+
+
  158:Drivers/CMSIS/Include/cmsis_gcc.h ****     for(uint32_t i=0u; i<pTable->wlen; ++i) {
  159:Drivers/CMSIS/Include/cmsis_gcc.h ****       pTable->dest[i] = 0u;
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 23
-
-
  160:Drivers/CMSIS/Include/cmsis_gcc.h ****     }
  161:Drivers/CMSIS/Include/cmsis_gcc.h ****   }
  162:Drivers/CMSIS/Include/cmsis_gcc.h ****  
@@ -1376,23 +1378,23 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  791              		.loc 2 209 3 view .LVU224
  792              		.syntax unified
  793              	@ 209 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 24
+
+
  794 0000 72B6     		cpsid i
  795              	@ 0 "" 2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 24
-
-
  796              		.thumb
  797              		.syntax unified
  798              	.L45:
  799              	.LBE11:
  800              	.LBE10:
- 286:Core/Src/main.c ****   while (1)
- 801              		.loc 1 286 3 discriminator 1 view .LVU225
- 287:Core/Src/main.c ****   {
- 288:Core/Src/main.c ****   }
- 802              		.loc 1 288 3 discriminator 1 view .LVU226
- 286:Core/Src/main.c ****   while (1)
- 803              		.loc 1 286 9 discriminator 1 view .LVU227
+ 288:Core/Src/main.c ****   while (1)
+ 801              		.loc 1 288 3 discriminator 1 view .LVU225
+ 289:Core/Src/main.c ****   {
+ 290:Core/Src/main.c ****   }
+ 802              		.loc 1 290 3 discriminator 1 view .LVU226
+ 288:Core/Src/main.c ****   while (1)
+ 803              		.loc 1 288 9 discriminator 1 view .LVU227
  804 0002 FEE7     		b	.L45
  805              		.cfi_endproc
  806              	.LFE143:
@@ -1436,41 +1438,44 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 1
  841              		.file 9 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
  842              		.file 10 "Core/Inc/7Seg.h"
  843              		.file 11 "USB_Device/App/usb_device.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s 			page 25
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 25
+
+
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:18     .text.gpioB_Init:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:26     .text.gpioB_Init:00000000 gpioB_Init
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:50     .text.gpioB_Init:00000014 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:56     .text.gpioA_Init:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:63     .text.gpioA_Init:00000000 gpioA_Init
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:90     .text.gpioA_Init:0000001c $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:95     .text.mainRCCInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:102    .text.mainRCCInit:00000000 mainRCCInit
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:153    .text.mainRCCInit:00000040 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:160    .text.contrastInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:167    .text.contrastInit:00000000 contrastInit
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:201    .text.contrastInit:00000028 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:207    .text.rtcInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:214    .text.rtcInit:00000000 rtcInit
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:405    .text.rtcInit:0000011c $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:414    .text.checkSetTime:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:421    .text.checkSetTime:00000000 checkSetTime
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:542    .text.checkSetTime:00000078 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:547    .rodata.main.str1.4:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:551    .text.main:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:558    .text.main:00000000 main
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:756    .text.main:000000f8 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:770    .text.Error_Handler:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:777    .text.Error_Handler:00000000 Error_Handler
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:830    .data.txBuf:00000000 txBuf
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:816    .bss.rxBuf:00000000 rxBuf
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:823    .bss.usbHandler:00000000 usbHandler
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:812    .bss.rxBuf:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:819    .bss.usbHandler:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccGnZvzc.s:826    .data.txBuf:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:18     .text.gpioB_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:26     .text.gpioB_Init:00000000 gpioB_Init
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:50     .text.gpioB_Init:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:56     .text.gpioA_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:63     .text.gpioA_Init:00000000 gpioA_Init
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:90     .text.gpioA_Init:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:95     .text.mainRCCInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:102    .text.mainRCCInit:00000000 mainRCCInit
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:153    .text.mainRCCInit:00000040 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:160    .text.contrastInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:167    .text.contrastInit:00000000 contrastInit
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:201    .text.contrastInit:00000028 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:207    .text.rtcInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:214    .text.rtcInit:00000000 rtcInit
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:405    .text.rtcInit:0000011c $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:414    .text.checkSetTime:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:421    .text.checkSetTime:00000000 checkSetTime
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:542    .text.checkSetTime:00000078 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:547    .rodata.main.str1.4:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:551    .text.main:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:558    .text.main:00000000 main
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:756    .text.main:000000f8 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:770    .text.Error_Handler:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:777    .text.Error_Handler:00000000 Error_Handler
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:830    .data.txBuf:00000000 txBuf
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:816    .bss.rxBuf:00000000 rxBuf
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:823    .bss.usbHandler:00000000 usbHandler
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:812    .bss.rxBuf:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:819    .bss.usbHandler:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccLqMdKV.s:826    .data.txBuf:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Init
