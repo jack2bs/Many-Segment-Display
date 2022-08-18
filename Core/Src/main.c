@@ -124,6 +124,9 @@ void rtcInit(int sec, int min, int hour)
 
 	//RTC->DR |= ();
 
+	// Start by taking 64 clks out using calibration :)
+	RTC->CALR = (0b1000000<<RTC_CALR_CALM_Pos);
+
 	// Exit initialization mode
 	RTC->ICSR &= ~(1<<RTC_ICSR_INIT_Pos);
 	while ((RTC->ICSR & (1<<RTC_ICSR_INITF_Pos)));
@@ -237,7 +240,7 @@ int main(void)
 	//lcdPrintf("%0.2d:%0.2d:%0.2d     ", hour, min, sec);
 	//returnHome();
 
-	
+	int lastMin = -1;	
 
 	while (1)
 	{
@@ -265,11 +268,17 @@ int main(void)
 		// DELETE THIS EVENTUALLY
 		HAL_Delay(250);
 		
-
+		
 		
 
 		updateDisplayWithTime(hour, min);
 		setDisplay();
+
+		if (lastMin != min)
+		{
+			lastMin = min;
+			setDisplayForce();
+		}
 
 		//GPIOB->ODR = 0b0111000011111111;
 		//HAL_Delay(5);

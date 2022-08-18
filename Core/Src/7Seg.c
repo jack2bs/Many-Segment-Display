@@ -167,7 +167,7 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
     GPIOB->ODR = pB;
 
-    HAL_Delay(4);
+    HAL_Delay(1);
 
     pOut |= (0b0000111000000000);
     //pA = pOut & (0b1110011111101111);
@@ -175,7 +175,7 @@ void setDisplayCell(int row, int col)
 	//GPIOA->ODR = pA;
 	GPIOB->ODR = pB;
 
-    HAL_Delay(4);
+    HAL_Delay(1);
 }
 
 void setDisplayForce()
