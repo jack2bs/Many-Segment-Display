@@ -125,7 +125,7 @@ void rtcInit(int sec, int min, int hour)
 	//RTC->DR |= ();
 
 	// Start by taking 64 clks out using calibration :)
-	RTC->CALR = (0b1000000<<RTC_CALR_CALM_Pos);
+	RTC->CALR = (0b111100<<RTC_CALR_CALM_Pos);
 
 	// Exit initialization mode
 	RTC->ICSR &= ~(1<<RTC_ICSR_INIT_Pos);
