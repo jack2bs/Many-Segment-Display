@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** /** @addtogroup STM32G4xx_HAL_Driver
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   * @{
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 2
 
 
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   * @retval None
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   */
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** void HAL_PWR_DeInit(void)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 3
 
 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** {
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
   66              		@ link register save eliminated.
  107:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   SET_BIT(PWR->CR1, PWR_CR1_DBP);
   67              		.loc 1 107 3 view .LVU5
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 4
 
 
   68 0000 024A     		ldr	r2, .L5
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  114              		.thumb
  115              		.thumb_func
  116              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 5
 
 
  118              	HAL_PWR_ConfigPVD:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****       (+) Standby mode with SRAM2: all clocks are stopped except LSI and LSE, SRAM2 content preserv
  171:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****       (+) Standby mode without SRAM2: all clocks are stopped except LSI and LSE, main and low power
  172:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****       (+) Shutdown mode: all clocks are stopped except LSE, main and low power regulators off.
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 6
 
 
  173:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
  228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****        [..]
  229:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****           When exiting Stop 0 and Stop 1 modes, the MCU is either in Run mode or in Low-power Run m
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 7
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 7
 
 
  230:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****           depending on the LPR bit setting.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****         (++) To wake up from the Stop mode with an RTC alarm event, it is necessary to
  285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****              configure the RTC to generate the RTC alarm using the HAL_RTC_SetAlarm_IT() function.
  286:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 8
 
 
  287:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****         (++) To wake up from the Stop mode with an RTC Tamper or time stamp event, it
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  141 0018 1A68     		ldr	r2, [r3]
  142 001a 22F48032 		bic	r2, r2, #65536
  143 001e 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 9
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 9
 
 
  321:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   __HAL_PWR_PVD_EXTI_DISABLE_FALLING_EDGE();
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  181 005a 04D0     		beq	.L13
  338:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   {
  339:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****     __HAL_PWR_PVD_EXTI_ENABLE_RISING_EDGE();
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 10
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 10
 
 
  182              		.loc 1 339 5 is_stmt 1 view .LVU29
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  354:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   */
  355:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** void HAL_PWR_EnablePVD(void)
  356:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 11
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 11
 
 
  224              		.loc 1 356 1 is_stmt 1 view -0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  269              		.cfi_endproc
  270              	.LFE137:
  272              		.section	.text.HAL_PWR_EnableWakeUpPin,"ax",%progbits
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 12
 
 
  273              		.align	1
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   SET_BIT(PWR->CR3, (PWR_CR3_EWUP & WakeUpPinPolarity));
  298              		.loc 1 398 3 is_stmt 1 view .LVU47
  299 0012 9368     		ldr	r3, [r2, #8]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 13
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 13
 
 
  300 0014 1943     		orrs	r1, r1, r3
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  339              		.align	2
  340              	.L27:
  341 0010 00700040 		.word	1073770496
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 14
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 14
 
 
  342              		.cfi_endproc
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  367              		.loc 1 446 3 view .LVU57
  447:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
  448:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   /* Set Regulator parameter */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 15
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 15
 
 
  449:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   if (Regulator == PWR_MAINREGULATOR_ON)
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  390              		.syntax unified
  391              	@ 480 "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" 1
  392 001e 40BF     		sev
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 16
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 16
 
 
  393              	@ 0 "" 2
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  433 003c 30BF     		wfi
  434              	@ 0 "" 2
  435              		.thumb
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 17
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 17
 
 
  436              		.syntax unified
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  459              		@ args = 0, pretend = 0, frame = 0
  460              		@ frame_needed = 0, uses_anonymous_args = 0
  461              		.loc 1 518 1 is_stmt 0 view .LVU80
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 18
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 18
 
 
  462 0000 08B5     		push	{r3, lr}
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  531:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** 
  532:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c **** /**
  533:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   * @brief Enter Standby mode.
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 19
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 19
 
 
  534:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   * @note  In Standby mode, the PLL, the HSI and the HSE oscillators are switched
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  526              		.syntax unified
  527 001a 7047     		bx	lr
  528              	.L46:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 20
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 20
 
 
  529              		.align	2
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  570              		.thumb_func
  571              		.fpu fpv4-sp-d16
  573              	HAL_PWR_DisableSleepOnExit:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 21
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 21
 
 
  574              	.LFB144:
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  606              		@ args = 0, pretend = 0, frame = 0
  607              		@ frame_needed = 0, uses_anonymous_args = 0
  608              		@ link register save eliminated.
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 22
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 22
 
 
  605:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c ****   /* Set SEVONPEND bit of Cortex System Control Register */
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  649              		.cfi_endproc
  650              	.LFE146:
  652              		.section	.text.HAL_PWR_PVDCallback,"ax",%progbits
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 23
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 23
 
 
  653              		.align	1
@@ -1362,57 +1362,57 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 1
  678              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h"
  679              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h"
  680              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\cciSP17F.s 			page 24
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_pwr.c
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:18     .text.HAL_PWR_DeInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:26     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:48     .text.HAL_PWR_DeInit:00000014 $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:53     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:60     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:77     .text.HAL_PWR_EnableBkUpAccess:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:82     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:89     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:106    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:111    .text.HAL_PWR_ConfigPVD:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:118    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:209    .text.HAL_PWR_ConfigPVD:0000007c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:215    .text.HAL_PWR_EnablePVD:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:222    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:239    .text.HAL_PWR_EnablePVD:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:244    .text.HAL_PWR_DisablePVD:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:251    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:268    .text.HAL_PWR_DisablePVD:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:273    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:280    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:307    .text.HAL_PWR_EnableWakeUpPin:0000001c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:312    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:319    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:341    .text.HAL_PWR_DisableWakeUpPin:00000010 $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:346    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:353    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:441    .text.HAL_PWR_EnterSLEEPMode:00000040 $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:447    .text.HAL_PWR_EnterSTOPMode:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:454    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:494    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:501    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:531    .text.HAL_PWR_EnterSTANDBYMode:0000001c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:537    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:544    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:561    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:566    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:573    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:590    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:595    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:602    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:619    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:624    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:631    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:648    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:653    .text.HAL_PWR_PVDCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\cciSP17F.s:660    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:18     .text.HAL_PWR_DeInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:26     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:48     .text.HAL_PWR_DeInit:00000014 $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:53     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:60     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:77     .text.HAL_PWR_EnableBkUpAccess:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:82     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:89     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:106    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:111    .text.HAL_PWR_ConfigPVD:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:118    .text.HAL_PWR_ConfigPVD:00000000 HAL_PWR_ConfigPVD
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:209    .text.HAL_PWR_ConfigPVD:0000007c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:215    .text.HAL_PWR_EnablePVD:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:222    .text.HAL_PWR_EnablePVD:00000000 HAL_PWR_EnablePVD
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:239    .text.HAL_PWR_EnablePVD:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:244    .text.HAL_PWR_DisablePVD:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:251    .text.HAL_PWR_DisablePVD:00000000 HAL_PWR_DisablePVD
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:268    .text.HAL_PWR_DisablePVD:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:273    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:280    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:307    .text.HAL_PWR_EnableWakeUpPin:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:312    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:319    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:341    .text.HAL_PWR_DisableWakeUpPin:00000010 $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:346    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:353    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:441    .text.HAL_PWR_EnterSLEEPMode:00000040 $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:447    .text.HAL_PWR_EnterSTOPMode:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:454    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:494    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:501    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:531    .text.HAL_PWR_EnterSTANDBYMode:0000001c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:537    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:544    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:561    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:566    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:573    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:590    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:595    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:602    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:619    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:624    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:631    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:648    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:653    .text.HAL_PWR_PVDCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccJvjMls.s:660    .text.HAL_PWR_PVDCallback:00000000 HAL_PWR_PVDCallback
 
 UNDEFINED SYMBOLS
 HAL_PWREx_DisableLowPowerRunMode

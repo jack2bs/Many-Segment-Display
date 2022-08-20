@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
   27:Core/Src/7Seg.c **** 	{NONE, TOP_O		, TOP_O	  , B_SHAPE},
   28:Core/Src/7Seg.c **** 	{NONE	, B_R_CORNER, BOTTOM_O, P_SHAPE},
   29:Core/Src/7Seg.c **** 	{NONE	, T_R_CORNER, TOP_O	  , B_SHAPE},
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 2
 
 
   30:Core/Src/7Seg.c **** 	{NONE, BOTTOM_O	, BOTTOM_O, P_SHAPE}
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
   84:Core/Src/7Seg.c **** 	{ALL_SEVEN , NONE	, NONE   , ALL_SEVEN},
   85:Core/Src/7Seg.c **** 	{ALL_SEVEN , NONE   , NONE   , ALL_SEVEN},
   86:Core/Src/7Seg.c **** 	{Q_SHAPE   , B_SHAPE, D_SHAPE, P_SHAPE  }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 3
 
 
   87:Core/Src/7Seg.c **** };
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
   54              		.global	updateDisplayWithTime
   55              		.syntax unified
   56              		.thumb
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 4
 
 
   57              		.thumb_func
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  103 0020 3A46     		mov	r2, r7
  104 0022 2146     		mov	r1, r4
  105 0024 53F82000 		ldr	r0, [r3, r0, lsl #2]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 5
 
 
  106              	.LVL6:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  130:Core/Src/7Seg.c ****     {
  131:Core/Src/7Seg.c ****         for (int j = 0; j < 4; j++)
  132:Core/Src/7Seg.c ****         {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 6
 
 
  133:Core/Src/7Seg.c ****             int data = (*numDraws[hr % 10])[j][i - 4];
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  192 0076 01DC     		bgt	.L23
  193              	.LBB9:
  131:Core/Src/7Seg.c ****         {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 7
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 7
 
 
  194              		.loc 1 131 18 view .LVU45
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  147:Core/Src/7Seg.c ****             int data = (*numDraws[min / 10])[j][i - 9];
  236              		.loc 1 147 13 is_stmt 1 discriminator 3 view .LVU54
  237              		.loc 1 147 39 is_stmt 0 discriminator 3 view .LVU55
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 8
 
 
  238 00a8 1E4A     		ldr	r2, .L26
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  282 00dc F8E7     		b	.L13
  283              	.L24:
  284              	.LBE13:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 9
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 9
 
 
  285              	.LBE10:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  153:Core/Src/7Seg.c ****         {
  328              		.loc 1 153 9 is_stmt 0 discriminator 1 view .LVU84
  329 0112 032C     		cmp	r4, #3
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 10
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 10
 
 
  330 0114 E5DD     		ble	.L15
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  374              		@ frame_needed = 0, uses_anonymous_args = 0
  375              		.loc 1 163 1 is_stmt 0 view .LVU93
  376 0000 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 11
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 11
 
 
  377              		.cfi_def_cfa_offset 16
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  420              	.LVL43:
  421              		.loc 1 174 5 view .LVU110
  422 0030 24F48074 		bic	r4, r4, #256
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 12
 
 
  423 0034 A4B2     		uxth	r4, r4
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  470 0002 0025     		movs	r5, #0
  471              		.loc 1 183 5 view .LVU120
  472 0004 14E0     		b	.L33
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 13
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 13
 
 
  473              	.LVL48:
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  194:Core/Src/7Seg.c ****     return;
  195:Core/Src/7Seg.c **** }
  513              		.loc 1 195 1 view .LVU134
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 14
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 14
 
 
  514 0034 70BD     		pop	{r4, r5, r6, pc}
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  200:Core/Src/7Seg.c ****     {
  201:Core/Src/7Seg.c ****         //for (int j = 0; j < 4; j++)
  202:Core/Src/7Seg.c ****         //{
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 15
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 15
 
 
  203:Core/Src/7Seg.c ****             int r = secretOrder[1][i];
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  213:Core/Src/7Seg.c ****     // WORKAROUND THAT IS STUPID AND IM SORRY BUT IM TIRED AND IT WORKS CONSISTENTLY
  214:Core/Src/7Seg.c ****     setDisplayCell(2, 15);
  610              		.loc 1 214 5 is_stmt 1 view .LVU159
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 16
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 16
 
 
  611 004c 0F21     		movs	r1, #15
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  663 0018 FFFFFFFF 		.word	-1
  664 001c FFFFFFFF 		.word	-1
  665 0020 FFFFFFFF 		.word	-1
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 17
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 17
 
 
  666 0024 FFFFFFFF 		.word	-1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  720 00fc FFFFFFFF 		.word	-1
  721 0100 FFFFFFFF 		.word	-1
  722 0104 FFFFFFFF 		.word	-1
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 18
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 18
 
 
  723 0108 FFFFFFFF 		.word	-1
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  781 0088 58000000 		.word	88
  782 008c 50000000 		.word	80
  783 0090 68000000 		.word	104
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 19
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 19
 
 
  784 0094 60000000 		.word	96
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  842 0004 EF000000 		.word	239
  843 0008 0F000000 		.word	15
  844 000c 0F000000 		.word	15
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 20
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 20
 
 
  845 0010 00000000 		.word	0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  905 0004 EA000000 		.word	234
  906 0008 EF000000 		.word	239
  907 000c 00000000 		.word	0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 21
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 21
 
 
  908 0010 00000000 		.word	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  964 0098 08000000 		.word	8
  965 009c 01000000 		.word	1
  966 00a0 05000000 		.word	5
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 22
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 22
 
 
  967 00a4 0A000000 		.word	10
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  1021 017c 00000000 		.word	0
  1022 0180 00000000 		.word	0
  1023 0184 01000000 		.word	1
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 23
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 23
 
 
  1024 0188 01000000 		.word	1
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  1080 0034 EF000000 		.word	239
  1081 0038 00000000 		.word	0
  1082 003c 00000000 		.word	0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 24
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 24
 
 
  1083              		.section	.rodata.sixDraw,"a"
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  1143 0034 EF000000 		.word	239
  1144 0038 E2000000 		.word	226
  1145 003c E2000000 		.word	226
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 25
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 25
 
 
  1146              		.section	.rodata.zeroDraw,"a"
@@ -1466,56 +1466,56 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 1
  1170              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
  1171              		.file 4 "Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g441xx.h"
  1172              		.file 5 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s 			page 26
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 7Seg.c
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:18     .text.updateDisplayCell:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:26     .text.updateDisplayCell:00000000 updateDisplayCell
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:48     .text.updateDisplayCell:00000010 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:53     .text.updateDisplayWithTime:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:60     .text.updateDisplayWithTime:00000000 updateDisplayWithTime
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:355    .text.updateDisplayWithTime:00000124 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:361    .text.setDisplayCell:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:368    .text.setDisplayCell:00000000 setDisplayCell
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:439    .text.setDisplayCell:00000040 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:446    .text.setDisplayForce:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:453    .text.setDisplayForce:00000000 setDisplayForce
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:520    .text.setDisplayForce:00000038 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:527    .text.setDisplay:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:534    .text.setDisplay:00000000 setDisplay
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:623    .text.setDisplay:00000058 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:649    .bss.displayState:00000000 displayState
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:656    .data.lastDisplayState:00000000 lastDisplayState
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:925    .rodata.secretOrder:00000000 secretOrder
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:746    .rodata.displayAddresses:00000000 displayAddresses
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:730    .data.numDraws:00000000 numDraws
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1150   .rodata.zeroDraw:00000000 zeroDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:882    .rodata.nineDraw:00000000 nineDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:819    .rodata.eightDraw:00000000 eightDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1066   .rodata.sevenDraw:00000000 sevenDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1087   .rodata.sixDraw:00000000 sixDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:840    .rodata.fiveDraw:00000000 fiveDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:861    .rodata.fourDraw:00000000 fourDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1108   .rodata.threeDraw:00000000 threeDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1129   .rodata.twoDraw:00000000 twoDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:903    .rodata.oneDraw:00000000 oneDraw
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:645    .bss.displayState:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:652    .data.lastDisplayState:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:726    .data.numDraws:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:742    .rodata.displayAddresses:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:816    .rodata.eightDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:837    .rodata.fiveDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:858    .rodata.fourDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:879    .rodata.nineDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:900    .rodata.oneDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:921    .rodata.secretOrder:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1063   .rodata.sevenDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1084   .rodata.sixDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1105   .rodata.threeDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1126   .rodata.twoDraw:00000000 $d
-C:\Users\jack2\AppData\Local\Temp\ccrFOEtH.s:1147   .rodata.zeroDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:18     .text.updateDisplayCell:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:26     .text.updateDisplayCell:00000000 updateDisplayCell
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:48     .text.updateDisplayCell:00000010 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:53     .text.updateDisplayWithTime:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:60     .text.updateDisplayWithTime:00000000 updateDisplayWithTime
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:355    .text.updateDisplayWithTime:00000124 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:361    .text.setDisplayCell:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:368    .text.setDisplayCell:00000000 setDisplayCell
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:439    .text.setDisplayCell:00000040 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:446    .text.setDisplayForce:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:453    .text.setDisplayForce:00000000 setDisplayForce
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:520    .text.setDisplayForce:00000038 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:527    .text.setDisplay:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:534    .text.setDisplay:00000000 setDisplay
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:623    .text.setDisplay:00000058 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:649    .bss.displayState:00000000 displayState
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:656    .data.lastDisplayState:00000000 lastDisplayState
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:925    .rodata.secretOrder:00000000 secretOrder
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:746    .rodata.displayAddresses:00000000 displayAddresses
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:730    .data.numDraws:00000000 numDraws
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1150   .rodata.zeroDraw:00000000 zeroDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:882    .rodata.nineDraw:00000000 nineDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:819    .rodata.eightDraw:00000000 eightDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1066   .rodata.sevenDraw:00000000 sevenDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1087   .rodata.sixDraw:00000000 sixDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:840    .rodata.fiveDraw:00000000 fiveDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:861    .rodata.fourDraw:00000000 fourDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1108   .rodata.threeDraw:00000000 threeDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1129   .rodata.twoDraw:00000000 twoDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:903    .rodata.oneDraw:00000000 oneDraw
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:645    .bss.displayState:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:652    .data.lastDisplayState:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:726    .data.numDraws:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:742    .rodata.displayAddresses:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:816    .rodata.eightDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:837    .rodata.fiveDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:858    .rodata.fourDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:879    .rodata.nineDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:900    .rodata.oneDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:921    .rodata.secretOrder:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1063   .rodata.sevenDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1084   .rodata.sixDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1105   .rodata.threeDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1126   .rodata.twoDraw:00000000 $d
+C:\Users\jack2\AppData\Local\Temp\ccrSK6ca.s:1147   .rodata.zeroDraw:00000000 $d
 
 UNDEFINED SYMBOLS
 HAL_Delay

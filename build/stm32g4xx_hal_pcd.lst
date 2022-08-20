@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
   28:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****          (##) Enable the PCD/USB Low Level interface clock using
   29:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****               (+++) __HAL_RCC_USB_CLK_ENABLE(); For USB Device only FS peripheral
   30:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 2
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 2
 
 
   31:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****          (##) Initialize the related GPIO clocks
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
   85:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /* Private functions prototypes ----------------------------------------------*/
   86:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /** @defgroup PCD_Private_Functions PCD Private Functions
   87:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @{
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 3
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 3
 
 
   88:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  142:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->SetupStageCallback = HAL_PCD_SetupStageCallback;
  143:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->ResetCallback = HAL_PCD_ResetCallback;
  144:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->SuspendCallback = HAL_PCD_SuspendCallback;
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 4
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 4
 
 
  145:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->ResumeCallback = HAL_PCD_ResumeCallback;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  199:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   (void)USB_DevInit(hpcd->Instance, hpcd->Init);
  200:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  201:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   hpcd->USB_Address = 0U;
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 5
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 5
 
 
  202:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   hpcd->State = HAL_PCD_STATE_READY;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  256:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   */
  257:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** __weak void HAL_PCD_MspInit(PCD_HandleTypeDef *hpcd)
  258:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 6
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 6
 
 
  259:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* Prevent unused argument(s) compilation warning */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  313:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* Process locked */
  314:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_LOCK(hpcd);
  315:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 7
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 7
 
 
  316:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   if (hpcd->State == HAL_PCD_STATE_READY)
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  370:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         break;
  371:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  372:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       case HAL_PCD_MSPDEINIT_CB_ID :
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 8
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 8
 
 
  373:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         hpcd->MspDeInitCallback = pCallback;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  427:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         hpcd->SOFCallback = HAL_PCD_SOFCallback;
  428:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         break;
  429:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 9
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 9
 
 
  430:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       case HAL_PCD_SETUPSTAGE_CB_ID :
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  484:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         /* Update the error code */
  485:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         hpcd->ErrorCode |= HAL_PCD_ERROR_INVALID_CALLBACK;
  486:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 10
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 10
 
 
  487:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         /* Return error status */
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  541:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  542:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* Release Lock */
  543:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_UNLOCK(hpcd);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 11
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 11
 
 
  544:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  598:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  599:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  600:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* Process locked */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 12
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 12
 
 
  601:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_LOCK(hpcd);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  655:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @brief  Register USB PCD Iso OUT incomplete Callback
  656:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   *         To be used instead of the weak HAL_PCD_ISOOUTIncompleteCallback() predefined callback
  657:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @param  hpcd PCD handle
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 13
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 13
 
 
  658:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @param  pCallback pointer to the USB PCD Iso OUT incomplete Callback function
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  712:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  713:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   else
  714:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 14
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 14
 
 
  715:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     /* Update the error code */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  769:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  770:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /**
  771:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @brief  Unregister the USB PCD Iso IN incomplete Callback
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 15
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 15
 
 
  772:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   *         USB PCD Iso IN incomplete Callback is redirected to the weak HAL_PCD_ISOINIncompleteCal
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  826:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->BCDCallback = pCallback;
  827:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  828:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   else
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 16
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 16
 
 
  829:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  883:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** {
  884:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   HAL_StatusTypeDef status = HAL_OK;
  885:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 17
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 17
 
 
  886:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   if (pCallback == NULL)
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  940:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  941:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  942:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* Release Lock */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 18
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 18
 
 
  943:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_UNLOCK(hpcd);
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  997:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  998:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  999:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /**
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 19
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 19
 
 
 1000:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @brief  This function handles PCD interrupt request.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1054:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     HAL_PCD_ResumeCallback(hpcd);
 1055:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
 1056:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 20
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 20
 
 
 1057:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     __HAL_PCD_CLEAR_FLAG(hpcd, USB_ISTR_WKUP);
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1111:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #else
 1112:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     HAL_PCD_SOFCallback(hpcd);
 1113:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 21
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 21
 
 
 1114:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1168:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****             the HAL_PCD_SetupStageCallback could be implemented in the user file
 1169:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****    */
 1170:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 22
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 22
 
 
 1171:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1225:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   UNUSED(hpcd);
 1226:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1227:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   /* NOTE : This function should not be modified, when the callback is needed,
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 23
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 23
 
 
 1228:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****             the HAL_PCD_ResumeCallback could be implemented in the user file
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1282:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @brief  Disconnection event callback.
 1283:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @param  hpcd PCD handle
 1284:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @retval None
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 24
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 24
 
 
 1285:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   */
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1339:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1340:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   return HAL_OK;
 1341:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 25
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 25
 
 
 1342:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1396:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
 1397:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_LOCK(hpcd);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 26
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 26
 
 
 1399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   (void)USB_ActivateEndpoint(hpcd->Instance, ep);
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1453:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   ep->num = ep_addr & EP_ADDR_MSK;
 1454:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1455:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   if ((ep_addr & EP_ADDR_MSK) == 0U)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 27
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 27
 
 
 1456:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1510:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** }
 1511:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1512:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /**
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 28
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 28
 
 
 1513:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   * @brief  Set a STALL condition over an endpoint
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1567:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     ep = &hpcd->IN_ep[ep_addr & EP_ADDR_MSK];
 1568:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     ep->is_in = 1U;
 1569:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 29
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 29
 
 
 1570:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   else
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1624:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1625:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /** @defgroup PCD_Exported_Functions_Group4 Peripheral State functions
 1626:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   *  @brief   Peripheral State functions
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 30
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 30
 
 
 1627:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   *
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1681:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     epindex = (uint8_t)(wIstr & USB_ISTR_EP_ID);
 1682:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1683:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     if (epindex == 0U)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 31
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 31
 
 
 1684:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     {
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1738:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
 1739:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         }
 1740:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         else if ((wEPVal & USB_EP_CTR_RX) != 0U)
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 32
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 32
 
 
 1741:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1795:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           if (ep->type == EP_TYPE_BULK)
 1796:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           {
 1797:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****             count = HAL_PCD_EP_DB_Receive(hpcd, ep, wEPVal);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 33
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 33
 
 
 1798:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           }
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1852:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
 1853:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         /* Manage Bulk Single Buffer Transaction */
 1854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         if ((ep->type == EP_TYPE_BULK) && ((wEPVal & USB_EP_KIND) == 0U))
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 34
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 34
 
 
 1855:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
   29              		.loc 1 1908 1 view -0
   30              		.cfi_startproc
   31              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 35
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 35
 
 
   32              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
   68              		.loc 1 1926 5 is_stmt 1 view .LVU13
   69              		.loc 1 1926 11 is_stmt 0 view .LVU14
   70 002e 8B69     		ldr	r3, [r1, #24]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 36
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 36
 
 
   71              		.loc 1 1926 8 view .LVU15
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  116              	.LVL6:
  117              		.loc 1 1935 7 is_stmt 1 discriminator 1 view .LVU34
  118 006a 43F40043 		orr	r3, r3, #32768
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 37
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 37
 
 
  119              	.LVL7:
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1976:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   return count;
  133              		.loc 1 1976 3 is_stmt 1 view .LVU41
 1977:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 38
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 38
 
 
  134              		.loc 1 1977 1 is_stmt 0 view .LVU42
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  177 00b0 2FD3     		bcc	.L8
 1951:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     }
  178              		.loc 1 1951 7 is_stmt 1 view .LVU54
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 39
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 39
 
 
 1951:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1967:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     }
  217              		.loc 1 1967 7 is_stmt 1 discriminator 1 view .LVU71
 1967:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 40
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 40
 
 
  218              		.loc 1 1967 7 discriminator 1 view .LVU72
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  258 0110 B2E7     		b	.L7
  259              	.LVL25:
  260              	.L8:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 41
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 41
 
 
 1955:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  310 0002 6DD0     		beq	.L22
  123:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   uint8_t i;
  311              		.loc 1 123 1 view .LVU96
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 42
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 42
 
 
  312 0004 30B5     		push	{r4, r5, lr}
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  352              	.L19:
  177:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->IN_ep[i].num = i;
  353              		.loc 1 177 5 is_stmt 1 discriminator 3 view .LVU111
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 43
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 43
 
 
  177:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     hpcd->IN_ep[i].num = i;
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  391 0060 6068     		ldr	r0, [r4, #4]
  174:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
  392              		.loc 1 174 3 discriminator 1 view .LVU129
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 44
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 44
 
 
  393 0062 8342     		cmp	r3, r0
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  430 0096 DBB2     		uxtb	r3, r3
  431              	.LVL37:
  432              	.L20:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 45
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 45
 
 
  187:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  472 00d2 07B0     		add	sp, sp, #28
  473              		.cfi_remember_state
  474              		.cfi_def_cfa_offset 12
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 46
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 46
 
 
  475              		@ sp needed
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  524              		.section	.text.HAL_PCD_DeInit,"ax",%progbits
  525              		.align	1
  526              		.global	HAL_PCD_DeInit
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 47
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 47
 
 
  527              		.syntax unified
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  570 001a 38BD     		pop	{r3, r4, r5, pc}
  571              	.LVL49:
  572              	.L36:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 48
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 48
 
 
  244:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  618              		.loc 1 975 3 is_stmt 1 discriminator 2 view .LVU192
  619 000c 0123     		movs	r3, #1
  620 000e 80F8A832 		strb	r3, [r0, #680]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 49
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 49
 
 
  975:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_PCD_ENABLE(hpcd);
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  989:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_LOCK(hpcd);
  665              		.loc 1 989 1 is_stmt 1 view -0
  666              		.cfi_startproc
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 50
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 50
 
 
  667              		@ args = 0, pretend = 0, frame = 0
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  707              		.cfi_restore 14
  990:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_PCD_DISABLE(hpcd);
  708              		.loc 1 990 3 view .LVU220
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 51
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 51
 
 
  709 0026 0220     		movs	r0, #2
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  758 0000 7047     		bx	lr
  759              		.cfi_endproc
  760              	.LFE140:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 52
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 52
 
 
  762              		.section	.text.HAL_PCD_EP_DB_Transmit,"ax",%progbits
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  797 0012 B2F85030 		ldrh	r3, [r2, #80]
  798 0016 0978     		ldrb	r1, [r1]	@ zero_extendqisi2
  799              	.LVL68:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 53
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 53
 
 
  800              		.loc 1 1997 28 view .LVU239
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  841              	.LVL72:
  842              		.loc 1 2010 7 discriminator 1 view .LVU256
  843 0048 0344     		add	r3, r3, r0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 54
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 54
 
 
  844              	.LVL73:
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  897 0086 92B2     		uxth	r2, r2
  898 0088 22F4F842 		bic	r2, r2, #31744
  899 008c 92B2     		uxth	r2, r2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 55
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 55
 
 
  900 008e A3F80624 		strh	r2, [r3, #1030]	@ movhi
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  943 00d0 30E0     		b	.L62
  944              	.LVL83:
  945              	.L55:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 56
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 56
 
 
  946              		.loc 1 2022 9 discriminator 4 view .LVU292
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  987 00fc 2178     		ldrb	r1, [r4]	@ zero_extendqisi2
  988 00fe 03EBC103 		add	r3, r3, r1, lsl #3
  989              	.LVL89:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 57
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 57
 
 
 2011:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1030 0130 012B     		cmp	r3, #1
  1031 0132 12D0     		beq	.L91
  1032              	.LVL93:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 58
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 58
 
 
  1033              	.L62:
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 2088:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       hpcd->DataInStageCallback(hpcd, ep->num);
 2089:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #else
 2090:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       HAL_PCD_DataInStageCallback(hpcd, ep->num);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 59
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 59
 
 
 2091:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** #endif /* USE_HAL_PCD_REGISTER_CALLBACKS */
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1037              		.loc 1 2141 3 view .LVU326
  1038 0134 2A68     		ldr	r2, [r5]
  1039 0136 2178     		ldrb	r1, [r4]	@ zero_extendqisi2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 60
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 60
 
 
  1040 0138 32F82130 		ldrh	r3, [r2, r1, lsl #2]
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 2042:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           ep->xfer_len_db -= len;
  1083              		.loc 1 2042 11 is_stmt 1 view .LVU344
  1084              	.LVL98:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 61
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 61
 
 
 2043:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         }
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1124 019e 6FEA4141 		mvn	r1, r1, lsl #17
  1125 01a2 6FEA5141 		mvn	r1, r1, lsr #17
  1126 01a6 89B2     		uxth	r1, r1
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 62
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 62
 
 
  1127 01a8 A2F80214 		strh	r1, [r2, #1026]	@ movhi
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 2059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  1167              		.loc 1 2059 9 discriminator 6 view .LVU374
 2059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 63
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 63
 
 
  1168              		.loc 1 2059 9 discriminator 6 view .LVU375
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1210              	.LBE19:
 2059:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  1211              		.loc 1 2059 9 is_stmt 1 discriminator 2 view .LVU388
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 64
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 64
 
 
  1212 01f8 012A     		cmp	r2, #1
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1253 0222 0268     		ldr	r2, [r0]
  1254              	.LVL122:
 2069:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 65
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 65
 
 
  1255              		.loc 1 2069 28 view .LVU402
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1294 0250 2A68     		ldr	r2, [r5]
  1295              	.LVL126:
 2083:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       PCD_SET_EP_DBUF1_CNT(hpcd->Instance, ep->num, ep->is_in, 0U);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 66
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 66
 
 
  1296              		.loc 1 2083 7 discriminator 1 view .LVU418
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1335              		.loc 1 2084 7 discriminator 18 view .LVU433
  1336 0280 6278     		ldrb	r2, [r4, #1]	@ zero_extendqisi2
  1337 0282 002A     		cmp	r2, #0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 67
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 67
 
 
  1338 0284 3ED1     		bne	.L78
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1379              	.LVL136:
 2094:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       {
  1380              		.loc 1 2094 7 discriminator 18 view .LVU447
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 68
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 68
 
 
 2094:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       {
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1420              		.loc 1 2083 7 discriminator 16 view .LVU462
  1421 02f0 2A68     		ldr	r2, [r5]
  1422              	.LVL140:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 69
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 69
 
 
 2083:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       PCD_SET_EP_DBUF1_CNT(hpcd->Instance, ep->num, ep->is_in, 0U);
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1464 0322 0DD1     		bne	.L80
 2104:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       }
  1465              		.loc 1 2104 9 is_stmt 1 discriminator 4 view .LVU476
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 70
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 70
 
 
 2104:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       }
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1503 0352 1344     		add	r3, r3, r2
  1504 0354 E361     		str	r3, [r4, #28]
 2114:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 71
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 71
 
 
  1505              		.loc 1 2114 9 is_stmt 1 view .LVU494
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1543              	.LVL155:
 2132:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  1544              		.loc 1 2132 9 is_stmt 0 discriminator 1 view .LVU511
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 72
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 72
 
 
  1545 0374 02EBC102 		add	r2, r2, r1, lsl #3
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1586              		.loc 1 2126 11 is_stmt 1 view .LVU524
 2127:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           ep->xfer_fill_db = 0;
  1587              		.loc 1 2127 11 view .LVU525
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 73
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 73
 
 
 2127:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           ep->xfer_fill_db = 0;
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1628              		.loc 1 2132 9 discriminator 7 view .LVU539
  1629 03ce 5909     		lsrs	r1, r3, #5
  1630              	.LVL167:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 74
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 74
 
 
 2132:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 2132:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  1674              		.loc 1 2132 9 is_stmt 1 discriminator 16 view .LVU551
  1675 03fa B1F85020 		ldrh	r2, [r1, #80]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 75
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 75
 
 
  1676 03fe 11FA82F2 		uxtah	r2, r1, r2
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1727 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
  1728              		.cfi_def_cfa_offset 24
  1729              		.cfi_offset 4, -24
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 76
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 76
 
 
  1730              		.cfi_offset 5, -20
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1769 0022 B1F85030 		ldrh	r3, [r1, #80]
  1770 0026 95F82820 		ldrb	r2, [r5, #40]	@ zero_extendqisi2
  1771 002a D200     		lsls	r2, r2, #3
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 77
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 77
 
 
  1772 002c 12FA83F3 		uxtah	r3, r2, r3
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1811 0070 5CE1     		b	.L96
  1812              	.LVL186:
  1813              	.L125:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 78
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 78
 
 
 1725:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1856              	.LBB39:
  1857              	.LBB40:
 1764:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****             PCD_SET_EP_RX_STATUS(hpcd->Instance, PCD_ENDP0, USB_EP_RX_VALID);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 79
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 79
 
 
  1858              		.loc 1 1764 13 discriminator 2 view .LVU601
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1900              	.LBE40:
  1901              	.LBE39:
 1774:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 80
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 80
 
 
  1902              		.loc 1 1774 7 is_stmt 1 view .LVU614
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1942              		.loc 1 1851 9 is_stmt 1 view .LVU628
 1854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
  1943              		.loc 1 1854 9 view .LVU629
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 81
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 81
 
 
 1854:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  1984              		.loc 1 1869 17 is_stmt 0 view .LVU643
  1985 016e 04EB8402 		add	r2, r4, r4, lsl #2
  1986 0172 05EBC202 		add	r2, r5, r2, lsl #3
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 82
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 82
 
 
  1987 0176 126C     		ldr	r2, [r2, #64]
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2027 01aa 04EB8403 		add	r3, r4, r4, lsl #2
  2028 01ae 05EBC303 		add	r3, r5, r3, lsl #3
  2029 01b2 93F87431 		ldrb	r3, [r3, #372]	@ zero_extendqisi2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 83
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 83
 
 
 1783:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2070 0204 05EBC303 		add	r3, r5, r3, lsl #3
  2071 0208 D3F87831 		ldr	r3, [r3, #376]
 1830:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****         {
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 84
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 84
 
 
  2072              		.loc 1 1830 34 discriminator 1 view .LVU672
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2116 0260 23F4E043 		bic	r3, r3, #28672
  2117 0264 23F07003 		bic	r3, r3, #112
  2118              	.LVL216:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 85
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 85
 
 
 1802:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2159 02b2 94E7     		b	.L109
  2160              	.LVL220:
  2161              	.L122:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 86
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 86
 
 
 1797:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           }
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2205 02fa FAE6     		b	.L107
  2206              	.LVL227:
  2207              	.L115:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 87
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 87
 
 
 1865:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****           }
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1676:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
  2248              		.loc 1 1676 25 view .LVU722
  2249 032e B0F84430 		ldrh	r3, [r0, #68]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 88
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 88
 
 
 1676:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2286              		.loc 1 1742 11 is_stmt 1 view .LVU740
  2287              	.LBB45:
 1742:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 89
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 89
 
 
  2288              		.loc 1 1742 11 view .LVU741
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1752:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  2328              		.loc 1 1752 32 is_stmt 0 view .LVU756
  2329 039e D5F88421 		ldr	r2, [r5, #388]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 90
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 90
 
 
 1752:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1764:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****             PCD_SET_EP_RX_STATUS(hpcd->Instance, PCD_ENDP0, USB_EP_RX_VALID);
  2370              		.loc 1 1764 13 discriminator 1 view .LVU771
  2371 03e0 B3F80624 		ldrh	r2, [r3, #1030]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 91
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 91
 
 
  2372 03e4 6FEA4242 		mvn	r2, r2, lsl #17
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2411              		.loc 1 1895 3 is_stmt 1 view .LVU786
 1896:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  2412              		.loc 1 1896 1 is_stmt 0 view .LVU787
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 92
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 92
 
 
  2413 0410 0020     		movs	r0, #0
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2465              		.weak	HAL_PCD_SuspendCallback
  2466              		.syntax unified
  2467              		.thumb
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 93
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 93
 
 
  2468              		.thumb_func
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2520              		@ args = 0, pretend = 0, frame = 0
  2521              		@ frame_needed = 0, uses_anonymous_args = 0
  2522              		@ link register save eliminated.
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 94
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 94
 
 
 1241:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   UNUSED(epnum);
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2571 0000 7047     		bx	lr
  2572              		.cfi_endproc
  2573              	.LFE148:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 95
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 95
 
 
  2575              		.section	.text.HAL_PCD_DisconnectCallback,"ax",%progbits
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2624 000c 0123     		movs	r3, #1
  2625 000e 80F8A832 		strb	r3, [r0, #680]
 1322:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   (void)USB_DevConnect(hpcd->Instance);
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 96
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 96
 
 
  2626              		.loc 1 1322 3 discriminator 2 view .LVU820
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2670              		.loc 1 1336 3 view .LVU832
 1336:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   (void)USB_DevDisconnect(hpcd->Instance);
  2671              		.loc 1 1336 3 view .LVU833
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 97
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 97
 
 
  2672 0000 90F8A832 		ldrb	r3, [r0, #680]	@ zero_extendqisi2
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2714              		.align	1
  2715              		.global	HAL_PCD_SetAddress
  2716              		.syntax unified
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 98
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 98
 
 
  2717              		.thumb
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1356:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** }
  2758              		.loc 1 1356 3 discriminator 2 view .LVU861
 1357:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** /**
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 99
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 99
 
 
  2759              		.loc 1 1357 1 is_stmt 0 discriminator 2 view .LVU862
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2806              		.loc 1 1013 3 is_stmt 1 view .LVU871
 1013:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
  2807              		.loc 1 1013 7 is_stmt 0 view .LVU872
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 100
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 100
 
 
  2808 0012 2068     		ldr	r0, [r4]
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2851              	.LVL278:
 1036:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
  2852              		.loc 1 1036 6 view .LVU884
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 101
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 101
 
 
  2853 0062 10F4805F 		tst	r0, #4096
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2894 00ac 2068     		ldr	r0, [r4]
  2895 00ae FFF7FEFF 		bl	USB_ReadInterrupts
  2896              	.LVL280:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 102
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 102
 
 
 1060:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   {
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2937 00fa A2F84030 		strh	r3, [r2, #64]	@ movhi
 1087:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       hpcd->BESL = ((uint32_t)hpcd->Instance->LPMCSR & USB_LPMCSR_BESL) >> 2;
  2938              		.loc 1 1087 7 is_stmt 1 view .LVU912
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 103
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 103
 
 
 1087:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****       hpcd->BESL = ((uint32_t)hpcd->Instance->LPMCSR & USB_LPMCSR_BESL) >> 2;
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  2979 0140 9BB2     		uxth	r3, r3
  2980 0142 A2F84430 		strh	r3, [r2, #68]	@ movhi
  2981              	.L155:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 104
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 104
 
 
 1121:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3024 0180 2268     		ldr	r2, [r4]
 1063:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
  3025              		.loc 1 1063 26 view .LVU939
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 105
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 105
 
 
  3026 0182 B2F84030 		ldrh	r3, [r2, #64]
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3073              		.align	1
  3074              		.global	HAL_PCD_EP_Open
  3075              		.syntax unified
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 106
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 106
 
 
  3076              		.thumb
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3119              	.L175:
 1383:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   ep->maxpacket = ep_mps;
  3120              		.loc 1 1383 3 is_stmt 1 view .LVU960
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 107
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 107
 
 
 1383:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   ep->maxpacket = ep_mps;
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3157              		.loc 1 1399 3 discriminator 2 view .LVU978
 1399:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   __HAL_UNLOCK(hpcd);
  3158              		.loc 1 1399 9 is_stmt 0 discriminator 2 view .LVU979
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 108
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 108
 
 
  3159 0054 2068     		ldr	r0, [r4]
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1398:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   (void)USB_ActivateEndpoint(hpcd->Instance, ep);
  3199              		.loc 1 1398 3 view .LVU994
  3200 0080 0220     		movs	r0, #2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 109
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 109
 
 
  3201 0082 EDE7     		b	.L178
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3246 0020 00EBC202 		add	r2, r0, r2, lsl #3
  3247 0024 0020     		movs	r0, #0
  3248              	.LVL311:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 110
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 110
 
 
 1423:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3285              		.loc 1 1417 8 view .LVU1023
  3286 0050 0132     		adds	r2, r2, #1
  3287 0052 02EB8201 		add	r1, r2, r2, lsl #2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 111
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 111
 
 
  3288              	.LVL314:
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3333 000a C900     		lsls	r1, r1, #3
  3334 000c 01F5B471 		add	r1, r1, #360
  3335 0010 0144     		add	r1, r1, r0
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 112
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 112
 
 
  3336              	.LVL319:
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3372              	.LVL323:
  3373              	.L191:
 1461:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 113
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 113
 
 
  3374              		.loc 1 1461 5 is_stmt 1 view .LVU1053
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3422              		.thumb_func
  3423              		.fpu fpv4-sp-d16
  3425              	HAL_PCD_EP_Transmit:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 114
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 114
 
 
  3426              	.LVL329:
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3464              		.loc 1 1496 3 is_stmt 1 view .LVU1078
 1496:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   ep->is_in = 1U;
  3465              		.loc 1 1496 18 is_stmt 0 view .LVU1079
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 115
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 115
 
 
  3466 002c 0023     		movs	r3, #0
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3504              		.cfi_endproc
  3505              	.LFE157:
  3507              		.section	.text.HAL_PCD_EP_SetStall,"ax",%progbits
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 116
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 116
 
 
  3508              		.align	1
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1535:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  3551              		.loc 1 1535 15 is_stmt 0 view .LVU1108
  3552 0022 03EB8303 		add	r3, r3, r3, lsl #2
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 117
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 117
 
 
  3553 0026 00EBC303 		add	r3, r0, r3, lsl #3
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
 1529:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     ep->is_in = 1U;
  3591              		.loc 1 1529 5 is_stmt 1 view .LVU1125
 1529:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****     ep->is_in = 1U;
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 118
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 118
 
 
  3592              		.loc 1 1529 8 is_stmt 0 view .LVU1126
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3640              		.loc 1 1557 1 is_stmt 0 view .LVU1134
  3641 0000 0B46     		mov	r3, r1
 1558:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 119
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 119
 
 
  3642              		.loc 1 1558 3 is_stmt 1 view .LVU1135
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3681              		.loc 1 1576 16 is_stmt 0 view .LVU1150
  3682 0034 0022     		movs	r2, #0
  3683 0036 8A70     		strb	r2, [r1, #2]
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 120
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 120
 
 
 1577:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3721              	.LVL357:
 1568:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
  3722              		.loc 1 1568 5 is_stmt 1 view .LVU1168
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 121
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 121
 
 
 1568:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   }
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3769              		.loc 1 1599 1 is_stmt 0 view .LVU1178
  3770 0000 0020     		movs	r0, #0
  3771              	.LVL363:
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 122
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 122
 
 
 1599:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c **** 
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3822              		@ args = 0, pretend = 0, frame = 0
  3823              		@ frame_needed = 0, uses_anonymous_args = 0
 1617:Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c ****   return (USB_DeActivateRemoteWakeup(hpcd->Instance));
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 123
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 123
 
 
  3824              		.loc 1 1617 1 is_stmt 0 view .LVU1187
@@ -7377,84 +7377,84 @@ ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 1
  3872              		.file 6 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_ll_usb.h"
  3873              		.file 7 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd.h"
  3874              		.file 8 "Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pcd_ex.h"
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 124
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 124
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32g4xx_hal_pcd.c
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:18     .text.HAL_PCD_EP_DB_Receive:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:25     .text.HAL_PCD_EP_DB_Receive:00000000 HAL_PCD_EP_DB_Receive
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:270    .text.HAL_PCD_MspInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:277    .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:292    .text.HAL_PCD_Init:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:299    .text.HAL_PCD_Init:00000000 HAL_PCD_Init
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:503    .text.HAL_PCD_MspDeInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:510    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:525    .text.HAL_PCD_DeInit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:532    .text.HAL_PCD_DeInit:00000000 HAL_PCD_DeInit
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:593    .text.HAL_PCD_Start:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:600    .text.HAL_PCD_Start:00000000 HAL_PCD_Start
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:655    .text.HAL_PCD_Stop:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:662    .text.HAL_PCD_Stop:00000000 HAL_PCD_Stop
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:717    .text.HAL_PCD_DataOutStageCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:724    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:740    .text.HAL_PCD_DataInStageCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:747    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:763    .text.HAL_PCD_EP_DB_Transmit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:769    .text.HAL_PCD_EP_DB_Transmit:00000000 HAL_PCD_EP_DB_Transmit
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:1691   .text.HAL_PCD_SetupStageCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:1698   .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:1713   .text.PCD_EP_ISR_Handler:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:1719   .text.PCD_EP_ISR_Handler:00000000 PCD_EP_ISR_Handler
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2420   .text.HAL_PCD_SOFCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2427   .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2442   .text.HAL_PCD_ResetCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2449   .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2464   .text.HAL_PCD_SuspendCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2471   .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2486   .text.HAL_PCD_ResumeCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2493   .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2508   .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2515   .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2531   .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2538   .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2554   .text.HAL_PCD_ConnectCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2561   .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2576   .text.HAL_PCD_DisconnectCallback:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2583   .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2598   .text.HAL_PCD_DevConnect:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2605   .text.HAL_PCD_DevConnect:00000000 HAL_PCD_DevConnect
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2656   .text.HAL_PCD_DevDisconnect:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2663   .text.HAL_PCD_DevDisconnect:00000000 HAL_PCD_DevDisconnect
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2714   .text.HAL_PCD_SetAddress:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2721   .text.HAL_PCD_SetAddress:00000000 HAL_PCD_SetAddress
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2775   .text.HAL_PCD_IRQHandler:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:2782   .text.HAL_PCD_IRQHandler:00000000 HAL_PCD_IRQHandler
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3073   .text.HAL_PCD_EP_Open:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3080   .text.HAL_PCD_EP_Open:00000000 HAL_PCD_EP_Open
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3206   .text.HAL_PCD_EP_Close:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3213   .text.HAL_PCD_EP_Close:00000000 HAL_PCD_EP_Close
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3307   .text.HAL_PCD_EP_Receive:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3314   .text.HAL_PCD_EP_Receive:00000000 HAL_PCD_EP_Receive
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3387   .text.HAL_PCD_EP_GetRxCount:00000000 $t
-ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s 			page 125
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:18     .text.HAL_PCD_EP_DB_Receive:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:25     .text.HAL_PCD_EP_DB_Receive:00000000 HAL_PCD_EP_DB_Receive
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:270    .text.HAL_PCD_MspInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:277    .text.HAL_PCD_MspInit:00000000 HAL_PCD_MspInit
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:292    .text.HAL_PCD_Init:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:299    .text.HAL_PCD_Init:00000000 HAL_PCD_Init
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:503    .text.HAL_PCD_MspDeInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:510    .text.HAL_PCD_MspDeInit:00000000 HAL_PCD_MspDeInit
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:525    .text.HAL_PCD_DeInit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:532    .text.HAL_PCD_DeInit:00000000 HAL_PCD_DeInit
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:593    .text.HAL_PCD_Start:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:600    .text.HAL_PCD_Start:00000000 HAL_PCD_Start
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:655    .text.HAL_PCD_Stop:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:662    .text.HAL_PCD_Stop:00000000 HAL_PCD_Stop
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:717    .text.HAL_PCD_DataOutStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:724    .text.HAL_PCD_DataOutStageCallback:00000000 HAL_PCD_DataOutStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:740    .text.HAL_PCD_DataInStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:747    .text.HAL_PCD_DataInStageCallback:00000000 HAL_PCD_DataInStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:763    .text.HAL_PCD_EP_DB_Transmit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:769    .text.HAL_PCD_EP_DB_Transmit:00000000 HAL_PCD_EP_DB_Transmit
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:1691   .text.HAL_PCD_SetupStageCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:1698   .text.HAL_PCD_SetupStageCallback:00000000 HAL_PCD_SetupStageCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:1713   .text.PCD_EP_ISR_Handler:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:1719   .text.PCD_EP_ISR_Handler:00000000 PCD_EP_ISR_Handler
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2420   .text.HAL_PCD_SOFCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2427   .text.HAL_PCD_SOFCallback:00000000 HAL_PCD_SOFCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2442   .text.HAL_PCD_ResetCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2449   .text.HAL_PCD_ResetCallback:00000000 HAL_PCD_ResetCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2464   .text.HAL_PCD_SuspendCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2471   .text.HAL_PCD_SuspendCallback:00000000 HAL_PCD_SuspendCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2486   .text.HAL_PCD_ResumeCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2493   .text.HAL_PCD_ResumeCallback:00000000 HAL_PCD_ResumeCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2508   .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2515   .text.HAL_PCD_ISOOUTIncompleteCallback:00000000 HAL_PCD_ISOOUTIncompleteCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2531   .text.HAL_PCD_ISOINIncompleteCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2538   .text.HAL_PCD_ISOINIncompleteCallback:00000000 HAL_PCD_ISOINIncompleteCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2554   .text.HAL_PCD_ConnectCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2561   .text.HAL_PCD_ConnectCallback:00000000 HAL_PCD_ConnectCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2576   .text.HAL_PCD_DisconnectCallback:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2583   .text.HAL_PCD_DisconnectCallback:00000000 HAL_PCD_DisconnectCallback
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2598   .text.HAL_PCD_DevConnect:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2605   .text.HAL_PCD_DevConnect:00000000 HAL_PCD_DevConnect
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2656   .text.HAL_PCD_DevDisconnect:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2663   .text.HAL_PCD_DevDisconnect:00000000 HAL_PCD_DevDisconnect
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2714   .text.HAL_PCD_SetAddress:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2721   .text.HAL_PCD_SetAddress:00000000 HAL_PCD_SetAddress
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2775   .text.HAL_PCD_IRQHandler:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:2782   .text.HAL_PCD_IRQHandler:00000000 HAL_PCD_IRQHandler
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3073   .text.HAL_PCD_EP_Open:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3080   .text.HAL_PCD_EP_Open:00000000 HAL_PCD_EP_Open
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3206   .text.HAL_PCD_EP_Close:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3213   .text.HAL_PCD_EP_Close:00000000 HAL_PCD_EP_Close
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3307   .text.HAL_PCD_EP_Receive:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3314   .text.HAL_PCD_EP_Receive:00000000 HAL_PCD_EP_Receive
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3387   .text.HAL_PCD_EP_GetRxCount:00000000 $t
+ARM GAS  C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s 			page 125
 
 
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3394   .text.HAL_PCD_EP_GetRxCount:00000000 HAL_PCD_EP_GetRxCount
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3418   .text.HAL_PCD_EP_Transmit:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3425   .text.HAL_PCD_EP_Transmit:00000000 HAL_PCD_EP_Transmit
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3508   .text.HAL_PCD_EP_SetStall:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3515   .text.HAL_PCD_EP_SetStall:00000000 HAL_PCD_EP_SetStall
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3626   .text.HAL_PCD_EP_ClrStall:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3633   .text.HAL_PCD_EP_ClrStall:00000000 HAL_PCD_EP_ClrStall
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3751   .text.HAL_PCD_EP_Flush:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3758   .text.HAL_PCD_EP_Flush:00000000 HAL_PCD_EP_Flush
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3778   .text.HAL_PCD_ActivateRemoteWakeup:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3785   .text.HAL_PCD_ActivateRemoteWakeup:00000000 HAL_PCD_ActivateRemoteWakeup
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3810   .text.HAL_PCD_DeActivateRemoteWakeup:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3817   .text.HAL_PCD_DeActivateRemoteWakeup:00000000 HAL_PCD_DeActivateRemoteWakeup
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3842   .text.HAL_PCD_GetState:00000000 $t
-C:\Users\jack2\AppData\Local\Temp\ccwRBdWD.s:3849   .text.HAL_PCD_GetState:00000000 HAL_PCD_GetState
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3394   .text.HAL_PCD_EP_GetRxCount:00000000 HAL_PCD_EP_GetRxCount
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3418   .text.HAL_PCD_EP_Transmit:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3425   .text.HAL_PCD_EP_Transmit:00000000 HAL_PCD_EP_Transmit
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3508   .text.HAL_PCD_EP_SetStall:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3515   .text.HAL_PCD_EP_SetStall:00000000 HAL_PCD_EP_SetStall
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3626   .text.HAL_PCD_EP_ClrStall:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3633   .text.HAL_PCD_EP_ClrStall:00000000 HAL_PCD_EP_ClrStall
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3751   .text.HAL_PCD_EP_Flush:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3758   .text.HAL_PCD_EP_Flush:00000000 HAL_PCD_EP_Flush
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3778   .text.HAL_PCD_ActivateRemoteWakeup:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3785   .text.HAL_PCD_ActivateRemoteWakeup:00000000 HAL_PCD_ActivateRemoteWakeup
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3810   .text.HAL_PCD_DeActivateRemoteWakeup:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3817   .text.HAL_PCD_DeActivateRemoteWakeup:00000000 HAL_PCD_DeActivateRemoteWakeup
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3842   .text.HAL_PCD_GetState:00000000 $t
+C:\Users\jack2\AppData\Local\Temp\ccVNs6jo.s:3849   .text.HAL_PCD_GetState:00000000 HAL_PCD_GetState
 
 UNDEFINED SYMBOLS
 USB_ReadPMA
