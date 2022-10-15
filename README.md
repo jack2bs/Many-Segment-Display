@@ -41,7 +41,7 @@ First was the display itself. This took by far the greatest amount of time of an
 
 ![Many Segment Display PCB](PCBImage.png)
 
-Laying out the controller was much easier, as I was able to base it heavily off of the development board I had designed earlier. Photos of the two circuit boards are located in this repository, and the KiCad project files are all in here as well (the controller is in the subprojects folder).
+Laying out the controller was much easier, as I was able to base it heavily off of the development board I had designed earlier. Photos of the two circuit boards are located in this repository, and the KiCad project files are all in here as well (the controller is in the subprojects folder). The controller slots into the main board using header pins.
 
 ![Many Segment Display Controller](ManySegmentDisplayController.png)
 
