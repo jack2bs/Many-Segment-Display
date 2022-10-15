@@ -39,7 +39,11 @@ After confirming that the electronics would work in the way I intended them to, 
 
 First was the display itself. This took by far the greatest amount of time of any circuit board I've ever designed, and for good reason. With the final board having over 7500 Track segments spanning 660 nets, this boards complexity was greater than anything I'd ever attempted, and I was going to do it on a two layer board. which was covered both front and back with components. I started by drawing tracks somewhat randomly as I thought made sense, but I quickly realized this technique would not be effective. I deleted my progress and started again. This time, I took a more systematic approach. I created what to me seemed like "highways" of tracks which would carry the signals which needed to span the entire width of the board. This set up a good basis for using the top layer for signal transmission along the x axis, and the bottom layer for transmission along the y axis. After this, I moved again to fill in the connections that were not along the so called highways, but found myself running into trouble with the lack of space due to the components. The solution was to add complexity to the connections between the latches and the seven segment displays. Originally I had wanted to connect Q0 on the latch to A on the 7-segment display, Q1 to B, etc. I realized that for layout purposes this was not ideal, and so I redid all of the latch connections on the schematic, and again turned to the circuit board. Add another week or so of time, working on the board for a few hours a day, and I had a finished the circuit board.
 
+![Many Segment Display PCB](PCBImage.png)
+
 Laying out the controller was much easier, as I was able to base it heavily off of the development board I had designed earlier. Photos of the two circuit boards are located in this repository, and the KiCad project files are all in here as well (the controller is in the subprojects folder).
+
+![Many Segment Display Controller](ManySegmentDisplayController.png)
 
 Once the boards came I spent a few days in one of the Makerspaces here at Princeton and I soldered on all of the components.
 
