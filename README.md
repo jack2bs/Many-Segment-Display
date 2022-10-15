@@ -55,4 +55,6 @@ Writing code to initialize and control the RTC (over USB using a CDC library) wa
 
 I spent a few days after this calibrating the RTC until it was accurate to a fraction of a part per million, and then I put the final clock up in my dorm. 
 
+![Clock up and running](Clock-In-Daytime.jpeg)
+
 > Written with [StackEdit](https://stackedit.io/).
