@@ -1,9 +1,0 @@
-{
-	"cortex-debug.armToolchainPath": "C:\\PROGRAMDATA\\CHOCOLATEY\\BIN",
-	"cortex-debug.openocdPath": "C:\\USERS\\JACK2\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\OPENOCD\\0.11.0-4.1\\.CONTENT\\BIN\\OPENOCD.EXE",
-	"files.associations": {
-		"USB_DEVICE.H": "cpp"
-	},
-	"stm32-for-vscode.openOCDPath": "C:\\USERS\\JACK2\\APPDATA\\ROAMING\\CODE\\USER\\GLOBALSTORAGE\\BMD.STM32-FOR-VSCODE\\@XPACK-DEV-TOOLS\\OPENOCD\\0.11.0-4.1\\.CONTENT\\BIN\\OPENOCD.EXE",
-	"stm32-for-vscode.armToolchainPath": "C:\\PROGRAMDATA\\CHOCOLATEY\\BIN"
-}
