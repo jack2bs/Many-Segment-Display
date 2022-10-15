@@ -17,8 +17,8 @@ In the original project on *Hackaday*, the LEDs are driven using dedicated LED d
 | 1V8 LVR | AP2112K1.8TRG1 | Diodes Inc. | $0.37 for 1 | [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-1-8TRG1/4470745)| $0.37 for 1 | [Mouser](https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP2112K-18TRG1?qs=x6A8l6qLYDBx1xhw8AX2cw%3D%3D) | 4+
 | 3V3 LVR | AP2139AK3.3TRG1 | Diodes Inc. | $0.42 for 1 | [Digikey](https://www.digikey.com/en/products/detail/diodes-incorporated/AP2139AK-3-3TRG1/4470806)| $0.42 for 1 | [Mouser](https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP2139AK-33TRG1?qs=x6A8l6qLYDAPOgDKaB%252BUdg%3D%3D) | 1+
 | 1uF Cap | C0805C105Z4VACTU | KEMET | $0.077 for 10 | [Digikey](https://www.digikey.com/en/products/detail/kemet/C0805C105Z4VAC7800/2211782)| $0.046 for 10 | [Mouser](https://www.mouser.com/ProductDetail/KEMET/C0805C105Z4VACTU?qs=XSafd0xJmRINotKjOdb5hw%3D%3D) | 10+
-|
-| Controller Parts
+| |
+| Controller Parts |
 |Microcontroller | STM32G441 | STM | Not in stock | [Digikey](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32G441CBT6/10326710) | Not in stock | [Mouser](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32G441CBY6TR?qs=BJlw7L4Cy798X5l%252BURHnLA%3D%3D) | 1+
 |32Khz Crystal | ECS-.327-12.5-34B-C-TR | ECS inc. | $0.80 for 1 | [Digikey](https://www.digikey.com/en/products/detail/ecs-inc/ECS-327-12-5-34B-C-TR/3927328) | $0.80 for 1 | [Mouser](https://www.mouser.com/ProductDetail/ECS/ECS-.327-12.5-34B-C-TR?qs=wo4x%252BUeoG8VWo%2FRy18ZjoQ%3D%3D) | 1+
 |Assorted Components | N/A | N/A | ~$12 | | ~$12 | |
