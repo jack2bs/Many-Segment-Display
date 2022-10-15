@@ -28,6 +28,8 @@ In the original project on *Hackaday*, the LEDs are driven using dedicated LED d
 
 Early on in the project, I wanted to test the electronics to confirm that my part selections would be satisfactory for the project. Specifically, I wanted to make sure the latches I would using could take 1.8v in VCC (and thus output 1.8v), but use 3.3v on their inputs. To do this, I designed a small breakout board for the latch, so that I could test it on a bread board, and ordered it from OSH Park for a couple of bucks. An image of the latch breakout PCB layout is in this repository and is named, "LatchBreakoutPCBImage.png". The KiCad project (including schematic, board layout, and Gerber files) is inside of the PCB_and_schematic/SubProjects/LatchTest directory.
 
+![Alt text](LatchBreakoutPCBImage.png?raw=true "Title")
+
 I also wanted to construct a development board for the STM32G441, which I decided I would use for controlling the display since I had some of them in my supplies and all microcontrollers were and still are out of stock. I designed and ordered a board from Osh Park (still small enough that the shipping for the two boards was more than the cost of the boards). I used the development board for testing RTC functionality and making sure that I could interconnect with the latches using basic GPIO. I have continued to use the development board for other prototyping and educational uses. An image of the development board's PCB layout is in this repository and is named "G441DevBoardPCBImage.png". The KiCad project files are inside of the same subprojects folder, but in the STM32G441DevBoard subdirectory.
 
 ## Laying out the board
