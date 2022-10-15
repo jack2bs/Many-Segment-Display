@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>G:\My Drive\CAD File Sharing\KiCad\ManySegmentDisplay\SubProjects\ManySegDisplayController\ManySegDisplayController\ManySegDisplayController.sch</source>
+    <date>7/30/2022 10:20:12 PM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ManySegDisplayController.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>15pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629e1b2c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>15pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629e3239</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629ea388</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629eb20f</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a269bc</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a264ef</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a25a2a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a23897</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a26da9</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a25fa2</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a2716b</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a2752e</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629ff92e</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>C_Small</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a03dbf</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f5930</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x18</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x18_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x18" description="Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a13a73</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a6676f</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>USB_B_Micro</value>
+      <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <libsource lib="ManySegDisplayController-rescue" part="USB_B_Micro-Connector" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a3f6b9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>22r</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a42286</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22r</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a428a9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f74e0</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a1792b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R_Small</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a1821d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_KMR421GULCLFS</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629f6f96</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_SMD:SW_SPDT_JS202011JCQN</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629fadd2</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_DS04-254-2-01BK-SMT</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a30a1b</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_DS04-254-2-01BK-SMT</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a30650</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_DS04-254-2-01BK-SMT</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a2ee3a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>STM32G441CBT6</value>
+      <footprint>MCU_ST_STM32G4:STM32G441CBT6</footprint>
+      <libsource lib="ManySegDisplayController-rescue" part="STM32G441CBT6-MCU_ST_STM32G4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000062a2f0cf 00000000-0000-0000-0000-0000629d99f3</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>TPS73133DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps731.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="TPS73133DBV" description="Cap free NMOS 150mA Low Drop 3.3V Regulator, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629fa228</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>32khz</value>
+      <footprint>Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm</footprint>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629df7fb</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>16mhz</value>
+      <footprint>Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm</footprint>
+      <libsource lib="Device" part="Crystal_GND24_Small" description="Four pin crystal, GND on pins 2 and 4, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="G:/My Drive/CAD File Sharing/KiCad/ManySegmentDisplay/SubProjects/ManySegDisplayController/ManySegDisplayController/ManySegDisplayController.sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000629e91c3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x18">
+      <description>Generic connector, single row, 01x18, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x18</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_GND24_Small">
+      <description>Four pin crystal, GND on pins 2 and 4, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ManySegDisplayController-rescue" part="STM32G441CBT6-MCU_ST_STM32G4">
+      <footprints>
+        <fp>LQFP48-7x7mm</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32G441CBT6-MCU_ST_STM32G4</field>
+        <field name="Footprint">LQFP48-7x7mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="bidirectional"/>
+        <pin num="3" name="PC14-OSC32_IN" type="bidirectional"/>
+        <pin num="4" name="PC15-OSC32_OUT" type="bidirectional"/>
+        <pin num="5" name="PF0-OSC_IN" type="bidirectional"/>
+        <pin num="6" name="PF1-OSC_OUT" type="bidirectional"/>
+        <pin num="7" name="PG10-NRST" type="bidirectional"/>
+        <pin num="8" name="PA0" type="bidirectional"/>
+        <pin num="9" name="PA1" type="bidirectional"/>
+        <pin num="10" name="PA2" type="bidirectional"/>
+        <pin num="11" name="PA3" type="bidirectional"/>
+        <pin num="12" name="PA4" type="bidirectional"/>
+        <pin num="13" name="PA5" type="bidirectional"/>
+        <pin num="14" name="PA6" type="bidirectional"/>
+        <pin num="15" name="PA7" type="bidirectional"/>
+        <pin num="16" name="PB0" type="bidirectional"/>
+        <pin num="17" name="PB1" type="bidirectional"/>
+        <pin num="18" name="PB2" type="bidirectional"/>
+        <pin num="19" name="VSSA" type="power_in"/>
+        <pin num="20" name="VREF+" type="power_in"/>
+        <pin num="21" name="VDDA" type="power_in"/>
+        <pin num="22" name="PB10" type="bidirectional"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB11" type="bidirectional"/>
+        <pin num="26" name="PB12" type="bidirectional"/>
+        <pin num="27" name="PB13" type="bidirectional"/>
+        <pin num="28" name="PB14" type="bidirectional"/>
+        <pin num="29" name="PB15" type="bidirectional"/>
+        <pin num="30" name="PA8" type="bidirectional"/>
+        <pin num="31" name="PA9" type="bidirectional"/>
+        <pin num="32" name="PA10" type="bidirectional"/>
+        <pin num="33" name="PA11" type="bidirectional"/>
+        <pin num="34" name="PA12" type="bidirectional"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA13" type="bidirectional"/>
+        <pin num="38" name="PA14" type="bidirectional"/>
+        <pin num="39" name="PA15" type="bidirectional"/>
+        <pin num="40" name="PB3" type="bidirectional"/>
+        <pin num="41" name="PB4" type="bidirectional"/>
+        <pin num="42" name="PB5" type="bidirectional"/>
+        <pin num="43" name="PB6" type="bidirectional"/>
+        <pin num="44" name="PB7" type="bidirectional"/>
+        <pin num="45" name="PB8-BOOT0" type="bidirectional"/>
+        <pin num="46" name="PB9" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ManySegDisplayController-rescue" part="USB_B_Micro-Connector">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="TPS73133DBV">
+      <description>Cap free NMOS 150mA Low Drop 3.3V Regulator, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps731.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS73133DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps731.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NR" type="passive"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>E:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="ManySegDisplayController-rescue">
+      <uri>G:\My Drive\CAD File Sharing\KiCad\ManySegmentDisplay\SubProjects\ManySegDisplayController\ManySegDisplayController/ManySegDisplayController-rescue.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>E:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>E:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="SW11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="VREF+" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U1" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="36" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="VBUS" pintype="power_out"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="SW12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U10" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="AD0">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="PB9" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="AD1">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="PB10" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="AD2">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="PB11" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="AD3">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="AD4">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="AD5">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="PB14" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="AD6">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PB15" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="BOOT0">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="PB8-BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="D+">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="PA12" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="D-">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U1" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="35" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Y2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PC14-OSC32_IN" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PC15-OSC32_OUT" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PF1-OSC_OUT" pintype="bidirectional"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PF0-OSC_IN" pintype="bidirectional"/>
+      <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C30-Pad1)">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PG10-NRST" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="25" name="PD0">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="PD1">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="PD2">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="PD3">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="PD4">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="PD5">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="PD6">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="PD7">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="SCL">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="SDA">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(J10-Pad4)">
+      <node ref="J10" pin="4" pinfunction="ID" pintype="passive"/>
+    </net>
+    <net code="36" name="unconnected-(J10-Pad6)">
+      <node ref="J10" pin="6" pinfunction="Shield" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad30)">
+      <node ref="U1" pin="30" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PA9" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad32)">
+      <node ref="U1" pin="32" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad39)">
+      <node ref="U1" pin="39" pinfunction="PA15" pintype="bidirectional"/>
+    </net>
+    <net code="50" name="unconnected-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="NR" pintype="passive"/>
+    </net>
+  </nets>
+</export>

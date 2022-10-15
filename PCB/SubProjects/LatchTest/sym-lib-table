@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name LatchTest-rescue)(type Legacy)(uri ${KIPRJMOD}/LatchTest-rescue.lib)(options "")(descr ""))
+)
